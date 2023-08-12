@@ -8,7 +8,7 @@
 
 ## [GitHub](https://github.com/)*
 
-- Students can register for the [GitHub Student Developer Pack](https://education.github.com/pack)
+- Students can register for the [GitHub Student Developer Pack](https://education.github.com/pack).
 
 ---
 
@@ -61,6 +61,10 @@ Installation:
             ```console
             $ sudo xattr -cr ~/SetupSTM32CubeMX-6.9.1.app.
             ```
+
+## [GNU ARM Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain)
+
+## [OpenOCD](https://openocd.org/)
 
 ## [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) (Recommended)
 
