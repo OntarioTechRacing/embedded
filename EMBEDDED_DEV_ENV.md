@@ -1,44 +1,87 @@
-# Embedded Software Development Environment
+# Ontario Tech Racing: Embedded Software - Development Environment Documentation
 
 - Required / mandatory items (header 2 on markdown) marked with a `*`.
+- Certain industry standard or very helpful items marked with `(Recommended)`.
+    - Please follow recommendations unless you actually know what you are doing.
+- Certain opinionated suggestions marked with `(Suggested)`.
 
 ---
 
-# Accounts
+# Initial Setup
 
-## [GitHub](https://github.com/)*
+## Accounts
+
+### [GitHub](https://github.com/)*
 
 - Students can register for the [GitHub Student Developer Pack](https://education.github.com/pack).
 
+## Resources
+
+- [Mbed](https://os.mbed.com/) for board pin-outs and documentation.
+    - Particularly nice for STM32 Nucleo board pin-outs.
+- [CAN Timing Calculator](http://www.bittiming.can-wiki.info/) for CAN bus clock configuration.
+
 ---
 
-# Software
+# General Development Environment
 
-## [AnyDesk](https://anydesk.com)*
+## Software
 
-- Remote access tool.
+### [AnyDesk](https://anydesk.com)*
 
-## [Git](https://git-scm.com/downloads)*
+- **Remote access tool for Ontario Tech Racing's computer resources.**
 
-- Version control.
+### [Homebrew](https://brew.sh/) for macOS*
 
-## [Homebrew](https://brew.sh/) (macOS)*
+- **Package manager for macOS.**
 
-- Package manager for macOS.
+### [Git](https://git-scm.com/downloads)*
 
-## [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
+- **Ontario Tech Racing: Embedded Software department's choice for version control.**
 
-- Graphical STM32 microcontroller configuration manager and code generator.
+### [GitHub Desktop](https://desktop.github.com/) (Recommended)
+
+- **Basically just Git with a GUI.**
+
+---
+
+# CAN Communication
+
+## Software
+
+### [Vector CANdb++](https://www.vector.com/int/en/products/products-a-z/software/candb/)*
+
+- **All-in-one DBC creation, modification and visualization.**
+
+### [BusMaster](https://rbei-etas.github.io/busmaster/)*
+
+- **Open source tool for data bus simulations, analysis and testing.**
+
+## Drivers
+
+### [PEAK CAN Tool](https://www.peak-system.com/Drivers.523.0.html)
+
+- **Drivers for PEAK CAN Tools.**
+
+---
+
+# (ARM Architecture) STM32 Development Environment
+
+## Software
+
+### [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)* for Windows, Linux & macOS
+
+- **Graphical STM32 microcontroller configuration manager and code generator.**
 - Following documentation written for version `6.9.1`.
 
-### Installation
+**Installation**
 
 Requirements for macOS:
 
 1. [Xcode](https://developer.apple.com/support/xcode/) (Homebrew Xcode packages will work as well).
 2. [Rosetta](https://support.apple.com/en-us/HT211861) for computers with Apple Silicon.
 
-Installation:
+Install Steps:
 
 1. Download [STM32CubeMX](http://www.st.com/stm32cubemx).
     - You may be promoted for login, make your own account or get the team account from the lead.
@@ -62,16 +105,70 @@ Installation:
             $ sudo xattr -cr ~/SetupSTM32CubeMX-6.9.1.app.
             ```
 
-## [GNU ARM Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain)
+### [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) (Recommended) for Windows, Linux & macOS
 
-## [OpenOCD](https://openocd.org/)
+- **Complete STM32 microcontroller IDE.**
 
-## [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) (Recommended)
+### [GNU ARM Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain) (Recommended) for Windows, Linux & macOS
 
-- Complete STM32 microcontroller IDE.
+- **Toolchain for development on Arm based systems.**
+- Also available on [Homebrew Version](https://formulae.brew.sh/formula/arm-none-eabi-gcc)
 
-## [GitHub Desktop](https://desktop.github.com/) (Recommended)
+### [OpenOCD](https://openocd.org/) (Recommended) for Windows, Linux & macOS
+
+- Also available on [Homebrew Version](https://formulae.brew.sh/formula/open-ocd)
+
+### [CLion](https://www.jetbrains.com/clion/download/) (Recommended) for Windows, Linux & macOS
+
+- **JetBrains's C and C++ IDE.**
+- Students can register for
+  the [Free Educational Licenses](https://www.jetbrains.com/shop/eform/students).
+
+## Workflow
+
+- JetBrains
+  Documentation: [STM32CubeMX projects](https://www.jetbrains.com/help/clion/2023.1/embedded-development.html)
 
 ---
 
-# Workflow
+# (ARM Architecture) NXP Development Environment
+
+---
+
+# (RISC-V Architecture) ESP32 Development Environment
+
+---
+
+# Electronic Design Automation & PCB Development Environment
+
+## Software
+
+### [Altium Designer](https://www.altium.com/products/downloads)* for Windows
+
+- PCB and Electronic Design Automation (EDA) software package for printed circuit boards.
+- Students can register for
+  the [Altium Education Student License](https://www.altium.com/education/student-licenses).
+
+### [KiCad](https://www.kicad.org/) (Suggested) for Windows, Linux & macOS
+
+---
+
+# Ultra-Quick Prototyping
+
+## Software
+
+### [Arduino IDE](https://www.arduino.cc/en/software)*
+
+- **Complete IDE for Arduino (and many additional) boards.**
+
+---
+
+# Supportive Hardware, Physical UI & Enclosure Development Environment
+
+## Software
+
+### [Siemens NX]()* for Windows
+
+### [SolidWorks]() (Suggested) for Windows
+
+### [AutoDesk Fusion 360]() for Windows & macOS
