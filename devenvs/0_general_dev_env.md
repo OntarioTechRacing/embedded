@@ -6,6 +6,8 @@
 
 - Students can register for the [GitHub Student Developer Pack](https://education.github.com/pack).
 
+---
+
 ## Resources
 
 - [Mbed](https://os.mbed.com/) for board pin-outs and documentation.
@@ -13,8 +15,6 @@
 - [CAN Timing Calculator](http://www.bittiming.can-wiki.info/) for CAN bus clock configuration.
 
 ---
-
-# General Development Environment
 
 ## Software Installs
 
