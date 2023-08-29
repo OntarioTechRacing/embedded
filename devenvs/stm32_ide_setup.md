@@ -59,7 +59,9 @@ Install Steps:
 
 ### [OpenOCD](https://openocd.org/)* for Windows, Linux & macOS
 
-- Also available on [Homebrew Version](https://formulae.brew.sh/formula/open-ocd)
+- For Windows: [GNU Toolchains OpenOCD](https://gnutoolchains.com/arm-eabi/openocd/)
+  - **Put the main directory for OpenOCD in your PC user's `Documents` directory**
+- For macOS: [Homebrew OpenOCD](https://formulae.brew.sh/formula/open-ocd)
 
 ### [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) (Recommended) for Windows, Linux & macOS
 
