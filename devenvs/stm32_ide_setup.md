@@ -1,4 +1,4 @@
-# `CLion + STM32CubeMX` Developer Environment Setup
+# CLion + STM32CubeMX Developer Environment Setup
 
 ## Notes
 
