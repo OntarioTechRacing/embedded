@@ -2,10 +2,28 @@
 
 Embedded Software Department General Documentation Repository
 
-## New Members (or Department / Position Switching Members)
+## 0. Developer Environments
 
-[Ontario Tech Racing: Embedded Software - Development Environment Documentation](https://github.com/OntarioTechRacing/embedded/blob/main/EMBEDDED_DEV_ENV.md)
+- All developer environment setup documentation is in
+  the [`/devenvs` directory](https://github.com/OntarioTechRacing/embedded/tree/main/devenvs)
+    - The "home" page document for all developer environments is in the home
+      directory [`EMBEDDED_DEV_ENV.md` markdown](https://github.com/OntarioTechRacing/embedded/blob/main/EMBEDDED_DEV_ENV.md)
 
-## Archival & Tech Support
+## 1. Datasheets
 
-[ACE5030 PC Documentation](https://github.com/OntarioTechRacing/embedded/blob/main/ACE5030_PC_README.md)
+- All datasheets are stored on
+  the [OTR Embedded Software Google Drive](https://drive.google.com/drive/folders/0AHPA2ZoOBCtSUk9PVA)
+
+## 2. GitHub Repo Setup
+
+- Templates for `.gitignore` files in
+  the [`/gitignores` directory]((https://github.com/OntarioTechRacing/embedded/tree/main/gitignores))
+
+## 3. Reference Documentation
+
+- Reference Code(WIP)
+
+## 4. Archival & Tech Support
+
+- Case Studies(WIP)
+- [ACE5030 PC Documentation](https://github.com/OntarioTechRacing/embedded/blob/main/ACE5030_PC_README.md)

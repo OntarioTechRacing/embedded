@@ -1,4 +1,4 @@
-# Ontario Tech Racing: Embedded Software - Development Environment Documentation
+# Ontario Tech Racing: Embedded Software - Developer Environment Documentation
 
 - Required / mandatory items (header 2 on markdown) marked with a `*`.
 - Certain industry standard or very helpful items marked with `(Recommended)`.
@@ -13,5 +13,5 @@
 |                 [CAN Bus Developer Tools](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/can_bus_dev_tools.md)                 |           (Recommended)           |
 |              [CAD for Mechanical Design](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/cad_mechanical_design.md)              | (Recommended) _Position specific_ |
 | [Electronic Design Automation & PCB Development Environment](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/eda_pcb_design.md) | (Recommended) _Position specific_ |
-|     [`CLion + STM32CubeMX` Developer Environment Setup](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/stm32_ide_setup.md)     | (Recommended) _Position specific_ |
+|      [CLion + STM32CubeMX Developer Environment Setup](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/stm32_ide_setup.md)      | (Recommended) _Position specific_ |
 |           [Arduino (Ultra-Quick) Prototyping](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/arduino_prototyping.md)           |            (Suggested)            |
