@@ -24,5 +24,5 @@ Embedded Software Department General Documentation Repository
 
 ## 4. Archival & Tech Support
 
-- Case Studies(WIP)
+- [Case Studies](https://github.com/OntarioTechRacing/embedded/blob/main/case_studies.md)
 - [ACE5030 PC Documentation](https://github.com/OntarioTechRacing/embedded/blob/main/ACE5030_PC_README.md)
