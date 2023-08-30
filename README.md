@@ -16,8 +16,7 @@ Embedded Software Department General Documentation Repository
 
 ## 2. GitHub Repo Setup
 
-- Templates for `.gitignore` files in
-  the [`/gitignores` directory]((https://github.com/OntarioTechRacing/embedded/tree/main/gitignores))
+- Templates for `.gitignore` files in the [`/gitignores` directory](https://github.com/OntarioTechRacing/embedded/tree/main/gitignores)
 
 ## 3. Reference Documentation
 
