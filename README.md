@@ -18,9 +18,9 @@ Embedded Software Department General Documentation Repository
 
 - Templates for `.gitignore` files in the [`/gitignores` directory](https://github.com/OntarioTechRacing/embedded/tree/main/gitignores)
 
-## 3. Reference Documentation
+## 3. Reference / Example Documentation
 
-- Reference Code(WIP)
+- [Examples](https://github.com/OntarioTechRacing/embedded/tree/main/examples)
 
 ## 4. Archival & Tech Support
 
