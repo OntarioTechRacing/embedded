@@ -2,8 +2,10 @@
 
 Embedded Software Department General Documentation Repository
 
-## 0. Developer Environments
+## 0. Developer Workflows & Environments
 
+- Workflow documentation is in the `/workflow`
+  directory → [`otr_embedded_systems_workflow.md` markdown](https://github.com/OntarioTechRacing/embedded/blob/main/workflow/otr_embedded_systems_workflow.md)
 - All developer environment setup documentation is in
   the [`/devenvs` directory](https://github.com/OntarioTechRacing/embedded/tree/main/devenvs)
     - The "home" page document for all developer environments is in the home
@@ -16,7 +18,8 @@ Embedded Software Department General Documentation Repository
 
 ## 2. GitHub Repo Setup
 
-- Templates for `.gitignore` files in the [`/gitignores` directory](https://github.com/OntarioTechRacing/embedded/tree/main/gitignores)
+- Templates for `.gitignore` files in
+  the [`/gitignores` directory](https://github.com/OntarioTechRacing/embedded/tree/main/gitignores)
 
 ## 3. Reference / Example Documentation
 
