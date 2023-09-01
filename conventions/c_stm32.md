@@ -10,3 +10,4 @@
     - This also includes the location of "user" code as specified by the generated code
 3. [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/)
     - This is the default for CLion
+4. User created variable names: `snake_case`
