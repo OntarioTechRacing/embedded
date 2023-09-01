@@ -113,8 +113,8 @@ can_tx_header.IDE = CAN_ID_STD; // Standard ID.
 can_tx_header.DLC = 8; // Data Length Code.
 
 // Split uint16 to uint8 for CAN message sending.
-can_bit_bang[0] = (uint8_t) ((calculated_speed & 0xFF00) >> 8);
-can_bit_bang[1] = (uint8_t) (calculated_speed & 0x00FF);
+can_bit_bang[0] = (uint8_t) ((some_32_bit_value & 0xFF00) >> 8);
+can_bit_bang[1] = (uint8_t) (some_32_bit_value & 0x00FF);
 
 // Load into transmit data array.
 can_tx_data[0] = can_bit_bang[0];
