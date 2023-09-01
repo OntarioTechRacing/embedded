@@ -60,7 +60,7 @@ Install Steps:
 ### [OpenOCD](https://openocd.org/)* for Windows, Linux & macOS
 
 - For Windows: [GNU Toolchains OpenOCD](https://gnutoolchains.com/arm-eabi/openocd/)
-  - **Put the main directory for OpenOCD in your PC user's `Documents` directory**
+    - **Put the main directory for OpenOCD in your PC user's `Documents` directory**
 - For macOS: [Homebrew OpenOCD](https://formulae.brew.sh/formula/open-ocd)
 
 ### [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) (Recommended) for Windows, Linux & macOS
@@ -119,39 +119,56 @@ Official documentation:
       ![CLion new STM32CubeMX project.png](pictures/stm32ide/CLion%20new%20STM32CubeMX%20project.png?raw=true "CLion new STM32CubeMX project.png")
     - Use the appropriate path if you are opening or creating a version controlled project
 
-6. Configure your STM32 `.ioc` file in STM32CubeMX
-    - If STM32CubeMX fails to open automatically you can find the newly created `untitled.ioc` on
+6. Wait for STM32CubeMX to finish generating a default project
+    - If you are using version control, verify that any required files such as `.git` are still in
+      the project directory, sometimes STM32CubeMX may delete / overwrite these files
+
+7. Delete all files in your project except those that you specifically know are needed
+    - If you are new to the STM32 workflow follow the recommendations below
+        - Keep `CMakeLists.txt`, `CMakeLists_template.txt`, `**PROJECT_NAME_HERE**.ioc`
+        - Keep files required for version control such as `.git`
+        - Keep `.idea` (JetBrain's project structure file)
+
+8. Configure your STM32 `.ioc` file in STM32CubeMX
+    - If STM32CubeMX fails to open automatically you can find the newly
+      created `**PROJECT_NAME_HERE**.ioc` on
       the left-hand `Project` file structure viewer
     - You can edit the `.ioc` at any later time, but you should at least select your
       target ST chip or board
     - By default, the target chip will be selected to `STM32F030F4Px`
 
-7. Configure the `Project Manager`
+9. Configure the `Project Manager`
     - `Project Name` = will be the name of your `.ioc`
+        - The recommended name is to follow the name of the (project) directory your `.ioc` is in
+    - `Project Location` = will be the root directory of your project
     - `Toolchain / IDE` = `STM32CubeIDE`
     - `Generate Under Root` = `True`
       ![STM32CubeMX code generation settings.png](pictures/stm32ide/STM32CubeMX%20code%20generation%20settings.png?raw=true "CLion new STM32CubeMX project.png")
-    - Verify that your path is correct, notice here I am making the project in `GitHub/untitled`
-      repo
-      directory
+    - Verify that your paths are correct, notice here my `Project Location` is in the `GitHub`
+      directory, not the repo directory
+        - My `Toolchain Folder Location` is the path of my repository since the `Project Name`
+          matches the repo name
 
-8. Generate code with the... `GENERATE CODE` button
+10. Generate code with the... `GENERATE CODE` button
+    - You may get a warning about overwriting the previous `.ioc`, allow and continue
 
-9. Go back to CLion
+11. Go back to CLion
 
-10. Set the OpenOCD board file via `Select Board Configuration File` popup
+12. Set the OpenOCD board file via `Select Board Configuration File` popup
     - Select the chip or board you are targeting, the default should be correct
     - Upon returning to CLion this popup should open automatically, if not we can select the board
       file in the following steps manually
       ![CLion Select Board Config File.png](pictures/stm32ide/CLion%20Select%20Board%20Config%20File.png?raw=true "CLion Select Board Config File.png")
 
-11. Open the `Run / Debug Configurations → Edit Configurations...` (top right drop down)
+13. Open the `Run / Debug Configurations → Edit Configurations...` (top right drop down)
     - By default, CLion should configure the OpenOCD configuration, the dropdown will be
       called `OCD **PROJECT_NAME_HERE**`
     - If this does not happen the dropdown will be labeled `Add Configuration...`
       ![CLion ioc configured.png](pictures/stm32ide/CLion%20ioc%20configured.png?raw=true "CLion ioc configured.png")
+    - Your file structure should look identical to the picture above except for any project / ST
+      chip names
 
-12. Verify `Run / Debug Configurations → Edit Configurations...`
+14. Verify `Run / Debug Configurations → Edit Configurations...`
     - If the OpenOCD configuration was not generated automatically, click the `+` button in the top
       left and `OpenOCD Download & Run`, then fill in the missing details shown below
     - `Target` = `**PROJECT_NAME_HERE**.elf`
@@ -164,7 +181,8 @@ Official documentation:
     - You can also set the download and reset behaviour here
       ![CLion Edit Configurations.png](pictures/stm32ide/CLion%20Edit%20Configurations.png?raw=true "CLion Edit Configurations.png")
 
-13. Dive in!
-    - Use the project file structure view on the left-hand side to see the sorce code
+15. Dive in!
+    - Use the project file structure view on the left-hand side to see the source code
     - Build, Run (flash ST) and Debug are shown in the top mid-to-right
       ![CLion diving in.png](pictures/stm32ide/CLion%20diving%20in.png?raw=true "CLion diving in.png")
+    - The picture above shows a successful build
