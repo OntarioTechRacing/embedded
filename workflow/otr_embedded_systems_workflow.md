@@ -2,7 +2,7 @@
 
 - By: Mitali G. (HE) + Daniel J. (ES)
 
-![HE + ES Workflow.drawio.png](pictures/HE%20+%20ES%20Workflow.drawio.png?raw=true "HE + ES Workflow.drawio.png")
+![OTR HE and ES Workflow.drawio-Dark.png](pictures/OTR%20HE%20and%20ES%20Workflow.drawio-Dark.png?raw=true "OTR HE and ES Workflow.drawio-Dark.png")
 
 - Diagram made with [https://app.diagrams.net/](https://app.diagrams.net/)
 
