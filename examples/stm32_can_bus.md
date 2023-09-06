@@ -24,14 +24,13 @@
 2. HAL CAN start
 
    ```C
-   /* USER CODE BEGIN 2 */ 
+   /* USER CODE BEGIN 2 */
    
-   can_tx_header.StdId = 0x301; // Example CAN ID.
-   can_tx_header.RTR = CAN_RTR_DATA; // Data frame.
-   can_tx_header.IDE = CAN_ID_STD; // Standard ID.
-   can_tx_header.DLC = 8; // Data Length Code.
+   // CAN start and interrupt setup.
+   HAL_CAN_Start(&hcan1);
+   HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
    
-   /* USER CODE BEGIN 2 */ 
+   /* USER CODE BEGIN 2 */
    ```
 
 3. CAN filter
@@ -102,7 +101,7 @@
    ```
 
 ## Bit Banging
-   
+
 ```C
 // CAN bit banging (16 -> 8).
 uint8_t can_bit_bang[2]; // uint16_t value to 2 uint8_t values to fit CAD data array.
