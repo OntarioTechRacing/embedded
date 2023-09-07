@@ -11,3 +11,5 @@
 3. [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/)
     - This is the default for CLion
 4. User created variable names: `snake_case`
+5. Modules: `snake_case`
+6. Directories: single word all lowercase
