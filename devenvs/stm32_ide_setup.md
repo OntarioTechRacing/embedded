@@ -32,8 +32,8 @@ Install Steps:
         1. Run `SetupSTM32CubeMX-6.9.1-Win.exe` for the installation wizard.
     - **Linux:**
         1. Allow for executable permissions:
-            ```console
-            $ chmod 777 SetupSTM32CubeMX-6.9.1
+            ```shell
+            chmod 777 SetupSTM32CubeMX-6.9.1
             ```
         2. Run `SetupSTM32CubeMX-6.9.1`.
     - **macOS:**
@@ -42,8 +42,8 @@ Install Steps:
         - If stopped by macOS, open the `Privacy & Security` in System Settings to allow
           running `SetupSTM32CubeMX-6.9.1.app`.
         - If wizard never opens or errors, try:
-            ```console
-            $ sudo xattr -cr ~/SetupSTM32CubeMX-6.9.1.app.
+            ```shell
+            sudo xattr -cr ~/SetupSTM32CubeMX-6.9.1.app.
             ```
 
 ### [CLion](https://www.jetbrains.com/clion/download/)* for Windows, Linux & macOS
