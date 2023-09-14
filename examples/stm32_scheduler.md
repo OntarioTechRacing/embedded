@@ -19,7 +19,7 @@
    // Timer 16 (Scheduler).
    HAL_TIM_Base_Start(&htim16); // Using TIM16 with PWM in this example.
    
-   /* USER CODE BEGIN 2 */
+   /* USER CODE END 2 */
    ```
 
 2. main while loop implementation
@@ -36,5 +36,5 @@
        }
    }
    
-   /* USER CODE BEGIN WHILE */
+   /* USER CODE END WHILE */
    ```

@@ -30,7 +30,7 @@
    HAL_CAN_Start(&hcan1);
    HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
    
-   /* USER CODE BEGIN 2 */
+   /* USER CODE END 2 */
    ```
 
 3. CAN filter
