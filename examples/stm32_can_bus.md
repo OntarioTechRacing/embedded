@@ -41,7 +41,8 @@
    // CAN1 filter config START //
    CAN_FilterTypeDef canfilterconfig;
    canfilterconfig.FilterActivation = CAN_FILTER_ENABLE;
-   canfilterconfig.FilterBank = 18;
+   canfilterconfig.FilterBank = 18; // This is MCU specific.
+   // If there are CAN issues, try FilterBank = 0.
    canfilterconfig.FilterFIFOAssignment = CAN_FILTER_FIFO0;
    canfilterconfig.FilterIdHigh = 0x0000;
    canfilterconfig.FilterIdLow = 0x0000;
