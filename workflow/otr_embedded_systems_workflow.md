@@ -2,7 +2,24 @@
 
 - By: Mitali G. (HE) + Daniel J. (ES)
 
+---
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Light Mode Workflow Chart</summary>
+
+![OTR HE and ES Workflow.drawio-Light.png](pictures/OTR%20HE%20and%20ES%20Workflow.drawio-Light.png?raw=true "OTR HE and ES Workflow.drawio-Light.png")
+
+</details>
+
+
+<details>
+  <summary style="font-size: 30px; font-weight: 500; cursor: pointer;">Dark Mode Workflow Chart</summary>
+
 ![OTR HE and ES Workflow.drawio-Dark.png](pictures/OTR%20HE%20and%20ES%20Workflow.drawio-Dark.png?raw=true "OTR HE and ES Workflow.drawio-Dark.png")
+
+</details>
+
+---
 
 - Diagram made with [https://app.diagrams.net/](https://app.diagrams.net/)
 
