@@ -67,6 +67,10 @@ Install Steps:
 
 - **Complete STM32 microcontroller IDE.**
 
+### [STM32 ST-LINK Utility](https://www.st.com/en/development-tools/stsw-link004.html) (Recommended) for Windows
+
+- **ST-LINK Hardware support application.**
+
 ---
 
 ## Step-by-Step Setup
