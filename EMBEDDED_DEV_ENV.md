@@ -8,11 +8,11 @@
 
 ## Developer Environments
 
-|                                                                    Hyperlink                                                                    |         Requirement Type          |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:| 
-|              [General Developer Environment](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/0_general_dev_env.md)              |                 *                 |
-|                 [CAN Bus Developer Tools](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/can_bus_dev_tools.md)                 |           (Recommended)           |
-|              [CAD for Mechanical Design](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/cad_mechanical_design.md)              | (Recommended) _Position specific_ |
-| [Electronic Design Automation & PCB Development Environment](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/eda_pcb_design.md) | (Recommended) _Position specific_ |
-|      [CLion + STM32CubeMX Developer Environment Setup](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/stm32_ide_setup.md)      | (Recommended) _Position specific_ |
-|           [Arduino (Ultra-Quick) Prototyping](https://github.com/OntarioTechRacing/embedded/blob/main/devenvs/arduino_prototyping.md)           |            (Suggested)            |
+|                           Hyperlink                            |                Requirement Type                |
+|:--------------------------------------------------------------:|:----------------------------------------------:| 
+|           [EMBEDDED_DEV_ENV.md](EMBEDDED_DEV_ENV.md)           |                       *                        |
+|     [can_bus_dev_tools.md](devenvs%2Fcan_bus_dev_tools.md)     | (Recommended), * for **FSAE Embedded Systems** |
+| [cad_mechanical_design.md](devenvs%2Fcad_mechanical_design.md) |   (Recommended), * for **Embedded Hardware**   |
+|        [eda_pcb_design.md](devenvs%2Feda_pcb_design.md)        |   (Recommended), * for **Embedded Hardware**   |
+|       [stm32_ide_setup.md](devenvs%2Fstm32_ide_setup.md)       |      (Recommended), * for **STM32 Devs**       |
+|   [arduino_prototyping.md](devenvs%2Farduino_prototyping.md)   |                  (Suggested)                   |
