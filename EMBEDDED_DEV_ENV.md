@@ -4,7 +4,8 @@
 - Certain industry standard or very helpful items marked with `(Recommended)`
     - Please follow recommendations unless you actually know what you are doing
 - Certain opinionated suggestions marked with `(Suggested)`
-- Certain OS specific software will be denoted by the key phrase `only for ...`
+- Certain OS specific software will be denoted by the key phrase `only for ...`, if this phrase is
+  not included assume it works on all major OS (Windows, macOS, Linux)
 
 ## Developer Environments
 
