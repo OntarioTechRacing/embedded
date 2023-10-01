@@ -27,14 +27,12 @@
 - [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/?section=windows)
 - [Python](https://www.python.org/downloads/)
     - [Blackd](https://black.readthedocs.io/en/stable/index.html) via pip
+- [Siemens NX via OTU Student License](https://software.ontariotechu.ca/software.php?software=nx)
 - [Slack](https://slack.com/downloads/)
 - [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
 - [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
 - [STM32 ST-LINK Utility](https://www.st.com/en/development-tools/stsw-link004.html)
 - [Vector CANdb++](https://www.vector.com/int/en/products/products-a-z/software/candb/)
-- **_Pending Testing & Potential Upgrades:_**
-    - SolidWorks
-    - Siemens NX
 
 ### Drivers
 
