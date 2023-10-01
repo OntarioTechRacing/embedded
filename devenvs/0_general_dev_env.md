@@ -22,10 +22,6 @@
 
 - **Remote access tool for Ontario Tech Racing's computer resources**
 
-### [Homebrew](https://brew.sh/) for macOS*
-
-- **Package manager for macOS**
-
 ### [Git](https://git-scm.com/downloads)*
 
 - **Ontario Tech Racing: Embedded Software department's choice for version control**
@@ -33,3 +29,11 @@
 ### [GitHub Desktop](https://desktop.github.com/) (Recommended)
 
 - **Basically just Git with a GUI**
+
+### [Homebrew](https://brew.sh/) only for macOS*
+
+- **Package manager for macOS**
+
+### [Saleae Logic 2](https://www.saleae.com/downloads/)*
+
+- Saleae logic analyzer software
