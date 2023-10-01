@@ -1,10 +1,10 @@
 # Ontario Tech Racing: Embedded Software - Developer Environment Documentation
 
-- Required / mandatory items (header 2 on markdown) marked with a `*`.
-- Certain industry standard or very helpful items marked with `(Recommended)`.
-    - Please follow recommendations unless you actually know what you are doing.
-- Certain opinionated suggestions marked with `(Suggested)`.
-- Certain OS specific software will be denoted by the key phrase `only for ...`.
+- Required / mandatory items (header 2 on markdown) marked with a `*`
+- Certain industry standard or very helpful items marked with `(Recommended)`
+    - Please follow recommendations unless you actually know what you are doing
+- Certain opinionated suggestions marked with `(Suggested)`
+- Certain OS specific software will be denoted by the key phrase `only for ...`
 
 ## Developer Environments
 

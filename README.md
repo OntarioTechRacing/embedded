@@ -24,9 +24,9 @@ Embedded Software Department General Documentation Repository
 
 ## 3. Reference / Example Documentation
 
-- [Examples](https://github.com/OntarioTechRacing/embedded/tree/main/examples)
+- [Examples](https://github.com/OntarioTechRacing/embedded/tree/main/resources/examples)
 
 ## 4. Archival & Tech Support
 
-- [Case Studies](https://github.com/OntarioTechRacing/embedded/blob/main/case_studies.md)
+- [Case Studies](https://github.com/OntarioTechRacing/embedded/blob/main/resources/case_studies.md)
 - [ACE5030 PC Documentation](https://github.com/OntarioTechRacing/embedded/blob/main/ACE5030_PC_README.md)
