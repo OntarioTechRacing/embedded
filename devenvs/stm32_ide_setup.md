@@ -10,7 +10,7 @@
 
 ## Software Installs
 
-### [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)* for Windows, Linux & macOS
+### [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)*
 
 - **Graphical STM32 microcontroller configuration manager and code generator**
 - Following documentation written for version `6.9.1`
@@ -46,28 +46,28 @@ Install Steps:
             sudo xattr -cr ~/SetupSTM32CubeMX-6.9.1.app.
             ```
 
-### [CLion](https://www.jetbrains.com/clion/download/)* for Windows, Linux & macOS
+### [CLion](https://www.jetbrains.com/clion/download/)*
 
 - **JetBrains's C and C++ IDE.**
 - Students can register for
   the [Free Educational Licenses](https://www.jetbrains.com/shop/eform/students).
 
-### [GNU ARM Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain)* for Windows, Linux & macOS
+### [GNU ARM Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain)*
 
 - **Toolchain for development on Arm based systems.**
 - Also available on [Homebrew Version](https://formulae.brew.sh/formula/arm-none-eabi-gcc)
 
-### [OpenOCD](https://openocd.org/)* for Windows, Linux & macOS
+### [OpenOCD](https://openocd.org/)*
 
 - For Windows: [GNU Toolchains OpenOCD](https://gnutoolchains.com/arm-eabi/openocd/)
     - **Put the main directory for OpenOCD in your PC user's `Documents` directory**
 - For macOS: [Homebrew OpenOCD](https://formulae.brew.sh/formula/open-ocd)
 
-### [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) (Recommended) for Windows, Linux & macOS
+### [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) (Recommended)
 
 - **Complete STM32 microcontroller IDE**
 
-### [STM32 ST-LINK Utility](https://www.st.com/en/development-tools/stsw-link004.html) (Recommended) for Windows
+### [STM32 ST-LINK Utility](https://www.st.com/en/development-tools/stsw-link004.html) (Recommended)
 
 - **ST-LINK Hardware support application**
 

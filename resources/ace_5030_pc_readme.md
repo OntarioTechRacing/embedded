@@ -2,13 +2,13 @@
 
 ## On-site Access
 
-1. User the default (admin) account `Embedded`.
+- User the default (admin) account `Embedded`
 
 ## Remote Access
 
-1. Connect via AnyDesk address.
-2. Login via Default account.
-3. User the default (admin) account `Embedded`.
+1. Connect via AnyDesk address
+2. Login via Default account
+3. User the default (admin) account `Embedded`
 
 ## Installs
 
