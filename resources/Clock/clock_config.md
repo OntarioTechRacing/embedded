@@ -1,4 +1,4 @@
-# STM32 CAN Bus
+# STM32CubeMX Clock Configuration
 
 ## `.ioc` Configuration
 
