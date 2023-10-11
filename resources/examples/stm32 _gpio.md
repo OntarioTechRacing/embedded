@@ -1,4 +1,4 @@
-# Stm32 Gpio 
+# STM32 Gpio 
 
 ## What is GPIO ?
 
