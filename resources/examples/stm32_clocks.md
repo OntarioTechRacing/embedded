@@ -1,4 +1,4 @@
-# STM32 Clock Configuration using STM32CubeMX
+# STM32 Configuring Clocks using STM32CubeMX
 
 Why is clock configuration important?
 
