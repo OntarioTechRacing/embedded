@@ -31,9 +31,9 @@
    
    while (1) {
      timer_val = __HAL_TIM_GET_COUNTER(&htim16); // Using TIM16 with PWM in this example.
-       if ((timer_val % 1000) == 0) { // Run every 0.1 seconds = 100 ms.
-         // Do something ...
-       }
+     if ((timer_val % 1000) == 0) { // Run every 0.1 seconds = 100 ms.
+       // Do something ...
+     }
    
    /* USER CODE END WHILE */
    ```
