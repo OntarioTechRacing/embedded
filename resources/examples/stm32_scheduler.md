@@ -34,7 +34,6 @@
        if ((timer_val % 1000) == 0) { // Run every 0.1 seconds = 100 ms.
          // Do something ...
        }
-   }
    
    /* USER CODE END WHILE */
    ```
