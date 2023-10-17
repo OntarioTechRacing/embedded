@@ -3,11 +3,9 @@
 ## `.ioc` Configuration
 
 1. Activate a timer
-2. Set a channel for `PWM Generation CHX`
-    - `X` is dependant on the MCU and timer, consider the overal fun
-3. Set the `prescaler` = `8000-1`
+2. Set the `prescaler` to match your target counter period, for example = `8000-1`
     - This may / will require calculations using the base clocks configured for the MCU
-4. Set the `Counter Period` = `60000-1`
+3. Set the `Counter Period` to match your target counter period, for example = `60000-1`
     - This current example will be showing a clock set for easy real time scheduling
 
 ## Code
