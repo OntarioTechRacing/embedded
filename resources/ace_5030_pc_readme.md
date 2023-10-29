@@ -17,6 +17,7 @@
 - [Altium Designer](https://www.altium.com/products/downloads)
 - [AnyDesk](https://anydesk.com/en)
 - [Arduino IDE](https://www.arduino.cc/en/software)
+- [balenaEtcher](https://etcher.balena.io/)
 - [BusMaster](https://rbei-etas.github.io/busmaster/)
 - [Firefox](https://www.mozilla.org/en-CA/firefox/new/)
 - [Git](https://git-scm.com/downloads)
