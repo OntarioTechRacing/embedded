@@ -2,7 +2,39 @@
 
 ---
 
-# Versioning
+# Version Nomenclature
+
+- **Active**: This indicates that the version is currently being maintained. It receives updates,
+  bug fixes, and possibly new features. It's safe to use in production environments.
+- **Deprecated**: This means the version is still functional but is no longer recommended for use.
+  It may no longer receive updates or support, and users are encouraged to transition to newer
+  versions.
+- **Obsolete**: This term implies that the version is out of date and no longer useful. It's often
+  no longer supported or maintained, and using it could pose security or compatibility risks.
+- **Discontinued**: This indicates that the version is no longer being developed or supported at
+  all. It's essentially an end-of-life status for that particular version.
+- **Stable**: This term is often used to describe a version that has been thoroughly tested and is
+  considered reliable for production use.
+- **Beta**: This is a pre-release version that is made available for testing purposes. It's not yet
+  considered stable and may have bugs or unfinished features.
+- **Alpha**: Even earlier than beta, this is a very preliminary version, often with incomplete
+  features and numerous bugs. It's typically used for internal testing and not recommended for
+  general use.
+- **Release** Candidate (RC): This is a version that is potentially the final product, pending final
+  tests. It's more stable than beta versions but might still have some minor issues.
+- **Snapshot**: This is a version that is automatically compiled from the latest source code. It
+  represents the most current development status but can be very unstable.
+- **Legacy**: This often refers to older versions that are still in use but are no longer actively
+  developed or supported. They may still receive critical security updates in some cases.
+- **Long-term Support (LTS)**: This designation is often given to versions that will receive
+  extended support and updates, usually for several years, even as newer versions are released.
+- **End of Life (EOL)**: This indicates that the version will no longer receive any updates or
+  support, including security patches. It's a clear signal to users that they should upgrade to a
+  newer version.
+
+---
+
+# Semantic Versioning
 
 All versioning follows the [Semantic Versioning 2.0.0 (SemVer)](https://semver.org/) standard.
 
@@ -23,7 +55,7 @@ All versioning follows the [Semantic Versioning 2.0.0 (SemVer)](https://semver.o
 
 - Completely backwards compatible in both software and exact hardware
 
-## Prerelease (`-alpha`, `-beta`, etc) 
+## Prerelease (`-alpha`, `-beta`, etc)
 
 Prerelease denotes general scope validation projects.
 
