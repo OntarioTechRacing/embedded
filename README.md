@@ -22,6 +22,8 @@ Embedded Software Department General Documentation Repository
 ## 3. GitHub Repo Setup
 
 - Templates for `.gitignore` files in [gitignores](gitignores)
+- Templates for STM32:
+  - [nucleol432kc_template](https://github.com/OntarioTechRacing/nucleol432kc_template)
 
 ## 4. Reference / Example Documentation
 
