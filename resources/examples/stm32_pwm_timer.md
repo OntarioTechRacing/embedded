@@ -36,3 +36,21 @@ Why are PWM Timers important?
 ```C
 HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
 ```
+7. To set a specific frequeny for the PWM, use the following code: 
+
+```C
+htim1.Instance = TIM1;
+    htim1.Init.Prescaler = 79; // Prescaler
+    htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
+    htim1.Init.Period = 999; // Period for 1 kHz frequency
+    htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+    htim1.Init.RepetitionCounter = 0;
+    htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+    if (HAL_TIM_PWM_Init(&htim1) != HAL_OK)
+    {
+        Error_Handler();
+    }
+```
+Note: Use the following formula to calculate your values:
+Timer Frequency = System Clock Frequency / ((Prescaler - 1) * (Period + 1))
+
