@@ -13,33 +13,33 @@ programming and rapid systems prototyping.
 
 Our department covers many aspects of engineering, primarily:
 
-- **Mechatronics Engineering** (embedded systems, control systems, electromechanical machines)
-- **Electrical Engineering** (circuits, electronics, digital systems, semiconductors)
-- **Software Engineering** (version control, algorithms, data structures, networking)
-- **Mechanical Engineering** (enclosures, vibrations)
+- 🤖 **Mechatronics Engineering** (embedded systems, control systems, electromechanical machines)
+- ⚡ **Electrical Engineering** (circuits, electronics, digital systems, semiconductors)
+- 💻 **Software Engineering** (version control, algorithms, data structures, networking)
+- ⚙️ **Mechanical Engineering** (enclosures, vibrations)
 - _And much more!_
 
 Our primary projects fall within **6 main categories**:
 
-1. **Sensors**
+1. 🔭 **Sensors**
    - Collect and forward sensor data
-2. **Telemetry**
+2. 📈 **Telemetry**
    - Process, visualize and interpret data
-3. **Controls**
+3. 🚀 **Controls**
    - Control systems, command and manage control loops
-4. **Hardware**
-   - Design, build and test PCBs and hardware
-5. **Interfaces**
+4. ⚡ **Hardware**
+   - Design, build, test and integrate PCBs
+5. 🎮 **Interfaces**
    - Design interfaces primarily for driver(s) 
-6. **Equipment**
+6. 🕹️ **Equipment**
    - Build equipment for testing, simulation, manufacturing, etc
 
 Due to the nature of our department, we also work mostly with the following departments:
-- Hardware and Electronics (HE)
+- **Hardware and Electronics (HE)**
   - Designing and building our PCBs, completing the hardware for our projects
-- Electric Drivetrain (EDT)
+- **Electric Drivetrain (EDT)**
   - Engineering all high voltage and drivetrain aspects of our team 
-- Vehicle Dynamics (VD)
+- **Vehicle Dynamics (VD)**
   - Data processing for design validation, testing and optimization
 
 ---
