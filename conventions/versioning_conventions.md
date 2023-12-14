@@ -1,8 +1,13 @@
-# Ontario Tech Racing: Embedded Software - Main Conventions
+# Ontario Tech Racing: Embedded Software - Versioning Conventions
+
+Versioning in software development is the practice of assigning unique version numbers to distinct
+states of computer software, providing a clear historical record of code changes and development
+progress. It is essential for tracking modifications, facilitating collaboration among multiple
+developers, and ensuring that users can access stable and well-documented software releases.
 
 ---
 
-# Version Nomenclature
+## Version Nomenclature
 
 - **Active**: This indicates that the version is currently being maintained. It receives updates,
   bug fixes, and possibly new features. It's safe to use in production environments.
@@ -34,11 +39,9 @@
 
 ---
 
-# Semantic Versioning
+## Semantic Versioning `MAJOR.MINOR.PATCH`
 
 All versioning follows the [Semantic Versioning 2.0.0 (SemVer)](https://semver.org/) standard.
-
-## `MAJOR.MINOR.PATCH` in the Context of OTR FSAE
 
 ### MAJOR
 
@@ -55,7 +58,7 @@ All versioning follows the [Semantic Versioning 2.0.0 (SemVer)](https://semver.o
 
 - Completely backwards compatible in both software and exact hardware
 
-## Prerelease (`-alpha`, `-beta`, etc)
+### Prerelease (`-alpha`, `-beta`, etc)
 
 Prerelease denotes general scope validation projects.
 
@@ -66,7 +69,7 @@ deprecated parts and premade PID controllers that require improvements. This end
 a prerelease, specifically a feasibility testing prerelease project. By completing this project you
 can further confirm, deny or adjust the actual project scope.
 
-## Main release
+### Main release
 
 Main release denotes major projects developed by our department, this includes everything from
 prototypes.
