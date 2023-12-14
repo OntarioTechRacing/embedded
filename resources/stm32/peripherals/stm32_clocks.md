@@ -15,7 +15,7 @@ Why is clock configuration important?
 
 - Clocks are configured in the `.ioc` file via STM32CubeMX
 
-![Clock_Configuration.png](pictures%2Fclock_configuration.png)
+![clock_configuration.png](..%2Fpictures%2Fclock_configuration.png)
 
 1. Navigate to the `Clock Configurations` tab located near the top of the window
 
