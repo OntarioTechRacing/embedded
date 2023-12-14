@@ -7,8 +7,8 @@
 ## 0.0 List of Contents
 
 - [1.0 Introduction: _What and Why ES?_](#10-introduction-what-and-why-es)
-- [2.0 Conventions, Workflows & Developer Environments: _How We
-  Code_](#20-conventions-workflows--developer-environments-how-we-code)
+- [2.0 Conventions, Developer Environments & Workflows: _How We
+  Code_](#20-conventions-developer-environments--workflows-how-we-code)
     - [2.1 Conventions](#21-conventions)
     - [2.2 Developer Environments](#22-developer-environments)
     - [2.3 Workflow](#23-workflow)
@@ -56,7 +56,7 @@ Due to the nature of our department, we also work mostly with the following depa
 
 ---
 
-## 2.0 Conventions, Workflows & Developer Environments: _How We Code_
+## 2.0 Conventions, Developer Environments & Workflows: _How We Code_
 
 ### 2.1 Conventions
 
