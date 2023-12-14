@@ -22,7 +22,6 @@ communication interfaces.
 STM32 Nucleo boards are a series of development boards designed around the STM32 microcontrollers.
 These boards come in different sizes, mirroring the STM32 microcontroller's diversity:
 
--
 - Nucleo-32 (compact size)
 - Nucleo-64 (medium size)
 - Nucleo-144 (largest with advanced features and connectivity)
@@ -39,7 +38,14 @@ to upgrade to more powerful and feature-rich microcontrollers.
 
 ![pinout_legend.png](pictures%2Fpinout_legend.png)
 
+---
+
 ## 3.0 Example Beginner Projects
+
+---
+
+<details>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.1</summary>
 
 ### 3.1 Hello World: Onboard GPIO LED Blinking
 
@@ -51,11 +57,25 @@ Dev Envs:
 
 - [stm32_ide_setup.md](..%2F..%2Fdevenvs%2Fstm32_ide_setup.md)
 
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.2</summary>
+
 ### 3.2 First Input: GPIO Push Button Input
 
 Resources:
 
 - [stm32_gpio.md](peripherals%2Fstm32_gpio.md)
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.3</summary>
 
 ### 3.3 Debug Expansion with Analog: Reading ADC with the Debugger
 
@@ -63,13 +83,34 @@ Resources:
 
 - [stm32_adc.md](peripherals%2Fstm32_adc.md)
 
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.4</summary>
+
 ### 3.4 Always Reading: ADC with DMA
 
 Resources:
 
 - [stm32_dma.md](peripherals%2Fstm32_dma.md)
 
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.5</summary>
+
 ### 3.5 Reactive system: NVIC
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.6</summary>
 
 ### 3.6 Not Brainless Design: Scheduler
 
@@ -78,6 +119,13 @@ Resources:
 - [stm32_scheduler.md](stm32_scheduler.md)
 - [stm32_clocks.md](stm32_clocks.md)
 
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.7</summary>
+
 ### 3.7 Basic Communication: Arduino to STM32 USART
 
 Resources:
@@ -85,6 +133,13 @@ Resources:
 Dev Envs:
 
 - [arduino_prototyping.md](..%2F..%2Fdevenvs%2Farduino_prototyping.md)
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.8</summary>
 
 ### 3.8 Advanced Communications: CAN Messaging
 
@@ -95,3 +150,5 @@ Resources:
 Dev Envs:
 
 - [can_bus_dev_tools.md](..%2F..%2Fdevenvs%2Fcan_bus_dev_tools.md)
+
+</details>
