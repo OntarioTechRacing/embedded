@@ -101,6 +101,8 @@ All department convention guides can be found in [conventions](conventions).
 - Italics is with `_text_`
 - Emojis are allowed, but be sensible in usage
 - If code blocks are used do your best to declare the language for clean formatting
+- For each directory and major subdirectory that needs to reference pictures, include a `pictures`
+  directory to store all files
 
 ---
 
