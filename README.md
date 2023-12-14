@@ -17,8 +17,8 @@
         - [5.1.a General](#51a-general)
         - [5.1.b New Repos](#51b-new-repos)
         - [5.1.c Commits](#51c-commits)
-        - [5.1.d Pushing commits](#51d-pushing-commits)
-        - [5.1.e Getting changes to `main`](#51e-getting-changes-to-main)
+        - [5.1.d Pushing Commits](#51d-pushing-commits)
+        - [5.1.e Getting Changes to `main`](#51e-getting-changes-to-main)
         - [5.1.f Repo Documentation](#51f-repo-documentation)
 - [6.0 Reference / Example Documentation: _How We
   Research_](#60-reference--example-documentation-how-we-research)
