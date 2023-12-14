@@ -46,7 +46,7 @@ Due to the nature of our department, we also work mostly with the following depa
 
 ## 2.0 Conventions, Workflows & Developer Environments: _How We Code_
 
-### Conventions
+### 2.1 Conventions
 
 Conventions are guidelines or standards (usually) agreed-upon for writing code, such as naming, 
 formatting, and commenting practices. They are crucial for promoting readability, maintainability, 
@@ -54,7 +54,7 @@ and uniformity across a codebase, facilitating easier collaboration and debuggin
 
 All department convention guides can be found in [conventions](conventions).
 
-### Developer Environments
+### 2.2 Developer Environments
 
 Developer environments, are the tools, platforms, and settings used for coding. They provide a 
 tailored and efficient workspace that enhances productivity and supports the specific needs of 
@@ -78,7 +78,7 @@ All developer environment setup documentation can be found in [devenvs](devenvs)
 |       [stm32_ide_setup.md](devenvs%2Fstm32_ide_setup.md)       |      (Recommended), * for **STM32 Devs**       |
 |   [arduino_prototyping.md](devenvs%2Farduino_prototyping.md)   |                  (Suggested)                   |
 
-### 3.0 Workflow
+### 2.3 Workflow
 
 Workflows is the process and practices used for project management and the technical process for 
 completing projects. Key points are to facilitate team collaboration, maintaining quality and 
