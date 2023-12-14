@@ -45,7 +45,7 @@ to upgrade to more powerful and feature-rich microcontrollers.
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.1</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.1 GPIO Output</summary>
 
 ### 3.1 Hello World: Onboard GPIO LED Blinking
 
@@ -62,7 +62,7 @@ Dev Envs:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.2</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.2 GPIO Input</summary>
 
 ### 3.2 First Input: GPIO Push Button Input
 
@@ -75,7 +75,7 @@ Resources:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.3</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.3 ADC + Debugger</summary>
 
 ### 3.3 Debug Expansion with Analog: Reading ADC with the Debugger
 
@@ -88,7 +88,7 @@ Resources:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.4</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.4 ADC + DMA</summary>
 
 ### 3.4 Always Reading: ADC with DMA
 
@@ -101,7 +101,7 @@ Resources:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.5</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.5 NVIC with GPIO Input</summary>
 
 ### 3.5 Reactive system: NVIC
 
@@ -110,23 +110,9 @@ Resources:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.6</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.6 USART</summary>
 
-### 3.6 Not Brainless Design: Scheduler
-
-Resources:
-
-- [stm32_scheduler.md](stm32_scheduler.md)
-- [stm32_clocks.md](stm32_clocks.md)
-
-</details>
-
----
-
-<details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.7</summary>
-
-### 3.7 Basic Communication: Arduino to STM32 USART
+### 3.6 Basic Communication: Arduino to STM32 USART
 
 Resources:
 
@@ -139,7 +125,21 @@ Dev Envs:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.8</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.7 Scheduler</summary>
+
+### 3.7 Not Brainless Design: Scheduler
+
+Resources:
+
+- [stm32_scheduler.md](stm32_scheduler.md)
+- [stm32_clocks.md](stm32_clocks.md)
+
+</details>
+
+---
+
+<details>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.8 CAN</summary>
 
 ### 3.8 Advanced Communications: CAN Messaging
 
