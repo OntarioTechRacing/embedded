@@ -4,7 +4,7 @@
 
 ---
 
-## 1.0 Introduction
+## 1.0 Introduction: _What and Why ES?_
 
 👋 **Welcome to the Embedded Software Department Documentation Repository!**
 
@@ -44,13 +44,15 @@ Due to the nature of our department, we also work mostly with the following depa
 
 ---
 
-## 0. Developer Workflows, Conventions & Environments
+## 2.0 Conventions, Workflows & Developer Environments: _How We Code_
 
-- Workflow documentation is in [workflow](workflow)
-- Conventions documentation is in [conventions](conventions)
-- All developer environment setup documentation is in [devenvs](devenvs)
-    - The "home" page document for all developer environments is in the home
-      directory [EMBEDDED_DEV_ENV.md](EMBEDDED_DEV_ENV.md)
+### Conventions
+
+Conventions are guidelines or standards (usually) agreed-upon for writing code, such as naming, 
+formatting, and commenting practices. They are crucial for promoting readability, maintainability, 
+and uniformity across a codebase, facilitating easier collaboration and debugging.
+
+All department convention guides can be found in [conventions](conventions).
 
 ## 1. Department Templates
 
