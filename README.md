@@ -78,9 +78,13 @@ All developer environment setup documentation can be found in [devenvs](devenvs)
 |       [stm32_ide_setup.md](devenvs%2Fstm32_ide_setup.md)       |      (Recommended), * for **STM32 Devs**       |
 |   [arduino_prototyping.md](devenvs%2Farduino_prototyping.md)   |                  (Suggested)                   |
 
-## 1. Department Templates
+### 3.0 Workflow
 
-- LaTeX Project Requirement Document (PRD) template: [ProjectRequirementDocumentTemplate](conventions%2FProjectRequirementDocumentTemplate)
+Workflows is the process and practices used for project management and the technical process for 
+completing projects. Key points are to facilitate team collaboration, maintaining quality and 
+consistency of our work.
+
+All workflow documentation can be found in [workflow](workflow).
 
 ## 2. Datasheets
 
