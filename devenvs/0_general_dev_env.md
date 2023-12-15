@@ -1,4 +1,4 @@
-# General Developer Environment
+# Ontario Tech Racing: Embedded Software - General Developer Environment
 
 ## Accounts
 
@@ -18,7 +18,7 @@
 
 ## Software Installs
 
-### [AnyDesk](https://anydesk.com)*
+### [AnyDesk](https://anydesk.com) (Recommended)
 
 - **Remote access tool for Ontario Tech Racing's computer resources**
 
@@ -34,6 +34,6 @@
 
 - **Package manager for macOS**
 
-### [Saleae Logic 2](https://www.saleae.com/downloads/)*
+### [Saleae Logic 2](https://www.saleae.com/downloads/) (Recommended)
 
 - Saleae logic analyzer software
