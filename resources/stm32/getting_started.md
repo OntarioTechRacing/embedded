@@ -1,6 +1,6 @@
-# STM32 Getting Started
+# Ontario Tech Racing: Embedded Software - Getting Started with STM32
 
-Getting started with STM32 microcontrollers for FSAE applications presents an step up from platforms
+Getting started with STM32 microcontrollers for FSAE applications presents a step up from platforms
 like Arduino, offering more advanced features and capabilities. While these microcontrollers share
 similar programming concepts with Arduino, they come with a steep learning curve to implement
 STM32s' superior processing power and flexibility.
@@ -32,22 +32,62 @@ user-friendliness and community support, STM32 Nucleo boards are also Arduino-co
 them to use existing Arduino shields, which makes them accessible for Arduino enthusiasts looking
 to upgrade to more powerful and feature-rich microcontrollers.
 
+Our department currently uses the *
+*[Nucleo-L432KC](https://www.st.com/en/evaluation-tools/nucleo-l432kc.html)** as our primary
+development Nucleo. The primary reasons are:
+
+1. CAN support
+2. Variety of peripherals
+3. Hits all the bare minimum needed specs
+4. Small form factor & wide PCB hat board availability
+
 ### 2.1 Nucleo-L432KC Pinout
 
 ![nucleol432kc_pinout.png](pictures%2Fnucleol432kc_pinout.png)
 
 ![pinout_legend.png](pictures%2Fpinout_legend.png)
 
+- Pictures from [os.mbed.com](https://os.mbed.com/platforms/ST-Nucleo-L432KC/)
+
+Notice that the board uses Arduino style connector names (A0, D1, ...). When actually programming
+all pin references will be to the MCU pin (PA_1, PB_3, ...). The first "PA" of PA_1 means peripheral
+port A and "1" means pin 1.
+
+### 2.2 STM32L432KC Block Diagram
+
+Block diagrams are a simplified graphical representation of a system, breaking down complex 
+structures into individual components connected by lines that indicate relationships or flows. They 
+depict the functional workings of a system, highlighting how different parts interact without 
+delving into detailed specifics. Similar to flowcharts, block diagrams are essential for 
+conceptualizing, designing, and troubleshooting systems.
+
+![nucleol432kc_block_diagram.jpg](pictures%2Fnucleol432kc_block_diagram.jpg)
+
+- Picture from [ST STM32L432KC Datasheet](https://www.st.com/resource/en/datasheet/stm32l432kc.pdf)
+
 ---
 
-## 3.0 Example Beginner Projects
+## 3.0 Developing Software for STM32
+
+### 3.1 GitHub Version Control
+
+[nucleol432kc_template](https://github.com/OntarioTechRacing/nucleol432kc_template)
+
+### 3.2 Integrated Development Environment
+
+- Recommended for beginners: [stm32_cubeide_setup.md](..%2F..%2Fdevenvs%2Fstm32_cubeide_setup.md)
+- Advanced: [stm32_clion_setup.md](..%2F..%2Fdevenvs%2Fstm32_clion_setup.md)
+
+---
+
+## 4.0 Example Beginner Projects
 
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.1 GPIO Output</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">4.1 GPIO Output</summary>
 
-### 3.1 Hello World: Onboard GPIO LED Blinking
+### 4.1 Hello World: Onboard GPIO LED Blinking
 
 Resources:
 
@@ -62,9 +102,9 @@ Dev Envs:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.2 GPIO Input</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">4.2 GPIO Input</summary>
 
-### 3.2 First Input: GPIO Push Button Input
+### 4.2 First Input: GPIO Push Button Input
 
 Resources:
 
@@ -75,9 +115,9 @@ Resources:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.3 ADC + Debugger</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">4.3 ADC + Debugger</summary>
 
-### 3.3 Debug Expansion with Analog: Reading ADC with the Debugger
+### 4.3 Debug Expansion with Analog: Reading ADC with the Debugger
 
 Resources:
 
@@ -88,9 +128,9 @@ Resources:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.4 ADC + DMA</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">4.4 ADC + DMA</summary>
 
-### 3.4 Always Reading: ADC with DMA
+### 4.4 Always Reading: ADC with DMA
 
 Resources:
 
@@ -101,18 +141,18 @@ Resources:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.5 NVIC with GPIO Input</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">4.5 NVIC with GPIO Input</summary>
 
-### 3.5 Reactive system: NVIC
+### 4.5 Reactive system: NVIC
 
 </details>
 
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.6 USART</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">4.6 USART</summary>
 
-### 3.6 Basic Communication: Arduino to STM32 USART
+### 4.6 Basic Communication: Arduino to STM32 USART
 
 Resources:
 
@@ -125,9 +165,9 @@ Dev Envs:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.7 Scheduler</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">4.7 Scheduler</summary>
 
-### 3.7 Not Brainless Design: Scheduler
+### 4.7 Not Brainless Design: Scheduler
 
 Resources:
 
@@ -139,9 +179,9 @@ Resources:
 ---
 
 <details>
-  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">3.8 CAN</summary>
+  <summary style="font-size: 18px; font-weight: 500; cursor: pointer;">4.8 CAN</summary>
 
-### 3.8 Advanced Communications: CAN Messaging
+### 4.8 Advanced Communications: CAN Messaging
 
 Resources:
 
