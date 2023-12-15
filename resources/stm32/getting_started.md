@@ -110,13 +110,27 @@ conceptualizing, designing, and troubleshooting systems.
 
 ### 4.1 Hello World: Onboard GPIO LED Blinking
 
-Resources:
+The typical hello world project for embedded systems is to get a blinking LED going. In this module
+we will work to get an LED that is already included on Nucleo boards running.
+
+**Materials:**
+
+- Nucleo-L432KC
+- Programming cable (USB micro B)
+- Your computer (this will be assumed going forwards)
+
+**Additional Resources:**
 
 - [stm32_gpio.md](peripherals%2Fstm32_gpio.md)
 
-Dev Envs:
+**Starting Steps:**
 
-- [stm32_ide_setup.md](..%2F..%2Fdevenvs%2Fstm32_ide_setup.md)
+1. Pick an LED that you want to get blinking
+2. Figure out which MCU pin you need to use
+    - Take a look at the Nucleo datasheet and the [pinout](#21-nucleo-l432kc-pinout)
+3. Create a new project for the Nucleo-L432KC
+4. Find the main while loop
+5. Follow the additional resources to see code snippets
 
 </details>
 
@@ -127,9 +141,29 @@ Dev Envs:
 
 ### 4.2 First Input: GPIO Push Button Input
 
-Resources:
+Now that we've figure out how to output with GPIO, Let's try getting an input. We'll use a simple
+button or switch to generate an input. Further we can an LED turn on or off with the push of the
+button.
+
+**Materials:**
+
+- Nucleo-L432KC
+- Programming cable (USB micro B)
+- Push button or switch
+- Breadboard
+- General hookup wire or jumper wires
+
+**Additional Resources:**
 
 - [stm32_gpio.md](peripherals%2Fstm32_gpio.md)
+
+**Starting Steps:**
+
+1. Pick an LED that you want to get blinking
+2. Figure out which MCU pin you need to use for LED output and one for GPIO input
+    - Take a look at the Nucleo datasheet and the [pinout](#21-nucleo-l432kc-pinout)
+3. Wire the breadboard to accept the input of the button or switch
+4. Follow the additional resources to see code snippets
 
 </details>
 
@@ -140,9 +174,27 @@ Resources:
 
 ### 4.3 Debug Expansion with Analog: Reading ADC with the Debugger
 
-Resources:
+GPIO as discussed is about digital values, the other side is analog values. In this module the goal
+is to read analog values and display them using a debugger in your IDE.
+
+**Materials:**
+
+- Nucleo-L432KC
+- Programming cable (USB micro B)
+- Potentiometer
+- Breadboard
+- General hookup wire or jumper wires
+
+**Additional Resources:**
 
 - [stm32_adc.md](peripherals%2Fstm32_adc.md)
+
+**Starting Steps:**
+
+1. Figure out which MCU pin you need to use for ADC input
+    - Take a look at the Nucleo datasheet and the [pinout](#21-nucleo-l432kc-pinout)
+2. Wire the breadboard to accept the input of the potentiometer
+3. Follow the additional resources to see code snippets
 
 </details>
 
@@ -153,9 +205,25 @@ Resources:
 
 ### 4.4 Always Reading: ADC with DMA
 
-Resources:
+Calling the HAL to get the ADC value everytime can be code complex and take up unnecessary
+resources. DMA allows for constant updating of values to at the hardware level, reducing resource
+use.
+
+**Materials:**
+
+- Nucleo-L432KC
+- Programming cable (USB micro B)
+- Potentiometer
+- Breadboard
+- General hookup wire or jumper wires
+
+**Additional Resources:**
 
 - [stm32_dma.md](peripherals%2Fstm32_dma.md)
+
+**Starting Steps:**
+
+1. Based on the previous module's work, change the code to implement DMA to get the ADC value.
 
 </details>
 
@@ -166,6 +234,22 @@ Resources:
 
 ### 4.5 Reactive system: NVIC
 
+In the previous GPIO Input module, we needed to poll every so often to check if a button was
+pressed. Instead, we can use interrupts.
+
+**Materials:**
+
+- Nucleo-L432KC
+- Programming cable (USB micro B)
+- Push button or switch
+- Breadboard
+- General hookup wire or jumper wires
+
+**Starting Steps:**
+
+1. Based on the previous module's work with GPIO inputs, change the code to use the NVIC to turn an
+   LED on and off.
+
 </details>
 
 ---
@@ -175,9 +259,7 @@ Resources:
 
 ### 4.6 Basic Communication: Arduino to STM32 USART
 
-Resources:
-
-Dev Envs:
+**Dev Envs:**
 
 - [arduino_prototyping.md](..%2F..%2Fdevenvs%2Farduino_prototyping.md)
 
@@ -190,7 +272,7 @@ Dev Envs:
 
 ### 4.7 Not Brainless Design: Scheduler
 
-Resources:
+**Additional Resources:**
 
 - [stm32_scheduler.md](core/stm32_scheduler.md)
 - [stm32_clocks.md](core/stm32_clocks.md)
@@ -204,11 +286,11 @@ Resources:
 
 ### 4.8 Advanced Communications: CAN Messaging
 
-Resources:
+**Additional Resources:**
 
 - [stm32_can_bus.md](peripherals%2Fstm32_can_bus.md)
 
-Dev Envs:
+**Dev Envs:**
 
 - [can_bus_dev_tools.md](..%2F..%2Fdevenvs%2Fcan_bus_dev_tools.md)
 
