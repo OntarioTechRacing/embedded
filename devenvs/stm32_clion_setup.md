@@ -1,4 +1,4 @@
-# CLion + STM32CubeMX Developer Environment Setup
+# Ontario Tech Racing: Embedded Software - STM32 CLion & STM32CubeMX Developer Environment Setup
 
 ## Notes
 
