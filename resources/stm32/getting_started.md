@@ -131,8 +131,8 @@ Dev Envs:
 
 Resources:
 
-- [stm32_scheduler.md](stm32_scheduler.md)
-- [stm32_clocks.md](stm32_clocks.md)
+- [stm32_scheduler.md](core/stm32_scheduler.md)
+- [stm32_clocks.md](core/stm32_clocks.md)
 
 </details>
 
