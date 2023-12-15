@@ -7,6 +7,27 @@ STM32s' superior processing power and flexibility.
 
 ---
 
+## 0.0 List of Contents
+
+- [1.0 Intro to STM32](#10-intro-to-stm32)
+- [2.0 The Nucleo Board](#20-the-nucleo-board)
+    - [2.1 Nucleo-L432KC Pinout](#21-nucleo-l432kc-pinout)
+    - [2.2 STM32L432KC Block Diagram](#22-stm32l432kc-block-diagram)
+- [3.0 Developing Software for STM32](#30-developing-software-for-stm32)
+    - [3.1 GitHub Version Control](#31-github-version-control)
+    - [3.2 Integrated Development Environment](#32-integrated-development-environment)
+- [4.0 Example Beginner Projects](#40-example-beginner-projects)
+    - [4.1 Hello World: Onboard GPIO LED Blinking](#41-hello-world-onboard-gpio-led-blinking)
+    - [4.2 First Input: GPIO Push Button Input](#42-first-input-gpio-push-button-input)
+    - [4.3 Debug Expansion with Analog: Reading ADC with the Debugger](#43-debug-expansion-with-analog-reading-adc-with-the-debugger)
+    - [4.4 Always Reading: ADC with DMA](#44-always-reading-adc-with-dma)
+    - [4.5 Reactive system: NVIC](#45-reactive-system-nvic)
+    - [4.6 Basic Communication: Arduino to STM32 USART](#46-basic-communication-arduino-to-stm32-usart)
+    - [4.7 Not Brainless Design: Scheduler](#47-not-brainless-design-scheduler)
+    - [4.8 Advanced Communications: CAN Messaging](#48-advanced-communications-can-messaging)
+
+---
+
 ## 1.0 Intro to STM32
 
 The STM32 is a family of 32-bit microcontrollers based on ARM Cortex-M processors, developed by
@@ -55,10 +76,10 @@ port A and "1" means pin 1.
 
 ### 2.2 STM32L432KC Block Diagram
 
-Block diagrams are a simplified graphical representation of a system, breaking down complex 
-structures into individual components connected by lines that indicate relationships or flows. They 
-depict the functional workings of a system, highlighting how different parts interact without 
-delving into detailed specifics. Similar to flowcharts, block diagrams are essential for 
+Block diagrams are a simplified graphical representation of a system, breaking down complex
+structures into individual components connected by lines that indicate relationships or flows. They
+depict the functional workings of a system, highlighting how different parts interact without
+delving into detailed specifics. Similar to flowcharts, block diagrams are essential for
 conceptualizing, designing, and troubleshooting systems.
 
 ![nucleol432kc_block_diagram.jpg](pictures%2Fnucleol432kc_block_diagram.jpg)
