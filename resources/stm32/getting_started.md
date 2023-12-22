@@ -53,8 +53,8 @@ user-friendliness and community support, STM32 Nucleo boards are also Arduino-co
 them to use existing Arduino shields, which makes them accessible for Arduino enthusiasts looking
 to upgrade to more powerful and feature-rich microcontrollers.
 
-Our department currently uses the *
-*[Nucleo-L432KC](https://www.st.com/en/evaluation-tools/nucleo-l432kc.html)** as our primary
+Our department currently uses
+the **[Nucleo-L432KC](https://www.st.com/en/evaluation-tools/nucleo-l432kc.html)** as our primary
 development Nucleo. The primary reasons are:
 
 1. CAN support
