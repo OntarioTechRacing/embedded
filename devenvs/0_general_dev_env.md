@@ -34,6 +34,32 @@
 
 - **Package manager for macOS**
 
-### [Saleae Logic 2](https://www.saleae.com/downloads/) (Recommended)
+---
 
-- Saleae logic analyzer software
+## Hardware & Equipment
+
+### PEAK [PCAN-USB](https://www.peak-system.com/PCAN-USB.199.0.html?&L=1)
+
+- **For CAN communication testing, mostly used with BUSMASTER software**
+- [PEAK APIs found here](https://www.peak-system.com/Software.68.0.html?&L=1)
+- See [can_bus_dev_tools.md](..%2Fdevenvs%2Fcan_bus_dev_tools.md)
+
+### Saleae Logic Analyzer
+
+- **Logic analyzer for all the things**
+- For FSAE and budget restrictions, the recommendation
+  is: [Saleae Logic 8](https://cad.saleae.com/products/saleae-logic-8)
+    - Requires software: [Saleae Logic 2](https://www.saleae.com/downloads/)
+
+### SEGGER JLink
+
+- **Standard for debug and program flashing**
+- For FSAE and budget restrictions, the recommendations
+  are: [J-Link EDU](https://www.segger.com/products/debug-probes/j-link/models/j-link-edu/)
+  and/or [J-Link EDU Mini](https://www.segger.com/products/debug-probes/j-link/models/j-link-edu-mini/)
+    - Requires
+      software: [JLink Software](https://www.segger.com/downloads/jlink#J-LinkSoftwareAndDocumentationPack)
+
+### STLINK
+
+- STM32 programmer and debugger
