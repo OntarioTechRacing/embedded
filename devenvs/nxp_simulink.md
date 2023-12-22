@@ -24,3 +24,13 @@
       ![MATLAB NXP Completed install guide.png](pictures%2Fnxp%2FMATLAB%20NXP%20Completed%20install%20guide.png)
 
 ---
+
+## Step-by-Step Outline
+
+1. Open up MATLAB and Simulink
+2. Open up the `NXP Model-Based Design Toolbox for S32K1xx MCUs` tool box tab
+3. Open the `Embedded Coder` app
+   ![MATLAB NXP Toolbox Example.png](pictures%2Fnxp%2FMATLAB%20NXP%20Toolbox%20Example.png)
+4. Build your model, in this example the "GPIO on S32K144 LED & Button" block is used
+5. `Generate Code` or `Build` (generate and flash) to generate code and/or flash the generated code
+   ![MATLAB NXP Embedded Coder Build Example.png](pictures%2Fnxp%2FMATLAB%20NXP%20Embedded%20Coder%20Build%20Example.png)
