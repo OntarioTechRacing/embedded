@@ -53,7 +53,7 @@
 
 ### SEGGER JLink
 
-- **Standard for debug and program flashing**
+- **JTAG/SWD Debugger, for debug and program flashing**
 - For FSAE and budget restrictions, the recommendations
   are: [J-Link EDU](https://www.segger.com/products/debug-probes/j-link/models/j-link-edu/)
   and/or [J-Link EDU Mini](https://www.segger.com/products/debug-probes/j-link/models/j-link-edu-mini/)
