@@ -13,19 +13,39 @@
 3. Simulink Coder
 4. Stateflow
 5. NXP Support Package S32K1xx
-    - Follow package instructions to run
-      the `NXP's Model-Based Design Toolbox for S32K1xx Installation Guide`
-    - Follow the installation guide to manually download and setup
-      the `Model-Based Design Toolbox for S32K1xx Automotive Microprocessors Family`
-        - As of writing (2023-12-21) the most up-to-date version is `4.3`
-        - For setting any form of host ID when generating a license file, here is a good
-          reference: https://www.mathworks.com/matlabcentral/answers/101892-what-is-a-host-id-how-do-i-find-my-host-id-in-order-to-activate-my-license
-    - Completed installation guide shown below:
+
+---
+
+## Step-by-Step Setup
+
+1. Open up MATLAB Add-Ons → Add-On Manager
+    - Right-click on the previously installed NXP Support Package S32K1xx and select Open Folder
+      ![MATLAB Open NXP Support Package Files.png](pictures%2Fnxp%2FMATLAB%20Open%20NXP%20Support%20Package%20Files.png)
+2. Run the `NXP_Support_Package_S32K1xx.m` file
+    - If you're new to MATLAB, it's under EDITOR → Run
+      ![MATLAB NXP Support Package Script.png](pictures%2Fnxp%2FMATLAB%20NXP%20Support%20Package%20Script.png)
+3. The Support Package window should open
+    - As of writing (`2023-12-26`), the window for setting up version `4.3` looks like this:
+      ![MATLAB NXP Opened install guide.png](pictures%2Fnxp%2FMATLAB%20NXP%20Opened%20install%20guide.png)
+4. Follow Steps 1 and 2 to complete
+   the `NXP Model-Based Design Toolbox for S32Kxx Automotive Microprocessors Family`
+    - After completing each sub-step, the clickable button should turn green
+    - The web page for both download `Files` and `License Keys` tabs window should look something
+      like this:
+      ![MATLAB NXP MBD Page.png](pictures%2Fnxp%2FMATLAB%20NXP%20MBD%20Page.png)
+5. Complete Step 1
+    - After complete installation you should
+      see `NXP Model-Based Design Toolbox for S32Kxx Automotive Microprocessors Family` on the
+      Add-On Manager window
+      ![MATLAB NXP MBD Installed.png](pictures%2Fnxp%2FMATLAB%20NXP%20MBD%20Installed.png)
+6. Full complete setup
+    - All sub-step buttons should now be Green
+    - Note: Convert `ZIP to MLTBX` may not be required depending on the download process
       ![MATLAB NXP Completed install guide.png](pictures%2Fnxp%2FMATLAB%20NXP%20Completed%20install%20guide.png)
 
 ---
 
-## Step-by-Step Outline
+## Step-by-Step Initial setup
 
 1. Open up MATLAB and Simulink
 2. Open up the `NXP Model-Based Design Toolbox for S32K1xx MCUs` tool box tab
