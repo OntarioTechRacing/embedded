@@ -1,6 +1,6 @@
 # Download and Install [drivers](https://www.st.com/en/development-tools/stsw-link009.html)*
 1. Click "Get Latest" beside STSW-LINK009 under "Get Software"
-	![ST-Link Drivers](pictures%2Fstm32ide%2FSTM32%20STLink%20Drivers.png)
+	![ST-Link Drivers](pictures%2Fstm32ide%2FSTM32%20STLink%20drivers.png)
 2. Create or login to ST account
 3. Download zip file for drivers
 4. Extract zip file and run either dpinst_amd64.exe or 
