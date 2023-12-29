@@ -30,6 +30,8 @@ development boards (breadboards, perfboards, etc.)
 
 - Diagram made with [https://app.diagrams.net/](https://app.diagrams.net/)
 
+---
+
 ## 1.0 Project Requirement Document
 
 The Project Requirements Document (PRD) specifies the scope of the entire project.
@@ -47,5 +49,8 @@ It includes, but is not limited to:
 9. Selected Components
 10. Component Risk
 
-- LaTeX Project Requirement Document (PRD)
-  template: [ProjectRequirementDocumentTemplate](ProjectRequirementDocumentTemplate)
+### 1.1 PRD Templates
+
+- Markdown template: [markdown_template_prd.md](prd%2Fmarkdown_template_prd.md)
+- LaTeX
+  template: [latex_template_prd](prd%2Flatex_template_prd)[prd_template_latex](prd%2Fprd_template_latex)
