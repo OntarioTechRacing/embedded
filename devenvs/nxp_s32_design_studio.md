@@ -25,7 +25,11 @@ keys may be sent via email._**
 
 ### [S32 Software Development Kit for S32K1 (RTM)](https://www.nxp.com/design/design-center/software/development-software/s32-sdk/s32-software-development-kit-for-s32k1:S32SDK-ARMK1)* only for Windows
 
-- These are the extra drivers and additional files required for the actual design studio to work
+- General SDK which includes drivers required for design studio to work
+- **You can also install this manually on the `Extensions and Updates` window in S32 Design Studio
+  for S32 Platform**
+    - Installing it directly on the IDE might help avoid compatability issues but installing it
+      separately might also save some time
 
 ![MATLAB NXP S32DesignStudio RTM Page.png](pictures%2Fnxp%2FMATLAB%20NXP%20S32DesignStudio%20RTM%20Page.png)
 
