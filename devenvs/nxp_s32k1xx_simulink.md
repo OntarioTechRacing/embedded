@@ -1,4 +1,7 @@
-# Ontario Tech Racing: Embedded Software - NXP MATLAB & Simulink Developer Environment Setup
+# Ontario Tech Racing: Embedded Software - NXP S32K1xx MATLAB & Simulink Developer Environment Setup
+
+The following documentation details how to set up MATLAB and Simulink for NXP S32K1xx embedded
+development.
 
 ---
 
