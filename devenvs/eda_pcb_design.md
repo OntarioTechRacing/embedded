@@ -1,4 +1,7 @@
-# Electronic Design Automation & PCB Development Environment
+# # Ontario Tech Racing: Embedded Software - EDA & PCB Development Environment
+
+Electronic Design Automation (EDA) is used to model, design and create design for manufacture (DFM)
+files for our department.
 
 ## Software Installs
 

@@ -1,4 +1,7 @@
-# CAN Bus Developer Tools
+# Ontario Tech Racing: Embedded Software - CAN Bus Developer Tools
+
+This documentation specifies the standard tools used for simulating, communicating and monitoring
+CAN networks in our car.
 
 ## Software Installs
 
