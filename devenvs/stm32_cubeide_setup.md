@@ -1,5 +1,8 @@
 # Ontario Tech Racing: Embedded Software - STM32 STM32CubeIDE Developer Environment Setup
 
+The following documentation details how to set up ST's official STM32CubeIDE for embedded STM32
+microcontrollers.
+
 ---
 
 ## Software Installs

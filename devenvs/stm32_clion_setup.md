@@ -1,5 +1,8 @@
 # Ontario Tech Racing: Embedded Software - STM32 CLion & STM32CubeMX Developer Environment Setup
 
+The following documentation details how to set up JetBrains CLion for embedded STM32 development
+utilizing STM32CubeMX, GNU ARM Toolchain and OpenOCD.
+
 ## Notes
 
 - Currently, the debugger on macOS when using this setup does not work
