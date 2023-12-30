@@ -12,7 +12,10 @@ IDEs.
 
 ## Software Installs
 
-### [S32 Design Studio for S32 Platform](https://www.nxp.com/design/design-center/software/development-software/s32-design-studio-ide/s32-design-studio-for-s32-platform:S32DS-S32PLATFORM)* only for Windows
+### [S32 Design Studio for S32 Platform](https://www.nxp.com/design/design-center/software/development-software/s32-design-studio-ide/s32-design-studio-for-s32-platform:S32DS-S32PLATFORM)* only for Windows and Linux
+
+- As of writing (2023-12-30), the recommended version is `3.5` as it has a simple `.exe`
+  Windows installation and also supports Linux
 
 ![MATLAB NXP S32DesignStudio S32 Page.png](pictures%2Fnxp%2FMATLAB%20NXP%20S32DesignStudio%20S32%20Page.png)
 
