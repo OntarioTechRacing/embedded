@@ -12,6 +12,10 @@ IDEs.
 
 ## Software Installs
 
+> **_Note that all majority, if not all, these NXP software applications will require a license key.
+Typically, it is generated on the same portal for downloads, however for these applications, license
+keys may be sent via email._**
+
 ### [S32 Design Studio for S32 Platform](https://www.nxp.com/design/design-center/software/development-software/s32-design-studio-ide/s32-design-studio-for-s32-platform:S32DS-S32PLATFORM)* only for Windows and Linux
 
 - As of writing (2023-12-30), the recommended version is `3.5` as it has a simple `.exe`
