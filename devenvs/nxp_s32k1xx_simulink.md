@@ -62,6 +62,7 @@ development.
               ```shell
               /sbin/ifconfig <interfaceName>
               ```
+    - The final result should be a `.dat` file with the license key information
 7. Full complete setup
     - All sub-step buttons should now be Green
     - Note: Convert `ZIP to MLTBX` may not be required depending on the download process
