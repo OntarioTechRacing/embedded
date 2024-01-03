@@ -36,12 +36,33 @@ development.
     - The web page for both download `Files` and `License Keys` tabs window should look something
       like this:
       ![MATLAB NXP MBD Page.png](pictures%2Fnxp%2FMATLAB%20NXP%20MBD%20Page.png)
-5. Complete Step 1
+5. Complete Step 1: Download and install MBD Toolbox
     - After complete installation you should
       see `NXP Model-Based Design Toolbox for S32Kxx Automotive Microprocessors Family` on the
       Add-On Manager window
       ![MATLAB NXP MBD Installed.png](pictures%2Fnxp%2FMATLAB%20NXP%20MBD%20Installed.png)
-6. Full complete setup
+6. Complete Step 2: Download and set path for License Key
+    - Returning to the previous webpage, go to the `License Keys` tab to generate a license key
+    - You may be promoted for a Host ID, either a Volume Serial Number or a MAC address that
+      restricts your license to 1 computer
+        - To get your Host ID follow the terminal commands bellow:
+            - Windows: (Host ID is either the Volume Serial Number of MAC address)
+              ```shell
+              vol c:
+              ```
+              ```shell
+              getmac -v
+              ```
+            - MacOS: (Host ID is the MAC address of the en0 device)
+              ```shell
+              ifconfig en0 | grep ether
+              ```
+            - Linux: (Host ID is the MAC address any interface. If interfaces are enumerated, use
+              the lowest-enumerated interface)
+              ```shell
+              /sbin/ifconfig <interfaceName>
+              ```
+7. Full complete setup
     - All sub-step buttons should now be Green
     - Note: Convert `ZIP to MLTBX` may not be required depending on the download process
       ![MATLAB NXP Completed install guide.png](pictures%2Fnxp%2FMATLAB%20NXP%20Completed%20install%20guide.png)
