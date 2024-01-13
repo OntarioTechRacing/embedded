@@ -62,4 +62,10 @@
 
 ### STLINK
 
-- STM32 programmer and debugger
+- **STM32 in-circuit debugger and programmer**
+- For FSAE and budget restrictions, the recommendations
+  are: [STLINK-V3SET](https://www.st.com/en/development-tools/stlink-v3set.html)
+    - Requires
+      software: [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html)
+    - Another good software
+      resource: [STM32 ST-LINK Utility](https://www.st.com/en/development-tools/stsw-link004.html)

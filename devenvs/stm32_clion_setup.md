@@ -66,10 +66,6 @@ Install Steps:
     - **Put the main directory for OpenOCD in your PC user's `Documents` directory**
 - For macOS: [Homebrew OpenOCD](https://formulae.brew.sh/formula/open-ocd)
 
-### [STM32 ST-LINK Utility](https://www.st.com/en/development-tools/stsw-link004.html) (Recommended)
-
-- **ST-LINK Hardware support application**
-
 ---
 
 ## Step-by-Step Setup
