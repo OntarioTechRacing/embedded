@@ -26,8 +26,7 @@
 
 ### [Git](https://git-scm.com/downloads)*
 
-- Ontario Tech Racing: Embedded Software department's choice for version
-  control.
+- Our department's choice for version control.
 
 ### [GitHub Desktop](https://desktop.github.com/) (Recommended)
 
