@@ -55,6 +55,8 @@ ie: Describe the project timelines / deadlines / milestones.
 
 ## 4 Block Diagram
 
+ie: See: [drawio.md](..%2F..%2Fconventions%2Fdrawio.md).
+
 ---
 
 ## 5 IO Requirements
