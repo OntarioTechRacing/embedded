@@ -4,19 +4,17 @@
 
 ---
 
-## 0.0 List of Contents
-
 <details markdown="1">
   <summary>Table of Contents</summary>
 
-- [1.0 Introduction: _What and Why ES?_](#10-introduction-what-and-why-es)
-- [2.0 Conventions: _How We Code_](#20-conventions-how-we-code)
+- [1 Introduction: _What and Why ES?_](#1-introduction-what-and-why-es)
+- [2 Conventions: _How We Code_](#2-conventions-how-we-code)
     - [2.1 Conventions for this Documentation Repo](#21-conventions-for-this-documentation-repo)
-- [3.0 Developer Environments: _How We
-  Code_](#30-developer-environments-how-we-code)
+- [3 Developer Environments: _How We
+  Code_](#3-developer-environments-how-we-code)
     - [3.1 Dev Env Documentation Conventions](#31-dev-env-documentation-conventions)
-- [4.0 Workflow: _How We Code_](#40-workflow-how-we-code)
-- [5.0 GitHub: _How We Version Control_](#50-github-how-we-version-control)
+- [4 Workflow: _How We Code_](#4-workflow-how-we-code)
+- [5 GitHub: _How We Version Control_](#5-github-how-we-version-control)
     - [5.1 GitHub Practices & Guidelines](#51-github-practices--guidelines)
         - [5.1.1 General](#511-general)
         - [5.1.2 New Repos](#512-new-repos)
@@ -24,16 +22,16 @@
         - [5.1.4 Pushing Commits](#514-pushing-commits)
         - [5.1.5 Getting Changes to `main`](#515-getting-changes-to-main)
         - [5.1.6 Repo Documentation](#516-repo-documentation)
-- [6.0 Reference / Example Documentation: _How We
-  Research_](#60-reference--example-documentation-how-we-research)
-- [7.0 Datasheets: _How We Organize_](#70-datasheets-how-we-organize)
-- [999.0 Archive & Tech Support](#9990-archive--tech-support)
+- [6 Reference / Example Documentation: _How We
+  Research_](#6-reference--example-documentation-how-we-research)
+- [7 Datasheets: _How We Organize_](#7-datasheets-how-we-organize)
+- [999 Archive & Tech Support](#999-archive--tech-support)
 
 </details>
 
 ---
 
-## 1.0 Introduction: _What and Why ES?_
+## 1 Introduction: _What and Why ES?_
 
 👋 **Welcome to the Embedded Software Department Documentation Repository!**
 
@@ -42,7 +40,7 @@ the [welcome_to_es repository](https://github.com/OntarioTechRacing/welcome_to_e
 
 ---
 
-## 2.0 Conventions: _How We Code_
+## 2 Conventions: _How We Code_
 
 Conventions are guidelines or standards (usually) agreed-upon for writing code,
 such as naming, formatting, and commenting practices. They are crucial for
@@ -60,13 +58,12 @@ All department convention guides can be found in [conventions](conventions).
 - Write in full sentences ending with a `.` or applicable punctuation.
 - Headers are numbered the format.
     ```
-    # N.0 Header 1 Example Name Here
+    # N Header 1 Example Name Here
     ## N.N Header 2 Example Name Here
     ### N.N.N Header 3 Example Name Here
     #### N.N.N.N Header 4 Example Name Here
     ```
     - N is decimal numbering.
-    - a is lower case alphabetical numbering.
     - Headers are named with standard `Title Formatting`.
 - Links, images, etc are very helpful use them appropriately to make good
   documentation.
@@ -84,7 +81,7 @@ All department convention guides can be found in [conventions](conventions).
 
 ---
 
-## 3.0 Developer Environments: _How We Code_
+## 3 Developer Environments: _How We Code_
 
 Developer environments (dev envs or devenvs), are the tools, platforms, and
 settings used for coding. They provide a tailored and efficient workspace that
@@ -109,7 +106,7 @@ readability for dev envs.
 
 ---
 
-## 4.0 Workflow: _How We Code_
+## 4 Workflow: _How We Code_
 
 Workflows is the process and practices used for project management and the
 technical process for completing projects. Key points are to facilitate team
@@ -119,7 +116,7 @@ All workflow documentation can be found in [workflow](workflow).
 
 ---
 
-## 5.0 GitHub: _How We Version Control_
+## 5 GitHub: _How We Version Control_
 
 Version control is a system that records changes to a file or set of files over
 time, allowing multiple people to work collaboratively on (usually) software
@@ -191,21 +188,21 @@ files such as `stl`, `png`, etc required for documentation is included.**
 
 ---
 
-## 6.0 Reference / Example Documentation: _How We Research_
+## 6 Reference / Example Documentation: _How We Research_
 
 - All resources and reference documentation can be found
   in [resources](resources).
 
 ---
 
-## 7.0 Datasheets: _How We Organize_
+## 7 Datasheets: _How We Organize_
 
 - All datasheets are stored on
   the [OTR Embedded Software Google Drive](https://drive.google.com/drive/folders/0AHPA2ZoOBCtSUk9PVA).
 
 ---
 
-## 999.0 Archive & Tech Support
+## 999 Archive & Tech Support
 
 - [case_studies.md](resources%2Fcase_studies.md).
 - [ace_5030_pc_readme.md](resources%2Face_5030_pc_readme.md).
