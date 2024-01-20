@@ -1,16 +1,17 @@
-# Ontario Tech Racing: Embedded Software - Standardized Hardware / Components
+# Standardized Hardware / Components
 
-Standardized hardware / components are previously parts that have been validated by the team. They
-are commonly used components and are a good starting point for new projects.
+Standardized hardware / components are previously parts that have been validated
+by the team. They are commonly used components and are a good starting point for
+new projects.
 
 ---
 
-## 1.0 Standard ES Prototype Hardware
+## 1 Standard ES Prototype Hardware
 
 ### 1.1 STM32 L4 Family: ST NUCLEO-L432KC (STM32L432KC)
 
 - MCU IC carries over
-  to [2.0 Pre-specced HE + ES PCB Components](#20-pre-specced-he--es-pcb-components)
+  to [2 Pre-specced HE + ES PCB Components](#2-pre-specced-he--es-pcb-components)
 
 ### 1.2 CAN Transceiver: Adafruit CAN Pal board (TJA1051)
 
@@ -18,7 +19,7 @@ are commonly used components and are a good starting point for new projects.
 
 ---
 
-## 2.0 Pre-specced HE + ES PCB Components
+## 2 Pre-specced HE + ES PCB Components
 
 ### 2.1 STM32 L4 Family: STM32L432KC
 
@@ -26,6 +27,6 @@ are commonly used components and are a good starting point for new projects.
 
 ---
 
-## 3.0 Standard ES Testing Hardware
+## 3 Standard ES Testing Hardware
 
 ### 3.1 Digital Analyzer: Saleae 8

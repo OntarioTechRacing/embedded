@@ -1,113 +1,115 @@
-# Ontario Tech Racing: Embedded Software and Hardware & Electronics
-
----
-
 # project_name_here v0.1.0 PRD
 
-Last Updated Date: `YYYY-MM-DD`
+Last Updated Date: `YYYY-MM-DD`.
 
 ---
 
-## 0.0 List of Contents
+<details markdown="1">
+  <summary>Table of Contents</summary>
 
-- [1.0 Introduction](#10-introduction)
-- [2.0 Project Description](#20-project-description)
-- [3.0 Timeline](#30-timeline)
-- [4.0 Block Diagram](#40-block-diagram)
-- [5.0 IO Requirements](#50-io-requirements)
-- [6.0 Mechanical Requirements](#60-mechanical-requirements)
-- [7.0 Integration Requirements](#70-integration-requirements)
-- [8.0 Budget](#80-budget)
-- [9.0 Selected Components](#90-selected-components)
-- [10.0 Component Risk](#100-component-risk)
+- [1 Introduction](#1-introduction)
+- [2 Project Description](#2-project-description)
+- [3 Timeline](#3-timeline)
+- [4 Block Diagram](#4-block-diagram)
+- [5 IO Requirements](#5-io-requirements)
+    - [5.1 Inputs](#51-inputs)
+    - [5.2 Outputs](#52-outputs)
+- [6 Mechanical Requirements](#6-mechanical-requirements)
+- [7 Integration Requirements](#7-integration-requirements)
+- [8 Budget](#8-budget)
+- [9 Selected Components](#9-selected-components)
+- [10 Component Risk](#10-component-risk)
+
+</details>
 
 ---
 
-## 1.0 Introduction
+## 1 Introduction
 
 **Stakeholders:**
 
-- ie: Project manager (PM): name1
-- ie: x Task manager(s) (TM): name2
-- ie: name2
-- ie: name3
-- ie: department1
-- ie: department2
-- ie: etc
+- ie: Project manager (PM): name1.
+- ie: x Task manager(s) (TM): name2.
+- ie: name2.
+- ie: name3.
+- ie: department1.
+- ie: department2.
+- ie: etc.
 
 ---
 
-## 2.0 Project Description
+## 2 Project Description
 
-ie: Start with a short and concise ~1 sentence description
+ie: Start with a short and concise ~1 sentence description.
 
-ie: Followed by a detailed paragraph style description as needed to describe the scope of the
-project
-
----
-
-## 3.0 Timeline
-
-ie: Describe the project timelines / deadlines / milestones
+ie: Followed by a detailed paragraph style description as needed to describe the
+scope of the project.
 
 ---
 
-## 4.0 Block Diagram
+## 3 Timeline
+
+ie: Describe the project timelines / deadlines / milestones.
 
 ---
 
-## 5.0 IO Requirements
-
-**Inputs:**
-
-- ie: Type of hardware / software input
-- ie: Required accuracy if specified
-- ie: etc
-
-**Outputs:**
-
-- ie: User QOL / UI outputs
-- ie: CAN messages
-- ie: etc
+## 4 Block Diagram
 
 ---
 
-## 6.0 Mechanical Requirements
+## 5 IO Requirements
 
-ie: Describe the requirements related to the mechanical departments
+### 5.1 Inputs
 
-- ie: Vibrations
-- ie: Drift
-- ie: etc
+- ie: Type of hardware / software input.
+- ie: Required accuracy if specified.
+- ie: etc.
 
----
+### 5.2 Outputs
 
-## 7.0 Integration Requirements
-
-ie: Describe the integration process and requirements to the car / team
-
-- ie: CAN bus load calculations
-- ie: Enclosure
-- ie: etc
+- ie: User QOL / UI outputs.
+- ie: CAN messages.
+- ie: etc.
 
 ---
 
-## 8.0 Budget
+## 6 Mechanical Requirements
 
-ie: Describe the budget, this should be set by HE and ES department leads
+ie: Describe the requirements related to the mechanical departments.
 
----
-
-## 9.0 Selected Components
-
-ie: Describe components that have already been selected and/or purchased
-
-- ie: Specify the state of the component, if needed to be tested / validated
+- ie: Vibrations.
+- ie: Drift.
+- ie: etc.
 
 ---
 
-## 10.0 Component Risk
+## 7 Integration Requirements
 
-ie: Describe potential risks to OTR the selected components entail
+ie: Describe the integration process and requirements to the car / team.
 
-- ie: You might need to use components that are difficult to source or that are generally expensive
+- ie: CAN bus load calculations.
+- ie: Enclosure.
+- ie: etc.
+
+---
+
+## 8 Budget
+
+ie: Describe the budget, this should be set by HE and ES department leads.
+
+---
+
+## 9 Selected Components
+
+ie: Describe components that have already been selected and/or purchased.
+
+- ie: Specify the state of the component, if needed to be tested / validated.
+
+---
+
+## 10 Component Risk
+
+ie: Describe potential risks to OTR the selected components entail.
+
+- ie: You might need to use components that are difficult to source or that are
+  generally expensive.
