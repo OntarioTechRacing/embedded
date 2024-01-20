@@ -58,13 +58,22 @@ All department convention guides can be found in [conventions](conventions).
 - Write in full sentences ending with a `.` or applicable punctuation.
 - Headers are numbered the format.
     ```
+    ---
+    
     # N Header 1 Example Name Here
+    
     ## N.N Header 2 Example Name Here
+    
     ### N.N.N Header 3 Example Name Here
+    
     #### N.N.N.N Header 4 Example Name Here
+    
+    ---
     ```
     - N is decimal numbering.
     - Headers are named with standard `Title Formatting`.
+    - The general recommendation is to use horizontal ines on `Header 1` to
+      improve readability, however this is not required.
 - Links, images, etc are very helpful use them appropriately to make good
   documentation.
 - Use header links when possible to make referencing easy.
@@ -73,6 +82,7 @@ All department convention guides can be found in [conventions](conventions).
 - Point form is with a `- text`.
 - Bold is with `**text**`.
 - Italics is with `_text_`.
+- Horizontal line is with `---`
 - Emojis are allowed, but be sensible in usage.
 - If code blocks are used do your best to declare the language for clean
   formatting.
