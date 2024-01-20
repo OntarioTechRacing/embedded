@@ -78,6 +78,24 @@ All department convention guides can be found in [conventions](conventions).
   formatting.
 - For each directory and major subdirectory that needs to reference pictures,
   include a `pictures` directory to store all files.
+- For "**Table of Contents**" use the following:
+    ```
+    ---
+    
+    <details markdown="1">
+      <summary>Table of Contents</summary>
+        
+    - [N Header 1 Example Name Here](#n-header-1-example-name-here)
+        - [N.N Header 2 Example Name Here](#nn-header-2-example-name-here)
+            - [N.N.N Header 3 Example Name Here](#nnn-header-3-example-name-here)
+                - [N.N.N.N Header 4 Example Name Here](#nnnn-header-4-example-name-here)
+    
+    </details>
+    
+    ---
+  
+    ...
+    ```
 
 ---
 
