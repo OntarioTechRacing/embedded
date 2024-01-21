@@ -31,6 +31,7 @@
     - [5.3 Labels](#53-labels)
     - [5.4 Issues](#54-issues)
     - [5.5 Milestones](#55-milestones)
+    - [5.6 Projects](#56-projects)
 
 </details>
 
@@ -149,6 +150,13 @@ Use default labels.
 
 ## 5.5 Milestones
 
-`YYYY.M` where month is the final month, set deadline for last day.
+Name `vM.m.P name`, ideally milestones should line up with iteration planning
+and/or end of months.
 
-- `2024.4` means the milestone and deadline is at the last day of April, 2024.
+- `M.m.P` is standard MAJOR.MINOR.PATCH semantic versioning.
+- `name` is general milestone name.
+    - ie: Pre-PCB, Validation, etc.
+
+## 5.6 Projects
+
+Projects follow an iteration cycle of 2 weeks starting from January 1st.
