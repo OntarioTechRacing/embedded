@@ -66,8 +66,6 @@
    can_tx_header.DLC = 8; // Data Length Code.
    
    // Split uint16 to uint8 for CAN message sending.
-   can_bit_bang[0] = (uint8_t) (calculated_speed & 0xFF00) >> 8;
-   can_bit_bang[1] = (uint8_t) (calculated_speed & 0x00FF);
    can_tx_data[0] = 1;
    can_tx_data[1] = 2;
    can_tx_data[7] = 8;
