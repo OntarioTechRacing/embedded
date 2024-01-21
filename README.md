@@ -162,57 +162,8 @@ files such as `stl`, `png`, etc required for documentation is included.**
 - Repo beginner templates for STM32:
     - [nucleol432kc_template](https://github.com/OntarioTechRacing/nucleol432kc_template).
 
-### 5.1 GitHub Practices & Guidelines
-
-#### 5.1.1 General
-
-1. Follow professional standards.
-    - Use a `.gitignore`.
-    - Don't push irresponsible code.
-2. Add a `.github` as a project gets more complex as needed, it is not strictly
-   required.
-    - If added it should include a standardized `CODEOWNERS`.
-3. Add to the Organization, don't hide things to your personal.
-    - [https://github.com/OntarioTechRacing](https://github.com/OntarioTechRacing).
-4. Organizational access role security must always be maintained.
-
-#### 5.1.2 New Repos
-
-1. All new repos should be **private** unless cleared and agreed to by team
-   leadership.
-2. All repos should use appropriate naming, if arbitrary use snake case.
-
-#### 5.1.3 Commits
-
-1. Name your commits starting with a present tense verb.
-    - Examples:
-        - "Add cool feature xyz".
-        - "Refactor rename variable sneaky".
-        - "Clean up formatting".
-
-#### 5.1.4 Pushing Commits
-
-1. **Never force push**.
-    - Unless you absolutely know what you are doing.
-    - If you're force pushing you already messed up another practice guideline
-      earlier.
-
-#### 5.1.5 Getting Changes to `main`
-
-1. Never push directly to main, especially in code repos.
-    - Only in emergencies you should always pull request.
-2. Always **pull request** to add changes to main.
-3. Always **maintain linear history** on the main branch.
-4. Always **rebase changes** from pull requests to avoid issues.
-    - Unless you know what you are doing, but you should really never need to.
-
-#### 5.1.6 Repo Documentation
-
-1. Always add a `README.md` to your repo.
-2. Document all important aspects of the project or code in the repo on the main
-   README.
-3. Include a directory `documentation` for reference files such as `png`s.
-4. Include a directory `testing` for all reference testing scripts or files.
+**GitHub Practices & Guidelines can be found
+in [devops.md](conventions%2Fdevops.md)**
 
 ---
 
