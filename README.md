@@ -15,13 +15,6 @@
     - [3.1 Dev Env Documentation Conventions](#31-dev-env-documentation-conventions)
 - [4 Workflow: _How We Code_](#4-workflow-how-we-code)
 - [5 GitHub: _How We Version Control_](#5-github-how-we-version-control)
-    - [5.1 GitHub Practices & Guidelines](#51-github-practices--guidelines)
-        - [5.1.1 General](#511-general)
-        - [5.1.2 New Repos](#512-new-repos)
-        - [5.1.3 Commits](#513-commits)
-        - [5.1.4 Pushing Commits](#514-pushing-commits)
-        - [5.1.5 Getting Changes to `main`](#515-getting-changes-to-main)
-        - [5.1.6 Repo Documentation](#516-repo-documentation)
 - [6 Reference / Example Documentation: _How We
   Research_](#6-reference--example-documentation-how-we-research)
 - [7 Datasheets: _How We Organize_](#7-datasheets-how-we-organize)
