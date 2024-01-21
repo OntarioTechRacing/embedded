@@ -7,7 +7,7 @@
 <details markdown="1">
   <summary>Table of Contents</summary>
 
-- [1 Introduction: _What and Why ES?_](#1-introduction-what-and-why-es)
+- [1 Introduction: _Welcome_](#1-introduction-welcome)
 - [2 Conventions: _How We Code_](#2-conventions-how-we-code)
     - [2.1 Conventions for this Documentation Repo](#21-conventions-for-this-documentation-repo)
 - [3 Developer Environments: _How We
@@ -24,7 +24,7 @@
 
 ---
 
-## 1 Introduction: _What and Why ES?_
+## 1 Introduction: _Welcome_
 
 👋 **Welcome to the Embedded Software Department Documentation Repository!**
 
