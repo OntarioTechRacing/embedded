@@ -17,6 +17,7 @@
     - [2.2 Auto-Formatter](#22-auto-formatter)
         - [2.2.1 Pros](#221-pros)
         - [2.2.2 Cons](#222-cons)
+        - [2.2.3 Integration](#223-integration)
 
 </details>
 
@@ -69,3 +70,13 @@ Convenient, uncompromising and a commonly followed industry standard.
 #### 2.2.2 Cons
 
 Takes time to set up.
+
+#### 2.2.3 Integration
+
+For best IDE integration practices, see your IDE's official documentation and
+Black's
+official [Editor integration](https://black.readthedocs.io/en/stable/integrations/editors.html)
+documentation.
+
+- PyCharm by
+  JetBrains: [Reformat Python code with Black](https://www.jetbrains.com/help/pycharm/reformat-and-rearrange-code.html#format-python-code-with-black)
