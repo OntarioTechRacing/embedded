@@ -92,7 +92,7 @@ Can be restrictive in certain scenarios when dependent on HAL.
 
 ### 3.4 Directory Names
 
-Use a single word, all lowercase charaters.
+Use a single word, all lowercase characters.
 
 ### 3.5 Module Names
 
