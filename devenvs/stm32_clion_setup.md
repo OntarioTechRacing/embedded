@@ -78,8 +78,8 @@ Install Steps:
 
 Official documentation:
 
-- JetBrains
-  Documentation: [STM32CubeMX projects](https://www.jetbrains.com/help/clion/2023.1/embedded-development.html).
+> For reference, Offical JetBrains Documentation:
+> [STM32CubeMX projects](https://www.jetbrains.com/help/clion/2023.1/embedded-development.html).
 
 1. Open up CLion `Settings`.
 
@@ -133,10 +133,10 @@ Official documentation:
 7. Delete all files in your project except those that you specifically know are
    needed.
     - If you are new to the STM32 workflow follow the recommendations below.
-      -
-      Keep `CMakeLists.txt`, `CMakeLists_template.txt`, `**PROJECT_NAME_HERE**.ioc`.
-        - Keep files required for version control such as `.git`.
-        - Keep `.idea` (JetBrain's project structure file).
+        - Keep `CMakeLists.txt`, `CMakeLists_template.txt`,
+          `**PROJECT_NAME_HERE**.ioc`.
+            - Keep files required for version control such as `.git`.
+            - Keep `.idea` (JetBrain's project structure file).
 
 8. Configure your STM32 `.ioc` file in STM32CubeMX.
     - If STM32CubeMX fails to open automatically you can find the newly
