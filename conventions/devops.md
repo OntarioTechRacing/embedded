@@ -53,6 +53,8 @@ DevOps are crucial for maintaining version control and managing production. The
 following conventions are outlined to maintain good engineering practices, clear
 documentation and formatting.
 
+---
+
 ## 2 Git Setup
 
 Version control is done through git.
@@ -95,6 +97,8 @@ directory.
 
 If reference tests scripts or files are required, use this directory.
 
+---
+
 ## 3 Getting to `main`
 
 Never push directly to main unless working alone.
@@ -130,7 +134,13 @@ Use pull requests and merge / rebase up the branches to add changes to main.
 
 Always try to rebase from pull requests when going to main.
 
+---
+
 ## 4 Documentation
+
+Always follow documentation conventions follow by and defined in this repo.
+
+---
 
 ## 5 GitHub Setup
 

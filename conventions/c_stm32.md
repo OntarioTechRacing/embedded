@@ -35,6 +35,8 @@ and toolchains:
 - [stm32_clion_setup.md](..%2Fdevenvs%2Fstm32_clion_setup.md).
 - [stm32_cubeide_setup.md](..%2Fdevenvs%2Fstm32_cubeide_setup.md).
 
+---
+
 ## 2 Language Rules
 
 ### 2.1 Lint
@@ -49,6 +51,8 @@ etc.
 #### 2.1.2 Cons
 
 Imperfect and slight variations.
+
+---
 
 ## 3 Style Rules
 
