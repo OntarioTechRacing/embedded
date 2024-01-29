@@ -58,7 +58,7 @@ Imperfect and slight variations.
 
 ### 3.1 Line Length
 
-Max Line length = `80`.
+Max line length = `80`.
 
 #### 3.1.1 Exceptions
 
