@@ -85,7 +85,7 @@ Indent is 4 spaces.
 
 Headers are numbered the following format.
 
-```
+```markdown
 ---
 
 # N Header 1 (Title) Example Name Here
