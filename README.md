@@ -9,7 +9,6 @@
 
 - [1 Introduction: _Welcome_](#1-introduction-welcome)
 - [2 Conventions: _How We Code_](#2-conventions-how-we-code)
-    - [2.1 Conventions for this Documentation Repo](#21-conventions-for-this-documentation-repo)
 - [3 Developer Environments: _How We
   Code_](#3-developer-environments-how-we-code)
     - [3.1 Dev Env Documentation Conventions](#31-dev-env-documentation-conventions)
@@ -41,64 +40,6 @@ promoting readability, maintainability and uniformity across a codebase,
 facilitating easier collaboration and debugging.
 
 All department convention guides can be found in [conventions](conventions).
-
-### 2.1 Conventions for this Documentation Repo
-
-- All general documentation is in markdown.
-- All written human language is Canadian English.
-- Line length is 80 unless a link or extended single text is clipping.
-- Indent is 4 spaces.
-- Write in full sentences ending with a `.` or applicable punctuation.
-- Headers are numbered the format.
-    ```
-    ---
-    
-    # N Header 1 Example Name Here
-    
-    ## N.N Header 2 Example Name Here
-    
-    ### N.N.N Header 3 Example Name Here
-    
-    #### N.N.N.N Header 4 Example Name Here
-    
-    ---
-    ```
-    - N is decimal numbering.
-    - Headers are named with standard `Title Formatting`.
-    - The general recommendation is to use horizontal ines on `Header 1` to
-      improve readability, however this is not required.
-- Links, images, etc are very helpful use them appropriately to make good
-  documentation.
-- Use header links when possible to make referencing easy.
-- Include a listed version of a table of contents for long documentations such
-  as this one.
-- Point form is with a `- text`.
-- Bold is with `**text**`.
-- Italics is with `_text_`.
-- Horizontal line is with `---`
-- Emojis are allowed, but be sensible in usage.
-- If code blocks are used do your best to declare the language for clean
-  formatting.
-- For each directory and major subdirectory that needs to reference pictures,
-  include a `pictures` directory to store all files.
-- For "**Table of Contents**" use the following:
-    ```
-    ---
-    
-    <details markdown="1">
-      <summary>Table of Contents</summary>
-        
-    - [N Header 1 Example Name Here](#n-header-1-example-name-here)
-        - [N.N Header 2 Example Name Here](#nn-header-2-example-name-here)
-            - [N.N.N Header 3 Example Name Here](#nnn-header-3-example-name-here)
-                - [N.N.N.N Header 4 Example Name Here](#nnnn-header-4-example-name-here)
-    
-    </details>
-    
-    ---
-  
-    ...
-    ```
 
 ---
 
