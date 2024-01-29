@@ -249,5 +249,5 @@ and/or end of months.
 
 ### 5.6.1 Iteration Cycles
 
-Projects follow an iteration cycles of `2 weeks` starting from Monday, January
-1st.
+Projects follow an iteration cycles of `2 weeks` starting
+from `Monday, January 1, 2024`.
