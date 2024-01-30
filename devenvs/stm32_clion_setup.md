@@ -8,6 +8,28 @@ STM32 development utilizing STM32CubeMX, GNU ARM Toolchain and OpenOCD.
 
 ---
 
+<details markdown="1">
+  <summary>Table of Contents</summary>
+
+- [1 Software Installs](#1-software-installs)
+- [2 Step-by-Step Setup](#2-step-by-step-setup)
+    - [2.1 Enable `Embedded Development Support` CLion Plugin](#21-enable-embedded-development-support-clion-plugin)
+    - [2.2 Setup OpenOCD and STM32CubeMX Paths](#22-setup-openocd-and-stm32cubemx-paths)
+    - [2.3 Setup Arm GNU Toolchain GCC and G++](#23-setup-arm-gnu-toolchain-gcc-and-g)
+    - [2.4 Create new CLion STM32CubeMX project](#24-create-new-clion-stm32cubemx-project)
+        - [2.4.1 Configure Version Control](#241-configure-version-control)
+        - [2.4.2 Remove Default Generated File Structure](#242-remove-default-generated-file-structure)
+    - [2.5 Configure STM32 with STM32CubeMX](#25-configure-stm32-with-stm32cubemx)
+        - [2.5.1 Configure STM32CubeMX Project Manager](#251-configure-stm32cubemx-project-manager)
+        - [2.5.2 Generate Code](#252-generate-code)
+    - [2.6 Configure OpenOCD](#26-configure-openocd)
+        - [2.6.1 Pick Target Board Configuration File](#261-pick-target-board-configuration-file)
+        - [2.6.2 Configure Run and Debug](#262-configure-run-and-debug)
+        - [2.6.3 Verify Run and Debug Config](#263-verify-run-and-debug-config)
+    - [2.7 Hello World](#27-hello-world)
+
+</details>
+
 ---
 
 ## 1 Software Installs
@@ -81,8 +103,8 @@ Add the path for `OpenOCD` and `STM32CubeMX`:
 
 Add the path for `Arm GNU Toolchain` (`arm-none-eabi-gcc`).
 
-- `Settings → Build, Execution, Deployment → Toolchains`.
-  ![CLion Build Execution Deployment Toolchains.png](pictures/stm32ide/CLion%20Build%20Execution%20Deployment%20Toolchains.png?raw=true "CLion Build Execution Deployment Toolchains.png")
+```Settings → Build, Execution, Deployment → Toolchains```
+![CLion Build Execution Deployment Toolchains.png](pictures/stm32ide/CLion%20Build%20Execution%20Deployment%20Toolchains.png?raw=true "CLion Build Execution Deployment Toolchains.png")
 
 - For Windows the default paths are:
     ```
@@ -176,6 +198,7 @@ Set the OpenOCD board file via `Select Board Configuration File` popup.
 #### 2.6.2 Configure Run and Debug
 
 ```Run / Debug Configurations → Edit Configurations...```
+![CLion ioc configured.png](pictures%2Fstm32ide%2FCLion%20ioc%20configured.png)
 
 - Top right drop down.
 
@@ -183,14 +206,14 @@ Set the OpenOCD board file via `Select Board Configuration File` popup.
   will be called `OCD **PROJECT_NAME_HERE**`.
 - If this does not happen the dropdown will be labeled `Add Configuration...`
 
-![CLion ioc configured.png](pictures%2Fstm32ide%2FCLion%20ioc%20configured.png)
-
-- Your file structure should look identical to the picture above except for
-  any project / ST chip names.
+- Your file structure should look identical to the picture above except for any
+  project / ST chip names.
 
 #### 2.6.3 Verify Run and Debug Config
 
-Verify `Run / Debug Configurations → Edit Configurations...`.
+```Run / Debug Configurations → Edit Configurations...```
+
+![CLion Edit Configurations.png](pictures%2Fstm32ide%2FCLion%20Edit%20Configurations.png)
 
 - If the OpenOCD configuration was not generated automatically, click
   the `+` button in the top left and `OpenOCD Download & Run`, then fill in
@@ -203,8 +226,6 @@ Verify `Run / Debug Configurations → Edit Configurations...`.
       manually now.
         - Click `Assist...` and a popup with all board files should show up,
           select your target chip or board.
-
-![CLion Edit Configurations.png](pictures%2Fstm32ide%2FCLion%20Edit%20Configurations.png)
 
 - You can also set the download and reset behaviour here.
 
