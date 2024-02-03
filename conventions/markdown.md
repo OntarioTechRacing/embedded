@@ -1,4 +1,4 @@
-# DevOps Conventions
+# Markdown Documentation Conventions
 
 ---
 
