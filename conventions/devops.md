@@ -27,7 +27,8 @@
     - [5.1 Additional GitHub Repository Setup](#51-additional-github-repository-setup)
         - [5.1.1 `.github/`*](#511-github)
         - [5.1.2 `CODEOWNERS`*](#512-codeowners)
-    - [5.2 Organization & Team Permissions](#52-organization--team-permissions)
+    - [5.2 Organization, Repo & Team Permissions](#52-organization-repo--team-permissions)
+        - [5.2.1 Branch Protections](#521-branch-protections)
     - [5.3 Labels](#53-labels)
     - [5.4 Issues & Pull Requests (PR)](#54-issues--pull-requests-pr)
         - [5.4.1 Create](#541-create)
@@ -158,9 +159,25 @@ complex.
 
 Always add for project managers, devops, etc.
 
-## 5.2 Organization & Team Permissions
+## 5.2 Organization, Repo & Team Permissions
 
 Organizational access role security must always be maintained.
+
+### 5.2.1 Branch Protections
+
+Branches should be protected using the following enabled protections:
+
+```
+Require a pull request before merging
+    Require approvals
+    Dismiss stale pull request approvals when new commits are pushed
+    Require review from Code Owners
+
+Require status checks to pass before merging
+    Require branches to be up to date before merging
+
+Require linear history
+```
 
 ## 5.3 Labels
 
