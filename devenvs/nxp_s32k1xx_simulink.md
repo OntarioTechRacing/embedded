@@ -9,7 +9,7 @@ development.
 <details markdown="1">
   <summary>Table of Contents</summary>
 
-- [1 Software Installs](#1-software-installs)
+- [1 Initial Software Installs / Setup](#1-initial-software-installs--setup)
 - [2 Step-by-Step Setup](#2-step-by-step-setup)
     - [2.1 Opening `NXP Support Package S32K1xx`](#21-opening-nxp-support-package-s32k1xx)
         - [2.1.1 Finding the Add-on](#211-finding-the-add-on)
@@ -34,7 +34,7 @@ development.
 
 ---
 
-## 1 Software Installs
+## 1 Initial Software Installs / Setup
 
 1. [MATLAB + Add-ons](https://www.mathworks.com/downloads/)* only
    for Windows
