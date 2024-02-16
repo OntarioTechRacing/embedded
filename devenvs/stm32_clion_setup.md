@@ -11,7 +11,7 @@ STM32 development utilizing STM32CubeMX, GNU ARM Toolchain and OpenOCD.
 <details markdown="1">
   <summary>Table of Contents</summary>
 
-- [1 Software Installs](#1-software-installs)
+- [1 Initial Software Installs / Setup](#1-initial-software-installs--setup)
 - [2 Step-by-Step Setup](#2-step-by-step-setup)
     - [2.1 Enable `Embedded Development Support` CLion Plugin](#21-enable-embedded-development-support-clion-plugin)
     - [2.2 Setup OpenOCD and STM32CubeMX Paths](#22-setup-openocd-and-stm32cubemx-paths)
@@ -32,7 +32,7 @@ STM32 development utilizing STM32CubeMX, GNU ARM Toolchain and OpenOCD.
 
 ---
 
-## 1 Software Installs
+## 1 Initial Software Installs & Setup
 
 1. [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)*
     - Graphical STM32 microcontroller configuration manager and code generator.
