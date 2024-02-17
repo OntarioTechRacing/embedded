@@ -5,7 +5,16 @@ MATLAB.
 
 ---
 
-## Official Documentation
+<details markdown="1">
+  <summary>Table of Contents</summary>
+
+- [1 Official Documentation](#1-official-documentation)
+
+</details>
+
+---
+
+## 1 Official Documentation
 
 From [MathWorks Help Center: Set Up Git Source Control](https://www.mathworks.com/help/simulink/ug/set-up-git-source-control.html):
 
