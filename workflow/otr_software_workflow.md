@@ -6,6 +6,7 @@
   <summary>Table of Contents</summary>
 
 - [1 Flowchart](#1-flowchart)
+- [2 software_workflow Project Example](#2-softwareworkflow-project-example)
 
 </details>
 
@@ -17,7 +18,7 @@
 
 ---
 
-## 2
+## 2 software_workflow Project Example
 
 A full software workflow project example can be found
 here: [software_workflow Repo](https://github.com/OntarioTechRacing/software_workflow).
