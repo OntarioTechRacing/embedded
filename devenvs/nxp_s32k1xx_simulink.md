@@ -10,6 +10,7 @@ development.
   <summary>Table of Contents</summary>
 
 - [1 Initial Software Installs / Setup](#1-initial-software-installs--setup)
+    - [1.1 MATLAB* and Add-ons*](#11-matlab-and-add-ons)
 - [2 Step-by-Step Setup](#2-step-by-step-setup)
     - [2.1 Opening `NXP Support Package S32K1xx`](#21-opening-nxp-support-package-s32k1xx)
         - [2.1.1 Finding the Add-on](#211-finding-the-add-on)
@@ -36,10 +37,11 @@ development.
 
 ## 1 Initial Software Installs / Setup
 
-1. [MATLAB + Add-ons](https://www.mathworks.com/downloads/)* only
-   for Windows
-    - Some MATLAB packages are only supported for Windows:
+### 1.1 MATLAB* and Add-ons*
 
+[MATLAB + Add-ons](https://www.mathworks.com/downloads/)* only for Windows.
+
+- Some MATLAB packages are only supported for Windows:
     1. Simulink.
     2. Embedded Coder.
     3. Simulink Coder.
