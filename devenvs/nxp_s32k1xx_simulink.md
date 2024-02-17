@@ -1,8 +1,7 @@
 # NXP S32K1xx MATLAB & Simulink Developer Environment Setup
 
 The following documentation details how to set up MATLAB and Simulink for NXP
-S32K1xx embedded
-development.
+S32K1xx embedded development.
 
 ---
 
@@ -232,5 +231,5 @@ buttons should now be Green.
 4. Build your model, in this example the "GPIO on S32K144 LED & Button" block is
    used.
 5. `Generate Code` or `Build` (generate and flash) to generate code and/or flash
-   the generated code.
+   the generated code to a connected MCU.
    ![MATLAB NXP Embedded Coder Build Example.png](pictures%2Fnxp%2FMATLAB%20NXP%20Embedded%20Coder%20Build%20Example.png)
