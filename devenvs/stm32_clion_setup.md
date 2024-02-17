@@ -40,13 +40,13 @@ STM32 development utilizing STM32CubeMX, GNU ARM Toolchain and OpenOCD.
 
 ### 1.1 STM32CubeMX*
 
-[STM32CubeMX Download](https://www.st.com/en/development-tools/stm32cubemx.html)
+[STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html).
 
 - Graphical STM32 microcontroller configuration manager and code generator.
 
 Prerequisite for macOS:
 
-1. [Xcode Download](https://developer.apple.com/support/xcode/).
+1. [Xcode](https://developer.apple.com/support/xcode/).
     - Homebrew Xcode packages work as well.
 
 2. [Rosetta](https://support.apple.com/en-us/HT211861).
