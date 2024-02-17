@@ -4,7 +4,7 @@ The following documentation details how to set up JetBrains CLion for embedded
 STM32 development utilizing STM32CubeMX, GNU ARM Toolchain and OpenOCD.
 
 > Currently, the debugger on macOS when using this setup does not work. Build
-> and Run have had no documented issues so far however.
+> and Run have had no documented issues.
 
 ---
 
@@ -12,7 +12,11 @@ STM32 development utilizing STM32CubeMX, GNU ARM Toolchain and OpenOCD.
   <summary>Table of Contents</summary>
 
 - [1 Initial Software Installs / Setup](#1-initial-software-installs--setup)
-- [2 Step-by-Step Setup](#2-step-by-step-setup)
+    - [1.1 STM32CubeMX*](#11-stm32cubemx)
+    - [1.2 CLion*](#12-clion)
+    - [1.3 GNU ARM Toolchain*](#13-gnu-arm-toolchain)
+    - [1.4 OpenOCD*](#14-openocd)
+- [2 Complete IDE Setup](#2-complete-ide-setup)
     - [2.1 Enable `Embedded Development Support` CLion Plugin](#21-enable-embedded-development-support-clion-plugin)
     - [2.2 Setup OpenOCD and STM32CubeMX Paths](#22-setup-openocd-and-stm32cubemx-paths)
     - [2.3 Setup Arm GNU Toolchain GCC and G++](#23-setup-arm-gnu-toolchain-gcc-and-g)
@@ -32,46 +36,63 @@ STM32 development utilizing STM32CubeMX, GNU ARM Toolchain and OpenOCD.
 
 ---
 
-## 1 Initial Software Installs & Setup
+## 1 Initial Software Installs / Setup
 
-1. [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)*
-    - Graphical STM32 microcontroller configuration manager and code generator.
-    - Prerequisite for macOS:
-        1. [Xcode](https://developer.apple.com/support/xcode/).
-            - Homebrew Xcode packages work as well.
-        2. [Rosetta](https://support.apple.com/en-us/HT211861).
-    - Installation for macOS:
-        1. Run `SetupSTM32CubeMX-6.9.1.app` for the application wizard.
-            - If stopped by macOS, open the `Privacy & Security` in System
-              Settings
-              to allow running `SetupSTM32CubeMX-6.9.1.app`.
-            - If wizard never opens or errors, try:
-                ```shell
-                sudo xattr -cr ~/SetupSTM32CubeMX-6.9.1.app.
-                ```
+### 1.1 STM32CubeMX*
 
-2. [CLion](https://www.jetbrains.com/clion/download/)*
-    - JetBrains's C and C++ IDE.
-    - Students can register for
-      the [Free Educational Licenses](https://www.jetbrains.com/shop/eform/students).
+[STM32CubeMX Download](https://www.st.com/en/development-tools/stm32cubemx.html)
 
-3. [GNU ARM Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain)*
-    - Toolchain for development on Arm based systems.
-    - Also available
-      on [Homebrew Version](https://formulae.brew.sh/formula/arm-none-eabi-gcc).
+- Graphical STM32 microcontroller configuration manager and code generator.
 
-4. [OpenOCD](https://openocd.org/)*
-    - For
-      Windows: [GNU Toolchains OpenOCD](https://gnutoolchains.com/arm-eabi/openocd/)
-        - **Put the main directory for OpenOCD in your PC user's `Documents`
-          directory!**
-    - For macOS: [Homebrew OpenOCD](https://formulae.brew.sh/formula/open-ocd).
+Prerequisite for macOS:
+
+1. [Xcode Download](https://developer.apple.com/support/xcode/).
+    - Homebrew Xcode packages work as well.
+
+2. [Rosetta](https://support.apple.com/en-us/HT211861).
+
+Installation for macOS:
+
+1. Run `SetupSTM32CubeMX-6.9.1.app` for the application wizard.
+2. If stopped by macOS, open the `Privacy & Security` in System Settings to
+   allow running `SetupSTM32CubeMX-6.9.1.app`.
+
+    - If wizard never opens or errors, try (replace `6.9.1` with your version):
+    ```shell
+    sudo xattr -cr ~/SetupSTM32CubeMX-6.9.1.app
+    ```
+
+### 1.2 CLion*
+
+[CLion](https://www.jetbrains.com/clion/download/).
+
+- JetBrains's C and C++ IDE.
+- Students can register for
+  the [Free Educational Licenses](https://www.jetbrains.com/shop/eform/students).
+
+### 1.3 GNU ARM Toolchain*
+
+[GNU ARM Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain).
+
+- Toolchain for development on Arm based systems.
+- Also available
+  on [Homebrew Version](https://formulae.brew.sh/formula/arm-none-eabi-gcc).
+
+### 1.4 OpenOCD*
+
+[OpenOCD](https://openocd.org/).
+
+- For
+  Windows: [GNU Toolchains OpenOCD](https://gnutoolchains.com/arm-eabi/openocd/)
+    - **Put the main directory for OpenOCD in your PC user's `Documents`
+      directory!**
+- For macOS: [Homebrew OpenOCD](https://formulae.brew.sh/formula/open-ocd).
 
 ---
 
-## 2 Step-by-Step Setup
+## 2 Complete IDE Setup
 
-> For reference, Offical JetBrains Documentation:
+> For reference, official JetBrains documentation:
 > [STM32CubeMX projects](https://www.jetbrains.com/help/clion/2023.1/embedded-development.html).
 
 ### 2.1 Enable `Embedded Development Support` CLion Plugin
