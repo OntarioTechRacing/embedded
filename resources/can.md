@@ -1,8 +1,32 @@
 # CAN & CAN FD
 
+---
+
+<details markdown="1">
+  <summary>Table of Contents</summary>
+
+- [1 Introduction](#1-introduction)
+- [2 CAN Data Frame](#2-can-data-frame)
+- [3 Bit Time Calculations](#3-bit-time-calculations)
+    - [3.1 Kvaser Bit Timing Calculator](#31-kvaser-bit-timing-calculator)
+    - [3.2 CAN Bus Bit Timing Calculation Steps](#32-can-bus-bit-timing-calculation-steps)
+    - [3.3 CAN FD Bus Bit Timing Calculation Steps](#33-can-fd-bus-bit-timing-calculation-steps)
+        - [3.3.1 CAN Bus Device Characteristics](#331-can-bus-device-characteristics)
+        - [3.3.2 Nominal and Data Bitrates](#332-nominal-and-data-bitrates)
+        - [3.3.3 Sample Point](#333-sample-point)
+        - [3.3.4 Individual Bus Timing Parameters](#334-individual-bus-timing-parameters)
+
+</details>
+
+---
+
 ## 1 Introduction
 
+---
+
 ## 2 CAN Data Frame
+
+---
 
 ## 3 Bit Time Calculations
 
