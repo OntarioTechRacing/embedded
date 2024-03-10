@@ -130,6 +130,18 @@ _Italics_
 ---
 ```
 
+#### 3.4.1 Advanced Formatting Syntax
+
+For advanced syntax use as appropriate, the highly recommended syntax is below.
+
+```markdown
+$`math_{inline} = \sqrt{3x-1}+(1+x)^2`$
+```
+
+> See full documentation on GitHub
+> Docs:
+> [Working with advanced formatting](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)
+
 ### 3.5 Code Blocks
 
 If code blocks are used do your best to declare the language for clean
