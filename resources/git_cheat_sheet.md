@@ -9,9 +9,13 @@
 - [2 General](#2-general)
 - [3 HEAD Location](#3-head-location)
     - [3.1 Quick Reversing HEAD](#3-head-location)
-- [4. Submodule](#411-results-gitmodules)
+- [4 Submodule](#411-results-gitmodules)
     - [4.1 Add Submodule](#41-add-submodule)
         - [4.1.1 Results (`.gitmodules`)](#411-results-gitmodules)
+    - [4.2 Fetch Submodule Commits](#42-fetch-submodule-commits)
+    - [4.3 Pull Submodule](#43-pull-submodule)
+    - [4.4 Update Submodule](#44-update-submodule)
+    - [4.5 Remove Submodule](#45-remove-submodule)
 
 </details>
 
@@ -55,7 +59,7 @@ $ git reset --hard HEAD^ # Revert to 1 commit back, add `^` for each additional 
 
 ---
 
-## 4. Submodule
+## 4 Submodule
 
 ### 4.1 Add Submodule
 
@@ -77,5 +81,34 @@ automatically:
 2. A `.gitmodules` file is created in the Git repository.
     - Contains the references to the remote repositories acting as submodules.
 3. `.git/config` is modified to include the added submodule.
+
+### 4.2 Fetch Submodule Commits
+
+```shell
+$ cd repository/submodule # Enter submodule directory.
+$ git fetch
+```
+
+### 4.3 Pull Submodule
+
+```shell
+$ git submodule update # --init --recursive
+```
+
+### 4.4 Update Submodule
+
+```shell
+$ git submodule update # --remote --merge
+```
+
+- If you do not use the `–remote` flag, a manual `git pull` within each
+  submodule will be required.
+
+### 4.5 Remove Submodule
+
+```shell
+$ git submodule deinit <submodule> # Update .git/config.
+$ git rm <submodule> # Remove submodule files.
+```
 
 ---
