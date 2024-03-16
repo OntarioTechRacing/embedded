@@ -1,14 +1,14 @@
-####################################################################################################
-# Dev Environments
-####################################################################################################
+################################################################################
+# (Additional) Ontario Tech Racing Dev Environments
+################################################################################
 
 # JetBrains IDEs
-# JetBrains specific template is maintained in a separate JetBrains.gitignore that can be found at
-#  https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore.
+# Based on: https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore.
 .idea/
 
 ################################################################################
-# MacOS gitignore
+# MacOS .gitignore
+# Based on: https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
 ################################################################################
 
 # General
