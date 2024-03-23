@@ -22,6 +22,7 @@
     - [3.3 Pushes](#33-pushes)
         - [3.3.1 Force Pushes](#331-force-pushes)
     - [3.4 Merge / Rebase Branch](#34-merge--rebase-branch)
+        - [3.4.1 General Recommendation](#341-general-recommendation)
 - [4 Documentation](#4-documentation)
 - [5 GitHub Setup](#5-github-setup)
     - [5.1 Additional GitHub Repository Setup](#51-additional-github-repository-setup)
