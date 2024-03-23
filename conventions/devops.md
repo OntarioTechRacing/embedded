@@ -133,7 +133,21 @@ Never force push unless you absolutely know what you are doing.
 
 Use pull requests and merge / rebase up the branches to add changes to main.
 
-Always try to rebase from pull requests when going to main.
+The decision for merge, squash or rebase is specific case by case, always aim to
+use the most appropriate for each situation.
+
+Some core conditions to consider:
+
+1. Impact to shared history.
+2. Traceability of changes.
+3. Visibility of changes.
+
+### 3.4.1 General Recommendation
+
+1. Merge: General shared branch to shared branch.
+2. Squash: Private branch with many changes to central development / release
+   branch.
+3. Rebase: Private branch to any target set as a base for changes.
 
 ---
 
