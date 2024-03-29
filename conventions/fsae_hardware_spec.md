@@ -1,6 +1,4 @@
-# HE + ES Standard Minimum Hardware Spec for FSAE
-
-- By: Mitali G. (HE) + Daniel J. (ES)
+# Required Rules and Hardware Spec for Internal FSAE Projects
 
 ---
 
