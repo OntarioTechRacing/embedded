@@ -1,4 +1,4 @@
-# Git / GitHub Cheat Sheet
+# Git and GitHub Cheat Sheet
 
 ---
 
