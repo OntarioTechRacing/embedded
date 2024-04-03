@@ -13,4 +13,4 @@
 
 ## 1 Flowchart
 
-![otr_software - shadow.drawio.png](pictures%2Fotr_software%20-%20shadow.drawio.png)
+![otr_software.drawio.png](pictures%2Fotr_software.drawio.png)
