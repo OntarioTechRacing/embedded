@@ -1,4 +1,4 @@
-# DevOps Conventions
+# Git and GitHub DevOps Conventions
 
 ---
 

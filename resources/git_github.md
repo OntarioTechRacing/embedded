@@ -1,4 +1,4 @@
-# GitHub Workflow
+# Git and GitHub
 
 ---
 
@@ -17,7 +17,7 @@ https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/gettin
 
 All rules / conventions related to devops are listed below:
 
-- Devops: [devops.md](..%2Fconventions%2Fdevops.md)
+- Devops: [git_github_devops.md](..%2Fconventions%2Fgit_github_devops.md)
 - Versioning: [versioning.md](..%2Fconventions%2Fversioning.md)
 
 ---
