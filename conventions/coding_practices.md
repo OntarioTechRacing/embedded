@@ -53,14 +53,15 @@ high-reliability fields are MISRA C and NASA's Rule of 10.
 
 ## 3 MISRA C
 
-[MISRA C](https://en.wikipedia.org/wiki/MISRA_C) is a set of programming
-guidelines developed for the C language to facilitate the safety, security,
-portability, and reliability of software for embedded systems. Originally used
-for the automotive industry, the principles are widely applicable across other
-high-reliability sectors. MISRA C covers rules and recommendations across
-various aspects of C programming, including language usage, error handling, and
-code structure, to prevent errors and undefined behaviors that could compromise
-system safety.
+Motor Industry Software Reliability
+Association, [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) is a set of
+programming guidelines developed for the C language to facilitate the safety,
+security, portability, and reliability of software for embedded systems.
+Originally used for the automotive industry, the principles are widely
+applicable across other high-reliability sectors. MISRA C covers rules and
+recommendations across various aspects of C programming, including language
+usage, error handling, and code structure, to prevent errors and undefined
+behaviors that could compromise system safety.
 
 ---
 
