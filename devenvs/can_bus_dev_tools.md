@@ -9,9 +9,9 @@ communicating and monitoring CAN bus.
   <summary>Table of Contents</summary>
 
 - [1 Initial Software Installs / Setup](#1-initial-software-installs--setup)
-    - [1.1 Vector CANdb++*](#11-vector-candb)
+    - [1.1 Kvaser Database Editor*](#11-kvaser-database-editor)
     - [1.2 BusMaster*](#12-busmaster)
-    - [1.3 PEAK CAN Tool Drivers](#13-peak-can-tool-drivers)
+    - [1.3 Vector CANdb++*](#13-vector-candb)
 
 </details>
 
@@ -19,11 +19,11 @@ communicating and monitoring CAN bus.
 
 ## 1 Initial Software Installs / Setup
 
-### 1.1 Vector CANdb++*
+### 1.1 Kvaser Database Editor*
 
-[Vector CANdb++](https://www.vector.com/int/en/products/products-a-z/software/candb/).
+[Kvaser](https://www.kvaser.com/download/)
 
-- All-in-one DBC creation, modification and visualization.
+- Free tool for DBC editing and network viewing.
 
 ### 1.2 BusMaster*
 
@@ -31,8 +31,8 @@ communicating and monitoring CAN bus.
 
 - Open source tool for data bus simulations, analysis and testing.
 
-### 1.3 PEAK CAN Tool Drivers
+### 1.3 Vector CANdb++
 
-[PEAK CAN Tool Drivers](https://www.peak-system.com/Drivers.523.0.html).
+[Vector CANdb++](https://www.vector.com/int/en/products/products-a-z/software/candb/).
 
-- Drivers for PEAK's CAN tools.
+- Alternative for [1.1 Kvaser Database Editor*](#11-kvaser-database-editor).
