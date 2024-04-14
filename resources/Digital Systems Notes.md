@@ -1,35 +1,6 @@
-# Digital Systems
+# Digital Systems Notes
 
 This guide is meant to quickly get OTR Members trained in Digital Systems.
-
----
-
-<details markdown="1">
-  <summary>Table of Contents</summary>
-
--
-
-</details>
-
----
-
-## Intro to Digital Systems
-
----
-
-## Digital Logic
-
----
-
-## Truth Tables
-
----
-
-## Field-Programmable Gate Array (FPGA)
-
----
-
-# 
 
 ## Prerequisites
 
@@ -40,8 +11,6 @@ This guide is meant to quickly get OTR Members trained in Digital Systems.
 - Knowledge on how to read Venn Diagrams
 
 - Knowledge of Number Systems and Conversion between them
-
-----
 
 ## Classification of Codes
 
@@ -57,8 +26,6 @@ Binary Codes can described as being part of one or more of the following familie
 | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | There is a weight associated with each digit, dependant on the number's position in the sequence. | Digit Value is independent of a number's position in the sequence. Gray Code is one example of this. | _k-th_ smallest number is the complement of  the _K-th_ largest number. Look up the 5211 code or 2421 code. | For every  subsequent number, the binary representation only differs by one digit. Excess-3 and 8421 are codes of this type. | The family of binary codes used to represent alphanumeric data. The primordial example would be the ASCII encoding. | The family of binary encoding is meant to detect and or correct failed data transmission.  Parity Checking is one example. |
 
----
-
 ## Multiplexer
 
 A multiplexer is a combinational circuit that selects one of many input lines and directs it to a single output line. The selection of a particular input line is controlled by a set of selection lines. Normally, there are $2^𝑛$ input lines and 𝑛 selection lines whose bit combinations determine which input is selected.
@@ -67,15 +34,11 @@ An example of a 4 to 1 multiplexer is provided below.
 
 ![4 to 1 Multiplexer.png](C:\Users\Julian\embedded\resources\pictures\4%20to%201%20Multiplexer.png)
 
----
-
 ## Demuxes
 
 ![Telephony_multiplexer_system.gif](C:\Users\Julian\embedded\resources\pictures\Telephony_multiplexer_system.gif)
 
 Demuxes perform the inverse operation of multiplexers: they direct a single input line to many output lines. The selection of a particular output line is controlled by a set of selection lines. Normally, there are $2^𝑛$ output lines and 𝑛 selection lines whose bit combinations determine which output is selected.
-
----
 
 ## Decoders
 
@@ -84,8 +47,6 @@ Decoders can be imagined like a demux, where only select lines are present. Conf
 Even more confusing, is that sometimes decoders have an enable input, which causes them to behave identically to a demux.
 
 The only real difference lies in how the gates are named.
-
----
 
 ## Finite State Machines
 
@@ -96,8 +57,6 @@ The only real difference lies in how the gates are named.
 ![Mealy vs Moore Machines.png](C:\Users\Julian\embedded\resources\pictures\Mealy%20vs%20Moore%20Machines.png)
 
 As you can see above, only in Moore Machines do the inputs asynchronously affect the output of the machine. 
-
----
 
 ## External Study Material
 
@@ -113,5 +72,3 @@ As you can see above, only in Moore Machines do the inputs asynchronously affect
 
 **SUMMARY:** Karnaugh maps and Boolean algebra are the same theory, they are just different procedures.
 The advantages of Karnaugh maps is that it makes you confident you got the best formula.
-
----
