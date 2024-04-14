@@ -63,13 +63,13 @@ A multiplexer is a combinational circuit that selects one of many input lines an
 
 An example of a 4 to 1 multiplexer is provided below.
 
-![4 to 1 Multiplexer.png](\embedded\resources\pictures\4%20to%201%20Multiplexer.png)
+![4 to 1 Multiplexer.png](/resources/pictures/4%20to%201%20Multiplexer.png)
 
 ---
 
 ## Demuxes
 
-![Telephony_multiplexer_system.gif](\embedded\resources\pictures\Telephony_multiplexer_system.gif)
+![Telephony_multiplexer_system.gif](/resources/pictures/Telephony_multiplexer_system.gif)
 
 Demuxes perform the inverse operation of multiplexers: they direct a single input line to many output lines. The selection of a particular output line is controlled by a set of selection lines. Normally, there are $2^𝑛$ output lines and 𝑛 selection lines whose bit combinations determine which output is selected.
 
@@ -91,7 +91,7 @@ The only real difference lies in how the gates are named.
 
  Finite State Machines can be grouped into two types: Mealy or Moore. A block diagram of each is presented below.
 
-![Mealy vs Moore Machines.png](\embedded\resources\pictures\Mealy%20vs%20Moore%20Machines.png)
+![Mealy vs Moore Machines.png](/resources/pictures/Mealy%20vs%20Moore%20Machines.png)
 
 As you can see above, only in Moore Machines do the inputs asynchronously affect the output of the machine. 
 
