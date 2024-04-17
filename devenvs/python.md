@@ -49,7 +49,7 @@ python -m venv /path/to/new/virtual/environment  # Create venv.
 
 ---
 
-## 3 MacOS Developer Environment
+## 3 macOS Developer Environment
 
 ### 3.1 Install
 

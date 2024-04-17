@@ -22,7 +22,7 @@ S32K1xx embedded development.
     - [2.3 S32Kxx Model-Based Design (MBT) Toolbox License](#23-s32kxx-model-based-design-mbt-toolbox-license)
         - [2.3.1 Obtain Host ID](#231-obtain-host-id)
             - [2.3.1.1 Windows](#2311-windows)
-            - [2.3.1.2 MacOS](#2312-macos)
+            - [2.3.1.2 macOS](#2312-macos)
             - [2.3.1.3 Linux](#2313-linux)
         - [2.3.2 Generate License File](#232-generate-license-file)
         - [2.3.3 Download License File](#233-download-license-file)
@@ -147,7 +147,7 @@ vol c:
 getmac -v
 ```
 
-##### 2.3.1.2 MacOS
+##### 2.3.1.2 macOS
 
 Host ID is the MAC address of the en0 device.
 
