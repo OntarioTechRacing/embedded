@@ -44,7 +44,7 @@ STM32 development utilizing STM32CubeMX, GNU ARM Toolchain and OpenOCD.
 
 - Graphical STM32 microcontroller configuration manager and code generator.
 
-Prerequisite for macOS:
+Prerequisites for macOS:
 
 1. [Xcode](https://developer.apple.com/support/xcode/).
     - Homebrew Xcode packages work as well.
