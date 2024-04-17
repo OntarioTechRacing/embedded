@@ -1,4 +1,4 @@
-# General Developer Environment
+# Embedded Developer Environment
 
 ---
 
@@ -6,18 +6,12 @@
   <summary>Table of Contents</summary>
 
 - [1 Initial Software Installs / Setup](#1-initial-software-installs--setup)
-    - [1.1 GitHub*](#11-github)
-        - [1.1.1 GitHub Desktop (Recommended)](#111-github-desktop-recommended)
-    - [1.2 Git*](#12-git)
-    - [1.3 AnyDesk (Recommended)](#13-anydesk-recommended)
-    - [1.4 Homebrew*](#14-homebrew)
+    - [1.1 AnyDesk (Recommended)](#11-anydesk-recommended)
 - [2 Hardware & Equipment](#2-hardware--equipment)
     - [2.1 Saleae Logic Analyzer](#21-saleae-logic-analyzer)
     - [2.2 SEGGER JLink](#22-segger-jlink)
     - [2.3 STLINK](#23-stlink)
     - [2.4 Tag-Connect](#24-tag-connect)
-    - [2.5 PEAK PCAN-USB](#25-peak-pcan-usb)
-- [999 Resources](#999-resources)
 
 </details>
 
@@ -25,37 +19,11 @@
 
 ## 1 Initial Software Installs / Setup
 
-### 1.1 GitHub*
-
-[GitHub](https://github.com/).
-
-- Students can register for
-  the [GitHub Student Developer Pack](https://education.github.com/pack).
-
-#### 1.1.1 GitHub Desktop (Recommended)
-
-[GitHub Desktop](https://desktop.github.com/).
-
-- Basically just Git with a GUI.
-
-### 1.2 Git*
-
-[Git](https://git-scm.com/downloads).
-
-- Version control.
-
-### 1.3 AnyDesk (Recommended)
+### 1.1 AnyDesk (Recommended)
 
 [AnyDesk](https://anydesk.com).
 
 - Remote access tool for Ontario Tech Racing's computer resources.
-
-### 1.4 Homebrew*
-
-[Homebrew](https://brew.sh/) only for macOS.
-
-- Package manager for macOS.
-- Only required if you have macOS.
 
 ---
 
@@ -92,20 +60,3 @@
 - Super compact pogo pin and contact interface.
 - Recommended: TC2030 / TC2030.
 - [Tag-Connect Solutions for Debuggers & Programmers](https://www.tag-connect.com/debugger-cable-selection-installation-instructions).
-
-### 2.5 PEAK PCAN-USB
-
-[PCAN-USB](https://www.peak-system.com/PCAN-USB.199.0.html?&L=1).
-
-- For CAN communication testing, mostly used with BUSMASTER software.
-- [PEAK APIs found here](https://www.peak-system.com/Software.68.0.html?&L=1).
-- See [can_bus_dev_tools.md](..%2Fdevenvs%2Fcan_bus_dev_tools.md).
-
----
-
-## 999 Resources
-
-- [Mbed](https://os.mbed.com/) for board pin-outs and documentation.
-    - Particularly nice for STM32 Nucleo board pin-outs.
-- [CAN Timing Calculator](http://www.bittiming.can-wiki.info/) for CAN bus clock
-  configuration.
