@@ -5,7 +5,8 @@
 <details markdown="1">
   <summary>Table of Contents</summary>
 
-
+- [1 Official Docs](#1-official-docs)
+- [2 Install](#2-install)
 
 </details>
 
@@ -19,7 +20,7 @@
 
 ---
 
-## 1 Install
+## 2 Install
 
 [Homebrew](https://brew.sh/) only for macOS.
 
@@ -30,5 +31,3 @@
 ```shell
 brew update  # Update homebrew.
 ```
-
----
