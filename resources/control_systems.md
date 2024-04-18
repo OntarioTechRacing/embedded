@@ -20,25 +20,25 @@
     - [4.2 Block Diagram Algebra](#42-block-diagram-algebra)
     - [4.3 Block Diagram Reduction](#43-block-diagram-reduction)
 - [5 Transfer Functions](#5-transfer-functions)
-  - [5.1 Poles and Zeros of Transfer Functions](#51-poles-and-zeros-of-transfer-functions)
-  - [5.2 The s-plane](#52-the-s-plane)
-  - [5.3 Obtaining Transfer Function from a Block Diagram](#53-obtaining-transfer-function-from-a-block-diagram)
-  - [5.4 Matlab Implementation](#54-matlab-implementation)
+    - [5.1 Poles and Zeros of Transfer Functions](#51-poles-and-zeros-of-transfer-functions)
+    - [5.2 The s-plane](#52-the-s-plane)
+    - [5.3 Obtaining Transfer Function from a Block Diagram](#53-obtaining-transfer-function-from-a-block-diagram)
+    - [5.4 Matlab Implementation](#54-matlab-implementation)
 - [6 Time Response Analysis](#6-time-response-analysis)
-  - [6.1 Transient State Response](#61-transient-state-response)
-  - [6.2 Steady State Response](#62-steady-state-response)
-  - [6.3 Standard Test Signal](#63-standard-test-signal)
-      - [6.3.1 Unit Impulse Signal](#631-unit-impulse-signal) 
-      - [6.3.2 Unit Step Signal](#632-unit-step-signal)
-      - [6.3.3 Unit Ramp Signal](#633-unit-ramp-signal)
+    - [6.1 Transient State Response](#61-transient-state-response)
+    - [6.2 Steady State Response](#62-steady-state-response)
+    - [6.3 Standard Test Signal](#63-standard-test-signal)
+        - [6.3.1 Unit Impulse Signal](#631-unit-impulse-signal)
+        - [6.3.2 Unit Step Signal](#632-unit-step-signal)
+        - [6.3.3 Unit Ramp Signal](#633-unit-ramp-signal)
 - [7 Response of a First Order System](#7-response-of-a-first-order-system)
 - [8 Response of a Second Order System](#8-response-of-a-second-order-system)
-- [9 Time Domain Specifications of a 2nd Order System](#9-time-domain-specifications-of-a-2nd-order-system) 
-  - [9.1 Delay Time](#91-delay-time)
-  - [9.2 Rise Time](#92-rise-time)
-  - [9.3 Peak Time](#93-peak-time)
-  - [9.4 Peak Overshoot](#94-peak-overshoot)
-  - [9.5 Settling Time](#95-settling-time)
+- [9 Time Domain Specifications of a 2nd Order System](#9-time-domain-specifications-of-a-2nd-order-system)
+    - [9.1 Delay Time](#91-delay-time)
+    - [9.2 Rise Time](#92-rise-time)
+    - [9.3 Peak Time](#93-peak-time)
+    - [9.4 Peak Overshoot](#94-peak-overshoot)
+    - [9.5 Settling Time](#95-settling-time)
 - [10 Steady State Error](#10-steady-state-error)
 - [11 Stability](#11-stability)
     - [11.1 Types of Stability](#111-types-of-stability)
@@ -54,15 +54,16 @@
             - [14.1.1.2 Gain and Phase Margin](#14112-gain-and-phase-margin)
         - [14.1.2 Matlab Implementation](#1412-matlab-implementation)
     - [14.2 Nyquist Plot](#142-nyquist-plot)
-        - [14.2.1 Nyquist Stability Criterion](#1421-nyquist-stability-criterion) 
+        - [14.2.1 Nyquist Stability Criterion](#1421-nyquist-stability-criterion)
         - [14.2.2 Stability Analysis with Nyquist Plots](#1422-stability-analysis-with-nyquist-plots)
             - [14.2.1.1 Cross Over Frequency](#14211-cross-over-frequency)
             - [14.2.1.2 Gain and Phase Margin](#14212-gain-and-phase-margin)
         - [14.2.3 Matlab Implementation](#1423-matlab-implementation)
-- [15 State Space](#15-state-space) 
+- [15 State Space](#15-state-space)
     - [15.1 State Transition Matrix](#151-state-transition-matrix)
     - [15.2 Controllability and Observability](#152-controllability-and-observability)
 - [16 Code Implementation](#16-code-implementations)
+
 </details>
 
 ---
@@ -129,7 +130,7 @@ function _G(s)_.
 
 ![](https://www.tutorialspoint.com/control_systems/images/block.jpg)
 
-                 $'G(s) = frac{Y(s)}{X(s)}'$
+    $G(s) = \frac{Y(s)}{X(s)}$
 
 The output is obtained by multiplying the transfer function and input.
 
@@ -143,7 +144,7 @@ The figures below shows a summing point and operations on inputs.
 
 ![](https://www.tutorialspoint.com/control_systems/images/negative_sign.jpg)
 
-
+<strong>Recommended video: </strong>
 > [Basics of Block DIagrams](https://youtu.be/6YRjc8LgXmc?si=4OKShzdOeDTaX3N4)
 
 #### 4.1.3 Taking-off point
@@ -156,12 +157,17 @@ summing point or one or more blocks.
 ### 4.2 Block Diagram Algebra
 
 The multiple rules of block diagram algebra are shown below.
+
 ![](https://th.bing.com/th/id/OIP.QuF-v7Lo78EYJTWSIzjdzwAAAA?w=470&h=618&rs=1&pid=ImgDetMain)
+
+<strong>Recommended video: </strong>
 > [Block Diagram Algebra Rules](https://youtu.be/NUUGOgkOd1A?si=7n90fl0JNNfrVbVz)
 
 ### 4.3 Block Diagram Reduction
 
 The video provides an example on block diagram reduction.
+
+<strong>Recommended video: </strong>
 > [Block Diagram Reduction Example](https://youtu.be/7a2pyG1JkHQ?si=WuTTXtrO5CoSqGgn)
 
 ## 5 Transfer Functions
@@ -172,14 +178,14 @@ diagram.
 
 ![](https://www.tutorialspoint.com/control_systems/images/block.jpg)
 
-                 $'G(s) = \frac{Y(s)}{X(s)}'$
+    $G(s) = \frac{Y(s)}{X(s)}$
 
 ### 5.1 Poles and Zeros of Transfer Functions
 
 A transfer function can be represented as
 
-         $$G(s) = frac{Y(s)}{X(s)} = K\frac{(s-z_1)(s-z_2)(s-z_n)}
-         {(s-p_1)(s-p_2)(s-p_n)}$$
+    $$G(s) = \frac{Y(s)}{X(s)} = K\frac{(s-z_1)(s-z_2)(s-z_n)}
+    {(s-p_1)(s-p_2)(s-p_n)}$$
 
 K is the gain factor of the transfer function.
 
@@ -191,21 +197,25 @@ Therefore, $p_1$, $p_2$ and $p_n$ are the roots of the transfer function.
 
 ### 5.2 The S-Plane
 
-The s-plane is a complex plane with a real ($`\Re(z)`$) and imaginary axis (`$\Im(z)$`). The position on the complex
-plane is defined by $`re^(j\theta)`$ and the angle from the positive real axis, $\theta$.
+The s-plane is a complex plane with a real ($\Re(z)$) and imaginary axis ($\Im(z)$). The position on the complex
+plane is defined by $re^{j\theta}$ and the angle from the positive real axis, $\theta$.
 Poles are mapped on the s-plane as an _x_, while zeros are mapped as a _o_.
 
 ![](https://www.jobilize.com/ocw/mirror/col10064_1.15_complete/m34855/splane.png)
 
 ![](https://vru.vibrationresearch.com/wp-content/uploads/2021/06/zdomain-poles-zeros.png)
+
+<strong>Recommended video: </strong>
 > [Introduction to Transfer Functions](https://youtu.be/2Xl7--Df3g8?si=JuJpT5uI-rB9WjrR)
 
 ### 5.3 Obtaining Transfer Function from a Block Diagram
 
+<strong>Recommended video: </strong>
 > [Transfer Function from Block Diagram Reduction Example](https://youtu.be/7a2pyG1JkHQ?si=WuTTXtrO5CoSqGgn)
 
 ### 5.4 MATLAB Implementation
 
+<strong>Recommended video: </strong>
 > [Transfer function model](https://www.mathworks.com/help/control/ref/tf.html)
 
 ## 6 Time Response Analysis
@@ -218,7 +228,7 @@ a generic time response of a system with the 2 states.
 
 Mathematically a systems response c(t) is written as
 
-                  $'c(t) = c_tr(t) + c_ss(t)'$
+    $c(t) = c_{tr}(t) + c_{ss}(t)$
 
 ### 6.1 Transient State Response
 
@@ -236,7 +246,7 @@ response reaches a zero value, as _t_ approaches infinity.
 
 Mathematically a unit impulse, $\delta$ is defined as
 
-                    $'\delta = 0 for t\neq0'$
+    $\delta = 0~for~t\neq0$
 
 ![](https://www.tutorialspoint.com/control_systems/images/unit_impulse.jpg)
 
@@ -244,8 +254,9 @@ Mathematically a unit impulse, $\delta$ is defined as
 
 Mathematically a unit step signal, _u(t)_ is defined as
 
-                      $$u(t) = 1; t\geq0
-                             = 0; t<0$$
+    $u(t) = 1;~t\geq0$
+
+    $~~~~~= 0;~t<0$$
 
 ![](https://www.tutorialspoint.com/control_systems/images/unit_step.jpg)
 
@@ -253,8 +264,9 @@ Mathematically a unit step signal, _u(t)_ is defined as
 
 Mathematically a unit step signal, _r(t)_ is defined as
 
-                      $$r(t) = t; t\geq0
-                             = 0; t<0$$
+    $r(t) = t;~t\geq0$
+
+    $~~~~~= 0;~t<0$$
 
 ![](https://www.tutorialspoint.com/control_systems/images/unit_ramp.jpg)
 
@@ -264,11 +276,11 @@ Mathematically a unit step signal, _r(t)_ is defined as
 
 From the first order system above, the transfer function is
 
-               $\frac{C(s)}{R(s)} = frac{G(s)}{1 + G(s)}$
+    $\frac{C(s)}{R(s)} = \frac{G(s)}{1 + G(s)}$
 
 Substituting the value of _G(s)_
 
-                    ${C(s)} = frac{1}{sT + 1}{R(s)}$
+    ${C(s)} = \frac{1}{sT + 1}{R(s)}$
 
 - ***_C(s)_*** is the laplace transform of output signal c(t)
 - ***_R(s)_*** is the laplace transform of input signal R(t)
@@ -279,11 +291,11 @@ For the time response of the output, the inverse laplace transform of the transf
 The table below shows the time domain responses to various signals. The constant values
 of the responses are the steady state components, while the transient components posses exponents.
 
-| Signal       | Response, _c(t)_                         | Response Graph                                                                       |
-|--------------|------------------------------------------|--------------------------------------------------------------------------------------|
-| Unit impulse | $c(t) = \frac{1}{T}e^(\frac{-1}{T})u(t)$ | ![](https://www.tutorialspoint.com/control_systems/images/unit_impulse_response.jpg) |
-| Unit Step    | $c(t) = (1-e^(\frac{-1}{T}))u(t)$        | ![](https://www.tutorialspoint.com/control_systems/images/step_response.jpg)         |
-| Unit Ramp    | $c(t) = (t-T-Te^(frac{-1}{T}))u(t)$      | ![](https://www.tutorialspoint.com/control_systems/images/ramp_response.jpg)         |
+| Signal       | Response, _c(t)_                         | Response Graph                                                                                     |
+|--------------|------------------------------------------|----------------------------------------------------------------------------------------------------|
+| Unit impulse | $c(t) = \frac{1}{T}e^{\frac{-1}{T}}u(t)$ | ![](https://www.tutorialspoint.com/control_systems/images/unit_impulse_response.jpg)                                                                                           |
+| Unit Step    | $c(t) = (1-e^{\frac{-1}{T}})u(t)$        | ![](https://www.tutorialspoint.com/control_systems/images/step_response.jpg)                                                                                           |
+| Unit Ramp    | $c(t) = (t-T-Te^{\frac{-1}{T}})u(t)$     | ![](https://www.tutorialspoint.com/control_systems/images/ramp_response.jpg)                                                                                           |
 
 ## 8 Response of A Second Order System
 
@@ -291,7 +303,7 @@ of the responses are the steady state components, while the transient components
 
 From the second order system above, the transfer function is
 
-          $C(s) = (\frac{(w_n)^2}{s^2+2\zeta w_n s+(w_n)^2})R(s)$
+    $C(s) = (\frac{w_n^2}{s^2+2\zeta w_n s+w_n^2})R(s)$
 
 - ***_C(s)_*** is the laplace transform of output signal c(t)
 - ***_R(s)_*** is the laplace transform of input signal R(t)
@@ -305,18 +317,19 @@ The table below shows the time domain responses to a unit step signal, under dif
 
 | Damping ratio, $\zeta$ | Response, _c(t)_                                                                                                    | Response Type     |
 |------------------------|---------------------------------------------------------------------------------------------------------------------|-------------------|
-| $\zeta = 0$            | $c(t) = (1-\cos(w_n t))u(t)$                                                                                        | Undamped          |
-| $\zeta = 1$            | $c(t) = (1-e^(-w_n t)-w_n te^(-w_n t))u(t)$                                                                         | Critically Damped |
-| $\0<zeta<1$            | $c(t) = (1- (\frac{e^(-\zeta w_n t)}{\sqrt{1-(\zeta)^2}})\sin(w_d t + \theta))u(t)$                                 | Underdamped       |
-| $\zeta > 1$            | $c(t) = (1+(frac{1}{2(\zeta+(\zeta^2)-1)})e^-(\zeta w_n+ w_d)t-(frac{1}{2(\zeta-(\zeta)^2+1)})e^-(\zeta w_n-w_d)t)$ | Overdamped        |
+| $\zeta = 0$            | $c(t) = (1-\cos{w_n t})u(t)$                                                                                        | Undamped          |
+| $\zeta = 1$            | $c(t) = (1-e^{-w_n t}-w_n te^{-w_n t})u(t)$                                                                         | Critically Damped |
+| $\0<zeta<1$            | $$c(t) = (1- (\frac{e^{-\zeta w_n t}}{\sqrt{1-\zeta^2}})(\sin{w_d t + \theta})u(t)$$                                | Underdamped       |
+| $\zeta > 1$            | $$c(t) = (1+(\frac{1}{2(\zeta+\zeta^2-1)})e^-(\zeta w_n+ w_d)t-(\frac{1}{2(\zeta-\zeta^2+1)})e^-(\zeta w_n-w_d)t)$$ | Overdamped        |
 
 -***w_d*** is the damping frequency: This quantity is mathematically defined as
 
-                       $w_d = w_n \sqrt{1 - (\zeta)^2}$
+    $w_d = w_n \sqrt{1 - \zeta^2}$
 
 ## 9 Time Domain Specifications of a 2nd Order System
 
 Response of a 2nd order underdamped system
+
 ![](https://www.tutorialspoint.com/control_systems/images/time_domain.jpg)
 
 ### 9.1 Delay Time
@@ -331,7 +344,7 @@ For a overdamped system response, it is the time to rise from 0% to 100% of its 
 
 The quantity is defined mathematically below
 
-    $t_r = frac{\pi - \tan^{-1}(frac{\sqrt{1-\zeta^2}}{\zeta})}{w_n \sqrt{1-\zeta^2}}$
+    $$t_r = \frac{\pi - \tan^{-1}(\frac{\sqrt{1-\zeta^2}}{\zeta})}{w_n \sqrt{1-\zeta^2}}$$
 
 ### 9.3 Peak Time
 
@@ -339,7 +352,7 @@ Peak time $t_p$ is the time taken for a response to reach its maximum value for 
 
 The quantity is defined mathematically below
 
-                            $t_P = \frac{\pi}{w_d}$
+    $t_P = \frac{\pi}{w_d}$
 
 ### 9.4 Peak Overshoot
 
@@ -347,7 +360,7 @@ Overshoot $M_p$ is the deviation of the systems response from the final steady s
 
 The quantity is defined mathematically below
 
-                $M_p = (e^-(\frac{\zeta \pi}{\sqrt{1-(\zeta)^2}}))$
+    $M_p = (e^-(\frac{\zeta \pi}{\sqrt{1-\zeta^2}}))$
 
 The percentage of peak overshoot can be foud from the above equation.
 
@@ -363,6 +376,7 @@ $t_s = \frac{4}{\zeta w_n} = 4\tau$
 - $\tau$ is the time constant: This is the time taken for a response to reach 63.2% of its
   final steady state value from the initial state.
 
+<strong>Recommended video: </strong>
 > [Time Domain Specifications](https://youtu.be/MzrgBc4s-jk?si=SSw2xam1qhFWr2St)
 
 ## 10 Steady State Error
@@ -374,10 +388,11 @@ desired steady state response.
 
 The quantity is defined mathematically below as
 
-             $e_ss = \lim_{x\to\infty} e(t) = \lim_{s\to 0} sE(s)$
+    $e_{ss} = \lim_{x\to\infty} e(t) = \lim_{s\to 0} sE(s)$
 
 - **E(s)** is the laplace transform of signal, e(t).
 
+<strong>Recommended video: </strong>
 > [Steady State Error](https://youtu.be/gR5nDxw5lds?si=892S8V75aUxjNRfX)
 
 ## 11 Stability
@@ -411,6 +426,8 @@ The classification of systems based on stability is given below.
   s-plane, then the open and closed loop control system is absolutely stable.
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20240122140239/CS--Stability3.webp)
+
+<strong>Recommended video: </strong>
 > [Introduction to Stability](https://youtu.be/t1BrHAYhvog?si=TMgU2nFZuiZBwXw_)
 
 ## 12 Frequency Response
@@ -418,33 +435,34 @@ The classification of systems based on stability is given below.
 Frequency response is the response of a system for a given sinusoidal input.
 
 For an input signal $r(t) = A\sin(\omega_0 t)$ and open loop transfer function $G(s) = G(j\omega)$, with
-magnitude and phase $G(j\omega_0)|\angle G(j\omega_0)$
+magnitude and phase $G(j\omega_0)|\angle G(j\omega_0)|$
 the output signal is
 
-     $c(t) = A|G(j\omega_0)|\sin(\omega_0 t+\angle G(j\omega_0))$
+    $c(t) = A|G(j\omega_0)|\sin(\omega_0 t+\angle G(j\omega_0))$
 
 - A is the amplitude of the input signal
 - $\omega_0$ is the angular frequency of the input signal, mathematically described as
 
-                        $\omega_0 = 2\pi f_0$
+      $\omega_0 = 2\pi f_0$
+
 - $f_0$ is the frequency of the input signal
 
 ## 13 Frequency Domain Specifications
 
 For the 2nd order transfer function
 
-         $$T(S) = C(s) = (\frac{(w_n)^2}{s^2+2\zeta w_n s+
-         (w_n)^2})R(s)$$
+    $$T(S) = \frac{C(s)}{R(s)} = (\frac{w_n^2}{s^2+2\zeta w_n s+
+    w_n^2})$$
 
 The magnitude of _T(s)_, with $s = j\omega$,
 
     $$M = |T(j\omega)| = \frac{1}{\sqrt{(1-(\frac{\omega}{\omega_n})^2)
-           ^2+(2\zeta \frac{\omega}{\omega_n})^2}}$$
+    ^2+(2\zeta \frac{\omega}{\omega_n})^2}}$$
 
 The phase of _T(s)_, with $s = j\omega$,
 
     $$\angle T(j\omega) = -\tan^{-1}(\frac{\frac{2\zeta\omega}{\omega_n}}
-    {1 - (frac{\omega}{\omega_n})^2})$$
+    {1 - (\frac{\omega}{\omega_n})^2})$$
 
 ### 13.1 Resonant Frequency
 
@@ -453,7 +471,7 @@ reaches its peak value for the first time.
 
 It is mathematically defined as
 
-              $\omega_r = \omega_n\sqrt{1-2(\zeta)^2}$
+    $\omega_r = \omega_n\sqrt{1-2\zeta^2}$
 
 ### 13.2 Peak Resonance
 
@@ -461,15 +479,15 @@ Peak resonance,$M_r$, is the maximum magnitude of $T(j\omega$).
 
 It is mathematically defined as
 
-               $M_r = \frac{1}{2\zeta\sqrt{1-(\zeta)^2}}$
+    $M_r = \frac{1}{2\zeta\sqrt{1-\zeta^2}}$
 
 ### 13.3 Bandwidth
 
 Bandwidth, $\omega_b$, is the frequency range over which, the magnitude of $T(j\omega$) drops to 70.7%
 of its zero frequency value.
 
-                $$\omega_b = \omega_n\sqrt{1-2(\zeta)^2+
-                \sqrt{2-4(\zeta)^2+4(\zeta)^4}}$$
+    $$\omega_b = \omega_n\sqrt{1-2\zeta^2+
+    \sqrt{2-4\zeta^2+4\zeta^4}}$$
 
 ## 14 Control System Plots
 
@@ -479,14 +497,16 @@ Bode Plots describe the change in magnitude and phase as a function of frequency
 
 The magnitude of an open loop transfer function in dB is
 
-               $M = 20\log(|G(j\omega)H(j\omega)|)$
+    $M = 20\log(|G(j\omega)H(j\omega)|)$
 
 The phase angle of an open loop transfer function in degrees is
 
-                 $\phi = \angleG(j\omega)H(j\omega)$
+    $\phi = \angle G(j\omega)H(j\omega)$
 
+<strong>Recommended video: </strong>
 > [Introduction to Bode Plots](https://www.youtube.com/watch?reload=9&v=gZhRvrGSZdQ)
 
+<strong>Recommended video: </strong>
 > [Bode Plot Solved Example](https://www.youtube.com/watch?v=JLWJTdK0Q0w)
 
 #### 14.1.1 Stability Analysis with Bode Plots
@@ -494,7 +514,7 @@ The phase angle of an open loop transfer function in degrees is
 ##### 14.1.1.1 Cross Over Frequency
 
 - **Phase Cross Over Frequency**, $\omega_pc$: This is the frequency at which the bode phase plot has a phase of
-  $-180\degree$. Its unit is **rad/sec**.
+  $-180^\circ$. Its unit is **rad/sec**.
 - **Gain Cross Over Frequency**, $\omega_gc$: This is the frequency at which the bode magnitude
   plot has a magnitude of zero dB. Its unit is **rad/sec**.
 
@@ -510,24 +530,26 @@ The phase angle of an open loop transfer function in degrees is
 
 It is mathematically defined as
 
-            $GM = 20\log(\frac{1}{M_pc}) = 10\log(M_pc)$
+        $GM = 20\log(\frac{1}{M_pc}) = 10\log(M_pc)$
 
 - **Phase Margin**, PM: It is mathematically defined as
 
-                       $PM = 180\degree + \phi_gc$
+        $PM = 180^\circ + \phi_gc$
 
 where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
 | Stability Criteria | Stability                |
 |--------------------|--------------------------|
-| $GM & PM > 0$      | Stable system            |
-| $GM & PM = 0$      | Marginally Stable system |
-| $GM &/OR PM < 0$   | Unstable system          |
+| $GM~\&~PM > 0$     | Stable system            |
+| $GM~\&~PM = 0$     | Marginally Stable system |
+| $GM~\&/\|~PM < 0$  | Unstable system          |
 
+<strong>Recommended video: </strong>
 > [How to find cross over frequencies, Gain and Phase Margin from Bode Plot](https://www.youtube.com/watch?v=iB10Hk0BCAs)
 
 #### 14.1.2 MATLAB Implementation
 
+<strong>Recommended video: </strong>
 > [Bode plot of frequency response, or magnitude and phase data](https://www.mathworks.com/help/ident/ref/dynamicsystem.bode.html)
 
 ### 14.2 Nyquist Plot
@@ -538,7 +560,7 @@ The criterion states that if _P_ poles and _Z_ zeros are encircled by an enclose
 the corresponding _G(s)H(s)_ plane must encircle the origin _P-Z_ times. The encirclement number, _N_,
 is given by
 
-                            $N = P - Z$
+    $N = P - Z$
 
 - If only poles exist in the encircled _s_ plane closed path, the encirclement in the _G(s)H(s)_ is
   opposite in direction to the path in the _s_ plane.
@@ -548,8 +570,10 @@ is given by
 The **Nyquist Stability Criterion** states that _N_ of the point (-1,0) must equal _P-Z_ of the close loop
 transfer function.
 
+<strong>Recommended video: </strong>
 > [Nyquist plot intro 1](https://www.youtube.com/watch?v=sof3meN96MA)
 
+<strong>Recommended video: </strong>
 > [Nyquist plot intro 2](https://www.youtube.com/watch?v=tsgOstfoNhk)
 
 #### 14.2.2 Stability Analysis with Nyquist Plots
@@ -557,7 +581,7 @@ transfer function.
 ##### 14.2.1.1 Cross Over Frequency
 
 - **Phase Cross Over Frequency**, $\omega_pc$: This is the frequency at which the Nyquist plot
-  intersects the negative real axis (phase of $-180\degree$). Its unit is **rad/sec**.
+  intersects the negative real axis (phase of $-180^\circ$). Its unit is **rad/sec**.
 - **Gain Cross Over Frequency**, $\omega_gc$: This is the frequency at which the Nyquist
   plot has a magnitude of 1. Its unit is **rad/sec**.
 
@@ -573,24 +597,26 @@ transfer function.
 
 It is mathematically defined as
 
-                         $GM = \frac{1}{M_pc})$
+        $GM = \frac{1}{M_pc}$
 
 - **Phase Margin**, PM: It is mathematically defined as
 
-                       $PM = 180\degree + \phi_gc$
+        $PM = 180^\circ + \phi_{gc}$
 
 where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
-| Stability Criteria   | Stability                |
-|----------------------|--------------------------|
-| $GM > 1 & PM > 0$    | Stable system            |
-| $GM = 1 & PM = 0$    | Marginally Stable system |
-| $GM < 1 &/OR PM < 0$ | Unstable system          |
+| Stability Criteria    | Stability                |
+|-----------------------|--------------------------|
+| $GM > 1~\&~PM > 0$    | Stable system            |
+| $GM = 1~\&~PM = 0$    | Marginally Stable system |
+| $GM < 1~\&/\|~PM < 0$ | Unstable system          |
 
+<strong>Recommended video: </strong>
 > [How to find cross over frequencies, Gain and Phase Margin from Nyquist Plot](https://www.youtube.com/watch?v=84o_rcCXOBw)
 
 #### 14.2.3 MATLAB Implementation
 
+<strong>Recommended video: </strong>
 > [Nyquist plot of frequency response](https://www.mathworks.com/help/control/ref/dynamicsystem.nyquist.html)
 
 ## 15 State Space
@@ -601,8 +627,9 @@ where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
 The state space model of a linear time invariant system is represented as
 
-                        $\dotX = AX + BU - State Equation$
-                        $Y = CX + DU - Output Equation$
+    $\dot X = AX + BU -~State~Equation$
+
+    $Y = CX + DU -~Output~Equation$
 
 - _X_ and $\dotX$, are the state vector and differential state vector.
 - Y and U, are the output and input vectors.
@@ -613,7 +640,7 @@ The state space model of a linear time invariant system is represented as
 Applying laplace transform to the state space model defined above, the transfer function of a system in state space
 is defined as
 
-                     $\frac{Y(s)}{U(s)} = C(sI-A)^{-1}$
+    $\frac{Y(s)}{U(s)} = C(sI-A)^{-1}$
 
 - I is an identity matrix.
 
@@ -621,23 +648,23 @@ is defined as
 
 If the matrix satisfies the following linear homogenous equation
 
-                $\dot x(t) = \frac{dx(t)}{dt} = Ax(t)$
+    $\dot x(t) = \frac{dx(t)}{dt} = Ax(t)$
 
 The state transition matrix $\phi (t)$ is
 
-                      $\frac{d\phi (t)}{dt} = A\phi (t)$
+    $\frac{d\phi (t)}{dt} = A\phi (t)$
 
 The condition following will be met
 
-                         $x(t) = \phi (t)x(0)$
+    $x(t) = \phi (t)x(0)$
 
 Taking laplace of the linear homogenous equation
 
-        $x(t) = \phi (t)x(0) = L^{-1}[(sI - A)^{-1} x(0)]$
+    $x(t) = \phi (t)x(0) = L^{-1}[(sI - A)^{-1} x(0)]$
 
 - Properties of State Transition Matrix
     - $\phi (t) = I$
-    - $\phi (t) = e^(At) = (e^(-At))^{-1} = (\phi (-t))^{-1}$
+    - $\phi (t) = e^{At} = (e^{-At})^{-1} = (\phi (-t))^{-1}$
     - $\phi (t_2 - t_0) = \phi (t_2 - t_1)\phi(t_1 - t_0)$
     - $\phi (t - t_0) = \phi (t)\phi^{-1} (t_0)$
     - $\phi (t+t_0) = \phi (t)\phi(t_0)$
@@ -647,14 +674,14 @@ Taking laplace of the linear homogenous equation
 - **Controllability**: A system is controllable when a desired output is obtained from a specified
   and controlled input. The criteria is given below, using the matrix $Q_0$.
 
-                    $Q_0 = [B AB A^2B .... A^(n-1)B]$
+        $Q_0 = [B AB A^2B .... A^{n-1}B]$
 
 If the determinant of $Q_0$, $|Q_0|$ is unequal to 0, then the system is controllable.
 
 - **Observability**: If input and output signals are used to determine the internal state of a system
   within a finite interval of time, the system is observable. The criteria is given below, using the matrix $Q_0$.
 
-                    $Q_0 = [C^T A^T C^T .... (A^T)^(n-1)C^T]$
+        $Q_0 = [C^T A^T C^T .... (A^T)^{n-1}C^T]$
 
 If the determinant of $Q_0$, $|Q_0|$ is unequal to 0, then the system is observable.
 
@@ -668,5 +695,5 @@ If the determinant of $Q_0$, $|Q_0|$ is unequal to 0, then the system is observa
 
 ## 16 code implementations
 
-> Recommended video:
+<strong>Recommended video: </strong>
 > [4 Ways to Implement a Transfer Function in Code | Control Systems in Practice](https://youtu.be/nkq4WkX7CFU)
