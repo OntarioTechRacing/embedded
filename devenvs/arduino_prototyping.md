@@ -8,7 +8,7 @@ ultra-quick prototyping is needed.
 <details markdown="1">
   <summary>Table of Contents</summary>
 
-- [1 Initial Software Installs / Setup](#1-initial-software-installs--setup)
+- [1 Software Installs](#1-software-installs)
     - [1.1 Arduino IDE*](#11-arduino-ide)
 
 </details>

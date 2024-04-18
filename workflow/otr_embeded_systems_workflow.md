@@ -5,7 +5,7 @@
 <details markdown="1">
   <summary>Table of Contents</summary>
 
-- [1 Embedded Systems Development Flowchart](#1-embedded-systems-development-flowchart)
+- [1 Embedded Systems Workflow Flowchart](#1-embedded-systems-workflow-flowchart)
 
 </details>
 
