@@ -18,9 +18,10 @@
         - [3.3.1 Numbering Format](#331-numbering-format)
         - [3.3.2 Writing Format](#332-writing-format)
         - [3.3.3 Header 1 Line Breaks](#333-header-1-line-breaks)
-        - [3.3.4 Header References](#334-header-references)
+        - [3.3.4 Section Links / Header References](#334-section-links--header-references)
     - [3.4 Standard Markdown Syntax](#34-standard-markdown-syntax)
     - [3.5 Code Blocks](#35-code-blocks)
+    - [3.6 Relative Links](#36-relative-links)
 - [4 Other Media](#4-other-media)
     - [4.1 Pictures](#41-pictures)
     - [4.2 Unicode Emojis](#42-unicode-emojis)
@@ -110,7 +111,7 @@ Headers are named with standard `Title Formatting`.
 The general recommendation is to use horizontal ines on `Header 1` to improve
 readability.
 
-#### 3.3.4 Header References
+#### 3.3.4 Section Links / Header References
 
 Use header references when possible to make referencing easy.
 
@@ -148,6 +149,15 @@ If code blocks are used do your best to declare the language for clean
 formatting and clarity of the intended language.
 
 Follow the applicable code conventions for the code within the code block.
+
+### 3.6 Relative Links
+
+Unless specified, the relative link must always start at the root directory of
+the repository.
+
+> See full documentation on GitHub
+> Docs:
+> [Relative linksg](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links)
 
 ---
 
