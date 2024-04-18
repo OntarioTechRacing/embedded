@@ -32,8 +32,8 @@ Writing code for STM32 targets can be difficult and time-consuming. The
 following conventions are designed to work with common development environments
 and toolchains:
 
-- [stm32_clion_setup.md](..%2Fdevenvs%2Fstm32_clion_setup.md).
-- [stm32_cubeide_setup.md](..%2Fdevenvs%2Fstm32_cubeide_setup.md).
+- [stm32_clion_setup.md](../devenvs/stm32_clion_setup.md).
+- [stm32_cubeide_setup.md](../devenvs/stm32_cubeide_setup.md).
 
 ---
 

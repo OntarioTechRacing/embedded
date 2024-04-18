@@ -84,7 +84,7 @@ All repos should use appropriate naming, if arbitrary default to snake_case.
 
 Always include one in the main directory.
 
-- Recommended templates: [gitignores](..%2Fgitignores).
+- Recommended templates: [gitignores](../gitignores).
 
 #### 2.3.2 `README.md`*
 

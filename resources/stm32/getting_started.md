@@ -71,9 +71,9 @@ as our primary development Nucleo. The primary reasons are:
 
 ### 2.1 Nucleo-L432KC Pinout
 
-![nucleol432kc_pinout.png](pictures%2Fnucleol432kc_pinout.png)
+![nucleol432kc_pinout.png](pictures/nucleol432kc_pinout.png)
 
-![pinout_legend.png](pictures%2Fpinout_legend.png)
+![pinout_legend.png](pictures/pinout_legend.png)
 
 - Pictures from [os.mbed.com](https://os.mbed.com/platforms/ST-Nucleo-L432KC/)
 
@@ -90,7 +90,7 @@ system, highlighting how different parts interact without delving into detailed
 specifics. Similar to flowcharts, block diagrams are essential for
 conceptualizing, designing, and troubleshooting systems.
 
-![nucleol432kc_block_diagram.jpg](pictures%2Fnucleol432kc_block_diagram.jpg)
+![nucleol432kc_block_diagram.jpg](pictures/nucleol432kc_block_diagram.jpg)
 
 - Picture
   from [ST STM32L432KC Datasheet](https://www.st.com/resource/en/datasheet/stm32l432kc.pdf).
@@ -106,8 +106,8 @@ conceptualizing, designing, and troubleshooting systems.
 ### 3.2 Integrated Development Environment
 
 - Recommended for
-  beginners: [stm32_cubeide_setup.md](..%2F..%2Fdevenvs%2Fstm32_cubeide_setup.md).
-- Advanced: [stm32_clion_setup.md](..%2F..%2Fdevenvs%2Fstm32_clion_setup.md).
+  beginners: [stm32_cubeide_setup.md](../../devenvs/stm32_cubeide_setup.md).
+- Advanced: [stm32_clion_setup.md](../../devenvs/stm32_clion_setup.md).
 
 ---
 
@@ -132,7 +132,7 @@ Nucleo boards running.
 
 **Additional Resources:**
 
-- [stm32_gpio.md](peripherals%2Fstm32_gpio.md)
+- [stm32_gpio.md](peripherals/stm32_gpio.md)
 
 **Starting Steps:**
 
@@ -167,7 +167,7 @@ turn on or off with the push of the button.
 
 **Additional Resources:**
 
-- [stm32_gpio.md](peripherals%2Fstm32_gpio.md)
+- [stm32_gpio.md](peripherals/stm32_gpio.md)
 
 **Starting Steps:**
 
@@ -202,7 +202,7 @@ in your IDE.
 
 **Additional Resources:**
 
-- [stm32_adc.md](peripherals%2Fstm32_adc.md).
+- [stm32_adc.md](peripherals/stm32_adc.md).
 
 **Starting Steps:**
 
@@ -235,7 +235,7 @@ hardware level, reducing resource use.
 
 **Additional Resources:**
 
-- [stm32_dma.md](peripherals%2Fstm32_dma.md)
+- [stm32_dma.md](peripherals/stm32_dma.md)
 
 **Starting Steps:**
 
@@ -278,7 +278,7 @@ a button was pressed. Instead, we can use interrupts.
 
 **Dev Envs:**
 
-- [arduino_prototyping.md](..%2F..%2Fdevenvs%2Farduino_prototyping.md).
+- [arduino_prototyping.md](../../devenvs/arduino_prototyping.md).
 
 </details>
 
@@ -305,10 +305,10 @@ a button was pressed. Instead, we can use interrupts.
 
 **Additional Resources:**
 
-- [stm32_can_bus.md](peripherals%2Fstm32_can_bus.md).
+- [stm32_can_bus.md](peripherals/stm32_can_bus.md).
 
 **Dev Envs:**
 
-- [can_bus_dev_tools.md](..%2F..%2Fdevenvs%2Fcan_bus_dev_tools.md).
+- [can_bus_dev_tools.md](../../devenvs/can_bus_dev_tools.md).
 
 </details>

@@ -42,13 +42,13 @@ calculations could be done on many other calculators and by hand.
 
 ### 3.2 CAN Bus Bit Timing Calculation Steps
 
-![can bus timings.png](pictures%2Fcan%20bus%20timings.png)
+![can bus timings.png](pictures/can%20bus%20timings.png)
 
 ### 3.3 CAN FD Bus Bit Timing Calculation Steps
 
 #### 3.3.1 CAN Bus Device Characteristics
 
-![canfd device characteristics.png](pictures%2Fcanfd%20device%20characteristics.png)
+![canfd device characteristics.png](pictures/canfd%20device%20characteristics.png)
 
 **Clock Frequency:** Clock frequency at which the device's CAN FD peripheral is
 running at. Specified by your MCU configuration.
@@ -69,7 +69,7 @@ delay. Commonly found on the CAN FD transceiver datasheet.
 
 #### 3.3.2 Nominal and Data Bitrates
 
-![canfd bitrates.png](pictures%2Fcanfd%20bitrates.png)
+![canfd bitrates.png](pictures/canfd%20bitrates.png)
 
 **Nominal Bitrate:** Bitrate used during the arbitration phase of CAN
 communication. 500 kHz is used here as it is the traditional bitrate used in
@@ -91,8 +91,8 @@ of traditional CAN bus networks.
 
 #### 3.3.3 Sample Point
 
-![canfd calculate system parameters 1 of 2.png](pictures%2Fcanfd%20calculate%20system%20parameters%201%20of%202.png)
-![canfd calculate system parameters 2 of 2.png](pictures%2Fcanfd%20calculate%20system%20parameters%202%20of%202.png)
+![canfd calculate system parameters 1 of 2.png](pictures/canfd%20calculate%20system%20parameters%201%20of%202.png)
+![canfd calculate system parameters 2 of 2.png](pictures/canfd%20calculate%20system%20parameters%202%20of%202.png)
 
 **Sample Point:** The point in time, as a percentage of the total bit time, at
 which the CAN controller samples a bit on the CAN bus during a message frame.
@@ -110,4 +110,4 @@ Recommended values:
 
 #### 3.3.4 Individual Bus Timing Parameters
 
-![canfd individual bus timing parameters.png](pictures%2Fcanfd%20individual%20bus%20timing%20parameters.png)
+![canfd individual bus timing parameters.png](pictures/canfd%20individual%20bus%20timing%20parameters.png)
