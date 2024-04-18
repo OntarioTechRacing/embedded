@@ -12,7 +12,7 @@
 - [2 Windows](#2-windows)
     - [2.1 Install](#21-install)
         - [2.1.1 Python](#211-python)
-    - [2.1 Manual Virtual Environment Creation](#2)
+    - [2.2 Manual Virtual Environment Creation](#22-manual-virtual-environment-creation)
 - [3 macOS](#3-macos)
     - [3.1 Install](#31-install)
         - [3.1.1 Homebrew](#311-homebrew)
@@ -54,7 +54,7 @@ Install python directly from the official website:
 It is **highly recommended to select / allow the `set environment variable`** (
 might be slightly different wording) setting for system-wide activation.
 
-### 2.1 Manual Virtual Environment Creation
+### 2.2 Manual Virtual Environment Creation
 
 ```shell
 python -m venv /path/to/new/virtual/environment  # Create venv.

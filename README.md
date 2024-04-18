@@ -97,7 +97,7 @@ files such as `stl`, `png`, etc required for documentation is included.**
     - [nucleol432kc_template](https://github.com/OntarioTechRacing/nucleol432kc_template).
 
 **GitHub Practices & Guidelines can be found
-in [devops.md](conventions/devops.md)**
+in [devops.md](conventions/git_github_devops.md)**
 
 ---
 
@@ -118,4 +118,3 @@ in [devops.md](conventions/devops.md)**
 ## 999 Archive & Tech Support
 
 - [case_studies.md](resources/case_studies.md).
-- [ace_5030_pc_readme.md](resources/ace_5030_pc_readme.md).

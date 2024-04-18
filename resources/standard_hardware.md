@@ -28,7 +28,7 @@ new projects.
 ### 1.1 STM32 L4 Family: ST NUCLEO-L432KC (STM32L432KC)
 
 - MCU IC carries over
-  to [2 Pre-specced HE + ES PCB Components](#2-pre-specced-he--es-pcb-components)
+  to [2 Standard Sensor ICs & SOCs](#2-standard-sensor-ics--socs)
 
 ### 1.2 STM32 F? Family: ST NUCLEO-F? (STM32F?????)
 

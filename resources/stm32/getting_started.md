@@ -20,7 +20,7 @@
     - [4.5 Reactive system: NVIC](#45-reactive-system-nvic)
     - [4.6 Basic Communication: Arduino to STM32 USART](#46-basic-communication-arduino-to-stm32-usart)
     - [4.7 Not Brainless Design: Scheduler](#47-not-brainless-design-scheduler)
-    - [4.8 Advanced Communications: CAN Messaging](#48-advanced-communications-can-messaging)
+    - [4.8 Advanced Communications: CAN](#48-advanced-communications-can)
 
 </details>
 
