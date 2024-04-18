@@ -9,7 +9,7 @@ IDEs.
 <details markdown="1">
   <summary>NXP S32 Design Studio Version Table (Picture)</summary>
 
-![MATLAB NXP S32DesignStudio Versions.png](pictures%2Fnxp%2FMATLAB%20NXP%20S32DesignStudio%20Versions.png)
+![MATLAB NXP S32DesignStudio Versions.png](pictures/nxp/MATLAB%20NXP%20S32DesignStudio%20Versions.png)
 
 </details>
 
@@ -39,7 +39,7 @@ however for these applications, license keys may be sent via email._**
 only for Windows and Linux.
 
 - As of writing (2024-01-03), the recommended version is `3.5`.
-  ![MATLAB NXP S32DesignStudio S32 Page.png](pictures%2Fnxp%2FMATLAB%20NXP%20S32DesignStudio%20S32%20Page.png)
+  ![MATLAB NXP S32DesignStudio S32 Page.png](pictures/nxp/MATLAB%20NXP%20S32DesignStudio%20S32%20Page.png)
 
 ### 1.2 S32 Design Studio for ARM Version*
 
@@ -47,7 +47,7 @@ only for Windows and Linux.
 only for Windows and Linux.
 
 - As of writing (2024-01-03), the recommended version is `1.3`.
-  ![MATLAB NXP S32DesignStudio ARM Page.png](pictures%2Fnxp%2FMATLAB%20NXP%20S32DesignStudio%20ARM%20Page.png)
+  ![MATLAB NXP S32DesignStudio ARM Page.png](pictures/nxp/MATLAB%20NXP%20S32DesignStudio%20ARM%20Page.png)
 
 ### 1.3 S32 Software Development Kit for S32K1 (RTM) (Recommended)
 

@@ -59,26 +59,26 @@ Open up MATLAB Add-Ons → Add-On Manager.
 
 - Right-click on the previously installed `NXP Support Package S32K1xx` and
   select Open Folder.
-  ![MATLAB Open NXP Support Package Files.png](pictures%2Fnxp%2FMATLAB%20Open%20NXP%20Support%20Package%20Files.png)
+  ![MATLAB Open NXP Support Package Files.png](pictures/nxp/MATLAB%20Open%20NXP%20Support%20Package%20Files.png)
 
 #### 2.1.2 Running the MATLAB Script
 
 Run the `NXP_Support_Package_S32K1xx.m` file.
 
 - If you're new to MATLAB, it's under EDITOR → Run.
-  ![MATLAB NXP Support Package Script.png](pictures%2Fnxp%2FMATLAB%20NXP%20Support%20Package%20Script.png)
+  ![MATLAB NXP Support Package Script.png](pictures/nxp/MATLAB%20NXP%20Support%20Package%20Script.png)
 
 #### 2.1.3 Script GUI
 
 The Support Package window should open.
 
-![MATLAB NXP Opened install guide.png](pictures%2Fnxp%2FMATLAB%20NXP%20Opened%20install%20guide.png)
+![MATLAB NXP Opened install guide.png](pictures/nxp/MATLAB%20NXP%20Opened%20install%20guide.png)
 
 - After completing each sub-step, the clickable buttons should turn green.
 - The web page for both download `Files` and `License Keys`
   pages (`NXP Model-Based Design Toolbox for S32Kxx Automotive Microprocessors Family`)
   should look something like this:
-  ![MATLAB NXP MBD Page.png](pictures%2Fnxp%2FMATLAB%20NXP%20MBD%20Page.png)
+  ![MATLAB NXP MBD Page.png](pictures/nxp/MATLAB%20NXP%20MBD%20Page.png)
 
 ### 2.2 S32Kxx Model-Based Design (MBT) Toolbox Install
 
@@ -122,7 +122,7 @@ extracted `.mltbx` file.
 
 You should now see `NXP_MBDToolbox_S32K1xx` on your Add-On manager.
 
-![MATLAB NXP MBD Installed.png](pictures%2Fnxp%2FMATLAB%20NXP%20MBD%20Installed.png)
+![MATLAB NXP MBD Installed.png](pictures/nxp/MATLAB%20NXP%20MBD%20Installed.png)
 
 ### 2.3 S32Kxx Model-Based Design (MBT) Toolbox License
 
@@ -215,7 +215,7 @@ the `Activate NXP MBD Toolbox` button, direct to the license `.dat` file.
 Verify the setup on the `NXP Support Package S32K1xx` GUI. All "verify" sub-step
 buttons should now be Green.
 
-![MATLAB NXP Completed install guide.png](pictures%2Fnxp%2FMATLAB%20NXP%20Completed%20install%20guide.png)
+![MATLAB NXP Completed install guide.png](pictures/nxp/MATLAB%20NXP%20Completed%20install%20guide.png)
 
 - Note: Convert `ZIP to MLTBX` may not be required depending on the download
   process.
@@ -227,9 +227,9 @@ buttons should now be Green.
 1. Open up MATLAB and Simulink.
 2. Open up the `NXP Model-Based Design Toolbox for S32K1xx MCUs` tool box tab.
 3. Open the `Embedded Coder` app.
-   ![MATLAB NXP Toolbox Example.png](pictures%2Fnxp%2FMATLAB%20NXP%20Toolbox%20Example.png)
+   ![MATLAB NXP Toolbox Example.png](pictures/nxp/MATLAB%20NXP%20Toolbox%20Example.png)
 4. Build your model, in this example the "GPIO on S32K144 LED & Button" block is
    used.
 5. `Generate Code` or `Build` (generate and flash) to generate code and/or flash
    the generated code to a connected MCU.
-   ![MATLAB NXP Embedded Coder Build Example.png](pictures%2Fnxp%2FMATLAB%20NXP%20Embedded%20Coder%20Build%20Example.png)
+   ![MATLAB NXP Embedded Coder Build Example.png](pictures/nxp/MATLAB%20NXP%20Embedded%20Coder%20Build%20Example.png)

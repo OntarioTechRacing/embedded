@@ -13,4 +13,4 @@
 
 ## 1 Embedded Systems Workflow Flowchart
 
-![otr_embedded_systems_workflow.drawio.png](pictures%2Fotr_embedded_systems_workflow.drawio.png)
+![otr_embedded_systems_workflow.drawio.png](pictures/otr_embedded_systems_workflow.drawio.png)

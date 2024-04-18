@@ -19,10 +19,10 @@
 
 ## 1 Overview
 
-See resource document here: [git_github.md](..%2Fresources%2Fgit_github.md).
+See resource document here: [git_github.md](../resources/git_github.md).
 
 See the conventions
-here: [git_github_devops.md](..%2Fconventions%2Fgit_github_devops.md).
+here: [git_github_devops.md](../conventions/git_github_devops.md).
 
 ---
 

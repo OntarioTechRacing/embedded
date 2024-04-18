@@ -43,7 +43,7 @@ Paper Size = A4
 
 <details markdown="1">
   <summary>Reference Image</summary>
-![drawio_document.png](pictures%2Fdrawio_document.png)
+![drawio_document.png](pictures/drawio_document.png)
 </details>
 
 ---
@@ -96,7 +96,7 @@ to a different file format may be beneficial / required.
 
 ### 7.1 PNG
 
-![drawio_png_save_settings.png](pictures%2Fdrawio_png_save_settings.png)
+![drawio_png_save_settings.png](pictures/drawio_png_save_settings.png)
 
 ```
 Zoom = 1000

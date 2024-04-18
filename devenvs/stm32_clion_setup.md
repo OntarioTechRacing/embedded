@@ -99,13 +99,13 @@ Installation for macOS:
 
 Add the `Embedded Development Support` plugin for CLion:
 ```Settings → Plugins```
-![CLion Embedded Development Support plugin.png](pictures%2Fstm32ide%2FCLion%20Embedded%20Development%20Support%20plugin.png)
+![CLion Embedded Development Support plugin.png](pictures/stm32ide/CLion%20Embedded%20Development%20Support%20plugin.png)
 
 ### 2.2 Setup OpenOCD and STM32CubeMX Paths
 
 Add the path for `OpenOCD` and `STM32CubeMX`:
 ```Settings → Build, Execution, Deployment → Embedded Development```
-![CLion Embedded Development OpenOCD and STM32CubeMX path setting.png](pictures%2Fstm32ide%2FCLion%20Embedded%20Development%20OpenOCD%20and%20STM32CubeMX%20path%20setting.png)
+![CLion Embedded Development OpenOCD and STM32CubeMX path setting.png](pictures/stm32ide/CLion%20Embedded%20Development%20OpenOCD%20and%20STM32CubeMX%20path%20setting.png)
 
 - You can always click the `Test` button to see if the path is valid.
 
@@ -190,7 +190,7 @@ Configure the `Project Manager`.
 3. `Toolchain / IDE` = `STM32CubeIDE`.
 4. `Generate Under Root` = `True`.
 
-![STM32CubeMX code generation settings.png](pictures%2Fstm32ide%2FSTM32CubeMX%20code%20generation%20settings.png)
+![STM32CubeMX code generation settings.png](pictures/stm32ide/STM32CubeMX%20code%20generation%20settings.png)
 
 - Verify that your paths are correct, notice here my `Project Location` is in
   the `GitHub` directory, not the repo directory.
@@ -210,7 +210,7 @@ Generate code with the... `GENERATE CODE` button.
 
 Set the OpenOCD board file via `Select Board Configuration File` popup.
 
-![CLion Select Board Config File.png](pictures%2Fstm32ide%2FCLion%20Select%20Board%20Config%20File.png)
+![CLion Select Board Config File.png](pictures/stm32ide/CLion%20Select%20Board%20Config%20File.png)
 
 - Select the chip or board you are targeting, the default should be correct.
 - Upon returning to CLion this popup should open automatically, if not we can
@@ -219,7 +219,7 @@ Set the OpenOCD board file via `Select Board Configuration File` popup.
 #### 2.6.2 Configure Run and Debug
 
 ```Run / Debug Configurations → Edit Configurations...```
-![CLion ioc configured.png](pictures%2Fstm32ide%2FCLion%20ioc%20configured.png)
+![CLion ioc configured.png](pictures/stm32ide/CLion%20ioc%20configured.png)
 
 - Top right drop down.
 
@@ -234,7 +234,7 @@ Set the OpenOCD board file via `Select Board Configuration File` popup.
 
 ```Run / Debug Configurations → Edit Configurations...```
 
-![CLion Edit Configurations.png](pictures%2Fstm32ide%2FCLion%20Edit%20Configurations.png)
+![CLion Edit Configurations.png](pictures/stm32ide/CLion%20Edit%20Configurations.png)
 
 - If the OpenOCD configuration was not generated automatically, click
   the `+` button in the top left and `OpenOCD Download & Run`, then fill in
@@ -256,4 +256,4 @@ Use the project file structure view on the left-hand to see the source code.
 
 Build, Run (flash ST) and Debug are shown in the top mid-to-right.
 
-![CLion successful flash.png](pictures%2Fstm32ide%2FCLion%20successful%20flash.png)
+![CLion successful flash.png](pictures/stm32ide/CLion%20successful%20flash.png)
