@@ -57,9 +57,9 @@ running at. Specified by your MCU configuration.
 found on MCU or crystal oscillator datasheet.
 
 - Percent
-  tolerance: $`\%_{tolerance} = \frac{f_{max} - f_{typ}}{f_{typ}} \times 100`$
+  tolerance: $\%_{tolerance} = \frac{f_{max} - f_{typ}}{f_{typ}} \times 100$
 - Parts per million (ppm)
-  tolerance: $`ppm_{tolerance} = \%_{tolerance} \times 10000`$
+  tolerance: $ppm_{tolerance} = \%_{tolerance} \times 10000$
 
 **Node Delay:** (Aka propagation delay) Sum of the device's input and output
 delay. Commonly found on the CAN FD transceiver datasheet.

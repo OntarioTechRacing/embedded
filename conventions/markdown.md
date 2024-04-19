@@ -20,8 +20,12 @@
         - [3.3.3 Header 1 Line Breaks](#333-header-1-line-breaks)
         - [3.3.4 Section Links / Header References](#334-section-links--header-references)
     - [3.4 Standard Markdown Syntax](#34-standard-markdown-syntax)
+        - [3.4.1 Advanced Formatting Syntax](#341-advanced-formatting-syntax)
     - [3.5 Code Blocks](#35-code-blocks)
     - [3.6 Relative Links](#36-relative-links)
+    - [3.7 Math Expressions](#37-math-expressions)
+        - [3.7.1 Inline](#371-inline)
+        - [3.7.2 Blocks](#372-blocks)
 - [4 Other Media](#4-other-media)
     - [4.1 Pictures](#41-pictures)
     - [4.2 Unicode Emojis](#42-unicode-emojis)
@@ -133,11 +137,7 @@ _Italics_
 
 #### 3.4.1 Advanced Formatting Syntax
 
-For advanced syntax use as appropriate, the highly recommended syntax is below.
-
-```markdown
-$`math_{inline} = \sqrt{3x-1}+(1+x)^2`$
-```
+For advanced syntax use as appropriate.
 
 > See full documentation on GitHub
 > Docs:
@@ -158,6 +158,32 @@ the repository.
 > See full documentation on GitHub
 > Docs:
 > [Relative linksg](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links)
+
+### 3.7 Math Expressions
+
+#### 3.7.1 Inline
+
+Use the inline format as shown below.
+
+Inline: $x = \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a}$.
+
+```markdown
+Inline: $x = \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a}$.
+```
+
+#### 3.7.2 Blocks
+
+Use the block format as shown below.
+
+Block:
+
+$$f' \left( x \right) = \lim_{ h \rightarrow 0 } \frac{f \left( x+h \right) - f
+\left( x \right) }{h}$$
+
+```markdown
+$$f' \left( x \right) = \lim_{ h \rightarrow 0 } \frac{f \left( x+h \right) - f
+\left( x \right) }{h}$$
+```
 
 ---
 
