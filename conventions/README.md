@@ -1,5 +1,12 @@
 # Conventions
 
+## Overview
+
+Conventions are guidelines or standards (usually) agreed-upon for writing code,
+such as naming, formatting, and commenting practices. They are crucial for
+promoting readability, maintainability and uniformity across a codebase,
+facilitating easier collaboration and debugging.
+
 ## Manifest
 
 - [c_stm32.md](c_stm32.md)

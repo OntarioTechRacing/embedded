@@ -1,5 +1,9 @@
 # gitignores
 
+## Overview
+
+Templates for `.gitignore` files.
+
 ## Manifest
 
 - [devenv.gitignore](devenv.gitignore)

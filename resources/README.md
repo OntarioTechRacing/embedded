@@ -1,5 +1,10 @@
 # Resources
 
+## Overview
+
+A general library of resources for internal knowledge, learning and training
+purposes.
+
 ## Manifest
 
 - [matlab](matlab)
