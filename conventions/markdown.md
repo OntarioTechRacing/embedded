@@ -157,7 +157,7 @@ the repository.
 
 > See full documentation on GitHub
 > Docs:
-> [Relative linksg](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links)
+> [Relative links](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links)
 
 ### 3.7 Math Expressions
 
