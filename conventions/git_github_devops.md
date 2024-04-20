@@ -12,11 +12,11 @@
         - [2.1.2 Naming](#212-naming)
     - [2.2 Branches](#22-branches)
     - [2.3 Common / Required files](#23-common--required-files)
-        - [2.3.1 `.gitignore`*](#231-gitignore)
-        - [2.3.2 `README.md`*](#232-readmemd)
-        - [2.3.3 `documentation/`](#233-documentation)
-        - [2.3.4 `tests/`](#234-tests)
-- [3 Getting to `main`](#3-getting-to-main)
+        - [2.3.1 .gitignore*](#231-gitignore)
+        - [2.3.2 README.md*](#232-readmemd)
+        - [2.3.3 documentation/](#233-documentation)
+        - [2.3.4 tests/](#234-tests)
+- [3 Getting to main](#3-getting-to-main)
     - [3.1 History](#31-history)
     - [3.2 Commits](#32-commits)
     - [3.3 Pushes](#33-pushes)
@@ -26,8 +26,8 @@
 - [4 Documentation](#4-documentation)
 - [5 GitHub Setup](#5-github-setup)
     - [5.1 Additional GitHub Repository Setup](#51-additional-github-repository-setup)
-        - [5.1.1 `.github/`*](#511-github)
-        - [5.1.2 `CODEOWNERS`*](#512-codeowners)
+        - [5.1.1 .github/*](#511-github)
+        - [5.1.2 CODEOWNERS*](#512-codeowners)
     - [5.2 Organization, Repo & Team Permissions](#52-organization-repo--team-permissions)
         - [5.2.1 Branch Protections](#521-branch-protections)
     - [5.3 Labels](#53-labels)
@@ -80,28 +80,28 @@ All repos should use appropriate naming, if arbitrary default to snake_case.
 
 ### 2.3 Common / Required files
 
-#### 2.3.1 `.gitignore`*
+#### 2.3.1 .gitignore*
 
 Always include one in the main directory.
 
 - Recommended templates: [gitignores](../gitignores).
 
-#### 2.3.2 `README.md`*
+#### 2.3.2 README.md*
 
 Always include one in the main directory for complete repository documentation.
 
-#### 2.3.3 `documentation/`
+#### 2.3.3 documentation/
 
 If reference documentation files such as pictures are required, use this
 directory.
 
-#### 2.3.4 `tests/`
+#### 2.3.4 tests/
 
 If reference tests scripts or files are required, use this directory.
 
 ---
 
-## 3 Getting to `main`
+## 3 Getting to main
 
 Never push directly to main unless working alone.
 
@@ -165,12 +165,12 @@ the [OntarioTechRacing organization](https://github.com/OntarioTechRacing).
 
 ### 5.1 Additional GitHub Repository Setup
 
-#### 5.1.1 `.github/`*
+#### 5.1.1 .github/*
 
 Add this standard directory and files at the root as a project gets more
 complex.
 
-#### 5.1.2 `CODEOWNERS`*
+#### 5.1.2 CODEOWNERS*
 
 Always add for project managers, devops, etc.
 

@@ -1,6 +1,6 @@
 # STM32 Scheduler
 
-## `.ioc` Configuration
+## .ioc Configuration
 
 1. Activate a timer
 2. Set the `prescaler` to match your target counter period, for example = `8000-1`

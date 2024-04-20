@@ -11,7 +11,7 @@
     - [3.1 Quick Reversing HEAD](#3-head-location)
 - [4 Submodule](#411-results-gitmodules)
     - [4.1 Add Submodule](#41-add-submodule)
-        - [4.1.1 Results (`.gitmodules`)](#411-results-gitmodules)
+        - [4.1.1 Results (.gitmodules)](#411-results-gitmodules)
     - [4.2 Fetch Submodule Commits](#42-fetch-submodule-commits)
     - [4.3 Pull Submodule](#43-pull-submodule)
     - [4.4 Update Submodule](#44-update-submodule)
@@ -72,7 +72,7 @@ $ git submodule add <remote_origin> <destination_path>
 When adding a Git submodule, the new submodule will automatically be
 staged. To commit and push, standard procedure can be followed.
 
-### 4.1.1 Results (`.gitmodules`)
+### 4.1.1 Results (.gitmodules)
 
 Following a new Git submodule commit, multiple actions will be performed
 automatically:

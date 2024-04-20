@@ -6,7 +6,7 @@ ADC stands for Analog-to-Digital Converter, which converts analog signals (e.g.,
 digital values. This allows us to interact with and make sense of real-world analog data, such as
 sensor readings or external signals.
 
-## `.ioc` Configuration
+## .ioc Configuration
 
 1. Pin Configuration:
 

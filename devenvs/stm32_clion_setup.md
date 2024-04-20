@@ -17,7 +17,7 @@ STM32 development utilizing STM32CubeMX, GNU ARM Toolchain and OpenOCD.
     - [1.3 GNU ARM Toolchain*](#13-gnu-arm-toolchain)
     - [1.4 OpenOCD*](#14-openocd)
 - [2 Complete IDE Setup](#2-complete-ide-setup)
-    - [2.1 Enable `Embedded Development Support` CLion Plugin](#21-enable-embedded-development-support-clion-plugin)
+    - [2.1 Enable Embedded Development Support CLion Plugin](#21-enable-embedded-development-support-clion-plugin)
     - [2.2 Setup OpenOCD and STM32CubeMX Paths](#22-setup-openocd-and-stm32cubemx-paths)
     - [2.3 Setup Arm GNU Toolchain GCC and G++](#23-setup-arm-gnu-toolchain-gcc-and-g)
     - [2.4 Create new CLion STM32CubeMX project](#24-create-new-clion-stm32cubemx-project)
@@ -95,7 +95,7 @@ Installation for macOS:
 > For reference, official JetBrains documentation:
 > [STM32CubeMX projects](https://www.jetbrains.com/help/clion/2023.1/embedded-development.html).
 
-### 2.1 Enable `Embedded Development Support` CLion Plugin
+### 2.1 Enable Embedded Development Support CLion Plugin
 
 Add the `Embedded Development Support` plugin for CLion:
 ```Settings → Plugins```

@@ -14,7 +14,7 @@ signals (high and low signals).
     - For example, `pull-up` means that when the pin is shorted to ground, the MCU will detect that
       as an input signal
 
-## `.ioc` Configuration
+## .ioc Configuration
 
 1. Configure GPIO pins
 

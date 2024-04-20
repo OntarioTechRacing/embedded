@@ -1,6 +1,6 @@
 # STM32 CAN Bus
 
-## `.ioc` Configuration
+## .ioc Configuration
 
 1. Activate CAN
 2. CAN bit time calculations 💀

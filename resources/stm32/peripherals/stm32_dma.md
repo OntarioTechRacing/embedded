@@ -17,7 +17,7 @@ Here's a simple explanation of how DMA works with STM32:
 3. When a trigger condition is met (e.g., data ready from a sensor), the DMA controller
    automatically moves the data from the peripheral to the memory or vice versa.
 
-## `.ioc` Configuration
+## .ioc Configuration
 
 1. Peripheral Configuration:
 

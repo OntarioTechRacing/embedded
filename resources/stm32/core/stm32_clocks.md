@@ -11,7 +11,7 @@ Why is clock configuration important?
    low-power modes, ensuring efficient energy usage when the MCU is idle.
 4. **Stability:** Incorrect clock settings can make the microcontroller unstable or non-functional.
 
-## `.ioc` Configuration
+## .ioc Configuration
 
 - Clocks are configured in the `.ioc` file via STM32CubeMX
 

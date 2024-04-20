@@ -1,11 +1,11 @@
-# Flow Diagram `.drawio` Conventions
+# Flow Diagram .drawio Conventions
 
 ---
 
 <details markdown="1">
   <summary>Table of Contents</summary>
 
-- [1 Overview of `.drawio`](#1-overview-of-drawio)
+- [1 Overview of .drawio](#1-overview-of-drawio)
 - [2 Diagram Document Settings](#2-diagram-document-settings)
 - [3 Collaboration Via Google Drive](#3-collaboration-via-google-drive)
 - [4 Pages](#4-pages)
@@ -19,7 +19,7 @@
 
 ---
 
-## 1 Overview of `.drawio`
+## 1 Overview of .drawio
 
 `.drawio` files are used for documentation when creating pictures of flowcharts,
 block diagrams, etc.

@@ -7,11 +7,11 @@
 
 - [1 About Versioning](#1-about-versioning)
 - [2 Version Nomenclature](#2-version-nomenclature)
-- [3 Semantic Versioning `MAJOR.MINOR.PATCH`](#3-semantic-versioning-majorminorpatch)
+- [3 Semantic Versioning MAJOR.MINOR.PATCH](#3-semantic-versioning-majorminorpatch)
     - [3.1 Major Tag](#31-major-tag)
     - [3.2 Minor Tag](#32-minor-tag)
     - [3.3 Patch Tag](#33-patch-tag)
-    - [3.4 Prerelease Tags (`-alpha`, `-beta`, etc)](#34-prerelease-tags--alpha--beta-etc)
+    - [3.4 Prerelease Tags (-alpha, -beta, etc)](#34-prerelease-tags--alpha--beta-etc)
 
 </details>
 
@@ -67,7 +67,7 @@ ensuring that users can access stable and well-documented software releases.
 
 ---
 
-## 3 Semantic Versioning `MAJOR.MINOR.PATCH`
+## 3 Semantic Versioning MAJOR.MINOR.PATCH
 
 All versioning follows
 the [Semantic Versioning 2.0.0 (SemVer)](https://semver.org/) standard.
@@ -89,7 +89,7 @@ the [Semantic Versioning 2.0.0 (SemVer)](https://semver.org/) standard.
 
 - Completely backwards compatible in both software and exact hardware
 
-### 3.4 Prerelease Tags (`-alpha`, `-beta`, etc)
+### 3.4 Prerelease Tags (-alpha, -beta, etc)
 
 Prerelease denotes general scope validation projects.
 

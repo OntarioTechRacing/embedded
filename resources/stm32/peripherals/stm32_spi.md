@@ -28,7 +28,7 @@ While both protocols can handle serial communication, SPI is generally faster an
 for communicating with external devices due to its dedicated hardware support for synchronous
 communication.
 
-## `.ioc` Configuration
+## .ioc Configuration
 
 1. Configure SPI pins (SCK, MOSI, MISO, SS/CS), appropriate mode, data size and other parameters.
 
