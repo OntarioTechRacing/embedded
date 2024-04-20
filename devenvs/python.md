@@ -60,7 +60,7 @@ might be slightly different wording) setting for system-wide activation.
 python -m venv /path/to/new/virtual/environment  # Create venv.
 ```
 
-> For official docs, see:
+> For offical docs, see:
 > [https://docs.python.org/3/library/venv.html#module-venv](https://docs.python.org/3/library/venv.html#module-venv).
 
 ---

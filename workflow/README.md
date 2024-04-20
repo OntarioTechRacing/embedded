@@ -8,4 +8,4 @@ collaboration, maintaining quality and consistency of our work.
 
 ## Manifest
 
-- [otr_embeded_systems_workflow.md](/workflow/otr_embeded_systems_workflow.md)
+- [otr_embeded_systems_workflow.md](otr_embeded_systems_workflow.md)

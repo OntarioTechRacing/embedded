@@ -18,7 +18,7 @@
 
 Unlike other internal conventions, this coding practices documentation involve
 theory and general knowledge, less of a clear-cut rule set. While this could be
-seen as an internal resource documentation item, it is still considered an
+seen as a internal resource documentation item, it is still considered an
 internal convention documentation item. The rationale is due to the nature of
 its importance and fundamental role to shaping all other internal coding
 standards / conventions.
