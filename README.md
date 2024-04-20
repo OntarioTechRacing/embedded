@@ -1,7 +1,5 @@
 # Ontario Tech Racing: Embedded Software
 
-![OTR Logo.png](OTR%20Logo.png)
-
 ---
 
 <details markdown="1">
