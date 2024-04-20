@@ -1,5 +1,12 @@
 # Ontario Tech Racing: Embedded Software
 
+
+- [conventions](conventions)
+- [devenvs](devenvs)
+- [gitignores](gitignores)
+- [resources](resources)
+- [workflow](workflow)
+
 ---
 
 <details markdown="1">
@@ -32,10 +39,6 @@ the [welcome_to_es repository](https://github.com/OntarioTechRacing/welcome_to_e
 
 ## 2 Conventions: _How We Code_
 
-Conventions are guidelines or standards (usually) agreed-upon for writing code,
-such as naming, formatting, and commenting practices. They are crucial for
-promoting readability, maintainability and uniformity across a codebase,
-facilitating easier collaboration and debugging.
 
 All department convention guides can be found in [conventions](conventions).
 
@@ -43,10 +46,7 @@ All department convention guides can be found in [conventions](conventions).
 
 ## 3 Developer Environments: _How We Code_
 
-Developer environments (dev envs or devenvs), are the tools, platforms, and
-settings used for coding. They provide a tailored and efficient workspace that
-enhances productivity and supports the specific needs of different development
-tasks.
+
 
 All developer environment setup documentation can be found
 in [devenvs](devenvs).
@@ -68,9 +68,6 @@ readability for dev envs.
 
 ## 4 Workflow: _How We Code_
 
-Workflows is the process and practices used for project management and the
-technical process for completing projects. Key points are to facilitate team
-collaboration, maintaining quality and consistency of our work.
 
 All workflow documentation can be found in [workflow](workflow).
 
