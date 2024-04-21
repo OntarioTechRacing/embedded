@@ -15,6 +15,144 @@
 
 ---
 
+Popular Algorithms
+
+Binary Search
+
+Binary Search is a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log n).
+
+Binary search can be applied when the data structure is sorted and access to any element of the data structure takes constant time.
+
+In Binary Search algorithm:
+
+Divide the search space into two halves by finding the middle index “mid”.
+Compare the middle element of the search space with the key.
+If the key is found at middle element, the process is terminated.
+If the key is not found at middle element, choose which half will be used as the next search space.
+If the key is smaller than the middle element, then the left side is used for next search.
+If the key is larger than the middle element, then the right side is used for next search.
+This process is continued until the key is found or the total search space is exhausted.
+
+
+Linear Search
+
+Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise the search continues till the end of the data set. The average time complexity is O(n).
+
+In Linear Search algorithm:
+
+Every element is considered as a potential match for the key and checked for the same.
+If any element is found equal to the key, the search is successful and the index of that element is returned.
+If no element is found equal to the key, the search yields “No match found”.
+
+
+Sorting Algorithms
+
+Bubble Sort
+
+Bubble Sort is a sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is O(n^2).
+
+In Bubble Sort algorithm:
+
+Traverse from left and compare adjacent elements and the higher one is placed at the right side.
+In this way, the largest element is moved to the rightmost end at first.
+This process is then continued to find the second largest and place it and so on until the data is  sorted.
+
+
+Insertion Sort
+
+Insertion sort is a sorting algorithm that works by iteratively inserting each element of an unsorted list into its correct position in a sorted portion of the list. It is a stable sorting algorithm, meaning that elements with equal values maintain their relative order in the sorted output. The time complexity of Insertion Sort is O(n^2).
+
+In Insertion Sort algorithm:
+
+We have to start with the second element of the array as the first element in the array is assumed to be sorted.
+Compare the second element with the first element and check if the second element is smaller then swap them.
+Move to the third element and compare it with the second element, then the first element and swap as necessary to put it in the correct position among the first three elements.
+Continue this process, comparing each element with the ones before it and swapping as needed to place it in the correct position among the sorted elements.
+Repeat until the entire array is sorted.
+
+
+Selection Sort **continue this as incomplete**
+
+Selection sort is a sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and swapping it with the first element of the unsorted part. This process is repeated for the remaining unsorted portion until the entire list is sorted. As there are two nested loops, the time complexity is O(n^2).
+
+	In Selection Sort algorithm:
+
+The array is divided into two parts,
+The algorithm repeatedly selects the minimum (or maximum) element
+It swaps the selected element with the first unsorted element
+The process continues until the entire array is sorted
+
+
+
+Heap Sort
+Heap sort is a sorting technique based on Binary Heap data structure. Similar to the selection sort, in heap sort, we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements. The time complexity of heap sort is O(n log n).
+
+For Heap Sort algorithm:
+
+First convert the array into heap data structure using heapify, (heapify is the process of creating a heap data structure from a binary tree), then one by one delete the root node of the Max-heap and replace it with the last node in the heap and then heapify the root of the heap. Repeat this process until the size of the heap is greater than 1.
+
+Build a heap from the given input array.
+Repeat the following steps until the heap contains only one element:
+Swap the root element of the heap (which is the largest element) with the last element of the heap.
+Remove the last element of the heap (which is now in the correct position).
+Heapify the remaining elements of the heap.
+The sorted array is obtained by reversing the order of the elements in the input array.
+
+
+Divide and Conquer
+
+A divide-and-conquer algorithm recursively breaks down a problem into two or more sub-problems of the same or related type, until these become simple enough to be solved directly.
+
+Quick Sort
+
+QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array. The time complexity is O(n^2).
+
+The key process in quickSort is a partition(). The target of partitions is to place the pivot (any element can be chosen to be a pivot) at its correct position in the sorted array and put all smaller elements to the left of the pivot, and all greater elements to the right of the pivot.
+
+Partition is done recursively on each side of the pivot after the pivot is placed in its correct position and this finally sorts the array.
+
+
+
+
+
+Merge Sort
+
+
+
+Graph Algorithms
+
+BFS
+DFS
+Topological Sort
+
+Greedy
+Dijkstra's Algorithm
+Prim’s Algorithm
+Krukal’s Algorithm
+
+
+Hashing Algorithms
+
+Recursion
+
+Recursion is the process in which a function calls itself directly and/or indirectly.
+
+
+Pattern Searching
+Searching
+Sorting
+Bitwise
+Recursion
+Backtracking
+Mathematical
+Dynamic Programming
+
+Tree Traversal Techniques:
+Inorder
+Preorder
+Postorder
+
+
 ## Big O Notation
 
 ---
