@@ -15,7 +15,7 @@
 
 ---
 
-Popular Algorithms
+Some Popular Algorithms
 
 Binary Search
 
