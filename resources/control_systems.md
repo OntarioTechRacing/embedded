@@ -130,7 +130,7 @@ function _G(s)_.
 
 ![](https://www.tutorialspoint.com/control_systems/images/block.jpg)
 
-    $G(s) = \frac{Y(s)}{X(s)}$
+$G(s) = \frac{Y(s)}{X(s)}$
 
 The output is obtained by multiplying the transfer function and input.
 
@@ -178,14 +178,14 @@ diagram.
 
 ![](https://www.tutorialspoint.com/control_systems/images/block.jpg)
 
-    $G(s) = \frac{Y(s)}{X(s)}$
+$G(s) = \frac{Y(s)}{X(s)}$
 
 ### 5.1 Poles and Zeros of Transfer Functions
 
 A transfer function can be represented as
 
-    $$G(s) = \frac{Y(s)}{X(s)} = K\frac{(s-z_1)(s-z_2)(s-z_n)}
-    {(s-p_1)(s-p_2)(s-p_n)}$$
+$$G(s) = \frac{Y(s)}{X(s)} = K\frac{(s-z_1)(s-z_2)(s-z_n)}
+{(s-p_1)(s-p_2)(s-p_n)}$$
 
 K is the gain factor of the transfer function.
 
@@ -228,7 +228,7 @@ a generic time response of a system with the 2 states.
 
 Mathematically a systems response c(t) is written as
 
-    $c(t) = c_{tr}(t) + c_{ss}(t)$
+$c(t) = c_{tr}(t) + c_{ss}(t)$
 
 ### 6.1 Transient State Response
 
@@ -246,7 +246,7 @@ response reaches a zero value, as _t_ approaches infinity.
 
 Mathematically a unit impulse, $\delta$ is defined as
 
-    $\delta = 0~for~t\neq0$
+$\delta = 0~for~t\neq0$
 
 ![](https://www.tutorialspoint.com/control_systems/images/unit_impulse.jpg)
 
@@ -254,9 +254,9 @@ Mathematically a unit impulse, $\delta$ is defined as
 
 Mathematically a unit step signal, _u(t)_ is defined as
 
-    $u(t) = 1;~t\geq0$
+$u(t) = 1;~t\geq0$
 
-    $~~~~~= 0;~t<0$$
+$~~~~~= 0;~t<0$$
 
 ![](https://www.tutorialspoint.com/control_systems/images/unit_step.jpg)
 
@@ -264,9 +264,9 @@ Mathematically a unit step signal, _u(t)_ is defined as
 
 Mathematically a unit step signal, _r(t)_ is defined as
 
-    $r(t) = t;~t\geq0$
+$r(t) = t;~t\geq0$
 
-    $~~~~~= 0;~t<0$$
+$~~~~~= 0;~t<0$$
 
 ![](https://www.tutorialspoint.com/control_systems/images/unit_ramp.jpg)
 
@@ -276,11 +276,11 @@ Mathematically a unit step signal, _r(t)_ is defined as
 
 From the first order system above, the transfer function is
 
-    $\frac{C(s)}{R(s)} = \frac{G(s)}{1 + G(s)}$
+$\frac{C(s)}{R(s)} = \frac{G(s)}{1 + G(s)}$
 
 Substituting the value of _G(s)_
 
-    ${C(s)} = \frac{1}{sT + 1}{R(s)}$
+${C(s)} = \frac{1}{sT + 1}{R(s)}$
 
 - ***_C(s)_*** is the laplace transform of output signal c(t)
 - ***_R(s)_*** is the laplace transform of input signal R(t)
@@ -303,12 +303,12 @@ of the responses are the steady state components, while the transient components
 
 From the second order system above, the transfer function is
 
-    $C(s) = (\frac{w_n^2}{s^2+2\zeta w_n s+w_n^2})R(s)$
+$C(s) = (\frac{w_n^2}{s^2+2\zeta w_n s+w_n^2})R(s)$
 
 - ***_C(s)_*** is the laplace transform of output signal c(t)
 - ***_R(s)_*** is the laplace transform of input signal R(t)
 - ***$w_n$*** is the natural frequency: The oscillation frequency of a system which is disturbed and
-  then allowed to oscillate freely.
+then allowed to oscillate freely.
 - ***$\zeta$*** is the damping ratio: Quantity that describes the damping level in a system.
 
 For the time response of the output, the inverse laplace transform of the transfer function is performed.
@@ -319,12 +319,12 @@ The table below shows the time domain responses to a unit step signal, under dif
 |------------------------|---------------------------------------------------------------------------------------------------------------------|-------------------|
 | $\zeta = 0$            | $c(t) = (1-\cos{w_n t})u(t)$                                                                                        | Undamped          |
 | $\zeta = 1$            | $c(t) = (1-e^{-w_n t}-w_n te^{-w_n t})u(t)$                                                                         | Critically Damped |
-| $\0<zeta<1$            | $$c(t) = (1- (\frac{e^{-\zeta w_n t}}{\sqrt{1-\zeta^2}})(\sin{w_d t + \theta})u(t)$$                                | Underdamped       |
+| $0<\zeta<1$            | $$c(t) = (1- (\frac{e^{-\zeta w_n t}}{\sqrt{1-\zeta^2}})(\sin{w_d t + \theta})u(t)$$                                | Underdamped       |
 | $\zeta > 1$            | $$c(t) = (1+(\frac{1}{2(\zeta+\zeta^2-1)})e^-(\zeta w_n+ w_d)t-(\frac{1}{2(\zeta-\zeta^2+1)})e^-(\zeta w_n-w_d)t)$$ | Overdamped        |
 
 -***w_d*** is the damping frequency: This quantity is mathematically defined as
 
-    $w_d = w_n \sqrt{1 - \zeta^2}$
+$w_d = w_n \sqrt{1 - \zeta^2}$
 
 ## 9 Time Domain Specifications of a 2nd Order System
 
@@ -344,7 +344,7 @@ For a overdamped system response, it is the time to rise from 0% to 100% of its 
 
 The quantity is defined mathematically below
 
-    $$t_r = \frac{\pi - \tan^{-1}(\frac{\sqrt{1-\zeta^2}}{\zeta})}{w_n \sqrt{1-\zeta^2}}$$
+$$t_r = \frac{\pi - \tan^{-1}(\frac{\sqrt{1-\zeta^2}}{\zeta})}{w_n \sqrt{1-\zeta^2}}$$
 
 ### 9.3 Peak Time
 
@@ -352,7 +352,7 @@ Peak time $t_p$ is the time taken for a response to reach its maximum value for 
 
 The quantity is defined mathematically below
 
-    $t_P = \frac{\pi}{w_d}$
+$t_P = \frac{\pi}{w_d}$
 
 ### 9.4 Peak Overshoot
 
@@ -360,7 +360,7 @@ Overshoot $M_p$ is the deviation of the systems response from the final steady s
 
 The quantity is defined mathematically below
 
-    $M_p = (e^-(\frac{\zeta \pi}{\sqrt{1-\zeta^2}}))$
+$M_p = (e^-(\frac{\zeta \pi}{\sqrt{1-\zeta^2}}))$
 
 The percentage of peak overshoot can be foud from the above equation.
 
@@ -388,7 +388,7 @@ desired steady state response.
 
 The quantity is defined mathematically below as
 
-    $e_{ss} = \lim_{x\to\infty} e(t) = \lim_{s\to 0} sE(s)$
+$e_{ss} = \lim_{x\to\infty} e(t) = \lim_{s\to 0} sE(s)$
 
 - **E(s)** is the laplace transform of signal, e(t).
 
@@ -438,12 +438,12 @@ For an input signal $r(t) = A\sin(\omega_0 t)$ and open loop transfer function $
 magnitude and phase $G(j\omega_0)|\angle G(j\omega_0)|$
 the output signal is
 
-    $c(t) = A|G(j\omega_0)|\sin(\omega_0 t+\angle G(j\omega_0))$
+$c(t) = A|G(j\omega_0)|\sin(\omega_0 t+\angle G(j\omega_0))$
 
 - A is the amplitude of the input signal
 - $\omega_0$ is the angular frequency of the input signal, mathematically described as
 
-      $\omega_0 = 2\pi f_0$
+  $\omega_0 = 2\pi f_0$
 
 - $f_0$ is the frequency of the input signal
 
@@ -451,18 +451,18 @@ the output signal is
 
 For the 2nd order transfer function
 
-    $$T(S) = \frac{C(s)}{R(s)} = (\frac{w_n^2}{s^2+2\zeta w_n s+
-    w_n^2})$$
+$$T(S) = \frac{C(s)}{R(s)} = (\frac{w_n^2}{s^2+2\zeta w_n s+
+w_n^2})$$
 
 The magnitude of _T(s)_, with $s = j\omega$,
 
-    $$M = |T(j\omega)| = \frac{1}{\sqrt{(1-(\frac{\omega}{\omega_n})^2)
-    ^2+(2\zeta \frac{\omega}{\omega_n})^2}}$$
+$$M = |T(j\omega)| = \frac{1}{\sqrt{(1-(\frac{\omega}{\omega_n})^2)
+^2+(2\zeta \frac{\omega}{\omega_n})^2}}$$
 
 The phase of _T(s)_, with $s = j\omega$,
 
-    $$\angle T(j\omega) = -\tan^{-1}(\frac{\frac{2\zeta\omega}{\omega_n}}
-    {1 - (\frac{\omega}{\omega_n})^2})$$
+$$\angle T(j\omega) = -\tan^{-1}(\frac{\frac{2\zeta\omega}{\omega_n}}
+{1 - (\frac{\omega}{\omega_n})^2})$$
 
 ### 13.1 Resonant Frequency
 
@@ -471,7 +471,7 @@ reaches its peak value for the first time.
 
 It is mathematically defined as
 
-    $\omega_r = \omega_n\sqrt{1-2\zeta^2}$
+$\omega_r = \omega_n\sqrt{1-2\zeta^2}$
 
 ### 13.2 Peak Resonance
 
@@ -479,15 +479,15 @@ Peak resonance,$M_r$, is the maximum magnitude of $T(j\omega$).
 
 It is mathematically defined as
 
-    $M_r = \frac{1}{2\zeta\sqrt{1-\zeta^2}}$
+$M_r = \frac{1}{2\zeta\sqrt{1-\zeta^2}}$
 
 ### 13.3 Bandwidth
 
 Bandwidth, $\omega_b$, is the frequency range over which, the magnitude of $T(j\omega$) drops to 70.7%
 of its zero frequency value.
 
-    $$\omega_b = \omega_n\sqrt{1-2\zeta^2+
-    \sqrt{2-4\zeta^2+4\zeta^4}}$$
+$$\omega_b = \omega_n\sqrt{1-2\zeta^2+
+\sqrt{2-4\zeta^2+4\zeta^4}}$$
 
 ## 14 Control System Plots
 
@@ -497,11 +497,11 @@ Bode Plots describe the change in magnitude and phase as a function of frequency
 
 The magnitude of an open loop transfer function in dB is
 
-    $M = 20\log(|G(j\omega)H(j\omega)|)$
+$M = 20\log(|G(j\omega)H(j\omega)|)$
 
 The phase angle of an open loop transfer function in degrees is
 
-    $\phi = \angle G(j\omega)H(j\omega)$
+$\phi = \angle G(j\omega)H(j\omega)$
 
 <strong>Recommended video: </strong>
 > [Introduction to Bode Plots](https://www.youtube.com/watch?reload=9&v=gZhRvrGSZdQ)
@@ -530,11 +530,11 @@ The phase angle of an open loop transfer function in degrees is
 
 It is mathematically defined as
 
-        $GM = 20\log(\frac{1}{M_pc}) = 10\log(M_pc)$
+$GM = 20\log(\frac{1}{M_pc}) = 10\log(M_pc)$
 
 - **Phase Margin**, PM: It is mathematically defined as
 
-        $PM = 180^\circ + \phi_gc$
+$PM = 180^\circ + \phi_gc$
 
 where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
@@ -560,7 +560,7 @@ The criterion states that if _P_ poles and _Z_ zeros are encircled by an enclose
 the corresponding _G(s)H(s)_ plane must encircle the origin _P-Z_ times. The encirclement number, _N_,
 is given by
 
-    $N = P - Z$
+$N = P - Z$
 
 - If only poles exist in the encircled _s_ plane closed path, the encirclement in the _G(s)H(s)_ is
   opposite in direction to the path in the _s_ plane.
@@ -597,11 +597,11 @@ transfer function.
 
 It is mathematically defined as
 
-        $GM = \frac{1}{M_pc}$
+$GM = \frac{1}{M_pc}$
 
 - **Phase Margin**, PM: It is mathematically defined as
 
-        $PM = 180^\circ + \phi_{gc}$
+$PM = 180^\circ + \phi_{gc}$
 
 where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
@@ -622,14 +622,14 @@ where $\phi_gc$, is the phase angle at the gain cross over frequency.
 ## 15 State Space
 
 - **State**:A group of variables which summarize the systems history, utilized to predict
-  future outputs.
+future outputs.
 - **State Variables**: They possess the dynamic information of a system.
 
 The state space model of a linear time invariant system is represented as
 
-    $\dot X = AX + BU -~State~Equation$
+$\dot X = AX + BU -~State~Equation$
 
-    $Y = CX + DU -~Output~Equation$
+$Y = CX + DU -~Output~Equation$
 
 - _X_ and $\dotX$, are the state vector and differential state vector.
 - Y and U, are the output and input vectors.
@@ -640,7 +640,7 @@ The state space model of a linear time invariant system is represented as
 Applying laplace transform to the state space model defined above, the transfer function of a system in state space
 is defined as
 
-    $\frac{Y(s)}{U(s)} = C(sI-A)^{-1}$
+$\frac{Y(s)}{U(s)} = C(sI-A)^{-1}$
 
 - I is an identity matrix.
 
@@ -648,40 +648,40 @@ is defined as
 
 If the matrix satisfies the following linear homogenous equation
 
-    $\dot x(t) = \frac{dx(t)}{dt} = Ax(t)$
+$\dot x(t) = \frac{dx(t)}{dt} = Ax(t)$
 
 The state transition matrix $\phi (t)$ is
 
-    $\frac{d\phi (t)}{dt} = A\phi (t)$
+$\frac{d\phi (t)}{dt} = A\phi (t)$
 
 The condition following will be met
 
-    $x(t) = \phi (t)x(0)$
+$x(t) = \phi (t)x(0)$
 
 Taking laplace of the linear homogenous equation
 
-    $x(t) = \phi (t)x(0) = L^{-1}[(sI - A)^{-1} x(0)]$
+$x(t) = \phi (t)x(0) = L^{-1}[(sI - A)^{-1} x(0)]$
 
 - Properties of State Transition Matrix
-    - $\phi (t) = I$
-    - $\phi (t) = e^{At} = (e^{-At})^{-1} = (\phi (-t))^{-1}$
-    - $\phi (t_2 - t_0) = \phi (t_2 - t_1)\phi(t_1 - t_0)$
-    - $\phi (t - t_0) = \phi (t)\phi^{-1} (t_0)$
-    - $\phi (t+t_0) = \phi (t)\phi(t_0)$
+- $\phi (t) = I$
+- $\phi (t) = e^{At} = (e^{-At})^{-1} = (\phi (-t))^{-1}$
+- $\phi (t_2 - t_0) = \phi (t_2 - t_1)\phi(t_1 - t_0)$
+- $\phi (t - t_0) = \phi (t)\phi^{-1} (t_0)$
+- $\phi (t+t_0) = \phi (t)\phi(t_0)$
 
 ### 15.2 Controllability and Observability
 
 - **Controllability**: A system is controllable when a desired output is obtained from a specified
-  and controlled input. The criteria is given below, using the matrix $Q_0$.
+and controlled input. The criteria is given below, using the matrix $Q_0$.
 
-        $Q_0 = [B AB A^2B .... A^{n-1}B]$
+$Q_0 = [B AB A^2B .... A^{n-1}B]$
 
 If the determinant of $Q_0$, $|Q_0|$ is unequal to 0, then the system is controllable.
 
 - **Observability**: If input and output signals are used to determine the internal state of a system
-  within a finite interval of time, the system is observable. The criteria is given below, using the matrix $Q_0$.
+within a finite interval of time, the system is observable. The criteria is given below, using the matrix $Q_0$.
 
-        $Q_0 = [C^T A^T C^T .... (A^T)^{n-1}C^T]$
+$Q_0 = [C^T A^T C^T .... (A^T)^{n-1}C^T]$
 
 If the determinant of $Q_0$, $|Q_0|$ is unequal to 0, then the system is observable.
 
