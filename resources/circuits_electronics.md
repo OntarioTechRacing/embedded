@@ -41,8 +41,21 @@ Textbook: [Sedra Smith Microelectronic Circuits](https://learninglink.oup.com/se
 
 ## Node and Mesh Analysis
 
----
+### Node Analysis
+![Nodal Analysis Example](pictures/nodal_analysis.jpg)
 
+#### Steps: 
+1. Select ground node by assigning ground symbol. Assign voltages v<sub>1</sub>, v<sub>2</sub>, ... ,
+   v<sub>n-1</sub> to the remaining n - 1 nodes. These voltages are referenced with respect to the ground node
+2. Apply KCL to each of the n - 1 non-reference nodes. Use Ohm's Law to express the branch currents in terms of node voltages
+3. Solve the resulting simultaneous equations to obtain node voltages
+### Mesh Analysis
+
+![Mesh Analysis Example](pictures/mesh_analysis.jpg)
+#### Steps:
+1. Assign mesh currents i<sub>1</sub>, i<sub>2</sub>, ... ,i<sub>n</sub>, to the n meshes
+2. Apply KVL to each of the n meshes. Use Ohm's Law to express the voltages in terms of the mesh currents
+3. Solve the resulting n simultaneous equations to obtain node voltages
 ## Thevenin and Norton
 
 Conversions:
@@ -63,11 +76,11 @@ Current source parallel to resistor.
 
 ## Source transform
 
----
+![Source Transform Example](pictures/source_transform.jpg)
 
 ## Superposition
 
----
+![Superposition Example](pictures/superposition.jpg)
 
 ## Diodes
 
