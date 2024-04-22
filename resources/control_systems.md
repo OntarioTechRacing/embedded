@@ -291,11 +291,24 @@ For the time response of the output, the inverse laplace transform of the transf
 The table below shows the time domain responses to various signals. The constant values
 of the responses are the steady state components, while the transient components posses exponents.
 
-| Signal       | Response, _c(t)_                           | Response Graph                                                                                     |
-|--------------|--------------------------------------------|----------------------------------------------------------------------------------------------------|
-| Unit impulse | $$c(t) = \frac{1}{T}e^{\frac{-1}{T}}u(t)$$ | ![](https://www.tutorialspoint.com/control_systems/images/unit_impulse_response.jpg)                                                                                           |
-| Unit Step    | $$c(t) = (1-e^{\frac{-1}{T}})u(t)$$        | ![](https://www.tutorialspoint.com/control_systems/images/step_response.jpg)                                                                                           |
-| Unit Ramp    | $$c(t) = (t-T-Te^{\frac{-1}{T}})u(t)$$     | ![](https://www.tutorialspoint.com/control_systems/images/ramp_response.jpg)                                                                                           |
+| Signal       | Response, _c(t)_                           |
+|--------------|--------------------------------------------|
+| Unit impulse | $$c(t) = \frac{1}{T}e^{\frac{-1}{T}}u(t)$$ |
+| Unit Step    | $$c(t) = (1-e^{\frac{-1}{T}})u(t)$$        |
+| Unit Ramp    | $$c(t) = (t-T-Te^{\frac{-1}{T}})u(t)$$     |
+
+
+**Unit Impulse Response**
+
+![](https://www.tutorialspoint.com/control_systems/images/unit_impulse_response.jpg)
+
+**Unit Step Response**
+
+![](https://www.tutorialspoint.com/control_systems/images/step_response.jpg)
+
+**Unit Ramp Response**
+
+![](https://www.tutorialspoint.com/control_systems/images/ramp_response.jpg)
 
 ## 8 Response of A Second Order System
 
@@ -308,8 +321,8 @@ $$C(s) = (\frac{w_n^2}{s^2+2\zeta w_n s+w_n^2})R(s)$$
 - ***_C(s)_*** is the laplace transform of output signal c(t)
 - ***_R(s)_*** is the laplace transform of input signal R(t)
 - $w_n$ is the natural frequency: The oscillation frequency of a system which is disturbed and
-then allowed to oscillate freely.
-- $\zeta$ is the damping ratio: Quantity that describes the damping level in a system.
+then allowed to oscillate freely
+- $\zeta$ is the damping ratio: Quantity that describes the damping level in a system
 
 For the time response of the output, the inverse laplace transform of the transfer function is performed.
 
@@ -605,11 +618,11 @@ $$PM = 180^\circ + \phi_{gc}$$
 
 where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
-| Stability Criteria         | Stability                |
-|----------------------------|--------------------------|
-| $GM > 1$<br/> and $PM > 0$ | Stable system            |
-| $GM = 1$<br/> and PM = 0$  | Marginally Stable system |
-| $GM < 1$<br/> and/or $PM < 0$   | Unstable system          |
+| Stability Criteria           | Stability                |
+|------------------------------|--------------------------|
+| $GM > 1$<br/> and $PM > 0$   | Stable system            |
+| $GM = 1$<br/> and $PM = 0$   | Marginally Stable system |
+| $GM < 1$<br/> and/or $PM < 0$ | Unstable system          |
 
 **Recommended video:**
 > [How to find cross over frequencies, Gain and Phase Margin from Nyquist Plot](https://www.youtube.com/watch?v=84o_rcCXOBw)
@@ -621,7 +634,7 @@ where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
 ## 15 State Space
 
-- **State**:A group of variables which summarize the systems history, utilized to predict
+- **State**: A group of variables which summarize the systems history, utilized to predict
 future outputs.
 - **State Variables**: They possess the dynamic information of a system.
 
