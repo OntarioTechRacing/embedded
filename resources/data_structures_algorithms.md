@@ -11,147 +11,127 @@
 
 ---
 
-## Intro to Algorithms
+# Intro to Algorithms
 
 ---
 
-Some Popular Algorithms
+## Sorting Algorithms
 
-Binary Search
+### Binary Search
 
-Binary Search is a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log n).
+Binary Search is a searching algorithm used in a sorted array. It repeatedly divides the search interval in half, narrowing down the possible location to one. This method leverages the sorted nature of the array to achieve a time complexity of O(log n).
 
-Binary search can be applied when the data structure is sorted and access to any element of the data structure takes constant time.
+#### Binary Search Algorithm Steps:
 
-In Binary Search algorithm:
+1. Divide the search space into two halves by finding the middle index.
+2. Compare the middle element with the key:
+   - If the middle element is the key, the search terminates successfully.
+   - If the middle element is larger than the key, use the left half for the next search.
+   - If the middle element is smaller than the key, use the right half for the next search.
+3. Repeat the process until the key is found or the search space is exhausted.
 
-Divide the search space into two halves by finding the middle index “mid”.
-Compare the middle element of the search space with the key.
-If the key is found at middle element, the process is terminated.
-If the key is not found at middle element, choose which half will be used as the next search space.
-If the key is smaller than the middle element, then the left side is used for next search.
-If the key is larger than the middle element, then the right side is used for next search.
-This process is continued until the key is found or the total search space is exhausted.
+### Linear Search
 
+Linear Search is a sequential search algorithm that examines each element of the list until the target element is found or the list ends. The average time complexity is O(n).
 
-Linear Search
+#### Linear Search Algorithm Steps:
 
-Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise the search continues till the end of the data set. The average time complexity is O(n).
+1. Treat each element as a possible match and examine it.
+2. If an element matches the key, return the index of that element.
+3. If no match is found by the end of the list, return "No match found."
 
-In Linear Search algorithm:
+### Bubble Sort
 
-Every element is considered as a potential match for the key and checked for the same.
-If any element is found equal to the key, the search is successful and the index of that element is returned.
-If no element is found equal to the key, the search yields “No match found”.
+Bubble Sort is a simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order, making it less efficient for large datasets due to its O(n^2) time complexity.
 
+#### Bubble Sort Algorithm Steps:
 
-Sorting Algorithms
+1. Start at the left, compare adjacent elements, and swap if necessary to move the larger element to the right.
+2. Repeat the process for the next largest element until the data is sorted.
 
-Bubble Sort
+### Insertion Sort
 
-Bubble Sort is a sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is O(n^2).
+Insertion Sort builds a sorted sequence from an unsorted list by placing each element into its correct position. It preserves the order of equal elements, with a typical time complexity of O(n^2).
 
-In Bubble Sort algorithm:
+#### Insertion Sort Algorithm Steps:
 
-Traverse from left and compare adjacent elements and the higher one is placed at the right side.
-In this way, the largest element is moved to the rightmost end at first.
-This process is then continued to find the second largest and place it and so on until the data is  sorted.
+1. Consider the second element of the array as sorted.
+2. Compare it with previous elements and swap if necessary.
+3. Continue for each element until the array is sorted.
 
+### Selection Sort
 
-Insertion Sort
+Selection Sort improves efficiency by systematically selecting the smallest element from the unsorted segment and moving it to the start. This process repeats with the remaining unsorted section until the array is sorted, with a time complexity of O(n^2).
 
-Insertion sort is a sorting algorithm that works by iteratively inserting each element of an unsorted list into its correct position in a sorted portion of the list. It is a stable sorting algorithm, meaning that elements with equal values maintain their relative order in the sorted output. The time complexity of Insertion Sort is O(n^2).
+#### Selection Sort Algorithm Steps:
 
-In Insertion Sort algorithm:
+1. Divide the array into sorted and unsorted segments.
+2. Find and swap the smallest element from the unsorted segment with the first unsorted element.
+3. Repeat until the array is sorted.
 
-We have to start with the second element of the array as the first element in the array is assumed to be sorted.
-Compare the second element with the first element and check if the second element is smaller then swap them.
-Move to the third element and compare it with the second element, then the first element and swap as necessary to put it in the correct position among the first three elements.
-Continue this process, comparing each element with the ones before it and swapping as needed to place it in the correct position among the sorted elements.
-Repeat until the entire array is sorted.
+### Heap Sort
 
+Heap Sort utilizes a Binary Heap structure, beginning by converting the list into a heap, then repeatedly removing the largest element and maintaining heap properties. It has a time complexity of O(n log n).
 
-Selection Sort **continue this as incomplete**
+#### Heap Sort Algorithm Steps:
 
-Selection sort is a sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and swapping it with the first element of the unsorted part. This process is repeated for the remaining unsorted portion until the entire list is sorted. As there are two nested loops, the time complexity is O(n^2).
+1. Convert the array into a heap using the heapify process.
+2. Swap the root of the heap with the last element and remove the last element.
+3. Re-heapify the heap and repeat until one element remains.
 
-	In Selection Sort algorithm:
+## Divide and Conquer Algorithms
 
-The array is divided into two parts,
-The algorithm repeatedly selects the minimum (or maximum) element
-It swaps the selected element with the first unsorted element
-The process continues until the entire array is sorted
+### Quick Sort
 
+Quick Sort uses a divide-and-conquer strategy to sort an array by selecting a pivot and partitioning the array around it. It achieves this through recursive partitioning.
 
+#### Quick Sort Algorithm Steps:
 
-Heap Sort
-Heap sort is a sorting technique based on Binary Heap data structure. Similar to the selection sort, in heap sort, we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements. The time complexity of heap sort is O(n log n).
+1. Select a pivot and partition the array around the pivot.
+2. Recursively apply the same logic to the left and right partitions.
+3. Continue until the array is sorted.
 
-For Heap Sort algorithm:
+### Merge Sort
 
-First convert the array into heap data structure using heapify, (heapify is the process of creating a heap data structure from a binary tree), then one by one delete the root node of the Max-heap and replace it with the last node in the heap and then heapify the root of the heap. Repeat this process until the size of the heap is greater than 1.
+Merge Sort divides the array into smaller segments, sorts them, and merges them back into a sorted array. It's a recursive process that ensures stability in sorting.
 
-Build a heap from the given input array.
-Repeat the following steps until the heap contains only one element:
-Swap the root element of the heap (which is the largest element) with the last element of the heap.
-Remove the last element of the heap (which is now in the correct position).
-Heapify the remaining elements of the heap.
-The sorted array is obtained by reversing the order of the elements in the input array.
+#### Merge Sort Algorithm Steps:
 
+1. Divide the array into two halves until it cannot be divided further.
+2. Sort each half and merge them back into a single sorted array.
+3. Repeat until the entire array is sorted.
 
-Divide and Conquer
+## Graph Algorithms
 
-A divide-and-conquer algorithm recursively breaks down a problem into two or more sub-problems of the same or related type, until these become simple enough to be solved directly.
+### Breadth-First Search (BFS)
 
-Quick Sort
+BFS explores vertices level by level, starting from a specified vertex, making it suitable for finding the shortest path and connected components in graphs.
 
-QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array. The time complexity is O(n^2).
+#### BFS Algorithm Steps:
 
-The key process in quickSort is a partition(). The target of partitions is to place the pivot (any element can be chosen to be a pivot) at its correct position in the sorted array and put all smaller elements to the left of the pivot, and all greater elements to the right of the pivot.
+1. Initialize by placing the starting vertex in a queue and marking it as visited.
+2. Process each vertex from the queue and explore its unvisited neighbors.
+3. Repeat until the queue is empty.
 
-Partition is done recursively on each side of the pivot after the pivot is placed in its correct position and this finally sorts the array.
+### Depth-First Search (DFS)
 
+DFS explores as deep as possible along each branch before backtracking, used in various graph-related problems.
 
+#### DFS Algorithm Steps:
 
+1. Start at the root and explore along each branch.
+2. Backtrack when no further exploration is possible.
+3. Continue until all vertices are visited.
 
+## Greedy Algorithms in Graphs
 
-Merge Sort
+### Dijkstra's Algorithm
 
+Dijkstra’s algorithm finds the shortest path from a single vertex to all others by iteratively updating path distances.
 
+### Prim's Algorithm
 
-Graph Algorithms
-
-BFS
-DFS
-Topological Sort
-
-Greedy
-Dijkstra's Algorithm
-Prim’s Algorithm
-Krukal’s Algorithm
-
-
-Hashing Algorithms
-
-Recursion
-
-Recursion is the process in which a function calls itself directly and/or indirectly.
-
-
-Pattern Searching
-Searching
-Sorting
-Bitwise
-Recursion
-Backtracking
-Mathematical
-Dynamic Programming
-
-Tree Traversal Techniques:
-Inorder
-Preorder
-Postorder
-
+Prim’s algorithm builds a minimum spanning tree by continuously adding the nearest vertex
 
 ## Big O Notation
 
