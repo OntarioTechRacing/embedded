@@ -178,7 +178,7 @@ Linked Lists are a collection of nodes that together represent a sequence. Each 
 
 Some characteristics include:
 
-<li>The linked list depends on grow and shrink in size dynamically.</li>
+The linked list depends on grow and shrink in size dynamically.
 
 ```
 
@@ -200,7 +200,7 @@ A stack is a collection of elements, with two main principal operations: push, w
 
 Some characteristics include:
 
-<li>It follws LIFO (Last In First Out) principle.</li>
+It follows LIFO (Last In First Out) principle.
 
 ```
 
@@ -222,7 +222,7 @@ Queues are similar to stacks but operate in a FIFO (First In First Out) manner. 
 
 Some characteristics include :
 
-<li>IT follows FIFO (First In First Out) principle. </li>
+It follows FIFO (First In First Out) principle. 
 
 ```
 
