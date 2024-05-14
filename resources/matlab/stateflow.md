@@ -18,16 +18,56 @@ These docs were written based on internal learnings and online documentation.
 > See MathWorks Stateflow
 > documentation: [Stateflow](https://www.mathworks.com/help/stateflow/).
 
-## Intro to Stateflow
+## 2 Intro to Stateflow
 
-## Calling Simulink Functions
+Stateflow is a graphical tool within MATLAB and Simulink used for designing and
+implementing finite state machines and control logic. It is particularly useful
+for modeling reactive systems, where the system's response to events depends on
+its current state. Stateflow provides a state chart editor for constructing
+state machines and flow diagrams.
 
-### Single Execution Triggers
+**State Machines:** Stateflow allows you to design state machines that visually
+represent states and transitions in your system. States can represent modes of
+operation, while transitions dictate how the system moves between these states
+based on events or conditions.
+
+**Hierarchical State Machines:** Stateflow supports hierarchical state machines,
+enabling nested states within other states. This allows for the creation of
+complex behaviors in a manageable and organized way.
+
+**Parallel States:** You can model concurrent states in Stateflow, representing
+parallel operations or tasks that occur simultaneously within the system.
+
+**Event Handling:** Stateflow can handle events, which are occurrences that
+trigger transitions between states. Events can be time-based, signal-based, or
+custom-defined.
+
+**Integration with Simulink:** Stateflow seamlessly integrates with Simulink,
+allowing you to incorporate state machines into your Simulink models. This
+integration facilitates the modeling of control logic alongside dynamic system
+simulations.
+
+## 3 Basic Components
+
+**States:** Represent different conditions or modes of the system. States are
+depicted as rectangles in the Stateflow chart.
+
+**Transitions:** Arrows that connect states, indicating how the system moves
+from one state to another based on specified conditions.
+
+**Events:** Triggers that cause state transitions. Events can be external inputs
+or internally generated within the Stateflow chart.
+
+**Conditions:** Logical expressions that must be true for a transition to occur.
+
+## 4 Calling Simulink Functions
+
+### 4.1 Single Execution Triggers
 
 To design a trigger in a Stateflow chart that only occurs once, typically during
 initialization or based on a unique condition, you can follow these strategies:
 
-#### Using Initialization Events
+#### 4.2 Using Initialization Events
 
 Stateflow charts can execute specific actions when they start as part of the
 model initialization. This is useful for setting up initial conditions or
@@ -42,7 +82,7 @@ this state for the first time, which is at the beginning of the simulation.
 entry: output = functionName(inputs);
 ```
 
-#### Using a Conditional Transition
+#### 4.3 Using a Conditional Transition
 
 If the function needs to be executed based on a specific condition but only
 once, you can use a transition with a condition that changes state to ensure it
@@ -64,7 +104,7 @@ This ensures the function is called only once because after the first call,
 hasFunctionRun becomes true, and the condition for the transition will no longer
 be true.
 
-#### Using Event-Based Triggers
+#### 4.4 Using Event-Based Triggers
 
 If there's an external or internal event that should trigger the function but
 only once, you can still use the boolean flag approach to guard the function
