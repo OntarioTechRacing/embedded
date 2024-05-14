@@ -5,7 +5,14 @@
 <details markdown="1">
   <summary>Table of Contents</summary>
 
-
+- [1 Overview](#1-overview)
+- [2 Introduction to Stateflow](#2-introduction-to-stateflow)
+- [3 Basic Components](#3-basic-components)
+- [4 Calling Simulink Functions](#4-calling-simulink-functions)
+    - [4.1 Single Execution Triggers](#41-single-execution-triggers)
+    - [4.2 Using Initialization Events](#42-using-initialization-events)
+    - [4.3 Using a Conditional Transition](#43-using-a-conditional-transition)
+    - [4.4 Using Event-Based Triggers](#44-using-event-based-triggers)
 
 </details>
 
