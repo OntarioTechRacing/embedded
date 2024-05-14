@@ -82,3 +82,36 @@ Stateflow chart first enters this state at the simulation's commencement.
 ```matlab
 entry: output = functionName(inputs);
 ```
+
+#### 4.3 Using a Conditional Transition
+
+If a function must execute based on a specific condition but only once, a
+transition with a condition to alter the state can prevent repeated execution.
+
+**Set Up a Boolean Flag:** Include a local data variable in Stateflow, e.g.,
+hasFunctionRun, initialized to false.
+
+**Conditional Transition:** Form a transition from the initial state to another
+with the condition hasFunctionRun == false && <other_condition>. In the
+transition action, call the Simulink function and set hasFunctionRun = true.
+
+```matlab
+[hasFunctionRun == false && <other_condition>] {output = functionName(inputs); hasFunctionRun = true;}
+```
+
+This configuration guarantees the function is called only once because the
+boolean flag, once set to true, prevents the condition for the transition from
+being met again.
+
+#### 4.4 Using Event-Based Triggers
+
+For scenarios where an external or internal event should trigger the function
+execution but only once, the boolean flag strategy can be applied.
+
+Event Trigger with a Guard: Suppose an event, E, should activate the function. A
+transition can be established on this event with a guard condition utilizing the
+boolean flag.
+
+```matlab
+[E && hasFunctionRun == false] {output = functionName(inputs); hasFunctionRun = true;}
+```
