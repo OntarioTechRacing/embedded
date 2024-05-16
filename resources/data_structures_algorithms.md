@@ -221,7 +221,7 @@ link) to the next node in the sequence. This structure allows for efficient inse
 
 Some characteristics include:
 
-<li>The linked list depends on grow and shrink in size dynamically.</li>
+The linked list depends on grow and shrink in size dynamically.
 
 ```
 
@@ -245,7 +245,7 @@ removed, hence the LIFO (Last In First Out) behavior.
 
 Some characteristics include:
 
-<li>It follws LIFO (Last In First Out) principle.</li>
+It follows LIFO (Last In First Out) principle.
 
 ```
 
@@ -268,7 +268,7 @@ removed from the front.
 
 Some characteristics include :
 
-<li>IT follows FIFO (First In First Out) principle. </li>
+It follows FIFO (First In First Out) principle. 
 
 ```
 
@@ -307,3 +307,4 @@ Trees are hierarchical data structures with a root value and subtrees of childre
 set of linked nodes.
 
 ---
+
