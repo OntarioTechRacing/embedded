@@ -30,13 +30,16 @@ Textbook: [Sedra Smith Microelectronic Circuits](https://learninglink.oup.com/se
 ## Ohms Law
 
 ---
-|    Quanity |     Symbol    | Unit of Measurement |
-|------------|:-------------:|:-------------------:|
-| Current    |       I       |  Ampere (A)         |
-| Voltage    |       V       |  Volt (V)           |
-| Resistance |       R       |  Ohm (Ω)             |
+
+| Quanity    | Symbol | Unit of Measurement |
+|------------|:------:|:-------------------:|
+| Current    |   I    |     Ampere (A)      |
+| Voltage    |   V    |      Volt (V)       |
+| Resistance |   R    |       Ohm (Ω)       |
+
 - The unit of resistance is ohms (1Ω = V/A)
-- Ohm's law says that the current through a conductor is given by the following;  $I = \frac{V}{R}$
+- Ohm's law says that the current through a conductor is given by the following;
+  $I = \frac{V}{R}$
 - Where V is the voltage across a conductor.
 
 ## KVL KCL
@@ -44,19 +47,26 @@ Textbook: [Sedra Smith Microelectronic Circuits](https://learninglink.oup.com/se
 ---
 
 ### Kirchhoff’s Voltage Law (KVL)
+
 ##### In a Series Circuit:
+
 - The algebraic sum of all voltages in loop must equal zero.
-- $V_{total} = V_{1} +  V_{2} + V_{3} + ...V_{n}$  
+- $V_{total} = V_{1} + V_{2} + V_{3} + ...V_{n}$
 
 ##### In a Parallel  Circuit:
+
 - The voltage across every resistor is the same as the supply voltage.
-- $V_{total} = V_{1} =  V_{2} = V_{3} = ...V_{n}$  
+- $V_{total} = V_{1} = V_{2} = V_{3} = ...V_{n}$
 
 ### Kirchhoff's Current law: (KCL)
+
 ##### Parallel  Circuit:
+
 - The algebraic sum of all currents entering and exiting a node must equal zero.
-- The total current in a parallel circuit must equal the sum of the branch currents.
+- The total current in a parallel circuit must equal the sum of the branch
+  currents.
 - $I_{in} = I_{out}$
+
 ## Voltage Divider
 
 ---
@@ -101,13 +111,14 @@ equation: $I_{D} = I_{S} \left( e^{\frac{V_{D}}{nV_{T}}} - 1 \right)$.
 - $V_{D}$ = Voltage across the diode.
 - $V_{T}$ = Thermal voltage.
     - Where $V_{T} = \frac{kT}{q}$.
-        -
-        $k$ = [Boltzmann constant](https://en.wikipedia.org/wiki/Boltzmann_constant).
+      -
+      $k$ = [Boltzmann constant](https://en.wikipedia.org/wiki/Boltzmann_constant).
         - $T$ = Absolute temperature \[$K$].
         - $q$ = Magnitude of an electron's charge,
           aka [elementary charge](https://en.wikipedia.org/wiki/Elementary_charge)
           \[$C$].
 -
+
 $n$ = [Ideality / quality factor](https://en.wikipedia.org/wiki/Ideality_factor)
 or emission coefficient.
 
@@ -154,7 +165,7 @@ no substrate (body) current, is $I_{D} = I_{S}$, since $I_{G} = 0$.
 
 ### Operating Mode / Response Region
 
-TODO-IMAGE-HERE
+![mosfet.png](pictures/mosfet.png)
 
 | Operating Mode |               Characteristics               | Application |
 |----------------|:-------------------------------------------:|:-----------:|
@@ -197,7 +208,6 @@ Recall, the MOSFET must operate in saturation mode.
 
 |                       |                  Common Source                  |                                          Common Source with Source Resistor                                          |                  Common Gate                   |            Common Drain            |
 |-----------------------|:-----------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------:|:----------------------------------:|
-| Circuit               |                 TODO-IMAGE-HERE                 |                                                   TODO-IMAGE-HERE                                                    |                TODO-IMAGE-HERE                 |          TODO-IMAGE-HERE           |
 | Model                 |                    Hybrid Pi                    |                                                          T                                                           |                       T                        |                 T                  |
 | Input                 |                      Gate                       |                                                         Gate                                                         |                     Source                     |                Gate                |
 | Output                |                      Drain                      |                                                        Drain                                                         |                     Drain                      |               Source               |
@@ -211,7 +221,7 @@ Recall, the MOSFET must operate in saturation mode.
 
 ### Operating Mode / Response Region
 
-TODO-IMAGE-HERE
+![bjt.png](pictures/bjt.png)
 
 | Operating Mode | EB Junction | CB Junction |           Characteristics           |         ~BE Voltage          |         ~BC Voltage          | Application |
 |----------------|:-----------:|:-----------:|:-----------------------------------:|:----------------------------:|:----------------------------:|:-----------:|
@@ -245,17 +255,17 @@ Resistance: $r_{\pi} = \frac{\beta}{g_{m}} = \frac{V_{T}}{I_{B}}$.
 
 Recall, the BJT must operate in active mode.
 
-|                                        |                                Common Emitter                                |                     Common Emitter with Emitter Resistor                      |                Common Base                 |           Common Collector / Emitter Follower           |
-|----------------------------------------|:----------------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|:------------------------------------------:|:-------------------------------------------------------:|
-| Circuit                                |                               TODO-IMAGE-HERE                                |                                TODO-IMAGE-HERE                                |              TODO-IMAGE-HERE               |                     TODO-IMAGE-HERE                     |
-| Model                                  |                                      Pi                                      |                                       T                                       |                     T                      |                            T                            |
-| Input                                  |                                     Base                                     |                                     Base                                      |                  Emitter                   |                          Base                           |
-| Output                                 |                                  Collector                                   |                                   Collector                                   |                 Collector                  |                         Emitter                         |
-| $R_{in}$                               |                                  $r_{\pi}$                                   |            $\left( 1 + \beta \right) \left( r_{e} + R_{E} \right)$            |                  $r_{e}$                   | $\left( 1 + \beta \right) \left( r_{e} + R_{L} \right)$ |
-| $R_{out}$                              |                        $R_{C} = \frac{v_{o}}{i_{o}}$                         |                                       ←                                       |                     ←                      |                         $r_{e}$                         |
-| Voltage gain, $A_{v_{o}}$ (no $R_{L}$) |                $-g_{m} R_{C} = \frac{- \alpha R_{C}}{r_{e}}$                 | $\frac{-g_{m} R_{C}}{1 + g_{m} R_{E}} = \frac{- \alpha R_{C}}{r_{e} + R_{E}}$ | $g_{m} R_{C} = \frac{\alpha R_{C}}{r_{e}}$ |                            1                            |
-| Voltage gain, $A_{v}$ with $R_{L}$     | $A_{v_{o}}$ where $R_{C} \rightarrow \left( R_{C} \vert \vert R_{L} \right)$ |                                       ←                                       |                     ←                      |              $\frac{R_{L}}{R_{L} + r_{e}}$              |
-| Overall gain, $G_{v}$                  |                $\frac{R_{in}}{R_{in} + R_{sig}} \times A_{v}$                |                                       ←                                       |                     ←                      |                            ←                            |
+|                                        |                                Common Emitter                                |                     Common Emitter with Emitter Resistor                      |                  Common Base                   |           Common Collector / Emitter Follower           |
+|----------------------------------------|:----------------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|:----------------------------------------------:|:-------------------------------------------------------:|
+| Circuit                                |                ![bjt amp ce.png](pictures/bjt%20amp%20ce.png)                |      ![bjt amp ce with re.png](pictures/bjt%20amp%20ce%20with%20re.png)       | ![bjt amp cb.png](pictures/bjt%20amp%20cb.png) |     ![bjt amp cc.png](pictures/bjt%20amp%20cc.png)      |
+| Model                                  |                                      Pi                                      |                                       T                                       |                       T                        |                            T                            |
+| Input                                  |                                     Base                                     |                                     Base                                      |                    Emitter                     |                          Base                           |
+| Output                                 |                                  Collector                                   |                                   Collector                                   |                   Collector                    |                         Emitter                         |
+| $R_{in}$                               |                                  $r_{\pi}$                                   |            $\left( 1 + \beta \right) \left( r_{e} + R_{E} \right)$            |                    $r_{e}$                     | $\left( 1 + \beta \right) \left( r_{e} + R_{L} \right)$ |
+| $R_{out}$                              |                        $R_{C} = \frac{v_{o}}{i_{o}}$                         |                                       ←                                       |                       ←                        |                         $r_{e}$                         |
+| Voltage gain, $A_{v_{o}}$ (no $R_{L}$) |                $-g_{m} R_{C} = \frac{- \alpha R_{C}}{r_{e}}$                 | $\frac{-g_{m} R_{C}}{1 + g_{m} R_{E}} = \frac{- \alpha R_{C}}{r_{e} + R_{E}}$ |   $g_{m} R_{C} = \frac{\alpha R_{C}}{r_{e}}$   |                            1                            |
+| Voltage gain, $A_{v}$ with $R_{L}$     | $A_{v_{o}}$ where $R_{C} \rightarrow \left( R_{C} \vert \vert R_{L} \right)$ |                                       ←                                       |                       ←                        |              $\frac{R_{L}}{R_{L} + r_{e}}$              |
+| Overall gain, $G_{v}$                  |                $\frac{R_{in}}{R_{in} + R_{sig}} \times A_{v}$                |                                       ←                                       |                       ←                        |                            ←                            |
 
 > Recommended video:
 > - [Feedback Amplifier: How to find DC Bias and AC Gain](https://youtu.be/6dLMxpLNKv4)
@@ -267,15 +277,15 @@ Recall, the BJT must operate in active mode.
 The following information is more specific to BJT negative feedback amplifier
 circuits, however the main concepts carry over to other types of transistors.
 
-|                                   |                    Voltage                     |              Trans-conductance              |                   Current                   |              Trans-resistance               |
-|-----------------------------------|:----------------------------------------------:|:-------------------------------------------:|:-------------------------------------------:|:-------------------------------------------:|
-| Input                             |                    Voltage                     |                   Voltage                   |                   Current                   |                   Current                   |
-| Output                            |                    Voltage                     |                   Current                   |                   Current                   |                   Voltage                   |
-| Topology                          |                  Series-Shunt                  |                Series-Series                |                Shunt-Series                 |                 Shunt-Shunt                 |
-| Feedback network $R_{1}$, $R_{2}$ |                TODO-IMAGE-HERE                 |               TODO-IMAGE-HERE               |               TODO-IMAGE-HERE               |               TODO-IMAGE-HERE               |
-| Feedback factor $\beta$           |  $\frac{V_{f}}{V_{o}} \big\vert_{I_{1} = 0}$   | $\frac{I_{f}}{V_{o}} \big\vert_{I_{1} = 0}$ | $\frac{I_{f}}{I_{o}} \big\vert_{V_{1} = 0}$ | $\frac{I_{f}}{V_{o}} \big\vert_{V_{1} = 0}$ |
-| Open loop gain $A$                | Per amplifier stage based on $R_{i}$ & $R_{o}$ |                      ←                      |                      ←                      |                      ←                      |
-| Feedback loop gain $A_{f}$        |        Total of amplifier stages' gain         |                      ←                      |                      ←                      |                      ←                      |
+|                                   |                        Voltage                         |                     Trans-conductance                      |                         Current                          |                    Trans-resistance                    |
+|-----------------------------------|:------------------------------------------------------:|:----------------------------------------------------------:|:--------------------------------------------------------:|:------------------------------------------------------:|
+| Input                             |                        Voltage                         |                          Voltage                           |                         Current                          |                        Current                         |
+| Output                            |                        Voltage                         |                          Current                           |                         Current                          |                        Voltage                         |
+| Topology                          |                      Series-Shunt                      |                       Series-Series                        |                       Shunt-Series                       |                      Shunt-Shunt                       |
+| Feedback network $R_{1}$, $R_{2}$ | ![fb amp voltage.png](pictures/fb%20amp%20voltage.png) | ![fb amp transcond.png](pictures/fb%20amp%20transcond.png) | ![fb amp transres.png](pictures/fb%20amp%20transres.png) | ![fb amp voltage.png](pictures/fb%20amp%20voltage.png) |
+| Feedback factor $\beta$           |      $\frac{V_{f}}{V_{o}} \big\vert_{I_{1} = 0}$       |        $\frac{I_{f}}{V_{o}} \big\vert_{I_{1} = 0}$         |       $\frac{I_{f}}{I_{o}} \big\vert_{V_{1} = 0}$        |      $\frac{I_{f}}{V_{o}} \big\vert_{V_{1} = 0}$       |
+| Open loop gain $A$                |     Per amplifier stage based on $R_{i}$ & $R_{o}$     |                             ←                              |                            ←                             |                           ←                            |
+| Feedback loop gain $A_{f}$        |            Total of amplifier stages' gain             |                             ←                              |                            ←                             |                           ←                            |
 
 |                                                                    |                                     Series Side Equation                                      |                                                     Shunt Side Equation                                                     |
 |--------------------------------------------------------------------|:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
