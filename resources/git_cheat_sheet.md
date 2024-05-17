@@ -7,8 +7,11 @@
 
 - [1 Overview](#1-Overview)
 - [2 General](#2-general)
-- [3 HEAD Location](#3-head-location)
-    - [3.1 Quick Reversing HEAD](#3-head-location)
+- [3 Reset HEAD](#3-reset-head)
+  - [3.1 Flags](#31-flags)
+  - [3.2 Reset to Commit](#32-reset-to-commit)
+  - [3.3 Reset to Origin Branch HEAD](#33-reset-to-origin-branch-head)
+  - [3.4 Note on Pushing Resets](#34-note-on-pushing-resets)
 - [4 Submodule](#411-results-gitmodules)
     - [4.1 Add Submodule](#41-add-submodule)
         - [4.1.1 Results (.gitmodules)](#411-results-gitmodules)
@@ -44,18 +47,54 @@ git push
 
 ---
 
-## 3 HEAD Location
+## 3 Reset HEAD
 
-## 3.1 Quick Reversing HEAD
+## 3.1 Flags
+
+`--soft`: Does not touch the index file or the working tree, but resets the head
+to <commit>. Changes from <commit> onwards are preserved in the working 
+directory and as staged changes.
+
+`--mixed`: Resets the index but not the working tree (i.e., the changed files 
+are preserved but not marked for commit) and reports what has not been updated.
+This is the default action if no mode is specified.
+
+`--hard`: Resets the index and working tree. Any changes to tracked files in the
+working tree since <commit> are discarded.
+
+`--merge`: Resets the index and updates the files in the working tree that are
+different between <commit> and HEAD, but keeps those which are different between
+the index and working tree (i.e., which have changes which have not been added).
+If a merge conflict arises, it needs to be resolved manually.
+
+`--keep`: Resets index entries and updates files in the working tree that are
+different between <commit> and HEAD. If a file that is different between
+<commit> and the index has unstaged changes, reset is aborted.
+
+## 3.2 Reset to Commit
 
 To revert HEAD to a previous commit without the commit ID (also to Force Revert
-commits)
+commits).
 
 ```shell
-git reset --hard HEAD^ # Revert to 1 commit back, add `^` for each additional n commit to revert to.
+git reset --hard HEAD^  # Reset to 1 commit back, add `^` for each additional commit.
+git reset --hard <commit_hash>  # Reset to specific commit hash.
 ```
 
-- You would force push with `git push -f` for force the revert (HIGH RISK).
+## 3.3 Reset to Origin Branch HEAD
+
+This resets the current branch's tip to the specified branch. In other words, it
+makes the current branch point to the same commit as the target branch.
+
+```shell
+git reset --hard origin/<branch>  # Target to match head to remote branch.
+git reset --hard <branch>  # Target to match head to local branch.
+```
+
+## 3.4 Note on Pushing Resets
+
+You would need to force push with `git push -f` for force the revert, however 
+this is very high risk for loss of work.
 
 ---
 
