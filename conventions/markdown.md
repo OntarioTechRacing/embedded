@@ -17,7 +17,7 @@
     - [3.3 Headers](#33-headers)
         - [3.3.1 Numbering Format](#331-numbering-format)
         - [3.3.2 Writing Format](#332-writing-format)
-        - [3.3.3 Header 1 Line Breaks](#333-header-1-line-breaks)
+        - [3.3.3 Horizontal Lines](#333-horizontal-lines)
         - [3.3.4 Section Links / Header References](#334-section-links--header-references)
     - [3.4 Standard Markdown Syntax](#34-standard-markdown-syntax)
         - [3.4.1 Advanced Formatting Syntax](#341-advanced-formatting-syntax)
@@ -110,9 +110,11 @@ Headers are numbered the following format.
 
 Headers are named with standard `Title Formatting`.
 
-#### 3.3.3 Header 1 Line Breaks
+#### 3.3.3 Horizontal Lines
 
-The general recommendation is to use horizontal ines on `Header 1` to improve
+Use horizontal line breaks `---` to separate long sections of writing.
+
+The general recommendation is to separate on `Header level 1 & 2` to improve
 readability.
 
 #### 3.3.4 Section Links / Header References
