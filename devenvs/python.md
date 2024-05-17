@@ -116,5 +116,5 @@ pyenv which python  # Verify active python venv location.
 pyenv which pip  # Verify active pip (part of venv) location.
 
 pyenv activate <environment_name>  # Manually activate venv (if using multiple).
-$ pyenv deactivate  # Deactivate current venv.
+pyenv deactivate  # Deactivate current venv.
 ```

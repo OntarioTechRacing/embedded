@@ -29,7 +29,7 @@ Commands are written in the following format.
 
 ````
 ```shell
-$ git ... # Comment.
+git ... # Comment.
 ```
 ````
 
@@ -38,8 +38,8 @@ $ git ... # Comment.
 ## 2 General
 
 ```shell
-$ git commit -m "Add new xyz feature"
-$ git push
+git commit -m "Add new xyz feature"
+git push
 ```
 
 ---
@@ -52,7 +52,7 @@ To revert HEAD to a previous commit without the commit ID (also to Force Revert
 commits)
 
 ```shell
-$ git reset --hard HEAD^ # Revert to 1 commit back, add `^` for each additional n commit to revert to.
+git reset --hard HEAD^ # Revert to 1 commit back, add `^` for each additional n commit to revert to.
 ```
 
 - You would force push with `git push -f` for force the revert (HIGH RISK).
@@ -64,7 +64,7 @@ $ git reset --hard HEAD^ # Revert to 1 commit back, add `^` for each additional 
 ### 4.1 Add Submodule
 
 ```shell
-$ git submodule add <remote_origin> <destination_path>
+git submodule add <remote_origin> <destination_path>
 ```
 
 - `<destination_path>` is optional.
@@ -85,20 +85,20 @@ automatically:
 ### 4.2 Fetch Submodule Commits
 
 ```shell
-$ cd repository/submodule # Enter submodule directory.
-$ git fetch
+cd repository/submodule # Enter submodule directory.
+git fetch
 ```
 
 ### 4.3 Pull Submodule
 
 ```shell
-$ git submodule update # --init --recursive
+git submodule update # --init --recursive
 ```
 
 ### 4.4 Update Submodule
 
 ```shell
-$ git submodule update # --remote --merge
+git submodule update # --remote --merge
 ```
 
 - If you do not use the `–remote` flag, a manual `git pull` within each
@@ -107,8 +107,8 @@ $ git submodule update # --remote --merge
 ### 4.5 Remove Submodule
 
 ```shell
-$ git submodule deinit <submodule> # Update .git/config.
-$ git rm <submodule> # Remove submodule files.
+git submodule deinit <submodule> # Update .git/config.
+git rm <submodule> # Remove submodule files.
 ```
 
 ---
