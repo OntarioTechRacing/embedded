@@ -75,7 +75,7 @@ principle of output control via input, to command the activities of other
 systems or devices.Control systems are utilized in electronic, automation and
 engineering systems.
 
-**Recommended video:**
+> **Recommended video:**
 > [Everything You Need to Know About Control Theory](https://youtu.be/lBC1nEq0_nk)
 
 ## 2 Open Loop and Closed Loop Control
@@ -86,7 +86,7 @@ In this control system type, the systems output is dependent on the system
 input, but the output has no influence on the systems control action. This
 system utilizes no feedback system.
 
-**Recommended video:**
+> **Recommended video:**
 > [Open-Loop Control Systems | Understanding Control Systems, Part 1](https://youtu.be/FurC2unHeXI?si=deoKwaBSaMM_wqQV)
 
 ### 2.2 Closed Loop Control
@@ -96,7 +96,7 @@ more feedback loops. In this system the output is utilized in a feedback loop to
 influence the systems control actions,to ensure the output matches a desired
 input.
 
-**Recommended video:**
+> **Recommended video:**
 > [What is a Closed Loop System? | Basics of Control System](https://youtu.be/maQyGdgvS4M?si=Mzu-kVqzEHeM_Nku)
 
 ## 3 Feedback
@@ -146,7 +146,7 @@ The figures below shows a summing point and operations on inputs.
 
 ![](https://www.tutorialspoint.com/control_systems/images/negative_sign.jpg)
 
-**Recommended video:**
+> **Recommended video:**
 > [Basics of Block DIagrams](https://youtu.be/6YRjc8LgXmc?si=4OKShzdOeDTaX3N4)
 
 #### 4.1.3 Taking-off point
@@ -162,14 +162,14 @@ The multiple rules of block diagram algebra are shown below.
 
 ![](https://th.bing.com/th/id/OIP.QuF-v7Lo78EYJTWSIzjdzwAAAA?w=470&h=618&rs=1&pid=ImgDetMain)
 
-**Recommended video:**
+> **Recommended video:**
 > [Block Diagram Algebra Rules](https://youtu.be/NUUGOgkOd1A?si=7n90fl0JNNfrVbVz)
 
 ### 4.3 Block Diagram Reduction
 
 The video provides an example on block diagram reduction.
 
-**Recommended video:**
+> **Recommended video:**
 > [Block Diagram Reduction Example](https://youtu.be/7a2pyG1JkHQ?si=WuTTXtrO5CoSqGgn)
 
 ## 5 Transfer Functions
@@ -210,17 +210,17 @@ mapped as an _o_.
 
 ![](https://vru.vibrationresearch.com/wp-content/uploads/2021/06/zdomain-poles-zeros.png)
 
-**Recommended video:**
+> **Recommended video:**
 > [Introduction to Transfer Functions](https://youtu.be/2Xl7--Df3g8?si=JuJpT5uI-rB9WjrR)
 
 ### 5.3 Obtaining Transfer Function from a Block Diagram
 
-**Recommended video:**
+> **Recommended video:**
 > [Transfer Function from Block Diagram Reduction Example](https://youtu.be/7a2pyG1JkHQ?si=WuTTXtrO5CoSqGgn)
 
 ### 5.4 MATLAB Implementation
 
-**Recommended video:**
+> **Recommended video:**
 > [Transfer function model](https://www.mathworks.com/help/control/ref/tf.html)
 
 ## 6 Time Response Analysis
@@ -402,7 +402,7 @@ $$t_s = \frac{4}{\zeta w_n} = 4\tau$$
 - $\tau$ is the time constant: This is the time taken for a response to reach
   63.2% of its final steady state value from the initial state.
 
-**Recommended video:**
+> **Recommended video:**
 > [Time Domain Specifications](https://youtu.be/MzrgBc4s-jk?si=SSw2xam1qhFWr2St)
 
 ## 10 Steady State Error
@@ -418,7 +418,7 @@ $$e_{ss} = \lim_{x\to\infty} e(t) = \lim_{s\to 0} sE(s)$$
 
 - **E(s)** is the laplace transform of signal, e(t).
 
-**Recommended video:**
+> **Recommended video:**
 > [Steady State Error](https://youtu.be/gR5nDxw5lds?si=892S8V75aUxjNRfX)
 
 ## 11 Stability
@@ -455,7 +455,7 @@ The classification of systems based on stability is given below.
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20240122140239/CS--Stability3.webp)
 
-**Recommended video:**
+> **Recommended video:**
 > [Introduction to Stability](https://youtu.be/t1BrHAYhvog?si=TMgU2nFZuiZBwXw_)
 
 ## 12 Frequency Response
@@ -532,10 +532,10 @@ The phase angle of an open loop transfer function in degrees is
 
 $$\phi = \angle G(j\omega)H(j\omega)$$
 
-**Recommended video:**
+> **Recommended video:**
 > [Introduction to Bode Plots](https://www.youtube.com/watch?reload=9&v=gZhRvrGSZdQ)
 
-**Recommended video:**
+> **Recommended video:**
 > [Bode Plot Solved Example](https://www.youtube.com/watch?v=JLWJTdK0Q0w)
 
 #### 14.1.1 Stability Analysis with Bode Plots
@@ -574,12 +574,12 @@ where $\phi_gc$, is the phase angle at the gain cross over frequency.
 | $GM = 0$<br/> and $PM = 0$    | Marginally Stable system |
 | $GM < 0$<br/> and/or $PM < 0$ | Unstable system          |
 
-**Recommended video:**
+> **Recommended video:**
 > [How to find cross over frequencies, Gain and Phase Margin from Bode Plot](https://www.youtube.com/watch?v=iB10Hk0BCAs)
 
 #### 14.1.2 MATLAB Implementation
 
-**Recommended video:**
+> **Recommended video:**
 > [Bode plot of frequency response, or magnitude and phase data](https://www.mathworks.com/help/ident/ref/dynamicsystem.bode.html)
 
 ### 14.2 Nyquist Plot
@@ -600,10 +600,10 @@ $$N = P - Z$$
 The **Nyquist Stability Criterion** states that _N_ of the point (-1,0) must
 equal _P-Z_ of the close loop transfer function.
 
-**Recommended video:**
+> **Recommended video:**
 > [Nyquist plot intro 1](https://www.youtube.com/watch?v=sof3meN96MA)
 
-**Recommended video:**
+> **Recommended video:**
 > [Nyquist plot intro 2](https://www.youtube.com/watch?v=tsgOstfoNhk)
 
 #### 14.2.2 Stability Analysis with Nyquist Plots
@@ -643,12 +643,12 @@ where $\phi_gc$, is the phase angle at the gain cross over frequency.
 | $GM = 1$<br/> and $PM = 0$    | Marginally Stable system |
 | $GM < 1$<br/> and/or $PM < 0$ | Unstable system          |
 
-**Recommended video:**
+> **Recommended video:**
 > [How to find cross over frequencies, Gain and Phase Margin from Nyquist Plot](https://www.youtube.com/watch?v=84o_rcCXOBw)
 
 #### 14.2.3 MATLAB Implementation
 
-**Recommended video:**
+> **Recommended video:**
 > [Nyquist plot of frequency response](https://www.mathworks.com/help/control/ref/dynamicsystem.nyquist.html)
 
 ## 15 State Space
@@ -727,7 +727,7 @@ $$Q_0 = [C^T A^T C^T .... (A^T)^{n-1}C^T]$$
 If the determinant of $Q_0$, $|Q_0|$ is unequal to 0, then the system is
 observable.
 
-**Recommended videos:**
+> **Recommended videos:**
 > 1. [Introduction to State-Space Equations | State Space, Part 1 ](https://youtu.be/hpeKrMG-WP0)
 > 2. [What is Pole Placement (Full State Feedback) | State Space, Part 2](https://youtu.be/FXSpHy8LvmY)
 > 3. [A Conceptual Approach to Controllability and Observability | State Space, Part 3](https://youtu.be/BYvTEfNAi38)
@@ -737,5 +737,5 @@ observable.
 
 ## 16 code implementations
 
-**Recommended video:**
+> **Recommended video:**
 > [4 Ways to Implement a Transfer Function in Code | Control Systems in Practice](https://youtu.be/nkq4WkX7CFU)
