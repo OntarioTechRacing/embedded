@@ -70,7 +70,8 @@
 
 ## 1 Intro to Control Systems
 
-Control systems constitute a system, device or set of devices, that utilizes the principle of output control via input,
+Control systems constitute a system, device or set of devices, that utilizes the
+principle of output control via input,
 to command the activities of other systems or devices.  
 Control systems are utilized in electronic, automation and engineering systems.
 
@@ -81,7 +82,8 @@ Control systems are utilized in electronic, automation and engineering systems.
 
 ### 2.1 Open Loop Control
 
-In this control system type, the systems output is dependent on the system input, but the output has no influence on the
+In this control system type, the systems output is dependent on the system
+input, but the output has no influence on the
 systems control action.
 This system utilizes no feedback system.
 
@@ -90,7 +92,8 @@ This system utilizes no feedback system.
 
 ### 2.2 Closed Loop Control
 
-This control system consists of an open loop forward path, along with one or more feedback loops. In this system the
+This control system consists of an open loop forward path, along with one or
+more feedback loops. In this system the
 output is utilized in a feedback loop to influence the systems
 control actions,to ensure the output matches a desired input.
 
@@ -99,7 +102,8 @@ control actions,to ensure the output matches a desired input.
 
 ## 3 Feedback
 
-Feedback involves feeding a systems output or part of the output back to the systems input side to be used as part
+Feedback involves feeding a systems output or part of the output back to the
+systems input side to be used as part
 of the systems input.
 
 ### 3.1 Positive Feedback
@@ -110,7 +114,8 @@ Here the feedback output is added to the desired input.
 
 ### 3.2 Negative Feedback
 
-Here the feedback output is subtracted from the desired input. Negative feedback is used
+Here the feedback output is subtracted from the desired input. Negative feedback
+is used
 to reduce the error between the input and output.
 
 ![Negative feedback loop](https://www.tutorialspoint.com/control_systems/images/negative_feedback.jpg)
@@ -135,8 +140,10 @@ The output is obtained by multiplying the transfer function and input.
 
 #### 4.1.2 Summing Point
 
-Represented by a circle, it receives 2 or more inputs and a single output. It is used
-to perform algebraic operation (summation and/or subtraction) on inputs to produce the operations result as an output.
+Represented by a circle, it receives 2 or more inputs and a single output. It is
+used
+to perform algebraic operation (summation and/or subtraction) on inputs to
+produce the operations result as an output.
 The operations on the inputs depend on their polarity.
 
 The figures below shows a summing point and operations on inputs.
@@ -171,8 +178,10 @@ The video provides an example on block diagram reduction.
 
 ## 5 Transfer Functions
 
-A transfer function represents the ratio of the laplace transform of a systems output signal and
-laplace transform of the systems input signal. Transfer functions can be obtained through reduction of a systems block
+A transfer function represents the ratio of the laplace transform of a systems
+output signal and
+laplace transform of the systems input signal. Transfer functions can be
+obtained through reduction of a systems block
 diagram.
 
 ![](https://www.tutorialspoint.com/control_systems/images/block.jpg)
@@ -188,16 +197,20 @@ $$G(s) = \frac{Y(s)}{X(s)} = K\frac{(s-z_1)(s-z_2)(s-z_n)}
 
 K is the gain factor of the transfer function.
 
-From the equation if, s = $z_1$ or s = $z_2$ or s = $z_n$, the transfer function would become zero.
+From the equation if, s = $z_1$ or s = $z_2$ or s = $z_n$, the transfer function
+would become zero.
 Therefore, $z_1$, $z_2$ and $z_n$ are the zeros of the transfer function.
 
-Now if, s = $p_1$ or s = $p_2$ or s = $p_n$, the transfer function would become infinite.
+Now if, s = $p_1$ or s = $p_2$ or s = $p_n$, the transfer function would become
+infinite.
 Therefore, $p_1$, $p_2$ and $p_n$ are the roots of the transfer function.
 
 ### 5.2 The S-Plane
 
-The s-plane is a complex plane with a real and imaginary axis. The position on the complex
-plane is defined by $re^{j\theta}$ and the angle from the positive real axis, $\theta$.
+The s-plane is a complex plane with a real and imaginary axis. The position on
+the complex
+plane is defined by $re^{j\theta}$ and the angle from the positive real axis,
+$\theta$.
 Poles are mapped on the s-plane as an _x_, while zeros are mapped as a _o_.
 
 ![](https://www.jobilize.com/ocw/mirror/col10064_1.15_complete/m34855/splane.png)
@@ -219,8 +232,10 @@ Poles are mapped on the s-plane as an _x_, while zeros are mapped as a _o_.
 
 ## 6 Time Response Analysis
 
-The output response of a system varying with time is the time response of the system.
-The time response of a system consists of a transient state and steady state. Below is
+The output response of a system varying with time is the time response of the
+system.
+The time response of a system consists of a transient state and steady state.
+Below is
 a generic time response of a system with the 2 states.
 
 ![](https://www.tutorialspoint.com/control_systems/images/time_response.jpg)
@@ -231,12 +246,14 @@ $$c(t) = c_{tr}(t) + c_{ss}(t)$$
 
 ### 6.1 Transient State Response
 
-This state encompasses a systems output response until it reaches a steady state. For
+This state encompasses a systems output response until it reaches a steady
+state. For
 large values of time _t_, the transient response will be zero.
 
 ### 6.2 Steady State Response
 
-This state refers to the steady section of a systems response where the transient
+This state refers to the steady section of a systems response where the
+transient
 response reaches a zero value, as _t_ approaches infinity.
 
 ### 6.3 Standard Test Signal
@@ -285,17 +302,19 @@ $${C(s)} = \frac{1}{sT + 1}{R(s)}$$
 - ***_R(s)_*** is the laplace transform of input signal R(t)
 - ***_T_*** is the time constant
 
-For the time response of the output, the inverse laplace transform of the transfer function is performed.
+For the time response of the output, the inverse laplace transform of the
+transfer function is performed.
 
-The table below shows the time domain responses to various signals. The constant values
-of the responses are the steady state components, while the transient components posses exponents.
+The table below shows the time domain responses to various signals. The constant
+values
+of the responses are the steady state components, while the transient components
+posses exponents.
 
 | Signal       | Response, _c(t)_                           |
 |--------------|--------------------------------------------|
 | Unit impulse | $$c(t) = \frac{1}{T}e^{\frac{-1}{T}}u(t)$$ |
 | Unit Step    | $$c(t) = (1-e^{\frac{-1}{T}})u(t)$$        |
 | Unit Ramp    | $$c(t) = (t-T-Te^{\frac{-1}{T}})u(t)$$     |
-
 
 **Unit Impulse Response**
 
@@ -319,13 +338,17 @@ $$C(s) = (\frac{w_n^2}{s^2+2\zeta w_n s+w_n^2})R(s)$$
 
 - ***_C(s)_*** is the laplace transform of output signal c(t).
 - ***_R(s)_*** is the laplace transform of input signal R(t).
-- $w_n$ is the natural frequency: The oscillation frequency of a system which is disturbed and
-then allowed to oscillate freely.
-- $\zeta$ is the damping ratio: Quantity that describes the damping level in a system.
+- $w_n$ is the natural frequency: The oscillation frequency of a system which is
+  disturbed and
+  then allowed to oscillate freely.
+- $\zeta$ is the damping ratio: Quantity that describes the damping level in a
+  system.
 
-For the time response of the output, the inverse laplace transform of the transfer function is performed.
+For the time response of the output, the inverse laplace transform of the
+transfer function is performed.
 
-The table below shows the time domain responses to a unit step signal, under different ranges of $\zeta$.
+The table below shows the time domain responses to a unit step signal, under
+different ranges of $\zeta$.
 
 | Damping ratio, $\zeta$ | Response, _c(t)_                                                                                                    | Response Type     |
 |------------------------|---------------------------------------------------------------------------------------------------------------------|-------------------|
@@ -346,21 +369,26 @@ Response of a 2nd order underdamped system
 
 ### 9.1 Delay Time
 
-Delay time $t_d$, is the required time for an underdamped system response to reach half of its final
+Delay time $t_d$, is the required time for an underdamped system response to
+reach half of its final
 value, from it zero instance.
 
 ### 9.2 Rise Time
 
-This is the time $t_r$, taken for an underdamped system response to rise from 0% to 100% of its final value.
-For a overdamped system response, it is the time to rise from 0% to 100% of its final value.
+This is the time $t_r$, taken for an underdamped system response to rise from 0%
+to 100% of its final value.
+For a overdamped system response, it is the time to rise from 0% to 100% of its
+final value.
 
 The quantity is defined mathematically below
 
-$$t_r = \frac{\pi - \tan^{-1}(\frac{\sqrt{1-\zeta^2}}{\zeta})}{w_n \sqrt{1-\zeta^2}}$$
+$$t_r = \frac{\pi - \tan^{-1}(\frac{\sqrt{1-\zeta^2}}{\zeta})}{w_n
+\sqrt{1-\zeta^2}}$$
 
 ### 9.3 Peak Time
 
-Peak time $t_p$ is the time taken for a response to reach its maximum value for the first time.
+Peak time $t_p$ is the time taken for a response to reach its maximum value for
+the first time.
 
 The quantity is defined mathematically below
 
@@ -368,7 +396,8 @@ $$t_P = \frac{\pi}{w_d}$$
 
 ### 9.4 Peak Overshoot
 
-Overshoot $M_p$ is the deviation of the systems response from the final steady state response at peak time.
+Overshoot $M_p$ is the deviation of the systems response from the final steady
+state response at peak time.
 
 The quantity is defined mathematically below
 
@@ -378,14 +407,16 @@ The percentage of peak overshoot can be foud from the above equation.
 
 ### 9.5 Settling Time
 
-This is the time $t_s$ taken for a response to reach its steady state final value and remain within
+This is the time $t_s$ taken for a response to reach its steady state final
+value and remain within
 a specific tolerance range of the value.
 
 For a 2% tolerance range, the quantity is defined mathematically below as
 
 $$t_s = \frac{4}{\zeta w_n} = 4\tau$$
 
-- $\tau$ is the time constant: This is the time taken for a response to reach 63.2% of its
+- $\tau$ is the time constant: This is the time taken for a response to reach
+  63.2% of its
   final steady state value from the initial state.
 
 **Recommended video:**
@@ -415,26 +446,34 @@ For a stable system produces a bounded output for a given bounded input.
 
 The classification of systems based on stability is given below.
 
-- **Absolutely Stable System**: This system provides bounded output for all variations
-  in the system. If all the poles of the open loop and closed loop transfer function is on the left half of the
+- **Absolutely Stable System**: This system provides bounded output for all
+  variations
+  in the system. If all the poles of the open loop and closed loop transfer
+  function is on the left half of the
   s-plane, then the open and closed loop control system is absolutely stable.
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20240122140154/CS--Stability.webp)
 
-- **Conditionally Stable System**: Here the system provides bounded output for only a
+- **Conditionally Stable System**: Here the system provides bounded output for
+  only a
   range of variations in the system.
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20240122140251/CS--Stability2.webp)
 
-- **Marginally Stable System**: This system produces bounded output when the bounded input
-  possess constant amplitude and frequency. If any 2 poles of the open loop and closed
-  loop transfer function is on the imaginary of the s-plane, then the open and closed
+- **Marginally Stable System**: This system produces bounded output when the
+  bounded input
+  possess constant amplitude and frequency. If any 2 poles of the open loop and
+  closed
+  loop transfer function is on the imaginary of the s-plane, then the open and
+  closed
   loop control system is marginally stable.
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20240122173811/stability.webp)
 
-- **Unstable Stable System**: This system provides unbounded output for all variations
-  in the system. If all the poles of the open loop and closed loop transfer function is on the right half of the
+- **Unstable Stable System**: This system provides unbounded output for all
+  variations
+  in the system. If all the poles of the open loop and closed loop transfer
+  function is on the right half of the
   s-plane, then the open and closed loop control system is absolutely stable.
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20240122140239/CS--Stability3.webp)
@@ -446,14 +485,16 @@ The classification of systems based on stability is given below.
 
 Frequency response is the response of a system for a given sinusoidal input.
 
-For an input signal $r(t) = A\sin(\omega_0 t)$ and open loop transfer function $G(s) = G(j\omega)$, with
+For an input signal $r(t) = A\sin(\omega_0 t)$ and open loop transfer function
+$G(s) = G(j\omega)$, with
 magnitude and phase $G(j\omega_0)|\angle G(j\omega_0)|$
 the output signal is
 
 $$c(t) = A|G(j\omega_0)|\sin(\omega_0 t+\angle G(j\omega_0))$$
 
 - A is the amplitude of the input signal
-- $\omega_0$ is the angular frequency of the input signal, mathematically described as
+- $\omega_0$ is the angular frequency of the input signal, mathematically
+  described as
 
 $$\omega_0 = 2\pi f_0$$
 
@@ -478,7 +519,8 @@ $$\angle T(j\omega) = -\tan^{-1}(\frac{\frac{2\zeta\omega}{\omega_n}}
 
 ### 13.1 Resonant Frequency
 
-Resonant frequency, $\omega_r$, is the frequency when the magnitude of the frequency response
+Resonant frequency, $\omega_r$, is the frequency when the magnitude of the
+frequency response
 reaches its peak value for the first time.
 
 It is mathematically defined as
@@ -495,7 +537,8 @@ $$M_r = \frac{1}{2\zeta\sqrt{1-\zeta^2}}$$
 
 ### 13.3 Bandwidth
 
-Bandwidth, $\omega_b$, is the frequency range over which, the magnitude of $T(j\omega$) drops to 70.7%
+Bandwidth, $\omega_b$, is the frequency range over which, the magnitude of $T(
+j\omega$) drops to 70.7%
 of its zero frequency value.
 
 $$\omega_b = \omega_n\sqrt{1-2\zeta^2+
@@ -505,7 +548,8 @@ $$\omega_b = \omega_n\sqrt{1-2\zeta^2+
 
 ### 14.1 Bode Plot
 
-Bode Plots describe the change in magnitude and phase as a function of frequency.
+Bode Plots describe the change in magnitude and phase as a function of
+frequency.
 
 The magnitude of an open loop transfer function in dB is
 
@@ -525,9 +569,11 @@ $$\phi = \angle G(j\omega)H(j\omega)$$
 
 ##### 14.1.1.1 Cross Over Frequency
 
-- **Phase Cross Over Frequency**, $\omega_pc$: This is the frequency at which the bode phase plot has a phase of
+- **Phase Cross Over Frequency**, $\omega_pc$: This is the frequency at which
+  the bode phase plot has a phase of
   $-180^\circ$. Its unit is **rad/sec**.
-- **Gain Cross Over Frequency**, $\omega_gc$: This is the frequency at which the bode magnitude
+- **Gain Cross Over Frequency**, $\omega_gc$: This is the frequency at which the
+  bode magnitude
   plot has a magnitude of zero dB. Its unit is **rad/sec**.
 
 | Stability Criteria      | Stability                |
@@ -538,7 +584,8 @@ $$\phi = \angle G(j\omega)H(j\omega)$$
 
 ##### 14.1.1.2 Gain and Phase Margin
 
-- **Gain Margin**, GM: This is the negative value of magnitude in dB at the phase cross over frequency, $M_pc$.
+- **Gain Margin**, GM: This is the negative value of magnitude in dB at the
+  phase cross over frequency, $M_pc$.
 
 It is mathematically defined as
 
@@ -568,18 +615,23 @@ where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
 #### 14.2.1 Nyquist Stability Criterion
 
-The criterion states that if _P_ poles and _Z_ zeros are encircled by an enclosed path in the _s_ plane,
-the corresponding _G(s)H(s)_ plane must encircle the origin _P-Z_ times. The encirclement number, _N_,
+The criterion states that if _P_ poles and _Z_ zeros are encircled by an
+enclosed path in the _s_ plane,
+the corresponding _G(s)H(s)_ plane must encircle the origin _P-Z_ times. The
+encirclement number, _N_,
 is given by
 
 $$N = P - Z$$
 
-- If only poles exist in the encircled _s_ plane closed path, the encirclement in the _G(s)H(s)_ is
+- If only poles exist in the encircled _s_ plane closed path, the encirclement
+  in the _G(s)H(s)_ is
   opposite in direction to the path in the _s_ plane.
-- If only zeros exist in the encircled _s_ plane closed path, the encirclement in the _G(s)H(s)_ is
+- If only zeros exist in the encircled _s_ plane closed path, the encirclement
+  in the _G(s)H(s)_ is
   in the same direction as the path in the _s_ plane.
 
-The **Nyquist Stability Criterion** states that _N_ of the point (-1,0) must equal _P-Z_ of the close loop
+The **Nyquist Stability Criterion** states that _N_ of the point (-1,0) must
+equal _P-Z_ of the close loop
 transfer function.
 
 **Recommended video:**
@@ -592,9 +644,12 @@ transfer function.
 
 ##### 14.2.1.1 Cross Over Frequency
 
-- **Phase Cross Over Frequency**, $\omega_pc$: This is the frequency at which the Nyquist plot
-  intersects the negative real axis (phase of $-180^\circ$). Its unit is **rad/sec**.
-- **Gain Cross Over Frequency**, $\omega_gc$: This is the frequency at which the Nyquist
+- **Phase Cross Over Frequency**, $\omega_pc$: This is the frequency at which
+  the Nyquist plot
+  intersects the negative real axis (phase of $-180^\circ$). Its unit is *
+  *rad/sec**.
+- **Gain Cross Over Frequency**, $\omega_gc$: This is the frequency at which the
+  Nyquist
   plot has a magnitude of 1. Its unit is **rad/sec**.
 
 | Stability Criteria      | Stability                |
@@ -605,7 +660,8 @@ transfer function.
 
 ##### 14.2.1.2 Gain and Phase Margin
 
-- **Gain Margin**, GM: This is the reciprocal value of magnitude at the phase cross over frequency, $M_pc$.
+- **Gain Margin**, GM: This is the reciprocal value of magnitude at the phase
+  cross over frequency, $M_pc$.
 
 It is mathematically defined as
 
@@ -617,10 +673,10 @@ $$PM = 180^\circ + \phi_{gc}$$
 
 where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
-| Stability Criteria           | Stability                |
-|------------------------------|--------------------------|
-| $GM > 1$<br/> and $PM > 0$   | Stable system            |
-| $GM = 1$<br/> and $PM = 0$   | Marginally Stable system |
+| Stability Criteria            | Stability                |
+|-------------------------------|--------------------------|
+| $GM > 1$<br/> and $PM > 0$    | Stable system            |
+| $GM = 1$<br/> and $PM = 0$    | Marginally Stable system |
 | $GM < 1$<br/> and/or $PM < 0$ | Unstable system          |
 
 **Recommended video:**
@@ -633,8 +689,9 @@ where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
 ## 15 State Space
 
-- **State**: A group of variables which summarize the systems history, utilized to predict
-future outputs.
+- **State**: A group of variables which summarize the systems history, utilized
+  to predict
+  future outputs.
 - **State Variables**: They possess the dynamic information of a system.
 
 The state space model of a linear time invariant system is represented as
@@ -653,7 +710,8 @@ $$Y = CX + DU$$
 - B and C are the input and output matrices.
 - D is the feed forward matrix.
 
-Applying laplace transform to the state space model defined above, the transfer function of a system in state space
+Applying laplace transform to the state space model defined above, the transfer
+function of a system in state space
 is defined as
 
 $$\frac{Y(s)}{U(s)} = C(sI-A)^{-1}$$
@@ -687,19 +745,24 @@ $$x(t) = \phi (t)x(0) = L^{-1}[(sI - A)^{-1} x(0)]$$
 
 ### 15.2 Controllability and Observability
 
-- **Controllability**: A system is controllable when a desired output is obtained from a specified
-and controlled input. The criteria is given below, using the matrix $Q_0$.
+- **Controllability**: A system is controllable when a desired output is
+  obtained from a specified
+  and controlled input. The criteria is given below, using the matrix $Q_0$.
 
 $$Q_0 = [B AB A^2B .... A^{n-1}B]$$
 
-If the determinant of $Q_0$, $|Q_0|$ is unequal to 0, then the system is controllable.
+If the determinant of $Q_0$, $|Q_0|$ is unequal to 0, then the system is
+controllable.
 
-- **Observability**: If input and output signals are used to determine the internal state of a system
-within a finite interval of time, the system is observable. The criteria is given below, using the matrix $Q_0$.
+- **Observability**: If input and output signals are used to determine the
+  internal state of a system
+  within a finite interval of time, the system is observable. The criteria is
+  given below, using the matrix $Q_0$.
 
 $$Q_0 = [C^T A^T C^T .... (A^T)^{n-1}C^T]$$
 
-If the determinant of $Q_0$, $|Q_0|$ is unequal to 0, then the system is observable.
+If the determinant of $Q_0$, $|Q_0|$ is unequal to 0, then the system is
+observable.
 
 **Recommended videos:**
 > 1. [Introduction to State-Space Equations | State Space, Part 1 ](https://youtu.be/hpeKrMG-WP0)
