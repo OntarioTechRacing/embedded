@@ -192,7 +192,7 @@ $$G(s) = \frac{Y(s)}{X(s)}$$
 
 ### 5.1 Poles and Zeros of Transfer Functions
 
-A transfer function can be represented as
+A transfer function can be represented as:
 
 $$G(s) = \frac{Y(s)}{X(s)} = K\frac{(s-z_1)(s-z_2)(s-z_n)} {(s-p_1)(s-p_2)(
 s-p_n)}$$
@@ -241,7 +241,7 @@ state. Below is a generic time response of a system with the 2 states.
 
 ![](https://www.tutorialspoint.com/control_systems/images/time_response.jpg)
 
-Mathematically a systems response c(t) is written as
+Mathematically a systems response c(t) is written as:
 
 $$c(t) = c_{tr}(t) + c_{ss}(t)$$
 
@@ -259,7 +259,7 @@ transient response reaches a zero value, as _t_ approaches infinity.
 
 #### 6.3.1 Unit Impulse Signal
 
-Mathematically a unit impulse, $\delta$ is defined as
+Mathematically a unit impulse, $\delta$ is defined as:
 
 $$\delta = 0;~t\neq0$$
 
@@ -267,7 +267,7 @@ $$\delta = 0;~t\neq0$$
 
 #### 6.3.2 Unit Step Signal
 
-Mathematically a unit step signal, _u(t)_ is defined as
+Mathematically a unit step signal, _u(t)_ is defined as:
 
 $$u(t) = 1;~t\geq0$$
 
@@ -277,7 +277,7 @@ $$~~~~~= 0;~t<0$$
 
 #### 6.3.3 Unit Ramp Signal
 
-Mathematically a unit step signal, _r(t)_ is defined as
+Mathematically a unit step signal, _r(t)_ is defined as:
 
 $$r(t) = t;~t\geq0$$
 
@@ -291,11 +291,11 @@ $$~~~~~= 0;~t<0$$
 
 ![](https://www.tutorialspoint.com/control_systems/images/unity_negative_feedback.jpg)
 
-From the first order system above, the transfer function is
+From the first order system above, the transfer function is:
 
 $$\frac{C(s)}{R(s)} = \frac{G(s)}{1 + G(s)}$$
 
-Substituting the value of _G(s)_
+Substituting the value of _G(s)_:
 
 $${C(s)} = \frac{1}{sT + 1}{R(s)}$$
 
@@ -334,7 +334,7 @@ components posses exponents.
 
 ![](https://www.tutorialspoint.com/control_systems/images/second_order_response.jpg)
 
-From the second order system above, the transfer function is
+From the second order system above, the transfer function is:
 
 $$C(s) = (\frac{w_n^2}{s^2+2\zeta w_n s+w_n^2})R(s)$$
 
@@ -358,7 +358,7 @@ different ranges of $\zeta$.
 | $0<\zeta<1$            | $$c(t) = (1- (\frac{e^{-\zeta w_n t}}{\sqrt{1-\zeta^2}})(\sin{w_d t + \theta})u(t)$$                                | Underdamped       |
 | $\zeta > 1$            | $$c(t) = (1+(\frac{1}{2(\zeta+\zeta^2-1)})e^-(\zeta w_n+ w_d)t-(\frac{1}{2(\zeta-\zeta^2+1)})e^-(\zeta w_n-w_d)t)$$ | Overdamped        |
 
-- $w_d$ is the damping frequency: This quantity is mathematically defined as
+- $w_d$ is the damping frequency: This quantity is mathematically defined as:
 
 $$w_d = w_n \sqrt{1 - \zeta^2}$$
 
@@ -366,7 +366,7 @@ $$w_d = w_n \sqrt{1 - \zeta^2}$$
 
 ## 9 Time Domain Specifications of a 2nd Order System
 
-Response of a 2nd order underdamped system
+Response of a 2nd order underdamped system.
 
 ![](https://www.tutorialspoint.com/control_systems/images/time_domain.jpg)
 
@@ -381,7 +381,7 @@ This is the time $t_r$, taken for an underdamped system response to rise from 0%
 to 100% of its final value. For an overdamped system response, it is the time to
 rise from 0% to 100% of its final value.
 
-The quantity is defined mathematically below
+The quantity is defined mathematically below:
 
 $$t_r = \frac{\pi - \tan^{-1}(\frac{\sqrt{1-\zeta^2}}{\zeta})}{w_n
 \sqrt{1-\zeta^2}}$$
@@ -391,7 +391,7 @@ $$t_r = \frac{\pi - \tan^{-1}(\frac{\sqrt{1-\zeta^2}}{\zeta})}{w_n
 Peak time $t_p$ is the time taken for a response to reach its maximum value for
 the first time.
 
-The quantity is defined mathematically below
+The quantity is defined mathematically below:
 
 $$t_P = \frac{\pi}{w_d}$$
 
@@ -400,7 +400,7 @@ $$t_P = \frac{\pi}{w_d}$$
 Overshoot $M_p$ is the deviation of the systems response from the final steady
 state response at peak time.
 
-The quantity is defined mathematically below
+The quantity is defined mathematically below:
 
 $$M_p = (e^-(\frac{\zeta \pi}{\sqrt{1-\zeta^2}}))$$
 
@@ -411,7 +411,7 @@ The percentage of peak overshoot can be found from the above equation.
 This is the time $t_s$ taken for a response to reach its steady state final
 value and remain within a specific tolerance range of the value.
 
-For a 2% tolerance range, the quantity is defined mathematically below as
+For a 2% tolerance range, the quantity is defined mathematically below as:
 
 $$t_s = \frac{4}{\zeta w_n} = 4\tau$$
 
@@ -430,7 +430,7 @@ steady state response.
 
 ![](https://dwma4bz18k1bd.cloudfront.net/tutorials/Steady-State-Error-1.jpg)
 
-The quantity is defined mathematically below as
+The quantity is defined mathematically below as:
 
 $$e_{ss} = \lim_{x\to\infty} e(t) = \lim_{s\to 0} sE(s)$$
 
@@ -486,32 +486,31 @@ Frequency response is the response of a system for a given sinusoidal input.
 
 For an input signal $r(t) = A\sin(\omega_0 t)$ and open loop transfer function
 $G(s) = G(j\omega)$, with magnitude and phase $G(j\omega_0)|\angle G(
-j\omega_0)|$ the output signal is
+j\omega_0)|$ the output signal is:
 
 $$c(t) = A|G(j\omega_0)|\sin(\omega_0 t+\angle G(j\omega_0))$$
 
-- A is the amplitude of the input signal
+- A is the amplitude of the input signal.
 - $\omega_0$ is the angular frequency of the input signal, mathematically
-  described as
+  described as:
+  $$\omega_0 = 2\pi f_0$$
 
-$$\omega_0 = 2\pi f_0$$
-
-- $f_0$ is the frequency of the input signal
+- $f_0$ is the frequency of the input signal.
 
 ---
 
 ## 13 Frequency Domain Specifications
 
-For the 2nd order transfer function
+For the 2nd order transfer function:
 
 $$T(S) = \frac{C(s)}{R(s)} = (\frac{w_n^2}{s^2+2\zeta w_n s + w_n^2})$$
 
-The magnitude of _T(s)_, with $s = j\omega$,
+The magnitude of _T(s)_, with $s = j\omega$:
 
 $$M = |T(j\omega)| = \frac{1}{\sqrt{(1-(\frac{\omega}{\omega_n})^2)^2+(2\zeta
 \frac{\omega}{\omega_n})^2}}$$
 
-The phase of _T(s)_, with $s = j\omega$,
+The phase of _T(s)_, with $s = j\omega$:
 
 $$\angle T(j\omega) = -\tan^{-1}(\frac{\frac{2\zeta\omega}{\omega_n}} {1 - (
 \frac{\omega}{\omega_n})^2})$$
@@ -521,7 +520,7 @@ $$\angle T(j\omega) = -\tan^{-1}(\frac{\frac{2\zeta\omega}{\omega_n}} {1 - (
 Resonant frequency, $\omega_r$, is the frequency when the magnitude of the
 frequency response reaches its peak value for the first time.
 
-It is mathematically defined as
+It is mathematically defined as:
 
 $$\omega_r = \omega_n\sqrt{1-2\zeta^2}$$
 
@@ -529,7 +528,7 @@ $$\omega_r = \omega_n\sqrt{1-2\zeta^2}$$
 
 Peak resonance, $M_r$ is the maximum magnitude of $T(j\omega$).
 
-It is mathematically defined as
+It is mathematically defined as:
 
 $$M_r = \frac{1}{2\zeta\sqrt{1-\zeta^2}}$$
 
@@ -538,7 +537,7 @@ $$M_r = \frac{1}{2\zeta\sqrt{1-\zeta^2}}$$
 Bandwidth, $\omega_b$, is the frequency range over which, the magnitude of $T(
 j\omega$) drops to 70.7% of its zero frequency value.
 
-$$\omega_b = \omega_n\sqrt{1-2\zeta^2+
+$$\omega_b = \omega_n\sqrt{1-2\zeta^2 +
 \sqrt{2-4\zeta^2+4\zeta^4}}$$
 
 ---
@@ -550,11 +549,11 @@ $$\omega_b = \omega_n\sqrt{1-2\zeta^2+
 Bode Plots describe the change in magnitude and phase as a function of
 frequency.
 
-The magnitude of an open loop transfer function in dB is
+The magnitude of an open loop transfer function in dB is:
 
 $$M = 20\log(|G(j\omega)H(j\omega)|)$$
 
-The phase angle of an open loop transfer function in degrees is
+The phase angle of an open loop transfer function in degrees is:
 
 $$\phi = \angle G(j\omega)H(j\omega)$$
 
@@ -584,11 +583,11 @@ $$\phi = \angle G(j\omega)H(j\omega)$$
 - **Gain Margin**, GM: This is the negative value of magnitude in dB at the
   phase cross over frequency, $M_pc$.
 
-It is mathematically defined as
+It is mathematically defined as:
 
 $$GM = 20\log(\frac{1}{M_pc}) = 10\log(M_pc)$$
 
-- **Phase Margin**, PM: It is mathematically defined as
+- **Phase Margin**, PM: It is mathematically defined as:
 
 $$PM = 180^\circ + \phi_gc$$
 
@@ -614,7 +613,7 @@ where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
 The criterion states that if _P_ poles and _Z_ zeros are encircled by an
 enclosed path in the _s_ plane, the corresponding _G(s)H(s)_ plane must encircle
-the origin _P-Z_ times. The encirclement number, _N_, is given by
+the origin _P-Z_ times. The encirclement number, _N_, is given by:
 
 $$N = P - Z$$
 
@@ -653,11 +652,11 @@ equal _P-Z_ of the close loop transfer function.
 - **Gain Margin**, GM: This is the reciprocal value of magnitude at the phase
   cross over frequency, $M_pc$.
 
-It is mathematically defined as
+It is mathematically defined as:
 
 $$GM = \frac{1}{M_pc}$$
 
-- **Phase Margin**, PM: It is mathematically defined as
+- **Phase Margin**, PM: It is mathematically defined as:
 
 $$PM = 180^\circ + \phi_{gc}$$
 
@@ -685,15 +684,13 @@ where $\phi_gc$, is the phase angle at the gain cross over frequency.
   to predict future outputs.
 - **State Variables**: They possess the dynamic information of a system.
 
-The state space model of a linear time invariant system is represented as
+The state space model of a linear time invariant system is represented as:
 
-State Equation
+1. State Equation:
+   $$\dot {X} = AX + BU$$
 
-$$\dot {X} = AX + BU$$
-
-Output Equation
-
-$$Y = CX + DU$$
+2. Output Equation:
+   $$Y = CX + DU$$
 
 - _X_ and $\dot {X}$, are the state vector and differential state vector.
 - Y and U, are the output and input vectors.
@@ -702,8 +699,7 @@ $$Y = CX + DU$$
 - D is the feed forward matrix.
 
 Applying laplace transform to the state space model defined above, the transfer
-function of a system in state space
-is defined as
+function of a system in state space is defined as:
 
 $$\frac{Y(s)}{U(s)} = C(sI-A)^{-1}$$
 
@@ -711,19 +707,19 @@ $$\frac{Y(s)}{U(s)} = C(sI-A)^{-1}$$
 
 ### 15.1 State Transition Matrix
 
-If the matrix satisfies the following linear homogenous equation
+If the matrix satisfies the following linear homogenous equation:
 
 $$\dot x(t) = \frac{dx(t)}{dt} = Ax(t)$$
 
-The state transition matrix $\phi (t)$ is
+The state transition matrix $\phi (t)$ is:
 
 $$\frac{d\phi (t)}{dt} = A\phi (t)$$
 
-The condition following will be met
+The condition following will be met:
 
 $$x(t) = \phi (t)x(0)$$
 
-Taking laplace of the linear homogenous equation
+Taking laplace of the linear homogenous equation:
 
 $$x(t) = \phi (t)x(0) = L^{-1}[(sI - A)^{-1} x(0)]$$
 
