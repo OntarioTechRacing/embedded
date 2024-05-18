@@ -63,6 +63,7 @@
     - [15.1 State Transition Matrix](#151-state-transition-matrix)
     - [15.2 Controllability and Observability](#152-controllability-and-observability)
 - [16 Code Implementation](#16-code-implementations)
+- [17 Applications & Design](#17-applications--design)
 
 </details>
 
@@ -765,3 +766,13 @@ observable.
 
 > **Recommended video:**
 > [4 Ways to Implement a Transfer Function in Code | Control Systems in Practice](https://youtu.be/nkq4WkX7CFU)
+
+---
+
+## 17 Applications & Design
+
+> Recommended videos:
+> [PID Controller Implementation in Software - Phil's Lab #6 ](https://youtu.be/zOByx3Izf5U)
+> [Introduction - Control System Design 1/6 - Phil's Lab #7](https://youtu.be/xDoq7Fcy8-s)
+> [Modelling of Dynamical Systems - Control System Design 2/6 - Phil's Lab #8 ](https://youtu.be/y1hEWz4JxaU)
+> [System Identification with Matlab - Control System Design 3/6 - Phil's Lab #9](https://youtu.be/YsK4qj9daYU)
