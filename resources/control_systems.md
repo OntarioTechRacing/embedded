@@ -78,6 +78,8 @@ engineering systems.
 > **Recommended video:**
 > [Everything You Need to Know About Control Theory](https://youtu.be/lBC1nEq0_nk)
 
+---
+
 ## 2 Open Loop and Closed Loop Control
 
 ### 2.1 Open Loop Control
@@ -99,6 +101,8 @@ input.
 > **Recommended video:**
 > [What is a Closed Loop System? | Basics of Control System](https://youtu.be/maQyGdgvS4M?si=Mzu-kVqzEHeM_Nku)
 
+---
+
 ## 3 Feedback
 
 Feedback involves feeding a systems output or part of the output back to the
@@ -116,6 +120,8 @@ Here the feedback output is subtracted from the desired input. Negative feedback
 is used to reduce the error between the input and output.
 
 ![Negative feedback loop](https://www.tutorialspoint.com/control_systems/images/negative_feedback.jpg)
+
+---
 
 ## 4 Block Diagrams
 
@@ -172,6 +178,8 @@ The video provides an example on block diagram reduction.
 > **Recommended video:**
 > [Block Diagram Reduction Example](https://youtu.be/7a2pyG1JkHQ?si=WuTTXtrO5CoSqGgn)
 
+---
+
 ## 5 Transfer Functions
 
 A transfer function represents the ratio of the laplace transform of a systems
@@ -222,6 +230,8 @@ mapped as an _o_.
 
 > **Recommended video:**
 > [Transfer function model](https://www.mathworks.com/help/control/ref/tf.html)
+
+---
 
 ## 6 Time Response Analysis
 
@@ -275,6 +285,8 @@ $$~~~~~= 0;~t<0$$
 
 ![](https://www.tutorialspoint.com/control_systems/images/unit_ramp.jpg)
 
+---
+
 ## 7 Response of A First Order System
 
 ![](https://www.tutorialspoint.com/control_systems/images/unity_negative_feedback.jpg)
@@ -316,6 +328,8 @@ components posses exponents.
 
 ![](https://www.tutorialspoint.com/control_systems/images/ramp_response.jpg)
 
+---
+
 ## 8 Response of A Second Order System
 
 ![](https://www.tutorialspoint.com/control_systems/images/second_order_response.jpg)
@@ -347,6 +361,8 @@ different ranges of $\zeta$.
 - $w_d$ is the damping frequency: This quantity is mathematically defined as
 
 $$w_d = w_n \sqrt{1 - \zeta^2}$$
+
+---
 
 ## 9 Time Domain Specifications of a 2nd Order System
 
@@ -405,6 +421,8 @@ $$t_s = \frac{4}{\zeta w_n} = 4\tau$$
 > **Recommended video:**
 > [Time Domain Specifications](https://youtu.be/MzrgBc4s-jk?si=SSw2xam1qhFWr2St)
 
+---
+
 ## 10 Steady State Error
 
 This refers to the discrepancy between a control systems output from the desired
@@ -420,6 +438,8 @@ $$e_{ss} = \lim_{x\to\infty} e(t) = \lim_{s\to 0} sE(s)$$
 
 > **Recommended video:**
 > [Steady State Error](https://youtu.be/gR5nDxw5lds?si=892S8V75aUxjNRfX)
+
+---
 
 ## 11 Stability
 
@@ -458,6 +478,8 @@ The classification of systems based on stability is given below.
 > **Recommended video:**
 > [Introduction to Stability](https://youtu.be/t1BrHAYhvog?si=TMgU2nFZuiZBwXw_)
 
+---
+
 ## 12 Frequency Response
 
 Frequency response is the response of a system for a given sinusoidal input.
@@ -475,6 +497,8 @@ $$c(t) = A|G(j\omega_0)|\sin(\omega_0 t+\angle G(j\omega_0))$$
 $$\omega_0 = 2\pi f_0$$
 
 - $f_0$ is the frequency of the input signal
+
+---
 
 ## 13 Frequency Domain Specifications
 
@@ -516,6 +540,8 @@ j\omega$) drops to 70.7% of its zero frequency value.
 
 $$\omega_b = \omega_n\sqrt{1-2\zeta^2+
 \sqrt{2-4\zeta^2+4\zeta^4}}$$
+
+---
 
 ## 14 Control System Plots
 
@@ -651,6 +677,8 @@ where $\phi_gc$, is the phase angle at the gain cross over frequency.
 > **Recommended video:**
 > [Nyquist plot of frequency response](https://www.mathworks.com/help/control/ref/dynamicsystem.nyquist.html)
 
+---
+
 ## 15 State Space
 
 - **State**: A group of variables which summarize the systems history, utilized
@@ -734,6 +762,8 @@ observable.
 > 4. [What Is Linear Quadratic Regulator (LQR) Optimal Control? | State Space, Part 4](https://youtu.be/E_RDCFOlJx4)
 > 5. [State Space Models, Part 1: Creation and Analysis](https://youtu.be/wXzlhUzhqao)
 > 6. [State Space Models, Part 2: Control Design](https://youtu.be/RC7_nRZKGgE)
+
+---
 
 ## 16 code implementations
 
