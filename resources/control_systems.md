@@ -211,7 +211,7 @@ The s-plane is a complex plane with a real and imaginary axis. The position on
 the complex
 plane is defined by $re^{j\theta}$ and the angle from the positive real axis,
 $\theta$.
-Poles are mapped on the s-plane as an _x_, while zeros are mapped as a _o_.
+Poles are mapped on the s-plane as an _x_, while zeros are mapped as an _o_.
 
 ![](https://www.jobilize.com/ocw/mirror/col10064_1.15_complete/m34855/splane.png)
 
@@ -377,7 +377,7 @@ value, from it zero instance.
 
 This is the time $t_r$, taken for an underdamped system response to rise from 0%
 to 100% of its final value.
-For a overdamped system response, it is the time to rise from 0% to 100% of its
+For an overdamped system response, it is the time to rise from 0% to 100% of its
 final value.
 
 The quantity is defined mathematically below
@@ -403,7 +403,7 @@ The quantity is defined mathematically below
 
 $$M_p = (e^-(\frac{\zeta \pi}{\sqrt{1-\zeta^2}}))$$
 
-The percentage of peak overshoot can be foud from the above equation.
+The percentage of peak overshoot can be found from the above equation.
 
 ### 9.5 Settling Time
 
