@@ -75,7 +75,6 @@ to command the activities of other systems or devices.
 Control systems are utilized in electronic, automation and engineering systems.
 
 **Recommended video:**
-
 > [Everything You Need to Know About Control Theory](https://youtu.be/lBC1nEq0_nk)
 
 ## 2 Open Loop and Closed Loop Control
@@ -318,11 +317,11 @@ From the second order system above, the transfer function is
 
 $$C(s) = (\frac{w_n^2}{s^2+2\zeta w_n s+w_n^2})R(s)$$
 
-- ***_C(s)_*** is the laplace transform of output signal c(t)
-- ***_R(s)_*** is the laplace transform of input signal R(t)
+- ***_C(s)_*** is the laplace transform of output signal c(t).
+- ***_R(s)_*** is the laplace transform of input signal R(t).
 - $w_n$ is the natural frequency: The oscillation frequency of a system which is disturbed and
-then allowed to oscillate freely
-- $\zeta$ is the damping ratio: Quantity that describes the damping level in a system
+then allowed to oscillate freely.
+- $\zeta$ is the damping ratio: Quantity that describes the damping level in a system.
 
 For the time response of the output, the inverse laplace transform of the transfer function is performed.
 
@@ -539,7 +538,7 @@ $$\phi = \angle G(j\omega)H(j\omega)$$
 
 ##### 14.1.1.2 Gain and Phase Margin
 
--**Gain Margin**, GM: This is the negative value of magnitude in dB at the phase cross over frequency, $M_pc$.
+- **Gain Margin**, GM: This is the negative value of magnitude in dB at the phase cross over frequency, $M_pc$.
 
 It is mathematically defined as
 
@@ -606,7 +605,7 @@ transfer function.
 
 ##### 14.2.1.2 Gain and Phase Margin
 
--**Gain Margin**, GM: This is the reciprocal value of magnitude at the phase cross over frequency, $M_pc$.
+- **Gain Margin**, GM: This is the reciprocal value of magnitude at the phase cross over frequency, $M_pc$.
 
 It is mathematically defined as
 
@@ -702,7 +701,7 @@ $$Q_0 = [C^T A^T C^T .... (A^T)^{n-1}C^T]$$
 
 If the determinant of $Q_0$, $|Q_0|$ is unequal to 0, then the system is observable.
 
-> **Recommended videos:**
+**Recommended videos:**
 > 1. [Introduction to State-Space Equations | State Space, Part 1 ](https://youtu.be/hpeKrMG-WP0)
 > 2. [What is Pole Placement (Full State Feedback) | State Space, Part 2](https://youtu.be/FXSpHy8LvmY)
 > 3. [A Conceptual Approach to Controllability and Observability | State Space, Part 3](https://youtu.be/BYvTEfNAi38)
