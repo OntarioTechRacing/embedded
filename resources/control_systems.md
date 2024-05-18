@@ -357,7 +357,7 @@ different ranges of $\zeta$.
 | $0<\zeta<1$            | $$c(t) = (1- (\frac{e^{-\zeta w_n t}}{\sqrt{1-\zeta^2}})(\sin{w_d t + \theta})u(t)$$                                | Underdamped       |
 | $\zeta > 1$            | $$c(t) = (1+(\frac{1}{2(\zeta+\zeta^2-1)})e^-(\zeta w_n+ w_d)t-(\frac{1}{2(\zeta-\zeta^2+1)})e^-(\zeta w_n-w_d)t)$$ | Overdamped        |
 
--$w_d$ is the damping frequency: This quantity is mathematically defined as
+- $w_d$ is the damping frequency: This quantity is mathematically defined as
 
 $$w_d = w_n \sqrt{1 - \zeta^2}$$
 
@@ -696,11 +696,11 @@ where $\phi_gc$, is the phase angle at the gain cross over frequency.
 
 The state space model of a linear time invariant system is represented as
 
-State~Equation
+State Equation
 
 $$\dot {X} = AX + BU$$
 
-Output~Equation
+Output Equation
 
 $$Y = CX + DU$$
 
