@@ -183,16 +183,13 @@ Data structures are specialized formats for organizing, processing, managing, an
 creating efficient software and algorithms.
 
 ### Key Data Structures
-
-<ul>
-  <li>Arrays: Simple lists of elements, accessible by indices.</li>
-  <li>Linked Lists: Elements linked with pointers, allowing easy insertion and deletion.</li>
-  <li>Stacks: Last-In, First-Out (LIFO) data structure.</li>
-  <li>Queues: First-In, First-Out (FIFO) data structure.</li>
-  <li>Hash Tables: Key-value pairs for efficient data lookup.</li>
-  <li>Trees: Hierarchical structures, such as binary search trees.</li>
-  <li>Graphs: Sets of nodes connected by edges, useful in modeling networks.</li>
-<ul>
+  - Arrays: Simple lists of elements, accessible by indices.
+  - Linked Lists: Elements linked with pointers, allowing easy insertion and deletion.
+  - Stacks: Last-In, First-Out (LIFO) data structure.
+  - Queues: First-In, First-Out (FIFO) data structure.
+  - Hash Tables: Key-value pairs for efficient data lookup.
+  - Trees: Hierarchical structures, such as binary search trees.
+  - Graphs: Sets of nodes connected by edges, useful in modeling networks.
 
 ## Arrays
 
@@ -200,18 +197,15 @@ Arrays are the simplest and most widely used data structures. They consist of el
 locations. Each element can be accessed directly via its index, which makes array operations fast.
 
 Some characteristics include:
+- The size of the array is fixed size.
+- All elements in the array must be fixed size.
 
-<li>The size of the array is fixed size.</li>
-<li>All elements in the array must be fixed size.</li>
-
-```
-
+```python
 # Creating an array of integers
 integers = [10, 20, 30, 40, 50]
 
 # Accessing the third element
 print(integers[2])  # Output: 30 (Since python indexing starts at 0)
-
 ```
 
 ## Linked List
@@ -223,8 +217,7 @@ Some characteristics include:
 
 The linked list depends on grow and shrink in size dynamically.
 
-```
-
+```python
 class Node:
     def __init__(self, data):
         self.data = data
@@ -234,7 +227,6 @@ class Node:
 head = Node(1)
 head.next = Node(2)
 head.next.next = Node(3)
-
 ```
 
 ## Stacks
@@ -247,8 +239,7 @@ Some characteristics include:
 
 It follows LIFO (Last In First Out) principle.
 
-```
-
+```python
 stack = []
 # Push elements
 stack.append('a')
@@ -258,7 +249,6 @@ stack.append('c')
 # Pop elements
 print(stack.pop())  # Output: c
 print(stack.pop())  # Output: b
-
 ```
 
 ## Queues
@@ -270,8 +260,7 @@ Some characteristics include :
 
 It follows FIFO (First In First Out) principle. 
 
-```
-
+```print
 from collections import deque
 
 queue = deque()
@@ -283,7 +272,6 @@ queue.append('c')
 
 # Dequeue elements
 print(queue.pop())  # Output: 1
-
 ```
 
 ## Hash Table
@@ -291,14 +279,12 @@ print(queue.pop())  # Output: 1
 Hash tables store data in an associative manner. Data is stored in an array format, where each data value has its own
 unique index value. Access of data becomes very fast if we know the index of the desired data.
 
-```
-
+```python
 # Creating a hash table in Python using dictionary
 my_hash_table = {'name': 'John Doe', 'age': 29, 'email': 'john@example.com'}
 
 # Accessing data
 print(my_hash_table['name'])  # Output: John
-
 ```
 
 ## Trees
