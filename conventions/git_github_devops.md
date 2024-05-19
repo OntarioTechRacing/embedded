@@ -191,6 +191,8 @@ Require a pull request before merging
 Require status checks to pass before merging
     Require branches to be up to date before merging
 
+Require conversation resolution before merging
+
 Require linear history
 ```
 
