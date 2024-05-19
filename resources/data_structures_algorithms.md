@@ -5,13 +5,41 @@
 <details markdown="1">
   <summary>Table of Contents</summary>
 
--
+- [1 Intro to Algorithms](#1-intro-to-algorithms)
+    - [1.1 Sorting Algorithms](#11-sorting-algorithms)
+        - [1.1.1 Binary Search](#111-binary-search)
+        - [1.1.2 Linear Search](#112-linear-search)
+        - [1.1.3 Bubble Sort](#113-bubble-sort)
+        - [1.1.4 Insertion Sort](#114-insertion-sort)
+        - [1.1.5 Selection Sort](#115-selection-sort)
+        - [1.1.6 Heap Sort](#116-heap-sort)
+    - [1.2 Divide and Conquer Algorithms](#12-divide-and-conquer-algorithms)
+        - [1.2.1 Quick Sort](#121-quick-sort)
+        - [1.2.2 Merge Sort](#122-merge-sort)
+    - [1.3 Graph Algorithms](#13-graph-algorithms)
+        - [1.3.1 Breadth-First Search (BFS)](#131-breadth-first-search-bfs)
+        - [1.3.2 Depth-First Search (DFS)](#132-depth-first-search-dfs)
+        - [1.3.3 Greedy Algorithms in Graphs](#133-greedy-algorithms-in-graphs)
+        - [1.3.4 Dijkstra's Algorithm](#134-dijkstras-algorithm)
+        - [1.3.5 Prim's Algorithm](#135-prims-algorithm)
+- [2 Big O Notation](#2-big-o-notation)
+    - [2.1 Constant](#21-constant)
+    - [2.2 Linear](#22-linear)
+    - [2.3 Logarithmic](#23-logarithmic)
+    - [2.4 Quadratic](#24-quadratic)
+- [3 Intro to Data Structures](#3-intro-to-data-structures)
+    - [3.1 Arrays](#31-arrays)
+    - [3.2 Linked List](#32-linked-list)
+    - [3.3 Stacks](#33-stacks)
+    - [3.4 Queues](#34-queues)
+    - [3.5 Hash Table](#35-hash-table)
+    - [3.6 Trees](#36-trees)
 
 </details>
 
 ---
 
-## Intro to Algorithms
+## 1 Intro to Algorithms
 
 Put simply, an algorithm is a set of instructions used to solve a certain task.
 A good algorithm has the capability to accept input and aims to be well-ordered
@@ -19,9 +47,9 @@ and feasible.
 
 ---
 
-### Sorting Algorithms
+### 1.1 Sorting Algorithms
 
-#### Binary Search
+#### 1.1.1 Binary Search
 
 Binary Search is a searching algorithm used in a sorted array. It repeatedly
 divides the search interval in half, narrowing down the possible location to
@@ -39,7 +67,7 @@ complexity of $O \left( \log n \right)$.
       next search.
 3. Repeat the process until the key is found or the search space is exhausted.
 
-#### Linear Search
+#### 1.1.2 Linear Search
 
 Linear Search is a sequential search algorithm that examines each element of the
 list until the target element is found or the list ends. The average time
@@ -51,7 +79,7 @@ complexity is $O \left( n \right)$.
 2. If an element matches the key, return the index of that element.
 3. If no match is found by the end of the list, return "No match found".
 
-#### Bubble Sort
+#### 1.1.3 Bubble Sort
 
 Bubble Sort is a simple sorting algorithm that repeatedly swaps adjacent
 elements if they are in the wrong order, making it less efficient for large
@@ -63,7 +91,7 @@ datasets due to its $O \left( n^2 \right)$ time complexity.
    the larger element to the right.
 2. Repeat the process for the next largest element until the data is sorted.
 
-#### Insertion Sort
+#### 1.1.4 Insertion Sort
 
 Insertion Sort builds a sorted sequence from an unsorted list by placing each
 element into its correct position. It preserves the order of equal elements,
@@ -75,7 +103,7 @@ with a typical time complexity of $O \left( n^2 \right)$.
 2. Compare it with previous elements and swap if necessary.
 3. Continue for each element until the array is sorted.
 
-#### Selection Sort
+#### 1.1.5 Selection Sort
 
 Selection Sort improves efficiency by systematically selecting the smallest
 element from the unsorted segment and moving it to the start. This process
@@ -89,7 +117,7 @@ time complexity of $O \left( n^2 \right)$.
    unsorted element.
 3. Repeat until the array is sorted.
 
-#### Heap Sort
+#### 1.1.6 Heap Sort
 
 Heap Sort utilizes a Binary Heap structure, beginning by converting the list
 into a heap, then repeatedly removing the largest element and maintaining heap
@@ -103,9 +131,9 @@ properties. It has a time complexity of $O \left( n \log n \right)$.
 
 ---
 
-### Divide and Conquer Algorithms
+### 1.2 Divide and Conquer Algorithms
 
-#### Quick Sort
+#### 1.2.1 Quick Sort
 
 Quick Sort uses a divide-and-conquer strategy to sort an array by selecting a
 pivot and partitioning the surrounding array. It achieves this through recursive
@@ -117,7 +145,7 @@ partitioning.
 2. Recursively apply the same logic to the left and right partitions.
 3. Continue until the array is sorted.
 
-#### Merge Sort
+#### 1.2.2 Merge Sort
 
 Merge Sort divides the array into smaller segments, sorts them, and merges them
 back into a sorted array. It's a recursive process that ensures stability in
@@ -131,9 +159,9 @@ sorting.
 
 ---
 
-### Graph Algorithms
+### 1.3 Graph Algorithms
 
-#### Breadth-First Search (BFS)
+#### 1.3.1 Breadth-First Search (BFS)
 
 BFS explores vertices level by level, starting from a specified vertex, making
 it suitable for finding the shortest path and connected components in graphs.
@@ -145,7 +173,7 @@ it suitable for finding the shortest path and connected components in graphs.
 2. Process each vertex from the queue and explore its unvisited neighbors.
 3. Repeat until the queue is empty.
 
-#### Depth-First Search (DFS)
+#### 1.3.2 Depth-First Search (DFS)
 
 DFS explores as deep as possible along each branch before backtracking, used in
 various graph-related problems.
@@ -156,7 +184,7 @@ various graph-related problems.
 2. Backtrack when no further exploration is possible.
 3. Continue until all vertices are visited.
 
-#### Greedy Algorithms in Graphs
+#### 1.3.3 Greedy Algorithms in Graphs
 
 Greedy algorithms are a type of algorithm that makes the best possible choice at
 each step with the aim of finding an overall optimal solution. These algorithms
@@ -166,7 +194,7 @@ step, which may not always result in the most optimal solution, but is often
 sufficient for many problems. Dijkstra's algorithm and Prim's algorithm are both
 greedy algorithms.
 
-#### Dijkstra's Algorithm
+#### 1.3.4 Dijkstra's Algorithm
 
 Dijkstra's algorithm is used in weighted graphs to find the shortest path from a
 single vertex to all others by iteratively updating path distances.
@@ -175,7 +203,7 @@ The idea of Dijkstra's algorithm is to find the minimum spanning tree by
 selecting a source vertex, then continuously exploring the nearest unvisted
 vertex with the aim of finding the shortest or cheapest path.
 
-#### Prim's Algorithm
+#### 1.3.5 Prim's Algorithm
 
 Prim’s algorithm is also used in weighted graphs, and builds a minimum spanning
 tree (MST) by continuously adding the nearest vertex. The MST is a subset of the
@@ -186,31 +214,31 @@ A cycle is a non-empty trail for which the first and last vertices are the same.
 
 ---
 
-## Big O Notation
+## 2 Big O Notation
 
 Big O Notation is a mathematical notation that describes worst-case runtime
 complexity of an algorithm.
 
-### Constant
+### 2.1 Constant
 
 $$O \left( 1 \right)$$
 
 The ideal runtime as it is constant for any input size. This means that no
 matter the size of the input, the runtime is constant.
 
-### Linear
+### 2.2 Linear
 
 $$O \left( N \right)$$
 
 As the input size grows, the algorithmic runtime increases linearly.
 
-### Logarithmic
+### 2.3 Logarithmic
 
 $$O \left( \log N \right)$$
 
 Given an arbitrary input size, the runtime is log N of the input size.
 
-### Quadratic
+### 2.4 Quadratic
 
 $$O \left( N^2 \right)$$
 
@@ -219,7 +247,7 @@ nested loops.
 
 ---
 
-## Intro to Data Structures
+## 3 Intro to Data Structures
 
 Data structures are specialized formats for organizing, processing, managing,
 and storing data. They are critical for creating efficient software and
@@ -236,7 +264,7 @@ algorithms.
 - Trees: Hierarchical structures, such as binary search trees.
 - Graphs: Sets of nodes connected by edges, useful in modeling networks.
 
-### Arrays
+### 3.1 Arrays
 
 Arrays are the simplest and most widely used data structures. They consist of
 elements stored at contiguous memory locations. Each element can be accessed
@@ -255,7 +283,7 @@ integers = [10, 20, 30, 40, 50]
 print(integers[2])  # Output: 30 (Since python indexing starts at 0).
 ```
 
-### Linked List
+### 3.2 Linked List
 
 Linked Lists are a collection of nodes that together represent a sequence. Each
 node contains data and a reference (or link) to the next node in the sequence.
@@ -278,7 +306,7 @@ head.next = Node(2)
 head.next.next = Node(3)
 ```
 
-### Stacks
+### 3.3 Stacks
 
 A stack is a collection of elements, with two main principal operations: push,
 which adds to the collection, and pop, which removes the most recently added
@@ -302,7 +330,7 @@ print(stack.pop())  # Output: c.
 print(stack.pop())  # Output: b.
 ```
 
-### Queues
+### 3.4 Queues
 
 Queues are similar to stacks but operate in a FIFO (First In First Out) manner.
 Elements are added at the back and removed from the front.
@@ -325,7 +353,7 @@ queue.append('c')
 print(queue.pop())  # Output: 1.
 ```
 
-### Hash Table
+### 3.5 Hash Table
 
 Hash tables store data in an associative manner. Data is stored in an array
 format, where each data value has its own unique index value. Access of data
@@ -339,7 +367,7 @@ my_hash_table = {"name": "John Doe", "age": 29, "email": "john@example.com"}
 print(my_hash_table["name"])  # Output: John.
 ```
 
-### Trees
+### 3.6 Trees
 
 Trees are hierarchical data structures with a root value and subtrees of
 children with a parent node, represented as a set of linked nodes.
