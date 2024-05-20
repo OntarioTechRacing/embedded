@@ -205,7 +205,7 @@ diagram of each is presented below.
 
 ![Mealy vs Moore Machines.png](/resources/pictures/Mealy%20vs%20Moore%20Machines.png)
 
-As you can see above, only in Moore Machines do the inputs asynchronously affect
+As you can see above, only in Mealy Machines do the inputs asynchronously affect
 the output of the machine.
 
 ---
