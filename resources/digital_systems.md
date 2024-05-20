@@ -7,13 +7,25 @@ This guide is meant to quickly get OTR Members trained in Digital Systems.
 <details markdown="1">
   <summary>Table of Contents</summary>
 
--
+- [1) Intro to Digital Systems](#1-intro-to-digital-systems)
+  - [1.1) Digital Logic](#11-digital-logic)
+  - [1.2) Truth Tables](#12-truth-tables)
+  - [1.3) Field-Programmable Gate Array (FPGA)](#13-field-programmable-gate-array-fpga)
+- [2) Prerequisites](#2-prerequisites)
+- [3) Classification of Codes](#3-classification-of-codes)
+- [4) Multiplexers](#4-multiplexers)
+- [5) Demuxes](#5-demuxes)
+- [6) Decoders](#6-decoders)
+- [7) Finite State Machines](#7-finite-state-machines)
+- [8) External Study Material](#8-external-study-material)
+  - [8.1) Difference Between Flip Flops and Latches (LINK)](#81-difference-between-flip-flops-and-latches-link)
+  - [8.2) How to Use K-Maps (LINK)](#82-how-to-use-k-maps-link)
 
 </details>
 
 ---
 
-## Intro to Digital Systems
+## 1) Intro to Digital Systems
 
 Digital Systems is the backbone of modern technology, encompassing the
 principles and techniques used to design and
@@ -22,9 +34,7 @@ a vast array of applications, from
 simple electronic devices to complex computer networks and advanced
 communication systems.
 
----
-
-## Digital Logic
+### 1.1) Digital Logic
 
 Digital Logic is the foundation of modern digital systems, involving the
 principles and techniques used to design and
@@ -42,9 +52,7 @@ combinational logic produces outputs based solely on current inputs, and
 sequential logic incorporates memory elements
 to consider past inputs as well.
 
----
-
-## Truth Tables
+### 1.2) Truth Tables
 
 Truth tables are essential tools in digital logic, used to represent the output
 of a logic circuit for all possible
@@ -70,9 +78,7 @@ can be used for more complex circuits by
 including additional inputs and outputs, helping to identify and troubleshoot
 logical errors during the design process.
 
----
-
-## Field-Programmable Gate Array (FPGA)
+### 1.3) Field-Programmable Gate Array (FPGA)
 
 Field-Programmable Gate Arrays (FPGAs) are versatile and powerful digital
 devices that can be programmed to perform a
@@ -109,7 +115,7 @@ updates or iterative improvements without changing the hardware.
 
 ---
 
-## Prerequisites
+## 2) Prerequisites
 
 - Knowledge of 7 basic logic gates: AND, OR, NAND, NOR, NOT, XOR, XNOR
 
@@ -121,7 +127,7 @@ updates or iterative improvements without changing the hardware.
 
 ---
 
-## Classification of Codes
+## 3) Classification of Codes
 
 **Code:** When numbers or letters are represented by a specific group of
 symbols, we can see that the numbers or letters
@@ -140,7 +146,7 @@ families:
 
 ---
 
-## Multiplexer
+## 4) Multiplexers
 
 A multiplexer is a combinational circuit that selects one of many input lines
 and directs it to a single output line.
@@ -155,7 +161,7 @@ An example of a 4 to 1 multiplexer is provided below.
 
 ---
 
-## Demuxes
+## 5) Demuxes
 
 > Basic Multiplexer System. Permission allowed since attribution is fulfilled.
 > ![Telephony_multiplexer_system.gif](/resources/pictures/Telephony_multiplexer_system.gif)
@@ -170,7 +176,7 @@ and 𝑛 selection lines whose bit combinations determine which output is select
 
 ---
 
-## Decoders
+## 6) Decoders
 
 Decoders can be imagined like a demux, where only select lines are present.
 Confusingly, these select lines are called
@@ -186,7 +192,7 @@ The only real difference lies in how the gates are named.
 
 ---
 
-## Finite State Machines
+## 7) Finite State Machines
 
 A finite state machine is the next level up in digital design. State Machines
 Circuits will produce different outputs
@@ -204,17 +210,17 @@ the output of the machine.
 
 ---
 
-## External Study Material
+## 8) External Study Material
 
-### Difference Between Flip Flops and Latches (LINK)
+### 8.1) Difference Between Flip Flops and Latches (LINK)
 
 [Difference between Latch and Flip Flop (youtube.com)](https://www.youtube.com/watch?v=m1QBxTeVaNs&list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm&index=148)
 
-**SUMMARY:** Latches can be turned into a flip-flop, if you add an input that 
+**SUMMARY:** Latches can be turned into a flip-flop, if you add an input that
 causes the latch to only listen to its inputs when the additional input is also
 active.
 
-### How to Use K-Maps (LINK)
+### 8.2) How to Use K-Maps (LINK)
 
 [Lecture 6 - Karnaugh Maps And Implicants (youtube.com)](https://www.youtube.com/watch?v=EznCqZ1eh5Q&list=PL803563859BF7ED8C&index=6)
 
