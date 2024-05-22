@@ -1,6 +1,11 @@
 ################################################################################
-# STM32CubeIDE / STM32CubeMX gitignore
+# STM32CubeMX / STM32CubeIDE gitignore
 ################################################################################
+
+# Code generation files
+.cproject
+.mxproject
+.project
 
 # settings
 .settings/
