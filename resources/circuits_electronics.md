@@ -37,35 +37,33 @@ Textbook: [Sedra Smith Microelectronic Circuits](https://learninglink.oup.com/se
 | Voltage    |   V    |      Volt (V)       |
 | Resistance |   R    |       Ohm (Ω)       |
 
-- The unit of resistance is ohms (1Ω = V/A)
-- Ohm's law says that the current through a conductor is given by the following;
-  $I = \frac{V}{R}$
+- The unit of resistance is ohms (1Ω = V/A).
+- Ohm's law says that the current through a conductor is given by the following; $I = \frac{V}{R}$.
 - Where V is the voltage across a conductor.
 
 ## KVL KCL
 
----
-
 ### Kirchhoff’s Voltage Law (KVL)
 
-##### In a Series Circuit:
+##### In a Series Circuit
 
 - The algebraic sum of all voltages in loop must equal zero.
-- $V_{total} = V_{1} + V_{2} + V_{3} + ...V_{n}$
+    - $V_{total} = V_{1} + V_{2} + V_{3} + ...V_{n}$.
 
-##### In a Parallel  Circuit:
+##### In a Parallel Circuit
 
 - The voltage across every resistor is the same as the supply voltage.
-- $V_{total} = V_{1} = V_{2} = V_{3} = ...V_{n}$
+    - $V_{total} = V_{1} = V_{2} = V_{3} = ...V_{n}$.
 
-### Kirchhoff's Current law: (KCL)
+### Kirchhoff's Current Law (KCL)
 
-##### Parallel  Circuit:
+##### Parallel  Circuit
 
 - The algebraic sum of all currents entering and exiting a node must equal zero.
-- The total current in a parallel circuit must equal the sum of the branch
-  currents.
-- $I_{in} = I_{out}$
+- The total current in a parallel circuit must equal the sum of the branch currents.
+    - $I_{in} = I_{out}$.
+
+---
 
 ## Voltage Divider
 
