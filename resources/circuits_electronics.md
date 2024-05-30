@@ -38,7 +38,8 @@ Textbook: [Sedra Smith Microelectronic Circuits](https://learninglink.oup.com/se
 | Resistance |   R    |       Ohm (Ω)       |
 
 - The unit of resistance is ohms (1Ω = V/A).
-- Ohm's law says that the current through a conductor is given by the following; $I = \frac{V}{R}$.
+- Ohm's law says that the current through a conductor is given by the following;
+  $I = \frac{V}{R}$.
 - Where V is the voltage across a conductor.
 
 ## KVL KCL
@@ -60,7 +61,8 @@ Textbook: [Sedra Smith Microelectronic Circuits](https://learninglink.oup.com/se
 ##### Parallel  Circuit
 
 - The algebraic sum of all currents entering and exiting a node must equal zero.
-- The total current in a parallel circuit must equal the sum of the branch currents.
+- The total current in a parallel circuit must equal the sum of the branch
+  currents.
     - $I_{in} = I_{out}$.
 
 ---
