@@ -162,9 +162,13 @@ the gate. This insulation makes the MOSFET a voltage-controlled device.
 Therefore, the current relationship in an NMOS under normal operation, assuming
 no substrate (body) current, is $I_{D} = I_{S}$, since $I_{G} = 0$.
 
+MOSFETs are driven by current as its control signal input.
+
 ### Operating Mode / Response Region
 
-![mosfet.png](pictures/mosfet.png)
+| NPN Configuration                  | Input | Control Signal Input | Output |
+|------------------------------------|-------|----------------------|--------|
+| ![mosfet.png](pictures/mosfet.png) | Drain | Gate                 | Source |
 
 | Operating Mode |               Characteristics               | Application |
 |----------------|:-------------------------------------------:|:-----------:|
@@ -218,9 +222,13 @@ Recall, the MOSFET must operate in saturation mode.
 
 ## Bipolar Junction Transistor (BJT)
 
+BJTs are driven by voltage as its control signal input.
+
 ### Operating Mode / Response Region
 
-![bjt.png](pictures/bjt.png)
+| NPN Configuration            | Input     | Control Signal Input | Output  |
+|------------------------------|-----------|----------------------|---------|
+| ![bjt.png](pictures/bjt.png) | Collector | Base                 | Emitter |
 
 | Operating Mode | EB Junction | CB Junction |           Characteristics           |         ~BE Voltage          |         ~BC Voltage          | Application |
 |----------------|:-----------:|:-----------:|:-----------------------------------:|:----------------------------:|:----------------------------:|:-----------:|
