@@ -5,13 +5,50 @@
 <details markdown="1">
   <summary>Table of Contents</summary>
 
--
+- [1 Introduction](#1-introduction)
+- [2 Intro to Circuits and Electronics](#2-intro-to-circuits-and-electronics)
+- [3 Ohms Law](#3-ohms-law)
+- [4 KVL KCL](#4-kvl-kcl)
+    - [4.1 Kirchhoff’s Voltage Law (KVL)](#41-kirchhoffs-voltage-law-kvl)
+        - [4.1.1 In a Series Circuit](#411-in-a-series-circuit)
+        - [4.1.2 In a Parallel Circuit](#412-in-a-parallel-circuit)
+    - [4.2 Kirchhoff's Current Law (KCL)](#42-kirchhoffs-current-law-kcl)
+        - [4.2.1 In a Parallel Circuit](#421-in-a-parallel-circuit)
+- [5 Common Circuitry](#5-common-circuitry)
+    - [5.1 Voltage Divider](#51-voltage-divider)
+    - [5.2 Current Divider](#52-current-divider)
+    - [5.3 Delta Wye](#53-delta-wye)
+- [6 Node and Mesh Analysis](#6-node-and-mesh-analysis)
+- [7 Thevenin and Norton](#7-thevenin-and-norton)
+    - [7.1 Thevenin](#71-thevenin)
+    - [7.2 Norton](#72-norton)
+- [8 Source transform](#8-source-transform)
+- [9 Superposition](#9-superposition)
+- [10 Diodes](#10-diodes)
+- [11 Operational Amplifier (Op Amp)](#11-operational-amplifier-op-amp)
+    - [11.1 Gain](#111-gain)
+- [12 DC and AC Signal Analysis](#12-dc-and-ac-signal-analysis)
+    - [12.1 DC Analysis](#121-dc-analysis)
+- [12.2 AC (Small Signal) Analysis](#122-ac-small-signal-analysis)
+- [13 Metal Oxide Field Effect Transistor (MOSFET)](#1331-t-model--hybrid-pi-model)
+    - [13.1 Operating Mode / Response Region](#131-operating-mode--response-region)
+    - [13.2 I-V Relationship](#132-i-v-relationship)
+    - [13.3 Small Signal Analysis (AC)](#133-small-signal-analysis-ac)
+        - [13.3.1 T Model & Hybrid Pi Model](#1331-t-model--hybrid-pi-model)
+    - [13.4 Amplifier Applications](#134-amplifier-applications)
+- [14 Bipolar Junction Transistor (BJT)](#14-bipolar-junction-transistor-bjt)
+    - [14.1 Operating Mode / Response Region](#141-operating-mode--response-region)
+        - [14.2 Small Signal Analysis (AC)](#142-small-signal-analysis-ac)
+        - [14.2.1 T Model](#1421-t-model)
+        - [14.2.2 Pi Model](#1422-pi-model)
+    - [14.3 Amplifier Applications](#143-amplifier-applications)
+- [15 Negative Feedback Amplifier](#15-negative-feedback-amplifier)
 
 </details>
 
 ---
 
-## Introduction
+## 1 Introduction
 
 Recommended resources:
 
@@ -23,13 +60,11 @@ Textbook: [Sedra Smith Microelectronic Circuits](https://learninglink.oup.com/se
 
 ---
 
-## Intro to Circuits and Electronics
+## 2 Intro to Circuits and Electronics
 
 ---
 
-## Ohms Law
-
----
+## 3 Ohms Law
 
 | Quanity    | Symbol | Unit of Measurement |
 |------------|:------:|:-------------------:|
@@ -42,23 +77,25 @@ Textbook: [Sedra Smith Microelectronic Circuits](https://learninglink.oup.com/se
   $I = \frac{V}{R}$.
 - Where V is the voltage across a conductor.
 
-## KVL KCL
+---
 
-### Kirchhoff’s Voltage Law (KVL)
+## 4 KVL KCL
 
-##### In a Series Circuit
+### 4.1 Kirchhoff’s Voltage Law (KVL)
+
+##### 4.1.1 In a Series Circuit
 
 - The algebraic sum of all voltages in loop must equal zero.
     - $V_{total} = V_{1} + V_{2} + V_{3} + ...V_{n}$.
 
-##### In a Parallel Circuit
+##### 4.1.2 In a Parallel Circuit
 
 - The voltage across every resistor is the same as the supply voltage.
     - $V_{total} = V_{1} = V_{2} = V_{3} = ...V_{n}$.
 
-### Kirchhoff's Current Law (KCL)
+### 4.2 Kirchhoff's Current Law (KCL)
 
-##### Parallel  Circuit
+##### 4.2.1 In a Parallel Circuit
 
 - The algebraic sum of all currents entering and exiting a node must equal zero.
 - The total current in a parallel circuit must equal the sum of the branch
@@ -67,15 +104,29 @@ Textbook: [Sedra Smith Microelectronic Circuits](https://learninglink.oup.com/se
 
 ---
 
-## Voltage Divider
+## 5 Common Circuitry
+
+### 5.1 Voltage Divider
+
+WIP.
+
+### 5.2 Current Divider
+
+WIP.
+
+### 5.3 Delta Wye
+
+WIP.
 
 ---
 
-## Node and Mesh Analysis
+## 6 Node and Mesh Analysis
+
+WIP.
 
 ---
 
-## Thevenin and Norton
+## 7 Thevenin and Norton
 
 Conversions:
 
@@ -83,25 +134,29 @@ Conversions:
 - $V_{Th} = I_{N} \times R_{N}$.
 - $I_{N} = \frac{V_{Th}}{R_{Th}}$.
 
-### Thevenin
+### 7.1 Thevenin
 
 Voltage source series to resistor.
 
-### Norton
+### 7.2 Norton
 
 Current source parallel to resistor.
 
 ---
 
-## Source transform
+## 8 Source transform
+
+WIP.
 
 ---
 
-## Superposition
+## 9 Superposition
+
+WIP.
 
 ---
 
-## Diodes
+## 10 Diodes
 
 Shockley diode
 equation: $I_{D} = I_{S} \left( e^{\frac{V_{D}}{nV_{T}}} - 1 \right)$.
@@ -123,9 +178,9 @@ or emission coefficient.
 
 ---
 
-## Operational Amplifier (Op Amp)
+## 11 Operational Amplifier (Op Amp)
 
-### Gain
+### 11.1 Gain
 
 Gain: $A = \frac{output}{input}$.
 
@@ -133,16 +188,16 @@ Voltage gain: $A_{v} = \frac{v_{output}}{v_{input}}$.
 
 ---
 
-## DC and AC Signal Analysis
+## 12 DC and AC Signal Analysis
 
-### DC Analysis
+### 12.1 DC Analysis
 
 Important aspects to remember:
 
 1. Signal / AC sources are short.
 2. Coupling / decoupling / bypass capacitors are open.
 
-### AC (Small Signal) Analysis
+### 12.2 AC (Small Signal) Analysis
 
 Important aspects to remember:
 
@@ -153,7 +208,7 @@ Important aspects to remember:
 
 ---
 
-## Metal Oxide Field Effect Transistor (MOSFET)
+## 13 Metal Oxide Field Effect Transistor (MOSFET)
 
 For an ideal MOSFET, the gate current is essentially zero. The gate is insulated
 from the channel by a thin layer of oxide, and no direct current flows through
@@ -164,7 +219,7 @@ no substrate (body) current, is $I_{D} = I_{S}$, since $I_{G} = 0$.
 
 MOSFETs are driven by current as its control signal input.
 
-### Operating Mode / Response Region
+### 13.1 Operating Mode / Response Region
 
 | NPN Configuration                  | Input | Control Signal Input | Output |
 |------------------------------------|-------|----------------------|--------|
@@ -179,7 +234,7 @@ MOSFETs are driven by current as its control signal input.
 - $V_{t}$ = Threshold voltage.
 - $V_{OV}$ = Over voltage, $V_{OV} = v_{GS} - V_{t}$.
 
-### I-V Relationship
+### 13.2 I-V Relationship
 
 | Operating Mode |                                             I-V relationship                                              |
 |----------------|:---------------------------------------------------------------------------------------------------------:|
@@ -193,19 +248,19 @@ MOSFETs are driven by current as its control signal input.
 - $W$ = Channel width.
 - $L$ = Channel length.
 
-### Small Signal Analysis (AC)
+### 13.3 Small Signal Analysis (AC)
 
 Signal model parameters:
 
 $g_{m} = \frac{2 I_{D}}{V_{OV}}$.
 
-#### T Model & Hybrid Pi Model
+#### 13.3.1 T Model & Hybrid Pi Model
 
 Dependant current: $i_{D} = g_{m} v_{GS}$.
 
 Resistance: $r_{o} = \infty$.
 
-### Amplifier Applications
+### 13.4 Amplifier Applications
 
 Recall, the MOSFET must operate in saturation mode.
 
@@ -220,11 +275,11 @@ Recall, the MOSFET must operate in saturation mode.
 
 ---
 
-## Bipolar Junction Transistor (BJT)
+## 14 Bipolar Junction Transistor (BJT)
 
 BJTs are driven by voltage as its control signal input.
 
-### Operating Mode / Response Region
+### 14.1 Operating Mode / Response Region
 
 | NPN Configuration            | Input     | Control Signal Input | Output  |
 |------------------------------|-----------|----------------------|---------|
@@ -236,13 +291,13 @@ BJTs are driven by voltage as its control signal input.
 | Active         |   Forward   |   Reverse   |       $V_{C} > V_{B} > V_{E}$       | $V_{BE} = 0.7 \  \mathrm{V}$ | $V_{BC} < 0.4 \  \mathrm{V}$ |  Amplifier  |
 | Saturation     |   Forward   |   Forward   | $v_{B} > V_{C}$ and $V_{B} > V_{E}$ | $V_{BE} = 0.7 \  \mathrm{V}$ | $V_{BC} > 0.4 \  \mathrm{V}$ |  Digital 1  |
 
-### Small Signal Analysis (AC)
+### 14.2 Small Signal Analysis (AC)
 
 Signal model parameters:
 
 $g_{m} = \frac{I_{C}}{V_{T}}$.
 
-#### T Model
+#### 14.2.1 T Model
 
 Dependant current: $i_{C} = \alpha i_{E}$.
 
@@ -250,7 +305,7 @@ BE voltage: $v_{BE} = i_{E} r_{e}$.
 
 Resistance: $r_{e} = \frac{\alpha}{g_m} = \frac{V_{T}}{I_{E}}$.
 
-#### Pi Model
+#### 14.2.2 Pi Model
 
 Dependant current: $i_{C} = \beta i_{B}$.
 
@@ -258,7 +313,7 @@ BE voltage: $v_{BE} = i_{B} r_{\pi}$.
 
 Resistance: $r_{\pi} = \frac{\beta}{g_{m}} = \frac{V_{T}}{I_{B}}$.
 
-### Amplifier Applications
+### 14.3 Amplifier Applications
 
 Recall, the BJT must operate in active mode.
 
@@ -279,7 +334,7 @@ Recall, the BJT must operate in active mode.
 
 ---
 
-## Negative Feedback Amplifier
+## 15 Negative Feedback Amplifier
 
 The following information is more specific to BJT negative feedback amplifier
 circuits, however the main concepts carry over to other types of transistors.
