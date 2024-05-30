@@ -113,11 +113,10 @@ equation: $I_{D} = I_{S} \left( e^{\frac{V_{D}}{nV_{T}}} - 1 \right)$.
     - Where $V_{T} = \frac{kT}{q}$.
       -
       $k$ = [Boltzmann constant](https://en.wikipedia.org/wiki/Boltzmann_constant).
-        - $T$ = Absolute temperature \[$K$].
+        - $T$ = Absolute temperature $K$.
         - $q$ = Magnitude of an electron's charge,
           aka [elementary charge](https://en.wikipedia.org/wiki/Elementary_charge)
-          \[$C$].
--
+          $C$.
 
 $n$ = [Ideality / quality factor](https://en.wikipedia.org/wiki/Ideality_factor)
 or emission coefficient.
@@ -185,8 +184,8 @@ no substrate (body) current, is $I_{D} = I_{S}$, since $I_{G} = 0$.
 | Saturation     |                $i_{D} = \frac{1}{2} k_{n}' \frac{W}{L} \left( v_{GS} - V_{t} \right)^{2}$                 |
 
 - Where $k_{n}' = \mu_{n} C_{ox}$ and $k_{n} = k_{n}' \frac{W}{L}$.
-- $\mu_{n}$ = Electronic mobility of N-type [$Cm^2 / Vs$].
-- $C_{ox}$ = Oxide capacitance [$fF / \mu m^{2}$].
+- $\mu_{n}$ = Electronic mobility of N-type $Cm^2 / Vs$.
+- $C_{ox}$ = Oxide capacitance $fF / \mu m^{2}$.
 - $W$ = Channel width.
 - $L$ = Channel length.
 
@@ -225,9 +224,9 @@ Recall, the MOSFET must operate in saturation mode.
 
 | Operating Mode | EB Junction | CB Junction |           Characteristics           |         ~BE Voltage          |         ~BC Voltage          | Application |
 |----------------|:-----------:|:-----------:|:-----------------------------------:|:----------------------------:|:----------------------------:|:-----------:|
-| Cutoff         |   Reverse   |   Reverse   | $V_{C} > V_{B}$ and $V_{E} > V_{B}$ | $V_{BE} < 0.5 \; \mathrm{V}$ | $V_{BC} < 0.4 \; \mathrm{V}$ |  Digital 0  |
-| Active         |   Forward   |   Reverse   |       $V_{C} > V_{B} > V_{E}$       | $V_{BE} = 0.7 \; \mathrm{V}$ | $V_{BC} < 0.4 \; \mathrm{V}$ |  Amplifier  |
-| Saturation     |   Forward   |   Forward   | $v_{B} > V_{C}$ and $V_{B} > V_{E}$ | $V_{BE} = 0.7 \; \mathrm{V}$ | $V_{BC} > 0.4 \; \mathrm{V}$ |  Digital 1  |
+| Cutoff         |   Reverse   |   Reverse   | $V_{C} > V_{B}$ and $V_{E} > V_{B}$ | $V_{BE} < 0.5 \  \mathrm{V}$ | $V_{BC} < 0.4 \  \mathrm{V}$ |  Digital 0  |
+| Active         |   Forward   |   Reverse   |       $V_{C} > V_{B} > V_{E}$       | $V_{BE} = 0.7 \  \mathrm{V}$ | $V_{BC} < 0.4 \  \mathrm{V}$ |  Amplifier  |
+| Saturation     |   Forward   |   Forward   | $v_{B} > V_{C}$ and $V_{B} > V_{E}$ | $V_{BE} = 0.7 \  \mathrm{V}$ | $V_{BC} > 0.4 \  \mathrm{V}$ |  Digital 1  |
 
 ### Small Signal Analysis (AC)
 
@@ -289,8 +288,8 @@ circuits, however the main concepts carry over to other types of transistors.
 
 |                                                                    |                                     Series Side Equation                                      |                                                     Shunt Side Equation                                                     |
 |--------------------------------------------------------------------|:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
-| Feedback resistance, $R_{if}$ & $R_{of}$                           |             $\left( 1 + A \beta \right) R_{\left( i \; \mathrm{or} \; o \right)}$             |                              $\frac{R_{\left( i \; \mathrm{or} \; o \right)}}{ 1 + A \beta }$                               | 
-| Input output resistance $R_{i}$, $R_{o}$  (no $R_{L}$ & $R_{sig}$) | $R_{ \left( i \; \mathrm{or} \; o \right) \; f} - R_{\left( sig \; \mathrm{or} \; L \right)}$ | $\left( R_{ \left( i \; \mathrm{or} \; o \right) \; f}^{-1} - R_{\left( sig \; \mathrm{or} \; L \right)}^{-1} \right)^{-1}$ |
+| Feedback resistance, $R_{if}$ & $R_{of}$                           |             $\left( 1 + A \beta \right) R_{\left( i \  \mathrm{or} \  o \right)}$             |                              $\frac{R_{\left( i \  \mathrm{or} \  o \right)}}{ 1 + A \beta }$                               | 
+| Input output resistance $R_{i}$, $R_{o}$  (no $R_{L}$ & $R_{sig}$) | $R_{ \left( i \  \mathrm{or} \  o \right) \  f} - R_{\left( sig \  \mathrm{or} \  L \right)}$ | $\left( R_{ \left( i \  \mathrm{or} \  o \right) \  f}^{-1} - R_{\left( sig \  \mathrm{or} \  L \right)}^{-1} \right)^{-1}$ |
 
 > Recommended video:
 > - [Series-shunt Feedback Amplifier Explained: Computing Voltage Gain & Impedances](https://youtu.be/pc221bCojms)
