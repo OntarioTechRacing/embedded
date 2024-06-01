@@ -7,6 +7,7 @@
 
 - [1 Official Docs](#1-official-docs)
 - [2 Install](#2-install)
+- [3 Cellar](#3-cellar)
 
 </details>
 
@@ -30,4 +31,14 @@
 
 ```shell
 brew update  # Update homebrew.
+```
+
+---
+
+## 3 Cellar
+
+By default, for macOS, the Cellar is at:
+
+```
+/opt/homebrew/Cellar/
 ```
