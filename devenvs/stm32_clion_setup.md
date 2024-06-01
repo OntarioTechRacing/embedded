@@ -14,7 +14,7 @@ STM32 development utilizing STM32CubeMX, GNU ARM Toolchain and OpenOCD.
 - [1 Initial Software Installs / Setup](#1-initial-software-installs--setup)
     - [1.1 STM32CubeMX*](#11-stm32cubemx)
     - [1.2 CLion*](#12-clion)
-    - [1.3 GNU ARM Toolchain*](#13-gnu-arm-toolchain)
+    - [1.3 GNU Compiler Collection (GCC) ARM Toolchain*](#13-gnu-compiler-collection-gcc-arm-toolchain)
     - [1.4 OpenOCD*](#14-openocd)
 - [2 Complete IDE Setup](#2-complete-ide-setup)
     - [2.1 Enable Embedded Development Support CLion Plugin](#21-enable-embedded-development-support-clion-plugin)
@@ -70,13 +70,16 @@ Installation for macOS:
 - Students can register for
   the [Free Educational Licenses](https://www.jetbrains.com/shop/eform/students).
 
-### 1.3 GNU ARM Toolchain*
+### 1.3 GNU Compiler Collection (GCC) ARM Toolchain*
 
-[GNU ARM Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain).
+[GNU Compiler Collection (GCC) ARM Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain).
 
-- Toolchain for development on Arm based systems.
-- Also available
-  on [Homebrew Version](https://formulae.brew.sh/formula/arm-none-eabi-gcc).
+- Toolchain for development on Arm based systems, built off of GNU Compiler
+  Collection (GCC) by [ARM Developer](https://developer.arm.com/).
+- Also, available via Homebrew
+  on [ARM Developer Version](https://formulae.brew.sh/cask/gcc-arm-embedded).
+    - Full original GNU version can be found
+      on [Original GCC](https://formulae.brew.sh/formula/arm-none-eabi-gcc).
 
 ### 1.4 OpenOCD*
 
@@ -132,8 +135,12 @@ Add the path for `Arm GNU Toolchain` (`arm-none-eabi-gcc`).
     C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.3 rel1\bin\arm-none-eabi-gcc.exe
     C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.3 rel1\bin\arm-none-eabi-g++.exe
     ```
-- For macOS the default paths are:
+- For macOS the default paths (for homebrew original GCC or ARM Developer
+  version) are:
     ```
+    /opt/homebrew/Cellar/ArmGNUToolchain/12.3.rel1/bin/arm-none-eabi-gcc
+    /opt/homebrew/Cellar/ArmGNUToolchain/12.3.rel1/bin/arm-none-eabi-g++
+    ... or ...
     /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc
     /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++
     ```
