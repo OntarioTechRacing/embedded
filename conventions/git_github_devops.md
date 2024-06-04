@@ -29,10 +29,12 @@
         - [5.1.1 .github/*](#511-github)
         - [5.1.2 CODEOWNERS*](#512-codeowners)
     - [5.2 Organization, Repo & Team Permissions](#52-organization-repo--team-permissions)
-        - [5.2.1 Branch Protections](#521-branch-protections)
-    - [5.3 Labels](#53-labels)
+    - [5.3 Code, Planning, and Automation](#53-code-planning-and-automation)
+        - [5.3.1 Rulesets](#531-rulesets)
+        - [5.3.2 Branch Protections](#532-branch-protections)
+        - [5.3.3 Labels](#533-labels)
     - [5.4 Issues & Pull Requests (PR)](#54-issues--pull-requests-pr)
-        - [5.4.1 Create](#541-create)
+        - [5.4.1 Creation](#541-creation)
             - [5.4.1.1 Name and Description](#5411-name-and-description)
             - [5.4.1.2 Labels](#5412-labels)
             - [5.4.1.3 Create Issue Reference Branch](#5413-create-issue-reference-branch)
@@ -76,7 +78,7 @@ All repos should use appropriate naming, if arbitrary default to snake_case.
 
 ### 2.2 Branches
 
-`main` is always the production / final release branch.
+`main` is always the default / production / final release branch.
 
 ### 2.3 Common / Required files
 
@@ -178,25 +180,69 @@ Always add for project managers, devops, etc.
 
 Organizational access role security must always be maintained.
 
-### 5.2.1 Branch Protections
+## 5.3 Code, Planning, and Automation
+
+### 5.3.1 Rulesets
+
+Rule sets outline general rules:
+
+**main**:
+
+```
+Bypass list:
+    Organization admin: Always allow
+
+Targets:
+    Target repositories:
+        All repositories
+    Target branches:
+        Include default branch
+        Include by pattern "main"
+
+Branch protections:
+    Restrict creations
+    Restrict updates
+    Restrict deletions
+    Require linear history
+    Require a pull request before merging:
+        Required approvals: 1
+        Dismiss stale pull request approvals when new commits are pushed
+        Require review from Code Owners
+        Require approval of the most recent reviewable push
+        Require conversation resolution before merging
+    Require status checks to pass:
+        Require branches to be up to date before merging
+            TBD...
+    Block force pushes
+    Require workflows to pass before merging:
+        TBD...
+    Require code scanning results
+    Code scanning tools:
+        CodeQL:
+            Securit alerts: High or higher
+            Alerts: Errors
+        TBD...
+```
+
+### 5.3.2 Branch Protections
+
+Branch protections are a manual public branch protection extension of the rule
+sets:
 
 Branches should be protected using the following enabled protections:
 
 ```
-Require a pull request before merging
-    Require approvals
+Require a pull request before merging:
+    Require approvals: 1
     Dismiss stale pull request approvals when new commits are pushed
     Require review from Code Owners
-
 Require status checks to pass before merging
     Require branches to be up to date before merging
-
 Require conversation resolution before merging
-
 Require linear history
 ```
 
-## 5.3 Labels
+### 5.3.3 Labels
 
 Use default labels.
 
@@ -206,7 +252,7 @@ Issues define problems, features, tasks and all general TODOs.
 
 Pull requests are used for merging, rebasing and closing branches.
 
-### 5.4.1 Create
+### 5.4.1 Creation
 
 Create an issue using the GitHub website or GitHub CLI on the applicable
 repository.
