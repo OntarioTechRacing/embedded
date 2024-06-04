@@ -31,8 +31,7 @@
     - [5.2 Organization, Repo & Team Permissions](#52-organization-repo--team-permissions)
     - [5.3 Code, Planning, and Automation](#53-code-planning-and-automation)
         - [5.3.1 Rulesets](#531-rulesets)
-        - [5.3.2 Branch Protections](#532-branch-protections)
-        - [5.3.3 Labels](#533-labels)
+        - [5.3.2 Labels](#532-labels)
     - [5.4 Issues & Pull Requests (PR)](#54-issues--pull-requests-pr)
         - [5.4.1 Creation](#541-creation)
             - [5.4.1.1 Name and Description](#5411-name-and-description)
@@ -186,63 +185,75 @@ Organizational access role security must always be maintained.
 
 Rule sets outline general rules:
 
-**main**:
+**main.json**:
 
+```json
+{
+  "id": 852804,
+  "name": "main",
+  "target": "branch",
+  "source_type": "Repository",
+  "source": "OntarioTechRacing/embedded",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": [
+        "~DEFAULT_BRANCH",
+        "refs/heads/main"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "non_fast_forward"
+    },
+    {
+      "type": "creation"
+    },
+    {
+      "type": "update"
+    },
+    {
+      "type": "required_linear_history"
+    },
+    {
+      "type": "pull_request",
+      "parameters": {
+        "required_approving_review_count": 1,
+        "dismiss_stale_reviews_on_push": true,
+        "require_code_owner_review": true,
+        "require_last_push_approval": true,
+        "required_review_thread_resolution": true
+      }
+    },
+    {
+      "type": "code_scanning",
+      "parameters": {
+        "code_scanning_tools": [
+          {
+            "tool": "CodeQL",
+            "security_alerts_threshold": "high_or_higher",
+            "alerts_threshold": "errors"
+          }
+        ]
+      }
+    }
+  ],
+  "bypass_actors": [
+    {
+      "actor_id": 1,
+      "actor_type": "OrganizationAdmin",
+      "bypass_mode": "always"
+    }
+  ]
+}
 ```
-Bypass list:
-    Organization admin: Always allow
 
-Targets:
-    Target repositories:
-        All repositories
-    Target branches:
-        Include default branch
-        Include by pattern "main"
-
-Branch protections:
-    Restrict creations
-    Restrict updates
-    Restrict deletions
-    Require linear history
-    Require a pull request before merging:
-        Required approvals: 1
-        Dismiss stale pull request approvals when new commits are pushed
-        Require review from Code Owners
-        Require approval of the most recent reviewable push
-        Require conversation resolution before merging
-    Require status checks to pass:
-        Require branches to be up to date before merging
-            TBD...
-    Block force pushes
-    Require workflows to pass before merging:
-        TBD...
-    Require code scanning results
-    Code scanning tools:
-        CodeQL:
-            Securit alerts: High or higher
-            Alerts: Errors
-        TBD...
-```
-
-### 5.3.2 Branch Protections
-
-Branch protections are a manual public branch protection extension of the rule
-sets:
-
-Branches should be protected using the following enabled protections:
-
-```
-Require a pull request before merging:
-    Require approvals: 1
-    Dismiss stale pull request approvals when new commits are pushed
-    Require review from Code Owners
-Require status checks to pass before merging
-    Require branches to be up to date before merging
-Require conversation resolution before merging
-Require linear history
-```
-
-### 5.3.3 Labels
+### 5.3.2 Labels
 
 Use default labels.
 
