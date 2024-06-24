@@ -9,6 +9,7 @@ purposes.
 
 - [equipment](equipment)
     - [microscopes.md](equipment/microscopes.md)
+    - [soldering.md](equipment/soldering.md)
 - [matlab](matlab)
     - [getting_started.md](matlab/getting_started.md)
     - [stateflow.md](matlab/stateflow.md)
