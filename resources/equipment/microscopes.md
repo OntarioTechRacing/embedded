@@ -5,7 +5,9 @@
 <details markdown="1">
   <summary>Table of Contents</summary>
 
--
+- [1 Overview](#1-overview)
+- [2 Digital](#2-digital)
+- [2.1 Aopick 307-B](#21-aopick-307-b)
 
 </details>
 
@@ -13,9 +15,11 @@
 
 ## 1 Overview
 
+---
+
 ## 2 Digital
 
-### 2.2 Aopick 307-B
+### 2.1 Aopick 307-B
 
 [Amazon](https://www.amazon.ca/Microscope-AOPICK-Magnification-Adjustable-Compatible/dp/B0CB5GHG3L),
 last checked 2024-04-23.

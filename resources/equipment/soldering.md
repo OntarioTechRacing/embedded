@@ -7,7 +7,7 @@
 
 - [1 Overview](#1-overview)
 - [2 Soldering Irons](#2-soldering-irons)
-    - [2.2 SUGON A9](#22-sugon-a9)
+    - [2.1 SUGON A9](#21-sugon-a9)
 
 </details>
 
@@ -19,7 +19,7 @@
 
 ## 2 Soldering Irons
 
-### 2.2 SUGON A9
+### 2.1 SUGON A9
 
 <details markdown="1">
   <summary>Box Packaging</summary>
