@@ -22,7 +22,9 @@ needs.
 
 [KiCad](https://www.kicad.org/).
 
-- Currently, KiCad version 8 is being utilized.
+- See resource document here: [kicad.md](../resources/kicad.md).
+
+- See the conventions here: [kicad_library.md](../conventions/kicad_library.md).
 
 ### 1.2 Altium Designer (Suggested)
 
