@@ -44,7 +44,7 @@ Individual footprints are saved within the directories as `.kicad_mod` files.
 
 ### 2.3 3D Models
 
-3D models are linked to footprints.
+3D models are directly linked to footprints and saved as `.3dshapes` files.
 
 > See KiCad Docs:
 > [Linking Symbols, Footprints, and 3D Models](https://docs.kicad.org/8.0/en/getting_started_in_kicad/getting_started_in_kicad.html#linking-symbols-footprints-3d-models).
