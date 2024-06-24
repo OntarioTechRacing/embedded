@@ -22,6 +22,8 @@ All documentation refers to the currently used KiCad version 8.
 KiCad official documentation can be found
 at [KiCad Docs](https://docs.kicad.org/).
 
+---
+
 ## 2 Libraries
 
 ## 2.1 Symbols
