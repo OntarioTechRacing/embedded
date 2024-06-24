@@ -26,7 +26,7 @@ at [KiCad Docs](https://docs.kicad.org/).
 
 ## 2 Libraries
 
-## 2.1 Symbols
+### 2.1 Symbols
 
 The standardized symbol libraries are managed as `.kicad_sym` files.
 
