@@ -22,7 +22,7 @@
 ### 2.1 SUGON A9
 
 <details markdown="1">
-  <summary>Box Packaging</summary>
+  <summary>Pictures</summary>
 
 ![sugon.jpeg](pictures/sugon.jpeg)
 
