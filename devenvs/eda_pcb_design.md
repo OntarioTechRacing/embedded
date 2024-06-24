@@ -1,7 +1,7 @@
 # EDA & PCB Development Environment
 
-Electronic Design Automation (EDA) is used to model, design and create design
-for manufacture (DFM) files for our department.
+Electronic Design Automation (EDA) is used to design PCBs for all electronics
+needs.
 
 ---
 
@@ -9,8 +9,8 @@ for manufacture (DFM) files for our department.
   <summary>Table of Contents</summary>
 
 - [1 Initial Software Installs / Setup](#1-initial-software-installs--setup)
-    - [1.1 Altium Designer*](#11-altium-designer)
-    - [1.2 KiCad (Suggested)](#12-kicad-suggested)
+    - [1.1 KiCad*](#11-kicad)
+    - [1.2 Altium Designer (Suggested)](#12-altium-designer-suggested)
 
 </details>
 
@@ -18,15 +18,17 @@ for manufacture (DFM) files for our department.
 
 ## 1 Initial Software Installs / Setup
 
-### 1.1 Altium Designer*
+### 1.1 KiCad*
+
+[KiCad](https://www.kicad.org/).
+
+- Currently, KiCad version 8 is being utilized.
+
+### 1.2 Altium Designer (Suggested)
 
 [Altium Designer](https://www.altium.com/products/downloads) only for Windows.
 
-- PCB and Electronic Design Automation (EDA) software package for printed
-  circuit boards.
+- Altium was previously used for EDA, however it is no longer. It is added here
+  as a recommended tool to learn potentially.
 - Students can register for
   the [Altium Education Student License](https://www.altium.com/education/student-licenses).
-
-### 1.2 KiCad (Suggested)
-
-[KiCad](https://www.kicad.org/).
