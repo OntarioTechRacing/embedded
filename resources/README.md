@@ -27,5 +27,6 @@ purposes.
 - [case_studies.md](case_studies.md)
 - [git_cheat_sheet.md](git_cheat_sheet.md)
 - [git_github.md](git_github.md)
+- [kicad.md](kicad.md)
 - [standard_hardware.md](standard_hardware.md)
 - [strain_gauges.md](strain_gauges.md)
