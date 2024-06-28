@@ -189,7 +189,7 @@ Rule sets outline general rules:
 
 ```json
 {
-  "id": 852804,
+  "id": 123456,
   "name": "main",
   "target": "branch",
   "source_type": "Repository",
@@ -228,6 +228,18 @@ Rule sets outline general rules:
         "require_code_owner_review": true,
         "require_last_push_approval": true,
         "required_review_thread_resolution": true
+      }
+    },
+    {
+      "type": "required_status_checks",
+      "parameters": {
+        "strict_required_status_checks_policy": true,
+        "required_status_checks": [
+          {
+            "context": "black",
+            "integration_id": 123456
+          }
+        ]
       }
     },
     {
