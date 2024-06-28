@@ -14,5 +14,6 @@ Below is a manfeist of all subdirectories for core documentation categories.
 - [conventions](conventions)
 - [devenvs](devenvs)
 - [gitignores](gitignores)
+- [process](process)
 - [resources](resources)
-- [workflow](workflow)
+- [workflows](workflows)
