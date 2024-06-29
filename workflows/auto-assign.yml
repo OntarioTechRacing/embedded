@@ -1,3 +1,10 @@
+################################################################################
+# auto-assign.yml
+# Base commit hash: fe797fd
+#
+# Automatically assign someone(s) to a issues & pull request on open.
+################################################################################
+
 name: Auto Assign
 on:
   issues:
