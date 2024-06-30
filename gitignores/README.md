@@ -8,6 +8,7 @@ Templates for `.gitignore` files.
 
 - [clion_stm32cubemx.gitignore](clion_stm32cubemx.gitignore)
 - [devenv.gitignore](devenv.gitignore)
+- [kicad.gitignore](kicad.gitignore)
 - [macos.gitignore](macos.gitignore)
 - [python.gitignore](python.gitignore)
 - [s32ds.gitignore](s32ds.gitignore)
