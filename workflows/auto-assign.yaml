@@ -1,6 +1,6 @@
 ################################################################################
-# auto-assign.yml
-# Base commit hash: fe797fd
+# auto-assign.yaml
+# Base commit hash: f7b64ef
 #
 # Automatically assign someone(s) to a issues & pull request on open.
 ################################################################################
