@@ -7,11 +7,14 @@
 
 - [1 Overview](#1-Overview)
 - [2 General](#2-general)
-- [3 Reset HEAD](#3-reset-head)
-  - [3.1 Flags](#31-flags)
-  - [3.2 Reset to Commit](#32-reset-to-commit)
-  - [3.3 Reset to Origin Branch HEAD](#33-reset-to-origin-branch-head)
-  - [3.4 Note on Pushing Resets](#34-note-on-pushing-resets)
+- [3 Destructive Actions](#3-destructive-actions)
+    - [3.1 Reset](#31-reset)
+        - [3.1.1 Move to Commit](#311-move-to-commit)
+        - [3.1.2 Move to Branch Tip Reference](#312-move-to-branch-tip-reference)
+        - [3.1.3 Flags](#313-flags)
+    - [3.2 Amend](#32-amend)
+        - [3.2.1 Flags](#321-flags)
+    - [3.3 Pushing Destructive Changes](#33-pushing-destructive-changes)
 - [4 Submodule](#411-results-gitmodules)
     - [4.1 Add Submodule](#41-add-submodule)
         - [4.1.1 Results (.gitmodules)](#411-results-gitmodules)
@@ -47,15 +50,37 @@ git push
 
 ---
 
-## 3 Reset HEAD
+## 3 Destructive Actions
 
-## 3.1 Flags
+### 3.1 Reset
+
+#### 3.1.1 Move to Commit
+
+To revert HEAD to a previous commit without the commit ID (also to Force Revert
+commits).
+
+```shell
+git reset --hard HEAD^  # Reset to 1 commit back, add `^` for each additional commit.
+git reset --hard <commit_hash>  # Reset to specific commit hash.
+```
+
+#### 3.1.2 Move to Branch Tip Reference
+
+This resets the current branch's tip to the specified branch. In other words, it
+makes the current branch point to the same commit as the target branch.
+
+```shell
+git reset --hard origin/<branch>  # Target to match head to remote branch.
+git reset --hard <branch>  # Target to match head to local branch.
+```
+
+#### 3.1.3 Flags
 
 `--soft`: Does not touch the index file or the working tree, but resets the head
-to <commit>. Changes from <commit> onwards are preserved in the working 
+to <commit>. Changes from <commit> onwards are preserved in the working
 directory and as staged changes.
 
-`--mixed`: Resets the index but not the working tree (i.e., the changed files 
+`--mixed`: Resets the index but not the working tree (i.e., the changed files
 are preserved but not marked for commit) and reports what has not been updated.
 This is the default action if no mode is specified.
 
@@ -71,30 +96,28 @@ If a merge conflict arises, it needs to be resolved manually.
 different between <commit> and HEAD. If a file that is different between
 <commit> and the index has unstaged changes, reset is aborted.
 
-## 3.2 Reset to Commit
+### 3.2 Amend
 
-To revert HEAD to a previous commit without the commit ID (also to Force Revert
-commits).
-
-```shell
-git reset --hard HEAD^  # Reset to 1 commit back, add `^` for each additional commit.
-git reset --hard <commit_hash>  # Reset to specific commit hash.
-```
-
-## 3.3 Reset to Origin Branch HEAD
-
-This resets the current branch's tip to the specified branch. In other words, it
-makes the current branch point to the same commit as the target branch.
+Amend changes the most recent commit. A new commit is created and the old is
+removed. Thus this is a destructive action.
 
 ```shell
-git reset --hard origin/<branch>  # Target to match head to remote branch.
-git reset --hard <branch>  # Target to match head to local branch.
+git add ./<changes> # Stage the changes to add.
+git commit --amend -m <"New commit message">
 ```
 
-## 3.4 Note on Pushing Resets
+#### 3.2.1 Flags
 
-You would need to force push with `git push -f` for force the revert, however 
-this is very high risk for loss of work.
+`--no-edit`: Keeps the same commit message as before. The commit message
+flag `-m` and the argument can be skipped.
+
+### 3.3 Pushing Destructive Changes
+
+⚠️ Danger zone!
+
+```shell
+git push -f
+```
 
 ---
 
