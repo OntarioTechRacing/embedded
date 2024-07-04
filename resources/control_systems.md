@@ -772,7 +772,7 @@ observable.
 ## 17 Applications & Design
 
 > Recommended videos:
-> [PID Controller Implementation in Software - Phil's Lab #6 ](https://youtu.be/zOByx3Izf5U)
+> [PID Controller Implementation in Software - Phil's Lab #6](https://youtu.be/zOByx3Izf5U)
 > [Introduction - Control System Design 1/6 - Phil's Lab #7](https://youtu.be/xDoq7Fcy8-s)
-> [Modelling of Dynamical Systems - Control System Design 2/6 - Phil's Lab #8 ](https://youtu.be/y1hEWz4JxaU)
+> [Modelling of Dynamical Systems - Control System Design 2/6 - Phil's Lab #8](https://youtu.be/y1hEWz4JxaU)
 > [System Identification with Matlab - Control System Design 3/6 - Phil's Lab #9](https://youtu.be/YsK4qj9daYU)
