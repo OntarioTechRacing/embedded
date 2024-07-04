@@ -10,6 +10,8 @@
     - [2.1 Symbols](#21-symbols)
     - [2.2 Footprints](#22-footprints)
     - [2.3 3D Models](#23-3d-models)
+- [3 Recommended Beginner Tutorials](#3-recommended-beginner-tutorials)
+- [4 SPICE Simulation](#4-spice-simulation)
 
 </details>
 
@@ -48,3 +50,19 @@ Individual footprints are saved within the directories as `.kicad_mod` files.
 
 > See KiCad Docs:
 > [Linking Symbols, Footprints, and 3D Models](https://docs.kicad.org/8.0/en/getting_started_in_kicad/getting_started_in_kicad.html#linking-symbols-footprints-3d-models).
+
+---
+
+## 3 Recommended Beginner Tutorials
+
+Phil's Lab YouTube:
+
+1. [KiCad 7 STM32 Bluetooth Hardware Design (1/2 Schematic) - Phil's Lab #127](https://youtu.be/nkHFoxe0mrU)
+2. [KiCad 7 STM32 Bluetooth Hardware Design (2/2 PCB) - Phil's Lab #128](https://youtu.be/PlXd3lLZ4vc)
+
+---
+
+## 4 SPICE Simulation
+
+KiCAD supports open source spice simulator ngspice, and is documented on the
+official docs [SPICE Simulation](https://www.kicad.org/discover/spice/).
