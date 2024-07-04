@@ -25,26 +25,25 @@
         - [3.4.1 General Recommendation](#341-general-recommendation)
 - [4 Documentation](#4-documentation)
 - [5 GitHub Setup](#5-github-setup)
-    - [5.1 Additional GitHub Repository Setup](#51-additional-github-repository-setup)
-        - [5.1.1 .github/*](#511-github)
-        - [5.1.2 CODEOWNERS*](#512-codeowners)
-    - [5.2 Organization, Repo & Team Permissions](#52-organization-repo--team-permissions)
-    - [5.3 Code, Planning, and Automation](#53-code-planning-and-automation)
-        - [5.3.1 Rulesets](#531-rulesets)
-        - [5.3.2 Labels](#532-labels)
-    - [5.4 Issues & Pull Requests (PR)](#54-issues--pull-requests-pr)
-        - [5.4.1 Creation](#541-creation)
-            - [5.4.1.1 Name and Description](#5411-name-and-description)
-            - [5.4.1.2 Labels](#5412-labels)
-            - [5.4.1.3 Create Issue Reference Branch](#5413-create-issue-reference-branch)
-            - [5.4.1.4 Assignment](#5414-assignment)
-        - [5.4.2 Conversation](#542-conversation)
-        - [5.4.3 Close](#543-close)
-            - [5.4.3.1 Close Completed](#5431-close-completed)
-            - [5.4.3.2 Close Inactive](#5432-close-inactive)
-    - [5.5 Milestones](#55-milestones)
-    - [5.6 Projects](#56-projects)
-        - [5.6.1 Iteration Cycles](#561-iteration-cycles)
+    - [5.1 Organization, Repo & Team Permissions](#51-organization-repo--team-permissions)
+    - [5.2 Rulesets](#52-rulesets)
+    - [5.3 .github/ Directory](#53-github-directory)
+        - [5.3.1 CODEOWNERS*](#531-codeowners)
+        - [5.3.2 Issue & Pull Request Templates](#532-issue--pull-request-templates)
+    - [5.4 Labels](#54-labels)
+    - [5.5 Issues & Pull Requests (PR)](#55-issues--pull-requests-pr)
+        - [5.5.1 Creation](#551-creation)
+        - [5.5.1.1 Name and Description](#5511-name-and-description)
+        - [5.5.1.2 Labels](#5512-labels)
+        - [5.5.1.3 Create Issue Reference Branch](#5513-create-issue-reference-branch)
+        - [5.5.1.4 Assignment](#5514-assignment)
+    - [5.5.2 Conversation](#552-conversation)
+    - [5.5.3 Close](#553-close)
+        - [5.5.3.1 Close Completed](#5531-close-completed)
+        - [5.5.3.2 Close Inactive](#5532-close-inactive)
+    - [5.6 Milestones](#56-milestones)
+    - [5.7 Projects](#57-projects)
+        - [5.7.1 Iteration Cycles](#571-iteration-cycles)
 
 </details>
 
@@ -106,12 +105,12 @@ If reference tests scripts or files are required, use this directory.
 
 Never push directly to main unless working alone.
 
-## 3.1 History
+### 3.1 History
 
 Always maintain linear history on the main branch, and try to keep linear
 history on lower branches.
 
-## 3.2 Commits
+### 3.2 Commits
 
 Name your commits starting with a present tense verb or technical adverb.
 
@@ -120,18 +119,18 @@ Name your commits starting with a present tense verb or technical adverb.
     - `Refactor rename variable sneaky`.
     - `Clean up formatting`.
 
-## 3.3 Pushes
+### 3.3 Pushes
 
 Make sure to fetch and pull to prevent merge errors before pushing.
 
-### 3.3.1 Force Pushes
+#### 3.3.1 Force Pushes
 
 Never force push unless you absolutely know what you are doing.
 
 - If you're force pushing you already messed up another practice guideline
   earlier.
 
-## 3.4 Merge / Rebase Branch
+### 3.4 Merge / Rebase Branch
 
 Use pull requests and merge / rebase up the branches to add changes to main.
 
@@ -144,7 +143,7 @@ Some core conditions to consider:
 2. Traceability of changes.
 3. Visibility of changes.
 
-### 3.4.1 General Recommendation
+#### 3.4.1 General Recommendation
 
 1. Merge: General shared branch to shared branch.
 2. Squash: Private branch with many changes to central development / release
@@ -164,26 +163,16 @@ Always follow documentation conventions follow by and defined in this repo.
 Git origin, org, projects, etc are all set up through GitHub on
 the [OntarioTechRacing organization](https://github.com/OntarioTechRacing).
 
-### 5.1 Additional GitHub Repository Setup
-
-#### 5.1.1 .github/*
-
-Add this standard directory and files at the root as a project gets more
-complex.
-
-#### 5.1.2 CODEOWNERS*
-
-Always add for project managers, devops, etc.
-
-## 5.2 Organization, Repo & Team Permissions
+### 5.1 Organization, Repo & Team Permissions
 
 Organizational access role security must always be maintained.
 
-## 5.3 Code, Planning, and Automation
+### 5.2 Rulesets
 
-### 5.3.1 Rulesets
+Rule sets outline general rules.
 
-Rule sets outline general rules:
+The following example incorporates GitHub Actions Workflows for
+our [black format checker](../workflows/black-formatter.yaml).
 
 **main.json**:
 
@@ -265,17 +254,32 @@ Rule sets outline general rules:
 }
 ```
 
-### 5.3.2 Labels
+### 5.3 .github/ Directory
 
-Use default labels.
+Add the standard `.github` directory and files at the root as a project gets
+more complex.
 
-## 5.4 Issues & Pull Requests (PR)
+#### 5.3.1 CODEOWNERS*
+
+Code owners are used to maintain required reviewer branch protection rules and
+rulesets.
+
+#### 5.3.2 Issue & Pull Request Templates
+
+> See GitHub Docs:
+> [About issue and pull request templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates)
+
+### 5.4 Labels
+
+Use default labels, unless there is a logical reason for changing them.
+
+### 5.5 Issues & Pull Requests (PR)
 
 Issues define problems, features, tasks and all general TODOs.
 
 Pull requests are used for merging, rebasing and closing branches.
 
-### 5.4.1 Creation
+#### 5.5.1 Creation
 
 Create an issue using the GitHub website or GitHub CLI on the applicable
 repository.
@@ -283,18 +287,18 @@ repository.
 > See GitHub Docs:
 > [Creating an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)
 
-#### 5.4.1.1 Name and Description
+##### 5.5.1.1 Name and Description
 
 Use appropriate naming and description.
 
 The name should be simple and concise, use the description for full
 documentation of the issue.
 
-#### 5.4.1.2 Labels
+##### 5.5.1.2 Labels
 
 Apply the appropriate default label(s).
 
-#### 5.4.1.3 Create Issue Reference Branch
+##### 5.5.1.3 Create Issue Reference Branch
 
 For best practices, when creating an issue, create a new reference branch. The
 closing pull request should also reference the issue (see further).
@@ -302,12 +306,12 @@ closing pull request should also reference the issue (see further).
 > See GitHub Docs:
 > [Creating a branch to work on an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue)
 
-#### 5.4.1.4 Assignment
+##### 5.5.1.4 Assignment
 
 If you are the primary responsible developer for the issue and/or pull request,
 assign yourself as the assigned.
 
-### 5.4.2 Conversation
+#### 5.5.2 Conversation
 
 Keep the conversation related to the specific issue / pull request at hand. If
 you need to reference another issue / pull request, reference directly for
@@ -316,12 +320,12 @@ convenience and clarity.
 > See GitHub Docs:
 > [Assigning issues and pull requests to other GitHub users](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users)
 
-### 5.4.3 Close
+#### 5.5.3 Close
 
 Closing is required upon reaching a state of "no further activity" (complete or
 inactive). There are 2 reasons for closure: complete and inactive.
 
-#### 5.4.3.1 Close Completed
+##### 5.5.3.1 Close Completed
 
 Closing is required upon completion and when all elements within the entire
 conversation have been resolved.
@@ -332,7 +336,7 @@ and ideally be closed with a pull request of the issue branch if available.
 > See GitHub Docs:
 > [Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
 
-#### 5.4.3.2 Close Inactive
+##### 5.5.3.2 Close Inactive
 
 Closing is required upon reaching an inactive point, when it is no longer valid
 to continue contributing and should no longer be worked on.
@@ -349,7 +353,7 @@ All inactive items must be closed by a final comment in the issue conversation
 stating the reason for closure and documenting the final results of closure as
 needed.
 
-## 5.5 Milestones
+### 5.6 Milestones
 
 Name `vM.m.P name`, ideally milestones should line up with iteration planning
 and/or end of months.
@@ -358,9 +362,9 @@ and/or end of months.
 - `name` is general milestone name.
     - ie: Pre-PCB, Validation, etc.
 
-## 5.6 Projects
+### 5.7 Projects
 
-### 5.6.1 Iteration Cycles
+#### 5.7.1 Iteration Cycles
 
 Projects follow an iteration cycles of `2 weeks` starting
 from `Monday, January 1, 2024`.
