@@ -41,9 +41,10 @@
     - [5.5.3 Close](#553-close)
         - [5.5.3.1 Close Completed](#5531-close-completed)
         - [5.5.3.2 Close Inactive](#5532-close-inactive)
-    - [5.6 Milestones](#56-milestones)
-    - [5.7 Projects](#57-projects)
-        - [5.7.1 Iteration Cycles](#571-iteration-cycles)
+    - [5.6 Organization Secretes & Variables](#56-organization-secretes--variables)
+    - [5.7 Milestones](#57-milestones)
+    - [5.8 Projects](#58-projects)
+        - [5.8.1 Iteration Cycles](#581-iteration-cycles)
 
 </details>
 
@@ -353,7 +354,13 @@ All inactive items must be closed by a final comment in the issue conversation
 stating the reason for closure and documenting the final results of closure as
 needed.
 
-### 5.6 Milestones
+### 5.6 Organization Secretes & Variables
+
+All sensitive information must be managed within the GitHub Organization page
+for "Secrets and variables". This is done in effort to organize workflow secrets
+which are used throughout multiple repos.
+
+### 5.7 Milestones
 
 Name `vM.m.P name`, ideally milestones should line up with iteration planning
 and/or end of months.
@@ -362,9 +369,9 @@ and/or end of months.
 - `name` is general milestone name.
     - ie: Pre-PCB, Validation, etc.
 
-### 5.7 Projects
+### 5.8 Projects
 
-#### 5.7.1 Iteration Cycles
+#### 5.8.1 Iteration Cycles
 
 Projects follow an iteration cycles of `2 weeks` starting
 from `Monday, January 1, 2024`.
