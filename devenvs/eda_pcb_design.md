@@ -9,8 +9,8 @@ needs.
   <summary>Table of Contents</summary>
 
 - [1 Initial Software Installs / Setup](#1-initial-software-installs--setup)
-    - [1.1 KiCad*](#11-kicad)
-    - [1.2 Altium Designer (Suggested)](#12-altium-designer-suggested)
+    - [1.1 Altium Designer*](#11-altium-designer)
+    - [1.2 KiCad (Suggested)](#12-kicad-suggested)
 
 </details>
 
@@ -18,19 +18,17 @@ needs.
 
 ## 1 Initial Software Installs / Setup
 
-### 1.1 KiCad*
+### 1.1 Altium Designer*
+
+[Altium Designer](https://www.altium.com/products/downloads) only for Windows.
+
+- Students can register for
+  the [Altium Education Student License](https://www.altium.com/education/student-licenses).
+
+### 1.2 KiCad (Suggested)
 
 [KiCad](https://www.kicad.org/).
 
 - See resource document here: [kicad.md](../resources/kicad.md).
 
-- See the conventions here: [kicad_library.md](../conventions/kicad_library.md).
-
-### 1.2 Altium Designer (Suggested)
-
-[Altium Designer](https://www.altium.com/products/downloads) only for Windows.
-
-- Altium was previously used for EDA, however it is no longer. It is added here
-  as a recommended tool to learn potentially.
-- Students can register for
-  the [Altium Education Student License](https://www.altium.com/education/student-licenses).
+- See the conventions here: [kicad.md](../conventions/kicad.md).
